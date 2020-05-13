@@ -18,60 +18,60 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sitemap`,
-    {
-      resolve: `gatsby-plugin-feed`,
-      options: {
-        query: `
-          {
-            site {
-              siteMetadata {
-                title
-                description
-                siteUrl
-                site_url: siteUrl
-              }
-            }
-          }
-        `,
-        feeds: [
-          {
-            serialize: ({ query: { site, allSanityPost } }) => {
-              return allSanityPost.edges.map(edge => {
-                return Object.assign({}, edge.node, {
-                  title: edge.node.title,
-                  description: edge.node.excerpt,
-                  date: edge.node.publishedAt,
-                  url: site.siteMetadata.siteUrl + "/" + edge.node.slug.current,
-                  guid:
-                    site.siteMetadata.siteUrl + "/" + edge.node.slug.current,
-                  custom_elements: [{ "content:encoded": edge.node.body }],
-                })
-              })
-            },
-            query: `
-              {
-                allSanityPost{
-                  edges {
-                    node {
-                      id
-                      title
-                      publishedAt
-                      excerpt
-                      slug {
-                        current
-                      }
-                      body
-                    }
-                  }
-                }
-              }
-            `,
-            output: "/rss.xml",
-            title: "Gatsby + Sanity CMS",
-          },
-        ],
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-feed`,
+    //   options: {
+    //     query: `
+    //       {
+    //         site {
+    //           siteMetadata {
+    //             title
+    //             description
+    //             siteUrl
+    //             site_url: siteUrl
+    //           }
+    //         }
+    //       }
+    //     `,
+    //     feeds: [
+    //       {
+    //         serialize: ({ query: { site, allSanityPost } }) => {
+    //           return allSanityPost.edges.map(edge => {
+    //             return Object.assign({}, edge.node, {
+    //               title: edge.node.title,
+    //               description: edge.node.excerpt,
+    //               date: edge.node.publishedAt,
+    //               url: site.siteMetadata.siteUrl + "/" + edge.node.slug.current,
+    //               guid:
+    //                 site.siteMetadata.siteUrl + "/" + edge.node.slug.current,
+    //               custom_elements: [{ "content:encoded": edge.node.body }],
+    //             })
+    //           })
+    //         },
+    //         query: `
+    //           {
+    //             allSanityPost{
+    //               edges {
+    //                 node {
+    //                   id
+    //                   title
+    //                   publishedAt
+    //                   excerpt
+    //                   slug {
+    //                     current
+    //                   }
+    //                   body
+    //                 }
+    //               }
+    //             }
+    //           }
+    //         `,
+    //         output: "/rss.xml",
+    //         title: "Gatsby + Sanity CMS",
+    //       },
+    //     ],
+    //   },
+    // },
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-sass`,
@@ -79,18 +79,18 @@ module.exports = {
         implementation: require("sass"),
       },
     },
-    {
-      resolve: "gatsby-source-sanity",
-      options: {
-        projectId: process.env.SANITY_PROJECT_ID,
-        dataset: process.env.SANITY_PROJECT_DATASET,
-        // a token with read permissions is required
-        // if you have a private dataset
-        token: process.env.SANITY_TOKEN,
-        watchMode: true,
-        overlayDrafts: true,
-      },
-    },
+    // {
+    //   resolve: "gatsby-source-sanity",
+    //   options: {
+    //     projectId: process.env.SANITY_PROJECT_ID,
+    //     dataset: process.env.SANITY_PROJECT_DATASET,
+    //     // a token with read permissions is required
+    //     // if you have a private dataset
+    //     token: process.env.SANITY_TOKEN,
+    //     watchMode: true,
+    //     overlayDrafts: true,
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

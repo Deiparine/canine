@@ -1,102 +1,121 @@
 import React from "react"
-import { Link } from "gatsby"
+import ReviewStar from "../../images/reviewstar.png"
+import Facebook from "../../images/facebook.png"
+import Google from "../../images/google.png"
+import Yelp from "../../images/yelp.png"
+import Angies from "../../images/angies.png"
+import BBB from "../../images/bbb.png"
+import Message from "../../images/message.png"
 
-const footer = props => {
-	return (
-		<div>
-			<div class="footer bg-dark text-white">
-				<div class="container">
-					<div class="row justify-content-between">
-						<div class="col-md-5 mb-3 mb-md-0">
-							<h6 class="text-uppercase text-white-50">About</h6>
-							<p class="small">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-								enim ad minim veniam, quis nostrud exercitation ullamco laboris
-								nisi ut aliquip ex ea commodo consequat.
-							</p>
-						</div>
-						<div class="col-md-2 mb-3 mb-md-0">
-							<h6 class="text-uppercase text-white-50">Company</h6>
-							<ul class="list-unstyled small">
-								<li>
-									<Link to="/">Home</Link>
-								</li>
-								<li>
-									<Link to="/about-us">About Us</Link>
-								</li>
-								<li>
-									<Link to="/blog">Blog</Link>
-								</li>
-								<li />
-							</ul>
-						</div>
-						<div class="col-md-2 mb-3 mb-md-0">
-							<h6 class="text-uppercase text-white-50">Services</h6>
-							<ul class="list-unstyled small">
-								<li>
-									<Link to="/">Web Design</Link>
-								</li>
-								<li>
-									<Link to="/">Content Creation</Link>
-								</li>
-								<li>
-									<Link to="/">Development</Link>
-								</li>
-							</ul>
-						</div>
-						<div class="col-md-2 text-center mb-3 mb-md-0">
-							<div class="social-icons">
-								<a
-									href="https://www.facebook.com/"
-									target="_blank"
-									rel="noreferrer noopener"
-								>
-									<i class="fa fa-facebook" />
-								</a>
-								<a
-									href="https://twitter.com/"
-									target="_blank"
-									rel="noreferrer noopener"
-								>
-									<i class="fa fa-twitter" />
-								</a>
-								<a
-									href="https://www.instagram.com/"
-									target="_blank"
-									rel="noreferrer noopener"
-								>
-									<i class="fa fa-instagram" />
-								</a>
-								<a
-									href="https://www.linkedin.com/"
-									target="_blank"
-									rel="noreferrer noopener"
-								>
-									<i class="fa fa-linkedin" />
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="copyright">
-				<div class="container">
-					<span>
-						© 2019 All rights reserved. Designed and powered by {``}
-						<a
-							href="https://webriq.com/"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							WebriQ
-						</a>
-						.
-					</span>
-				</div>
-			</div>
-		</div>
-	)
+const Footer = () => {
+  return (
+    <footer className="">
+      <div className="container-fluid main-footer">
+        <div className="row">
+          <div className="col-md-4 contact-f pl-5">
+            <h3>CONTACT US</h3>
+            <p>
+              Colorado Canine Orthopedics 5528 North Nevada Colorado Springs, CO
+              80918
+            </p>
+            <p>
+              Tel: <a href="tel:719-264-6666">719-264-6666</a> <br /> Email:{" "}
+              <a href="mailto:hello@canineortho.com">hello@canineortho.com</a>
+            </p>
+            <h3>CONNECT WITH US! </h3>
+          </div>
+          <div className="col-md-4 reviews-f">
+            <div className="review-f-heading">
+              <img
+                className="img-fluid mb-0 mr-2"
+                src={ReviewStar}
+                alt="revstar"
+                style={{ width: "50px" }}
+              />
+              <span style={{ fontSize: "30px" }} className="mt-2">
+                REVIEWS
+              </span>
+            </div>
+
+            <ul className="list-unstyled m-0 reviews-list">
+              <li>
+                <img src={Facebook} alt="Facebook" />
+                <small style={{ position: "relative" }}>
+                  <i className="fa fa-star"></i>
+                  <i className="fa fa-star"></i>
+                  <i className="fa fa-star"></i>
+                  <i className="fa fa-star"></i>
+                  <i className="fa fa-star"></i>
+                  <small className="star-value">4.9</small>
+                </small>
+                <span>198 reviews</span>
+              </li>
+              <li>
+                <img src={Google} alt="Google" />
+                <small style={{ position: "relative" }}>
+                  <i className="fa fa-star"></i>
+                  <i className="fa fa-star"></i>
+                  <i className="fa fa-star"></i>
+                  <i className="fa fa-star"></i>
+                  <i className="fa fa-star"></i>
+                  <small className="star-value">4.9</small>
+                </small>
+                <span>270 reviews</span>
+              </li>
+              <li>
+                <img src={Yelp} alt="yelp" />
+                <small style={{ position: "relative" }}>
+                  <i className="fa fa-star"></i>
+                  <i className="fa fa-star"></i>
+                  <i className="fa fa-star"></i>
+                  <i className="fa fa-star"></i>
+                  <i className="fa fa-star"></i>
+                  <small className="star-value">4.9</small>
+                </small>
+                <span>23 reviews</span>
+              </li>
+              <li>
+                <img src={Angies} alt="Angies" />
+                <span>A</span>
+                <span>63 reviews</span>
+              </li>
+              <li>
+                <img src={BBB} alt="Angies" />
+                <span>A+</span>
+              </li>
+            </ul>
+          </div>
+          <div className="col-md-4 consultation-f pr-5 text-white">
+            <div className="d-flex">
+              <img src={Message} alt="Angies" />
+              <h3 className="ml-3">CONSULTATION</h3>
+            </div>
+            <p className="mt-3">
+              Call our office today and speak with one of our Pet Care
+              Coordinators to schedule a consultation.
+            </p>
+            <div className="button-blocks">
+              <a className="btn btn-primary" href="tel:719-264-6666">
+                719-264-6666
+              </a>
+              <button className="btn btn-primary">SCHEDULE ONLINE</button>
+              <button className="btn btn-primary">
+                TELEMEDICINE APPOINTMENT
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="sub-footer px-5">
+        © {new Date().getFullYear()} by Colorado Canine Orthopedics
+        <span className="float-right">
+          Designed and Powered by 
+          <a class="webriq-link" href="http://webriq.com/">
+            WebriQ
+          </a>
+        </span>
+      </div>
+    </footer>
+  )
 }
-
-export default footer
+export default Footer

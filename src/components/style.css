@@ -1,0 +1,134 @@
+body a {
+  color: #333333;
+}
+body a:hover {
+  text-decoration: none;
+  color: #0077b3;
+}
+.font-weight-bold,
+strong,
+.strong,
+b {
+  font-weight: 600 !important;
+}
+
+.header {
+  /* position: absolute;
+    top: 0; */
+  /* width: 100%;
+    z-index: 999; */
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+  /* background: rgba(185, 179, 179, 0.5); */
+}
+.menu-btn {
+  cursor: pointer;
+}
+
+.search-wrap input {
+  border: 0;
+  border-bottom: 1px solid #d8d8d8;
+  line-height: 20px;
+}
+.search-wrap input:focus {
+  outline: none !important;
+}
+.header_nav ul li a {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 0 12px;
+}
+
+/*FOOTER*/
+
+.consultation-f {
+  position: relative;
+  background: #2588bf;
+  padding: 20px;
+}
+.reviews-f {
+  padding: 20px 20px 20px 150px !important;
+  background: #d8d8d8;
+}
+
+.contact-f {
+  background: #d8d8d8;
+  padding: 20px;
+}
+.sub-footer {
+  background: #4a4a4a;
+  padding: 30px 0;
+  color: #ffffff;
+}
+.sub-footer a {
+  color: #ffffff;
+}
+.reviews-list li {
+  margin: 20px 0;
+}
+.reviews-list li img {
+  width: 70px;
+  margin-bottom: 0;
+  margin-right: 15px;
+}
+.reviews-list li span {
+  margin-left: 20px;
+}
+.reviews-list li:last-child img {
+  width: 50px;
+}
+.star-value {
+  position: absolute;
+  left: 23px;
+  top: -18px;
+}
+.btn-primary {
+  background: #ffffff69 !important;
+  color: #fff !important;
+  border-radius: 0 !important;
+  margin: 5px !important;
+  border: 0 !important;
+}
+.review-f-heading img {
+  margin-top: -16px;
+}
+/*Tooltip*/
+.tooltip-wrap {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  /* border-bottom: 1px dotted black; */
+}
+
+.tooltip-wrap .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: #2588bf;
+  color: #fff;
+  text-align: left;
+  padding: 10px 15px !important;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip-wrap:hover .tooltiptext {
+  visibility: visible;
+}
+.consultation-f img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+.consultation-f::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 2px solid #ffffff;
+  top: 10px;
+  left: 15px;
+}
