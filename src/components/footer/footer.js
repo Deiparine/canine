@@ -110,8 +110,13 @@ const Footer = () => {
         © {new Date().getFullYear()} by Colorado Canine Orthopedics
         <span className="float-right">
           Designed and Powered by 
-          <a class="webriq-link" href="http://webriq.com/">
-            WebriQ
+          <a
+            class="webriq-link"
+            target="_blank"
+            href="https://itspecialists.net/"
+            rel="noopener noreferrer"
+          >
+            IT Specialists, Inc.
           </a>
         </span>
       </div>
