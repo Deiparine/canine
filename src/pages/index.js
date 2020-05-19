@@ -281,10 +281,10 @@ const IndexPage = ({ location }) => (
                   <br />
                 </p>
                 <div class="row pt-3">
-                  <div class="col-md-2">
+                  <div class="col-2">
                     <img class="review-pp" src={reviewPp} />
                   </div>
-                  <div class="col-md-10">
+                  <div class="col-10">
                     <h5 class="mt-1 mb-0">
                       <strong>Allison S.</strong>
                       <br />
@@ -306,10 +306,10 @@ const IndexPage = ({ location }) => (
                   <br />
                 </p>
                 <div class="row pt-3">
-                  <div class="col-md-2">
+                  <div class="col-2">
                     <img class="review-pp" src={reviewPp} />
                   </div>
-                  <div class="col-md-10">
+                  <div class="col-10">
                     <h5 class="mt-1 mb-0">
                       <strong>Allison S.</strong>
                       <br />

@@ -18,7 +18,10 @@ const Header = () => (
     >
       <div className={`header ${styl.header}`}>
         <div className="container-fluid p-0">
-          <div className="row py-3">
+          <div className="row">
+            <div className="col-md-1 pr-5 align-self-center burger-wrap">
+              <SideBarMenu />
+            </div>
             <div className="col-md-5">
               <div className="px-5">
                 <Link
@@ -103,9 +106,6 @@ const Header = () => (
                   </ul>
                 </div>
               </div>
-            </div>
-            <div className="col-md-1 pr-5 align-self-center burger-wrap">
-              <SideBarMenu />
             </div>
           </div>
         </div>

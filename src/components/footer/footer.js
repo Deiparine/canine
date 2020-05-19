@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <footer className="">
       <div className="container-fluid main-footer">
-        <div className="row">
+        <div className="row flex-column-reverse flex-sm-row">
           <div className="col-md-4 contact-f pl-5">
             <h3>CONTACT US</h3>
             <p>
@@ -22,7 +22,7 @@ const Footer = () => {
               Tel: <a href="tel:719-264-6666">719-264-6666</a> <br /> Email:{" "}
               <a href="mailto:hello@canineortho.com">hello@canineortho.com</a>
             </p>
-            <h3>CONNECT WITH US! </h3>
+            <h3 className="mt-5">CONNECT WITH US! </h3>
           </div>
           <div className="col-md-4 reviews-f">
             <div className="review-f-heading">
@@ -41,39 +41,50 @@ const Footer = () => {
             </div>
 
             <ul className="list-unstyled m-0 reviews-list">
-              <li>
+              <li className="w-100">
+                {/* <div className="row">
+                  <div className="col-3 vertical-align">
+                    <img className="w-100" src={Facebook} alt="Facebook" />
+                  </div>
+                  <div className="col-3 vertical-align">
+                    <p className="star-value">4.9</p>
+                  </div>
+                  <div className="col-3"></div>
+                  <div className="col-3"></div>
+                </div> */}
+
                 <img src={Facebook} alt="Facebook" />
                 <small style={{ position: "relative" }}>
+                  <small className="star-value mr-3">4.9</small>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
-                  <small className="star-value">4.9</small>
                 </small>
                 <span>198 reviews</span>
               </li>
               <li>
                 <img src={Google} alt="Google" />
                 <small style={{ position: "relative" }}>
+                  <small className="star-value mr-3">4.9</small>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
-                  <small className="star-value">4.9</small>
                 </small>
                 <span>270 reviews</span>
               </li>
               <li>
                 <img src={Yelp} alt="yelp" />
                 <small style={{ position: "relative" }}>
+                  <small className="star-value mr-3">4.9</small>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
-                  <small className="star-value">4.9</small>
                 </small>
                 <span>23 reviews</span>
               </li>
@@ -88,7 +99,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-md-4 consultation-f text-white">
+          <div className="col-md-4 consultation-f text-white ">
             <div className="d-flex">
               <div className="consult-img-cont">
                 <img src={Message} alt="Angies" />
@@ -100,7 +111,30 @@ const Footer = () => {
               Call our office today and speak with one of our Pet Care
               Coordinators to schedule a consultation.
             </p>
-            <div className="button-blocks">
+
+            <div className="row text-center footer-btn-row">
+              <div className="col-6 p-0">
+                <div className="spacer">
+                  <button className="btn-footer w-100" href="tel:719-264-6666">
+                    719-264-6666
+                  </button>
+                </div>
+              </div>
+              <div className="col-6 p-0">
+                <div className="spacer">
+                  <button className="btn-footer w-100">SCHEDULE ONLINE</button>
+                </div>
+              </div>
+              <div className="col-12 p-0">
+                <div className="spacer">
+                  <button className="btn-footer w-100">
+                    TELEMEDICINE APPOINTMENT
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            {/* <div className="button-blocks">
               <a className="btn btn-primary" href="tel:719-264-6666">
                 719-264-6666
               </a>
@@ -108,7 +142,7 @@ const Footer = () => {
               <button className="btn btn-primary">
                 TELEMEDICINE APPOINTMENT
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
