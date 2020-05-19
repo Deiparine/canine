@@ -18,7 +18,7 @@ const Header = () => (
     >
       <div className={`header ${styl.header}`}>
         <div className="container-fluid p-0">
-          <div className="row">
+          <div className="row ">
             <div className="col-md-1 pr-5 align-self-center burger-wrap">
               <SideBarMenu />
             </div>
@@ -36,7 +36,7 @@ const Header = () => (
               </div>
             </div>
             <div className="col-md-6">
-              <div className="row text-right">
+              <div className="row text-right header-row">
                 <div className="col-12">
                   <ul className="list-unstyled list-inline">
                     <li className="list-inline-item mr-5 tooltip-wrap">

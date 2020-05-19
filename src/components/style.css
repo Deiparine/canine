@@ -749,3 +749,12 @@ a {
   align-items: center;
   justify-content: center;
 }
+
+.header-row {
+  padding-top: 4em !important;
+  transition: 0.3s;
+}
+
+.header-module--is-sticky--VkInE .header-row {
+  padding-top: 0.5em !important;
+}
