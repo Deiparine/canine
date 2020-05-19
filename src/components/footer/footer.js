@@ -90,7 +90,7 @@ const Footer = () => {
               <img src={Message} alt="Angies" />
               <h3 className="ml-3">CONSULTATION</h3>
             </div>
-            <p className="mt-3">
+            <p className="mt-3 text-white">
               Call our office today and speak with one of our Pet Care
               Coordinators to schedule a consultation.
             </p>
