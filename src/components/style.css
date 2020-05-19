@@ -120,10 +120,10 @@ small,
 .consultation-f {
   position: relative;
   background: #2588bf;
-  padding: 20px;
+  padding: 40px 60px !important;
 }
 .reviews-f {
-  padding: 20px 20px 20px 150px !important;
+  padding: 40px 60px !important;
   background: #d8d8d8;
 }
 
@@ -191,7 +191,7 @@ small,
   height: 30px;
   margin-left: 10px;
 }
-.consultation-f::before {
+/* .consultation-f::before {
   content: "";
   position: absolute;
   width: 50px;
@@ -200,7 +200,7 @@ small,
   border: 2px solid #ffffff;
   top: 10px;
   left: 15px;
-}
+} */
 
 /* imported */
 
@@ -628,4 +628,51 @@ a {
   .burger-wrap {
     display: block;
   }
+  .header_nav {
+    display: none;
+  }
+
+  li.list-inline-item {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.hero-wrap {
+  padding: 15em 0;
+}
+
+.dropdown .btn-primary {
+  color: #000;
+  background: none;
+  border: none;
+  font-weight: 100;
+  margin-top: -3px;
+}
+
+.dropdown .btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #0077b3;
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.dropdown .btn-primary:hover {
+  color: #0077b3;
+  background: none;
+  border: none;
+  font-weight: 100;
+  margin-top: -3px;
+}
+
+.dropdown #sidemenu-toggle {
+  color: #fff !important;
+}
+
+.consult-img-cont {
+  border-radius: 100%;
+  border: 2px solid #ffffff;
+  padding: 10px 10px 10px 0px;
 }

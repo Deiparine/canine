@@ -32,7 +32,10 @@ const Footer = () => {
                 alt="revstar"
                 style={{ width: "50px" }}
               />
-              <span style={{ fontSize: "30px" }} className="mt-2">
+              <span
+                style={{ fontSize: "28px", fontFamily: "Oswald" }}
+                className="mt-2"
+              >
                 REVIEWS
               </span>
             </div>
@@ -85,10 +88,13 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-md-4 consultation-f pr-5 text-white">
+          <div className="col-md-4 consultation-f text-white">
             <div className="d-flex">
-              <img src={Message} alt="Angies" />
-              <h3 className="ml-3">CONSULTATION</h3>
+              <div className="consult-img-cont">
+                <img src={Message} alt="Angies" />
+              </div>
+
+              <h3 className="ml-3 mt-2">CONSULTATION</h3>
             </div>
             <p className="mt-3 text-white">
               Call our office today and speak with one of our Pet Care

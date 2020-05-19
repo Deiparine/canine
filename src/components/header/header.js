@@ -71,8 +71,8 @@ const Header = () => (
                     </li>
                     <li className="list-inline-item">
                       <Dropdown>
-                        <Dropdown.Toggle id="dropdown-basic">
-                          Surgery
+                        <Dropdown.Toggle id="dropdown-basic toggle-btn">
+                          SURGERY
                         </Dropdown.Toggle>
 
                         <Dropdown.Menu>
