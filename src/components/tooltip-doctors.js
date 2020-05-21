@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-const Tooltip = () => {
+const TooltipDoctors = () => {
   return (
     <div className="tooltip-menu tooltiptext">
       <div id="triangle-up"></div>
@@ -20,4 +20,4 @@ const Tooltip = () => {
     </div>
   )
 }
-export default Tooltip
+export default TooltipDoctors
