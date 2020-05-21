@@ -90,9 +90,9 @@ const Header = () => (
                       </a>
                       <TooltipDoctors />
                     </li>
-                    <li className="list-inline-item">
+                    {/* <li className="list-inline-item">
                       <a href="/">TELEMEDICINE</a>
-                    </li>
+                    </li> */}
                     <li className="list-inline-item tooltip-wrap-menu">
                       <a className="tooltip-menu-nav" href="/">
                         CONTACT <i class="fa fa-caret-down"></i>
