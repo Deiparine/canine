@@ -106,9 +106,9 @@ const Header = () => (
                       <li className="list-inline-item">
                       <li className="list-inline-item tooltip-wrap-menu">
                         <a className="tooltip-menu-nav" href="/">
-                          SURGERY <i class="fa fa-caret-down"></i>
+                          CONTACT <i class="fa fa-caret-down"></i>
                         </a>
-                        <TooltipSurgery />
+                        <TooltipContact />
                       </li>
                     </li>
                   </ul>
