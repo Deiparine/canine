@@ -4,7 +4,7 @@ import Facebook from "../../images/facebook.png"
 import Google from "../../images/google.png"
 import Yelp from "../../images/yelp.png"
 import Angies from "../../images/angies.png"
-import BBB from "../../images/bbb.svg"
+import BBB from "../../images/BBB.svg"
 import Message from "../../images/message.png"
 
 const Footer = () => {

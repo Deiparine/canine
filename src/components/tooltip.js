@@ -1,5 +1,5 @@
 import React from "react"
-import ReviewStar from "../images/reviewstar-white.png"
+// import ReviewStar from "../images/reviewstar-white.png"
 import Facebook from "../images/facebook-white.png"
 import Google from "../images/google-white.png"
 import Yelp from "../images/yelp-white.png"
