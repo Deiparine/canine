@@ -8,7 +8,7 @@ class SideBarMenu extends React.Component {
     super(props)
     this.state = {
       sidebarOpen: false,
-      sidebarpullRight: true,
+      sidebarpullLeft: true,
       toggle: false,
     }
 
@@ -54,7 +54,7 @@ class SideBarMenu extends React.Component {
         pullRight={this.state.sidebarpullRight}
         styles={{
           sidebar: {
-            background: "#4b4c4b",
+            background: "#fff",
             width: "300px",
             position: "fixed",
             zIndex: "99",

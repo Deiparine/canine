@@ -148,9 +148,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="sub-footer px-5">
+      <div className="sub-footer px-4">
         © {new Date().getFullYear()} by Colorado Canine Orthopedics
-        <span className="float-right">
+        <span className="float-left">
           Designed and Powered by 
           <a
             class="webriq-link"

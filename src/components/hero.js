@@ -4,6 +4,7 @@ import Doghead from "../images/doghead.png"
 import video from "../images/dr-bauer-vid.png"
 import welcome from "../images/welcome.png"
 import welcomeMobile from "../images/welcome-mobile.png"
+import VideoModal from "../components/video-modal"
 
 const Hero = ({ location }) => (
   <div className="hero-wrap">
@@ -45,15 +46,10 @@ const Hero = ({ location }) => (
             style={{ marginTop: "-100px" }}
           />{" "}
         </div>
-        <div className="col-md-4 p-relative">
+        <div className="col-md-4 w-100 p-relative">
           {" "}
-          <div className="vid-container">
-            <img
-              src={video}
-              alt="video"
-              className="w-100"
-              style={{ marginTop: "-100px" }}
-            />
+          <div>
+            <VideoModal />
           </div>
         </div>
       </div>

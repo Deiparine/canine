@@ -3,12 +3,16 @@ import { Link } from "gatsby"
 import { Nav } from "react-bootstrap"
 import "./menu.css"
 import { Dropdown } from "react-bootstrap"
+import Logo from "../../images/logo.png"
 
 export default () => (
   <div className="navigation">
     <Nav className="flex-column">
+      <img src={Logo} alt="Logo" className="img-fluid logo mb-5" />
       <Nav.Item>
-        <Link to="/">HOME</Link>
+        <Link className="m-0 p-0" to="/">
+          HOME
+        </Link>
       </Nav.Item>
       <Nav.Item>
         <Dropdown>
@@ -57,7 +61,9 @@ export default () => (
         </Dropdown>
       </Nav.Item>
       <Nav.Item>
-        <Link to="/">TELEMEDICINE</Link>
+        <Link className="m-0 p-0" to="/">
+          TELEMEDICINE
+        </Link>
       </Nav.Item>
       <Nav.Item>
         <Dropdown>

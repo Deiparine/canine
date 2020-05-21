@@ -749,6 +749,10 @@ a {
     font-size: 14px;
     line-height: 15px;
   }
+
+  .hero-wrap {
+    padding-bottom: 10em !important;
+  }
 }
 
 .hero-wrap {
@@ -791,7 +795,7 @@ a {
 .btn-footer {
   background-color: #8cb5d4;
   color: #fff;
-  border-color: #8cb5d4;
+  border: none;
   padding: 5px;
   transition: 0.3s;
 }
@@ -870,7 +874,7 @@ a {
 }
 
 .dropdown-menu {
-  background-color: #fff !important;
+  width: 150% !important;
 }
 
 .dropdown-item {
@@ -949,7 +953,7 @@ a.tooltip-menu-nav:hover .fa-caret-down {
 
 .contact-f p {
   font-size: 16px;
-  width: 400px;
+  max-width: 400px;
 }
 
 .contact-f h3 {
@@ -1007,4 +1011,12 @@ a.tooltip-menu-nav:hover .fa-caret-down {
 
 .nav-item {
   padding-top: 16px;
+  color: #626162 !important;
+}
+
+.video-modal {
+  position: absolute;
+  bottom: -21em;
+  left: -7em;
+  width: 26em !important;
 }
