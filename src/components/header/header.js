@@ -73,9 +73,8 @@ const Header = () => (
                 </div>
                 <div className="col-12 header_nav mt-4">
                   <ul className="list-inline list-unstyled ml-0">
-                    <li className="list-inline-item tooltip-wrap-menu-contact">
+                    <li className="list-inline-item">
                       <a href="/">HOME</a>
-                      <TooltipContact />
                     </li>
                     <li className="list-inline-item">
                       <li className="list-inline-item tooltip-wrap-menu">
@@ -97,11 +96,20 @@ const Header = () => (
                     <li className="list-inline-item">
                       <a href="/">TELEMEDICINE</a>
                     </li>
-                    <li className="tooltip-wrap-menu-contact list-inline-item">
+                    {/* <li className="tooltip-wrap-menu list-inline-item ">
                       <a className="tooltip-menu-nav" href="/">
                         CONTACT <i class="fa fa-caret-down"></i>
                       </a>
                       <TooltipContact />
+                    </li> */}
+
+                      <li className="list-inline-item">
+                      <li className="list-inline-item tooltip-wrap-menu">
+                        <a className="tooltip-menu-nav" href="/">
+                          SURGERY <i class="fa fa-caret-down"></i>
+                        </a>
+                        <TooltipSurgery />
+                      </li>
                     </li>
                   </ul>
                 </div>
