@@ -94,9 +94,9 @@ const Header = () => (
                       <a href="/">TELEMEDICINE</a>
                     </li> */}
                     <li className="list-inline-item">
-                      <a href="/">HOME</a>
+                      <a href="/">TELEMEDICINE</a>
                     </li>
-                    <li className="tooltip-wrap-menu list-inline-item ">
+                    <li className="tooltip-wrap-menu-contact list-inline-item ">
                       <a className="tooltip-menu-nav" href="/">
                         CONTACT <i class="fa fa-caret-down"></i>
                       </a>

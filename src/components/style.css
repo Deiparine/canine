@@ -209,7 +209,16 @@ small,
   z-index: 10;
   /* border-bottom: 1px dotted black; */
 }
+
 .tooltip-wrap-menu {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 9;
+  /* border-bottom: 1px dotted black; */
+}
+
+.tooltip-wrap-menu-contact {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -243,11 +252,28 @@ small,
   z-index: 1;
 }
 
+.tooltip-wrap-menu-contact .tooltiptext {
+  visibility: hidden;
+  width: 320px;
+  background-color: #2588bf;
+  color: #fff;
+  text-align: left;
+  padding: 10px 15px !important;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
 .tooltip-wrap:hover .tooltiptext {
   visibility: visible;
 }
 
 .tooltip-wrap-menu:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip-wrap-menu-contact:hover .tooltiptext {
   visibility: visible;
 }
 
