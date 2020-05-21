@@ -9,6 +9,7 @@ import BBB from "../images/bbb-white.png"
 const Tooltip = () => {
   return (
     <div className="reviews-f tooltiptext">
+      <div id="triangle-up-2"></div>
       <ul className="list-unstyled m-0 reviews-list tooltip-reviews">
         <li>
           <img src={Facebook} alt="Facebook" />

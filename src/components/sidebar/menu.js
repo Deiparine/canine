@@ -20,9 +20,20 @@ export default () => (
           </Dropdown.Toggle>
 
           <Dropdown.Menu>
-            <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-            <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+            <Dropdown.Item href="#/action-1">TPLO</Dropdown.Item>
+            <Dropdown.Item href="#/action-2">
+              TOTAL HIP REPLACEMENT
+            </Dropdown.Item>
+            <Dropdown.Item href="#/action-3">FRACRTURE REPAIR</Dropdown.Item>
+            <Dropdown.Item href="#/action-1">
+              PATELLAR LUXATION REPAIR
+            </Dropdown.Item>
+            <Dropdown.Item href="#/action-2">ELBOW ARTHROSCOPY</Dropdown.Item>
+            <Dropdown.Item href="#/action-3">
+              SHOULDER ARTHROSCOPY
+            </Dropdown.Item>
+            <Dropdown.Item href="#/action-3">ARTHROSCOPY</Dropdown.Item>
+            <Dropdown.Item href="#/action-3">SPINAL SURGERY</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
       </Nav.Item>
