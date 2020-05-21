@@ -57,7 +57,7 @@ class SideBarMenu extends React.Component {
             background: "#4b4c4b",
             width: "300px",
             position: "fixed",
-            zIndex: "3",
+            zIndex: "99",
           },
           root: { position: "relative", overflow: "visible" },
           overlay: { backgroundColor: "rgba(0, 0, 0, 0.65)", zIndex: 2 },
@@ -85,33 +85,39 @@ class SideBarMenu extends React.Component {
           >
             <g>
               <g>
-                <path
+                {/* <path
                   d="M28,0C12.561,0,0,12.561,0,28s12.561,28,28,28s28-12.561,28-28S43.439,0,28,0z M28,54C13.663,54,2,42.336,2,28   S13.663,2,28,2s26,11.664,26,26S42.337,54,28,54z"
                   data-original="#000000"
                   class="active-path"
                   data-old_color="#000000"
                   fill="#000000"
-                />
+                /> */}
                 <path
                   d="M40,16H16c-0.553,0-1,0.448-1,1s0.447,1,1,1h24c0.553,0,1-0.448,1-1S40.553,16,40,16z"
-                  data-original="#000000"
+                  data-original="#D8D8D8"
                   class="active-path"
-                  data-old_color="#000000"
-                  fill="#000000"
+                  data-old_color="#D8D8D8"
+                  fill="#D8D8D8"
+                  stroke="#D8D8D8"
+                  stroke-width="5"
                 />
                 <path
                   d="M40,27H16c-0.553,0-1,0.448-1,1s0.447,1,1,1h24c0.553,0,1-0.448,1-1S40.553,27,40,27z"
-                  data-original="#000000"
+                  data-original="#D8D8D8"
                   class="active-path"
-                  data-old_color="#000000"
-                  fill="#000000"
+                  data-old_color="#D8D8D8"
+                  fill="#D8D8D8"
+                  stroke="#D8D8D8"
+                  stroke-width="5"
                 />
                 <path
                   d="M40,38H16c-0.553,0-1,0.448-1,1s0.447,1,1,1h24c0.553,0,1-0.448,1-1S40.553,38,40,38z"
-                  data-original="#000000"
+                  data-original="#D8D8D8"
                   class="active-path"
-                  data-old_color="#000000"
-                  fill="#000000"
+                  data-old_color="#D8D8D8"
+                  fill="#D8D8D8"
+                  stroke="#D8D8D8"
+                  stroke-width="5"
                 />
               </g>
             </g>{" "}

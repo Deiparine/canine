@@ -4,15 +4,15 @@ import Facebook from "../../images/facebook.png"
 import Google from "../../images/google.png"
 import Yelp from "../../images/yelp.png"
 import Angies from "../../images/angies.png"
-import BBB from "../../images/bbb.png"
+import BBB from "../../images/bbb.svg"
 import Message from "../../images/message.png"
 
 const Footer = () => {
   return (
     <footer className="">
       <div className="container-fluid main-footer">
-        <div className="row flex-column-reverse flex-sm-row">
-          <div className="col-md-4 contact-f pl-5">
+        <div className="row flex-column-reverse flex-lg-row">
+          <div className="col-lg-4 contact-f">
             <h3>CONTACT US</h3>
             <p>
               Colorado Canine Orthopedics 5528 North Nevada Colorado Springs, CO
@@ -22,22 +22,24 @@ const Footer = () => {
               Tel: <a href="tel:719-264-6666">719-264-6666</a> <br /> Email:{" "}
               <a href="mailto:hello@canineortho.com">hello@canineortho.com</a>
             </p>
-            <h3 className="mt-5">CONNECT WITH US! </h3>
+            <div className="connect mt-5">
+              {" "}
+              <h3 className="mr-3 mt-2">CONNECT WITH US!</h3>
+              <i class="fa fa-facebook mr-2 social-icon"></i>
+              <i class="fa fa-instagram mr-2 social-icon"></i>
+            </div>
           </div>
-          <div className="col-md-4 reviews-f">
+          <div className="col-lg-4 reviews-f">
             <div className="review-f-heading">
-              <img
-                className="img-fluid mb-0 mr-2"
-                src={ReviewStar}
-                alt="revstar"
-                style={{ width: "50px" }}
-              />
-              <span
-                style={{ fontSize: "28px", fontFamily: "Oswald" }}
-                className="mt-2"
-              >
+              <h3>
+                <img
+                  className="img-fluid mb-0 mr-2"
+                  src={ReviewStar}
+                  alt="revstar"
+                  style={{ width: "50px" }}
+                />
                 REVIEWS
-              </span>
+              </h3>
             </div>
 
             <ul className="list-unstyled m-0 reviews-list">
@@ -55,57 +57,57 @@ const Footer = () => {
 
                 <img src={Facebook} alt="Facebook" />
                 <small style={{ position: "relative" }}>
-                  <small className="star-value mr-3">4.9</small>
+                  <span className="star-value mr-3">4.9</span>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                 </small>
-                <span>198 reviews</span>
+                <span className="ml-4">198 reviews</span>
               </li>
               <li>
                 <img src={Google} alt="Google" />
                 <small style={{ position: "relative" }}>
-                  <small className="star-value mr-3">4.9</small>
+                  <span className="star-value mr-3">4.9</span>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                 </small>
-                <span>270 reviews</span>
+                <span className="ml-4">270 reviews</span>
               </li>
               <li>
                 <img src={Yelp} alt="yelp" />
                 <small style={{ position: "relative" }}>
-                  <small className="star-value mr-3">4.9</small>
+                  <span className="star-value mr-3">4.9</span>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                 </small>
-                <span>23 reviews</span>
+                <span className="ml-4">23 reviews</span>
               </li>
               <li>
                 <img src={Angies} alt="Angies" />
-                <span>A</span>
-                <span>63 reviews</span>
+                <span className="ml-4">A</span>
+                <span className="ml-4">63 reviews</span>
               </li>
               <li>
                 <img src={BBB} alt="Angies" />
-                <span>A+</span>
+                <small className="ml-4">A+</small>
               </li>
             </ul>
           </div>
-          <div className="col-md-4 consultation-f text-white ">
+          <div className="col-lg-4 consultation-f text-white ">
             <div className="d-flex">
               <div className="consult-img-cont">
                 <img src={Message} alt="Angies" />
               </div>
 
-              <h3 className="ml-3 mt-2">CONSULTATION</h3>
+              <h3 className="ml-3 mt-3">CONSULTATION</h3>
             </div>
             <p className="mt-3 text-white">
               Call our office today and speak with one of our Pet Care

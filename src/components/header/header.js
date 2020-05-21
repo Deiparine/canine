@@ -7,6 +7,7 @@ import Logo from "../../images/logo.png"
 import ReviewStar from "../../images/reviewstar.png"
 import Searchicon from "../../images/searchcon.png"
 import Tooltip from "../../components/tooltip"
+import TooltipMenu from "../../components/tooltip-menu"
 import { Dropdown } from "react-bootstrap"
 
 const Header = () => (
@@ -41,12 +42,12 @@ const Header = () => (
                   <ul className="list-unstyled list-inline">
                     <li className="list-inline-item mr-5 tooltip-wrap">
                       <img
-                        className="img-fluid mb-0 mr-2"
+                        className="img-fluid mb-2 mr-2"
                         src={ReviewStar}
                         alt="revstar"
                         style={{ width: "43px" }}
                       />
-                      <span style={{ fontSize: "15px" }} className="mt-2">
+                      <span style={{ fontSize: "20px" }} className="mt-3">
                         REVIEWS
                       </span>
                       <Tooltip />
@@ -60,7 +61,7 @@ const Header = () => (
                       />
                       <input type="text" name="search" />
                     </li>
-                    <li className="list-inline-item">
+                    <li className="list-inline-item phone-cta">
                       <a className="ml-3" href="tel:719-264-6666">
                         (719)264-6666
                       </a>
@@ -73,23 +74,12 @@ const Header = () => (
                       <a href="/">HOME</a>
                     </li>
                     <li className="list-inline-item">
-                      <Dropdown>
-                        <Dropdown.Toggle id="dropdown-basic toggle-btn">
-                          SURGERY
-                        </Dropdown.Toggle>
-
-                        <Dropdown.Menu>
-                          <Dropdown.Item href="#/action-1">
-                            Action
-                          </Dropdown.Item>
-                          <Dropdown.Item href="#/action-2">
-                            Another action
-                          </Dropdown.Item>
-                          <Dropdown.Item href="#/action-3">
-                            Something else
-                          </Dropdown.Item>
-                        </Dropdown.Menu>
-                      </Dropdown>
+                      <li className="list-inline-item tooltip-wrap-menu">
+                        <a className="tooltip-menu-nav" href="/">
+                          SURGERY <i class="fa fa-caret-down"></i>
+                        </a>
+                        <TooltipMenu />
+                      </li>
                     </li>
                     <li className="list-inline-item">
                       <a href="/">Doctors</a>

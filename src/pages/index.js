@@ -18,7 +18,7 @@ const IndexPage = ({ location }) => (
   <Layout>
     <SEO title="Home" />
     <Hero location={location} />
-    <div class="container padding-200">
+    {/* <div class="container padding-200">
       <div class="row">
         <div class="col-md-6">
           <img class="h-100 w-100" src={aboutImg} />
@@ -318,9 +318,9 @@ const IndexPage = ({ location }) => (
                   </div>
                 </div>
               </div>
-            </MySwiper>
+            </MySwiper> */}
 
-            {/* <div class="carousel slide" data-ride="carousel" id="carousel-1">
+    {/* <div class="carousel slide" data-ride="carousel" id="carousel-1">
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
                                 <p>Seriously awesome place. My dog had a bad broken femur and he first place I called told me they couldn't take him till the next day or maybe even after the weekend, I was freaking out thinking my pup would be in pain that
@@ -365,8 +365,8 @@ const IndexPage = ({ location }) => (
                     <li data-target="#carousel-1" data-slide-to="1"></li>
                     <li data-target="#carousel-1" data-slide-to="2"></li>
                 </ol> */}
-          </div>
-          <div class="col-md-6">
+    {/* </div> */}
+    {/* <div class="col-md-6">
             <form class="shadow" method="post">
               <h2 class="text-center">Contact us</h2>
               <div class="form-group">
@@ -402,10 +402,10 @@ const IndexPage = ({ location }) => (
                 </button>
               </div>
             </form>
-          </div>
-        </div>
+          </div> */}
+    {/* </div>
       </div>
-    </div>
+    </div> */}
   </Layout>
 )
 
