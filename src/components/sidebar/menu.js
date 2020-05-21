@@ -20,34 +20,60 @@ export default () => (
           </Dropdown.Toggle>
 
           <Dropdown.Menu>
-            <Dropdown.Item href="#/action-1">TPLO</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">
+            <Dropdown.Item href="#/action-1">ACL TEARS</Dropdown.Item>
+            <Dropdown.Item href="#/action-2">TPLO</Dropdown.Item>
+            <Dropdown.Item href="#/action-3">HIP DYSPLASIA</Dropdown.Item>
+            <Dropdown.Item href="#/action-1">
               TOTAL HIP REPLACEMENT
             </Dropdown.Item>
-            <Dropdown.Item href="#/action-3">FRACRTURE REPAIR</Dropdown.Item>
-            <Dropdown.Item href="#/action-1">
-              PATELLAR LUXATION REPAIR
-            </Dropdown.Item>
-            <Dropdown.Item href="#/action-2">ELBOW ARTHROSCOPY</Dropdown.Item>
-            <Dropdown.Item href="#/action-3">
-              SHOULDER ARTHROSCOPY
-            </Dropdown.Item>
+            <Dropdown.Item href="#/action-2">PATELLA LUXATIONS</Dropdown.Item>
+            <Dropdown.Item href="#/action-3">ELBOW DYSPLASIA</Dropdown.Item>
+            <Dropdown.Item href="#/action-3">SHOULDER DISORDERS</Dropdown.Item>
+            <Dropdown.Item href="#/action-3">FRACTURES</Dropdown.Item>
             <Dropdown.Item href="#/action-3">ARTHROSCOPY</Dropdown.Item>
-            <Dropdown.Item href="#/action-3">SPINAL SURGERY</Dropdown.Item>
+            <Dropdown.Item href="#/action-3">
+              INTERVERTEBRAL DISC DISEASE
+            </Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
       </Nav.Item>
       <Nav.Item>
-        <Link to="/about-us">DOCTORS</Link>
+        <Dropdown>
+          <Dropdown.Toggle
+            className="text-white"
+            id="dropdown-basic sidemenu-toggle"
+          >
+            DOCTORS
+          </Dropdown.Toggle>
+
+          <Dropdown.Menu>
+            <Dropdown.Item href="#/action-1">MIKE BAUER</Dropdown.Item>
+            <Dropdown.Item href="#/action-2">TODD RIECKS</Dropdown.Item>
+            <Dropdown.Item href="#/action-3">SCOT SWAINSON</Dropdown.Item>
+            <Dropdown.Item href="#/action-1">NATE MILLER</Dropdown.Item>
+            <Dropdown.Item href="#/action-2">DR. DETORA</Dropdown.Item>
+            <Dropdown.Item href="#/action-3">SAM FRANKLIN</Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
       </Nav.Item>
       <Nav.Item>
         <Link to="/">TELEMEDICINE</Link>
       </Nav.Item>
       <Nav.Item>
-        <Link to="/blog">HOSPITAL TOUR</Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Link to="/about-us">CONTACT</Link>
+        <Dropdown>
+          <Dropdown.Toggle
+            className="text-white"
+            id="dropdown-basic sidemenu-toggle"
+          >
+            CONTACT
+          </Dropdown.Toggle>
+
+          <Dropdown.Menu>
+            <Dropdown.Item href="#/action-1">
+              MORE SUBMENUS TO COME
+            </Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
       </Nav.Item>
     </Nav>
   </div>

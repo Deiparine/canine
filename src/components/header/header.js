@@ -7,7 +7,10 @@ import Logo from "../../images/logo.png"
 import ReviewStar from "../../images/reviewstar.png"
 import Searchicon from "../../images/searchcon.png"
 import Tooltip from "../../components/tooltip"
-import TooltipMenu from "../../components/tooltip-menu"
+import TooltipSurgery from "../tooltip-surgery"
+import TooltipDoctors from "../tooltip-doctors"
+import TooltipContact from "../tooltip-contact"
+
 import { Dropdown } from "react-bootstrap"
 
 const Header = () => (
@@ -78,20 +81,23 @@ const Header = () => (
                         <a className="tooltip-menu-nav" href="/">
                           SURGERY <i class="fa fa-caret-down"></i>
                         </a>
-                        <TooltipMenu />
+                        <TooltipSurgery />
                       </li>
                     </li>
-                    <li className="list-inline-item">
-                      <a href="/">Doctors</a>
+                    <li className="list-inline-item tooltip-wrap-menu">
+                      <a className="tooltip-menu-nav" href="/">
+                        DOCTORS <i class="fa fa-caret-down"></i>
+                      </a>
+                      <TooltipDoctors />
                     </li>
                     <li className="list-inline-item">
                       <a href="/">TELEMEDICINE</a>
                     </li>
-                    <li className="list-inline-item">
-                      <a href="/">HOSPITAL TOUR</a>
-                    </li>
-                    <li className="list-inline-item">
-                      <a href="/">CONTACT</a>
+                    <li className="list-inline-item tooltip-wrap-menu">
+                      <a className="tooltip-menu-nav" href="/">
+                        CONTACT <i class="fa fa-caret-down"></i>
+                      </a>
+                      <TooltipContact />
                     </li>
                   </ul>
                 </div>
