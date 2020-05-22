@@ -59,9 +59,9 @@ class VideoModal extends React.Component {
             >
               <i className="fa fa-times" />
             </Button>
-            <div className="questionnaire-prompt text-center p-3 p-md-5">
+            <div className="text-center p-3 p-md-5">
               <div className="d-block pt-4">
-                <Link to="/questionnaire"></Link>
+                <Link to="/"></Link>
               </div>
             </div>
           </Modal.Body>

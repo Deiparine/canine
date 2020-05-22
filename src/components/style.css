@@ -1047,11 +1047,61 @@ a.tooltip-menu-nav:hover .fa-caret-down {
   width: 26em !important;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 767px) {
   .video-modal {
-    position: relative;
+    position: relative !important;
     top: 9em;
-    left: auto;
+    left: 0 !important;
     width: 100% !important;
+  }
+}
+
+.dropdown-toggle:after {
+  position: absolute;
+  top: 11px;
+  right: 0;
+  left: auto;
+}
+
+@media (max-width: 1198px) and (min-width: 991px) {
+  .video-modal {
+    position: absolute;
+    left: -6em !important;
+    width: 18em !important;
+    bottom: -17em;
+  }
+}
+
+@media (max-width: 990px) and (min-width: 768px) {
+  .video-modal {
+    position: absolute;
+    bottom: -11em !important;
+    left: -5em;
+    width: 14em !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .welcome-img {
+    width: 15em;
+    right: -8em;
+  }
+}
+
+.about-headline {
+  padding: 5em 0;
+}
+
+.tplo {
+  position: absolute;
+  width: 14em;
+  z-index: 1;
+  top: -2em;
+  left: 3em;
+}
+
+@media (min-width: 768px) {
+  .tplo {
+    display: none;
   }
 }
