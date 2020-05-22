@@ -52,7 +52,7 @@ const Header = () => (
               <SideBarMenu />
             </div>
             <div className="col-md-5">
-              <div className="px-5">
+              <div className="pr-5">
                 <Link
                   to="/"
                   style={{
