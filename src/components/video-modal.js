@@ -59,9 +59,14 @@ class VideoModal extends React.Component {
             >
               <i className="fa fa-times" />
             </Button>
-            <div className="text-center p-3 p-md-5">
-              <div className="d-block pt-4">
-                <Link to="/"></Link>
+            <div className="text-center">
+              <div className="">
+                <img
+                  onClick={this.handleShow}
+                  src={video}
+                  alt="video"
+                  className="w-100"
+                />
               </div>
             </div>
           </Modal.Body>

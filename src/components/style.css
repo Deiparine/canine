@@ -1105,3 +1105,16 @@ a.tooltip-menu-nav:hover .fa-caret-down {
     display: none;
   }
 }
+
+.close-btn {
+  position: absolute;
+  right: -15px;
+  top: -15px;
+  border-radius: 100%;
+  background-color: #0077b3 !important;
+  border: none !important;
+}
+
+.close-btn:hover {
+  background-color: #8cb5d4 !important;
+}

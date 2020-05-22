@@ -22,7 +22,7 @@ const Header = () => (
     >
       <div className={`header ${styl.header}`}>
         <div className="container-fluid p-0">
-          <div className="row ">
+          <div className="row m-0">
             <div className="col-md-1 pr-5 align-self-center burger-wrap">
               <SideBarMenu />
             </div>
@@ -103,7 +103,7 @@ const Header = () => (
                       <TooltipContact />
                     </li> */}
 
-                      <li className="list-inline-item">
+                    <li className="list-inline-item">
                       <li className="list-inline-item tooltip-wrap-menu">
                         <a className="tooltip-menu-nav" href="/">
                           CONTACT <i class="fa fa-caret-down"></i>
