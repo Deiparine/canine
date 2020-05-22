@@ -10,8 +10,33 @@ import Tooltip from "../../components/tooltip"
 import TooltipSurgery from "../tooltip-surgery"
 import TooltipDoctors from "../tooltip-doctors"
 import TooltipContact from "../tooltip-contact"
+import Search from "../search"
 
 import { Dropdown } from "react-bootstrap"
+
+const allSitePage = {"edges": [
+  {
+    "node": {
+      "id": "SitePage /404/",
+      "title": "404",
+      "path": "/404"
+    }
+  },
+  {
+    "node": {
+      "id": "SitePage /about-us/",
+      "title": "About Us",
+      "path": "/about-us"
+    }
+  },
+  {
+    "node": {
+      "id": "SitePage /contact/",
+      "title": "Contact Us",
+      "path": "/contact"
+    }
+  }
+]}
 
 const Header = () => (
   <header>
@@ -62,7 +87,7 @@ const Header = () => (
                         alt="revstar"
                         style={{ width: "23px" }}
                       />
-                      <input type="text" name="search" />
+                      <Search data={allSitePage}/>
                     </li>
                     <li className="list-inline-item phone-cta">
                       <a className="ml-3" href="tel:719-264-6666">
