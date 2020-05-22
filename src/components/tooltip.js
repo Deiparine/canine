@@ -1,10 +1,10 @@
 import React from "react"
 // import ReviewStar from "../images/reviewstar-white.png"
-import Facebook from "../images/facebook-white.png"
-import Google from "../images/google-white.png"
-import Yelp from "../images/yelp-white.png"
-import Angies from "../images/angies-white.png"
-import BBB from "../images/bbb-white.png"
+import Facebook from "../images/facebook.png"
+import Google from "../images/google.png"
+import Yelp from "../images/yelp.png"
+import Angies from "../images/angies.png"
+import BBB from "../images/BBB.svg"
 
 const Tooltip = () => {
   return (
@@ -14,7 +14,7 @@ const Tooltip = () => {
         <li>
           <img src={Facebook} alt="Facebook" />
           <small style={{ position: "relative" }}>
-            <small className="star-value mr-2">4.9</small>
+            <small className="star-value ml-2 mr-2">4.9</small>
             <i className="fa fa-star"></i>
             <i className="fa fa-star"></i>
             <i className="fa fa-star"></i>
@@ -26,7 +26,7 @@ const Tooltip = () => {
         <li>
           <img src={Google} alt="Google" />
           <small style={{ position: "relative" }}>
-            <small className="star-value mr-2">4.9</small>
+            <small className="star-value ml-2  mr-2">4.9</small>
             <i className="fa fa-star"></i>
             <i className="fa fa-star"></i>
             <i className="fa fa-star"></i>
@@ -38,7 +38,7 @@ const Tooltip = () => {
         <li>
           <img src={Yelp} alt="yelp" />
           <small style={{ position: "relative" }}>
-            <small className="star-value mr-2">4.9</small>
+            <small className="star-value ml-2  mr-2">4.9</small>
             <i className="fa fa-star"></i>
             <i className="fa fa-star"></i>
             <i className="fa fa-star"></i>

@@ -26,7 +26,7 @@ const Header = () => (
             <div className="col-md-1 pr-5 align-self-center burger-wrap">
               <SideBarMenu />
             </div>
-            <div className="col-md-5">
+            <div className="col-md-7">
               <div className="pr-5">
                 <Link
                   to="/"
@@ -39,7 +39,7 @@ const Header = () => (
                 </Link>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-4">
               <div className="row text-right header-row">
                 <div className="col-12">
                   <ul className="list-unstyled list-inline">

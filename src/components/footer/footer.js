@@ -12,11 +12,11 @@ const Footer = () => {
     <footer className="">
       <div className="container-fluid main-footer">
         <div className="row flex-column-reverse flex-lg-row">
-          <div className="col-lg-4 contact-f">
+          <div className="col-lg-5 contact-f">
             <h3>CONTACT US</h3>
             <p>
-              Colorado Canine Orthopedics 5528 North Nevada Colorado Springs, CO
-              80918
+              Colorado Canine Orthopedics <br /> 5528 North Nevada Colorado
+              Springs, CO 80918
             </p>
             <p>
               Tel: <a href="tel:719-264-6666">719-264-6666</a> <br /> Email:{" "}
@@ -24,12 +24,14 @@ const Footer = () => {
             </p>
             <div className="connect mt-5">
               {" "}
-              <h3 className="mr-3 mt-2">CONNECT WITH US!</h3>
-              <i class="fa fa-facebook mr-2 social-icon"></i>
-              <i class="fa fa-instagram mr-2 social-icon"></i>
+              <h3 className="mr-3 mt-2">
+                CONNECT WITH US!
+                <i class="fa fa-facebook ml-2 mr-2 social-icon"></i>
+                <i class="fa fa-instagram mr-2 social-icon"></i>
+              </h3>
             </div>
           </div>
-          <div className="col-lg-4 reviews-f">
+          <div className="col-lg-3 reviews-f">
             <div className="review-f-heading">
               <h3>
                 <img
@@ -57,38 +59,38 @@ const Footer = () => {
 
                 <img src={Facebook} alt="Facebook" />
                 <small style={{ position: "relative" }}>
-                  <span className="star-value mr-3">4.9</span>
+                  <span className="star-value mr-2">4.9</span>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                 </small>
-                <span className="ml-4">198 reviews</span>
+                <span className="ml-2">198 reviews</span>
               </li>
               <li>
                 <img src={Google} alt="Google" />
                 <small style={{ position: "relative" }}>
-                  <span className="star-value mr-3">4.9</span>
+                  <span className="star-value mr-2">4.9</span>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                 </small>
-                <span className="ml-4">270 reviews</span>
+                <span className="ml-2">270 reviews</span>
               </li>
               <li>
                 <img src={Yelp} alt="yelp" />
                 <small style={{ position: "relative" }}>
-                  <span className="star-value mr-3">4.9</span>
+                  <span className="star-value mr-2">4.9</span>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                 </small>
-                <span className="ml-4">23 reviews</span>
+                <span className="ml-2">23 reviews</span>
               </li>
               <li>
                 <img src={Angies} alt="Angies" />
@@ -103,11 +105,11 @@ const Footer = () => {
           </div>
           <div className="col-lg-4 consultation-f text-white ">
             <div className="d-flex">
-              <div className="consult-img-cont">
+              <div className="consult-img-cont float-left">
                 <img src={Message} alt="Angies" />
               </div>
 
-              <h3 className="ml-3 mt-3">CONSULTATION</h3>
+              <h3 className="pl-3"> CONSULTATION</h3>
             </div>
             <p className="mt-3 text-white">
               Call our office today and speak with one of our Pet Care

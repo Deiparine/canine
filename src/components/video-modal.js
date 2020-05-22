@@ -30,16 +30,14 @@ class VideoModal extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-md-10 mx-auto">
-                <div className="start-schedule-box">
-                  <div className="start-schedule-btn">
-                    <img
-                      onClick={this.handleShow}
-                      src={video}
-                      alt="video"
-                      className="video-modal"
-                      style={{ marginTop: "-100px" }}
-                    />
-                  </div>
+                <div className="video-modal-btn">
+                  <img
+                    onClick={this.handleShow}
+                    src={video}
+                    alt="video"
+                    className="video-modal"
+                    style={{ marginTop: "-100px" }}
+                  />
                 </div>
               </div>
             </div>

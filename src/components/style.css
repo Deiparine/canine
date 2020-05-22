@@ -132,6 +132,86 @@ small,
   line-height: 19px;
 }
 
+/* Desktop only */
+@media (min-width: 1200px) {
+  .consultation-f p {
+    font-size: 17px;
+    line-height: 23px;
+  }
+  .contact-f p {
+    font-size: 15px;
+    max-width: 400px;
+    line-height: 20px;
+  }
+
+  .contact-f h3 {
+    line-height: 27px;
+  }
+
+  .consultation-f {
+    background: #2588bf;
+    padding: 30px !important;
+  }
+
+  .consultation-f h3 {
+    font-size: 30px !important;
+    font-weight: 700;
+  }
+  button.btn-footer {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 23px;
+    padding: 5px !important;
+  }
+  .reviews-f span {
+    font-size: 10px !important;
+  }
+}
+
+.tooltip-wrap-menu-contact .tooltiptext,
+.tooltip-wrap-menu .tooltiptext,
+.tooltip-wrap .tooltiptext {
+  visibility: hidden;
+  width: 180px;
+  background-color: #d8d8d8;
+  color: #4a4a4a;
+  text-align: left;
+  padding: 10px 15px !important;
+  position: absolute;
+  z-index: 1;
+}
+
+.reviews-list li img {
+  margin-bottom: 0;
+  margin-right: 0 !important;
+}
+.reviews-list li {
+  border-bottom: 2px solid #707070;
+  padding: 7px 0;
+}
+
+.reviews-list li:last-child img {
+  width: 50px !important;
+  margin-bottom: 10px;
+}
+
+.consult-img-cont {
+  position: relative;
+  border-radius: 100%;
+  border: 2px solid #fff;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  line-height: 25px;
+}
+.consultation-f img {
+  width: 20px;
+  height: 20px;
+  top: -8px;
+  left: -8px;
+  position: relative;
+}
+
 .reviews-f {
   padding: 40px 20px !important;
   background: #d8d8d8;
@@ -161,14 +241,14 @@ small,
   color: #ffffff;
 }
 .reviews-list li {
-  margin: 20px 0;
+  margin: 10px 0;
 }
 .reviews-list li img {
   margin-bottom: 0;
   margin-right: 15px;
 }
 .reviews-list li span {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 .reviews-list li:last-child img {
   width: 50px;
@@ -180,7 +260,7 @@ small,
 }
 
 .reviews-f span {
-  font-size: 13px !important;
+  font-size: 13px;
 }
 
 .reviews-f {
@@ -228,9 +308,9 @@ small,
 
 .tooltip-wrap .tooltiptext {
   visibility: hidden;
-  width: 320px;
-  background-color: #2588bf;
-  color: #fff;
+  width: 300px;
+  background-color: #d8d8d8;
+  color: #626162;
   text-align: left;
   padding: 10px 15px !important;
 
@@ -962,7 +1042,7 @@ a {
   height: 0;
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
-  border-bottom: 15px solid #2588bf;
+  border-bottom: 15px solid #d8d8d8;
   top: -10px;
   left: 50%;
   transform: translateX(-50%);
@@ -989,14 +1069,15 @@ a.tooltip-menu-nav:hover .fa-caret-down {
 }
 
 .fa-facebook {
-  padding: 11px 15px;
+  padding: 6px 9px;
   background-color: #fff;
   border-radius: 100%;
   font-size: 15px !important;
 }
 
 .fa-instagram {
-  padding: 11px 13px;
+  padding: 6px 7px;
+
   background-color: #fff;
   border-radius: 100%;
   font-size: 15px !important;
@@ -1132,11 +1213,27 @@ a.tooltip-menu-nav:hover .fa-caret-down {
   position: absolute;
   right: -15px;
   top: -15px;
-  border-radius: 100%;
+  border-radius: 100% !important;
   background-color: #0077b3 !important;
   border: none !important;
 }
 
 .close-btn:hover {
   background-color: #8cb5d4 !important;
+}
+
+.modal-body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: transparent;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+  border-radius: 0.3rem;
+  outline: 0;
+  border: 0px;
+  box-shadow: none;
+  padding: 0 !important;
 }
