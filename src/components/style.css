@@ -100,7 +100,7 @@ small,
   transition: all 200ms ease-in-out;
 }
 .header-module--is-sticky--VkInE .logo {
-  width: 400px;
+  width: 35em;
 }
 .burger-wrap {
   display: none;
@@ -924,7 +924,7 @@ a {
 
 @media (min-width: 1900px) {
   .header-row {
-    padding-top: 4em !important;
+    padding-top: 5.5em !important;
     transition: 0.3s;
   }
 
@@ -1077,7 +1077,6 @@ a.tooltip-menu-nav:hover .fa-caret-down {
 
 .fa-instagram {
   padding: 6px 7px;
-
   background-color: #fff;
   border-radius: 100%;
   font-size: 15px !important;

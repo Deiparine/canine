@@ -14,29 +14,31 @@ import Search from "../search"
 
 import { Dropdown } from "react-bootstrap"
 
-const allSitePage = {"edges": [
-  {
-    "node": {
-      "id": "SitePage /404/",
-      "title": "404",
-      "path": "/404"
-    }
-  },
-  {
-    "node": {
-      "id": "SitePage /about-us/",
-      "title": "About Us",
-      "path": "/about-us"
-    }
-  },
-  {
-    "node": {
-      "id": "SitePage /contact/",
-      "title": "Contact Us",
-      "path": "/contact"
-    }
-  }
-]}
+const allSitePage = {
+  edges: [
+    {
+      node: {
+        id: "SitePage /404/",
+        title: "404",
+        path: "/404",
+      },
+    },
+    {
+      node: {
+        id: "SitePage /about-us/",
+        title: "About Us",
+        path: "/about-us",
+      },
+    },
+    {
+      node: {
+        id: "SitePage /contact/",
+        title: "Contact Us",
+        path: "/contact",
+      },
+    },
+  ],
+}
 
 const Header = () => (
   <header>
@@ -48,10 +50,10 @@ const Header = () => (
       <div className={`header ${styl.header}`}>
         <div className="container-fluid p-0">
           <div className="row m-0">
-            <div className="col-md-1 pr-5 align-self-center burger-wrap">
+            <div className="col-md-1 align-self-center burger-wrap">
               <SideBarMenu />
             </div>
-            <div className="col-md-7">
+            <div className="col-md-6">
               <div className="pr-5">
                 <Link
                   to="/"
@@ -64,7 +66,7 @@ const Header = () => (
                 </Link>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-5">
               <div className="row text-right header-row">
                 <div className="col-12">
                   <ul className="list-unstyled list-inline">
@@ -87,7 +89,7 @@ const Header = () => (
                         alt="revstar"
                         style={{ width: "23px" }}
                       />
-                      <Search data={allSitePage}/>
+                      <Search data={allSitePage} />
                     </li>
                     <li className="list-inline-item phone-cta">
                       <a className="ml-3" href="tel:719-264-6666">
