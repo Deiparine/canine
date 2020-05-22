@@ -27,7 +27,7 @@ class knowledgeSearch extends React.Component {
     const post = posts.edges.filter(({ node }) => {
       return node.title.toLowerCase().includes(this.state.value)
     })
-    console.log(this.state.value)
+
     return (
       <>
          <input
