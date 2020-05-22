@@ -906,6 +906,7 @@ a {
 .dropdown-item {
   margin: 0 !important;
   color: #fff !important;
+  padding: 0.25rem 3rem !important ;
 }
 
 .dropdown-item:hover {
@@ -1089,7 +1090,7 @@ a.tooltip-menu-nav:hover .fa-caret-down {
 }
 
 .about-headline {
-  padding: 5em 0;
+  padding: 5em 0 1.5em;
 }
 
 .tplo {
