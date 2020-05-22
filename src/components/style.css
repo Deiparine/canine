@@ -842,7 +842,7 @@ a {
   justify-content: center;
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1900px) {
   .header-row {
     padding-top: 4em !important;
     transition: 0.3s;
@@ -1086,6 +1086,27 @@ a.tooltip-menu-nav:hover .fa-caret-down {
   .welcome-img {
     width: 15em;
     right: -8em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header-row {
+    position: relative;
+    right: -4.5em;
+  }
+}
+
+@media (min-width: 1599px) {
+  .header-row {
+    position: relative;
+    right: -8.5em;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-row {
+    position: relative;
+    right: -3.5em;
   }
 }
 
