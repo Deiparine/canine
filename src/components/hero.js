@@ -26,7 +26,7 @@ const Hero = ({ location }) => (
 
     <div className="container">
       <div className="row">
-        <div className="col-md-8">
+        <div className="col-md-8 p-0">
           <img
             src={Doghead}
             alt="Logo"

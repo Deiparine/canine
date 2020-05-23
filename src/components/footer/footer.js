@@ -66,7 +66,7 @@ const Footer = () => {
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                 </small>
-                <span className="ml-2">198 reviews</span>
+                <span className="ml-2 review-count">198 reviews</span>
               </li>
               <li>
                 <img src={Google} alt="Google" />
@@ -78,7 +78,7 @@ const Footer = () => {
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                 </small>
-                <span className="ml-2">270 reviews</span>
+                <span className="ml-2 review-count">270 reviews</span>
               </li>
               <li>
                 <img src={Yelp} alt="yelp" />
@@ -90,16 +90,16 @@ const Footer = () => {
                   <i className="fa fa-star"></i>
                   <i className="fa fa-star"></i>
                 </small>
-                <span className="ml-2">23 reviews</span>
+                <span className="ml-2 review-count">23 reviews</span>
               </li>
               <li>
                 <img src={Angies} alt="Angies" />
                 <span className="ml-4">A</span>
-                <span className="ml-4">63 reviews</span>
+                <span className="ml-4 angies-review">63 reviews</span>
               </li>
               <li>
-                <img src={BBB} alt="Angies" />
-                <small className="ml-4">A+</small>
+                <img src={BBB} alt="BBB" />
+                <small className="ml-4 bbb-rating">A+</small>
               </li>
             </ul>
           </div>

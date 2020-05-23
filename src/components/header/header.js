@@ -54,7 +54,7 @@ const Header = () => (
               <SideBarMenu />
             </div>
             <div className="col-md-6">
-              <div className="pr-5">
+              <div className="pr-md-5">
                 <Link
                   to="/"
                   style={{
@@ -82,7 +82,7 @@ const Header = () => (
                       </span>
                       <Tooltip />
                     </li>
-                    <li className="list-inline-item search-wrap">
+                    <li className="list-inline-item search-wrap p-relative">
                       <img
                         className="img-fluid mb-0 mr-2"
                         src={Searchicon}

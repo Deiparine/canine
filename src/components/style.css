@@ -89,6 +89,8 @@ small,
     z-index: 999; */
   padding-top: 15px;
   padding-bottom: 15px;
+  position: relative;
+  z-index: 10;
   /* background: rgba(185, 179, 179, 0.5); */
 }
 .menu-btn {
@@ -168,6 +170,39 @@ small,
   }
 }
 
+@media (max-width: 320px) {
+  .reviews-f span {
+    font-size: 10px !important;
+  }
+  i.fa.fa-star {
+    font-size: 10px;
+  }
+  .angies-review {
+    position: relative;
+    left: 6.3em;
+  }
+  .bbb-rating {
+    position: relative;
+    left: 2.2em;
+  }
+}
+
+@media (max-width: 414px) {
+  .reviews-f span {
+    font-size: 10px !important;
+  }
+  i.fa.fa-star {
+    font-size: 10px;
+  }
+  .angies-review {
+    position: relative;
+    left: 6.3em;
+  }
+  .bbb-rating {
+    position: relative;
+    left: 2.2em;
+  }
+}
 .tooltip-wrap-menu-contact .tooltiptext,
 .tooltip-wrap-menu .tooltiptext,
 .tooltip-wrap .tooltiptext {
@@ -824,7 +859,7 @@ a {
     display: none;
   }
   li.list-inline-item {
-    padding-right: 47px !important;
+    padding-right: 5px !important;
   }
   h2.bm-burger-button.float-left.ml-2 {
     transform: scale(1);
@@ -857,7 +892,8 @@ a {
   }
 
   .hero-wrap {
-    padding-bottom: 11.5em !important;
+    padding-bottom: 10.5em !important;
+    padding-top: 3em !important;
   }
 }
 
@@ -1095,8 +1131,9 @@ a.tooltip-menu-nav:hover .fa-caret-down {
 .welcome-mobile {
   z-index: 1;
   position: absolute;
-  left: 0;
-  top: -1em;
+  left: 1em;
+  width: 11em;
+  top: 1em;
 }
 
 .tooltip-reviews img {
@@ -1105,6 +1142,8 @@ a.tooltip-menu-nav:hover .fa-caret-down {
 
 .phone-cta a {
   color: #0077b3 !important;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .phone-cta a:hover {
@@ -1141,9 +1180,18 @@ a.tooltip-menu-nav:hover .fa-caret-down {
 @media (max-width: 767px) {
   .video-modal {
     position: relative !important;
-    top: 9em;
+    top: 8em;
     left: 0 !important;
     width: 100% !important;
+  }
+
+  .phone-cta a {
+    position: relative;
+    top: 10px;
+  }
+
+  .star-value {
+    padding: 0px 15px;
   }
 }
 
@@ -1201,14 +1249,14 @@ a.tooltip-menu-nav:hover .fa-caret-down {
 }
 
 .about-headline {
-  padding: 5em 0 1.5em;
+  padding: 3em 0 1.5em;
 }
 
 .tplo {
   position: absolute;
   width: 14em;
   z-index: 1;
-  top: -2em;
+  top: 0.6em;
   left: 3em;
 }
 
@@ -1245,4 +1293,18 @@ a.tooltip-menu-nav:hover .fa-caret-down {
   border: 0px;
   box-shadow: none;
   padding: 0 !important;
+}
+
+.result {
+  width: 80%;
+  top: 3em;
+  left: 2em;
+  padding: 10px;
+  background-color: #fff !important;
+  border: 1px solid #ccc;
+  z-index: 11;
+}
+
+.result ul li {
+  padding: 15px;
 }

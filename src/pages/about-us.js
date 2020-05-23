@@ -16,7 +16,7 @@ const AboutPage = ({ location }) => (
 
     <div className="container about-headline">
       <div className="row">
-        <div className="col-md-8">
+        <div className="col-md-8 p-0">
           <img
             src={Doghead}
             alt="Logo"
