@@ -1220,17 +1220,10 @@ a.tooltip-menu-nav:hover .fa-caret-down {
   }
 }
 
-@media (max-width: 768px) {
-  .welcome-img {
-    width: 15em;
-    right: -8em;
-  }
-}
-
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .header-row {
     position: relative;
-    right: -4.5em;
+    right: -8.5em !important;
   }
 }
 
@@ -1241,15 +1234,27 @@ a.tooltip-menu-nav:hover .fa-caret-down {
   }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 1399px) (min-width: 768px) {
   .header-row {
     position: relative;
-    right: -3.5em;
+    right: -6.5em !important;
   }
 }
 
 .about-headline {
   padding: 3em 0 1.5em;
+}
+
+@media (max-width: 1366px) and (min-width: 1025px) {
+  li.list-inline-item.phone-cta {
+    position: relative;
+    top: -2em;
+  }
+  .tooltip-wrap,
+  .search-wrap {
+    position: relative;
+    float: left !important;
+  }
 }
 
 .tplo {
