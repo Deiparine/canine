@@ -16,7 +16,7 @@ const AboutPage = ({ location }) => (
             <img
               src={Doghead}
               alt="Logo"
-              className="w-100 dog-head-img"
+              className="dog-head-img"
               style={{ marginTop: "-100px" }}
             />
             <h1 className="inner-page-title">TPLO</h1>
