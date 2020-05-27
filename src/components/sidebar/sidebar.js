@@ -64,6 +64,8 @@ class SideBarMenu extends React.Component {
           content: {
             position: "relative",
             overflow: "visible",
+            display: "inline-block",
+            marginBottom: "-40px",
             cursor: "pointer",
           },
         }}

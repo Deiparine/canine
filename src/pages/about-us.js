@@ -8,11 +8,10 @@ import Doghead from "../images/doghead.png"
 const AboutPage = ({ location }) => (
   <Layout>
     <SEO title="Home" />
-
-    <div className="container about-headline">
-      <div className="row">
-        <div className="col-md-8 p-0">
-          <div className="hero-page-title-wrapper">
+    <div className="innerpage-hero-wrap">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-8 p-0">
             <img
               src={Doghead}
               alt="Logo"

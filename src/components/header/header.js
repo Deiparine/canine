@@ -47,70 +47,85 @@ const Header = () => (
     >
       <div className="header">
         <div className="container">
-          <div className="d-flex justify-content-between">
-            <div>
+          <div className="mobile-header">
+            <SideBarMenu />
+            <div className="mobile-logo">
               <Link to="/">
-                <img src={Logo} className="header-logo-img" alt="Logo" />
+                <img src={Logo} className="img-fluid" />
               </Link>
             </div>
-            <div style={{ position: "relative" }}>
-              <div className="d-block pt-3">
-                <div className="row justify-content-between">
-                  <div className="col-4">
-                    <div className="header-reviews tooltip-wrap">
-                      <div className="d-flex">
-                        <img
-                          className="img-fluid header-stars"
-                          src={ReviewStars}
-                          alt=""
-                        />{" "}
-                        <span className="header-reviews-title mt-1">
-                          Reviews
-                        </span>
+            <div className="d-block mt-2 text-right">
+              <a href="tel:719.264.6666" className="header-phone">
+                (719) 264.6666
+              </a>
+            </div>
+          </div>
+          <div className="desktop-header">
+            <div className="row justify-content-between">
+              <div className="col-6">
+                <Link to="/">
+                  <img src={Logo} className="header-logo-img" alt="Logo" />
+                </Link>
+              </div>
+              <div className="col-6" style={{ position: "relative" }}>
+                <div className="d-block pt-3">
+                  <div className="row justify-content-between">
+                    <div className="col-4">
+                      <div className="header-reviews tooltip-wrap">
+                        <div className="d-flex">
+                          <img
+                            className="img-fluid header-stars"
+                            src={ReviewStars}
+                            alt=""
+                          />{" "}
+                          <span className="header-reviews-title mt-1">
+                            Reviews
+                          </span>
+                        </div>
+                        <Tooltip />
                       </div>
-                      <Tooltip />
                     </div>
-                  </div>
-                  <div className="col-4">
-                    <div className="header-search">
-                      <img className="search-icon" src={Searchicon} alt="" />
-                      <Search data={allSitePage} />
+                    <div className="col-4">
+                      <div className="header-search">
+                        <img className="search-icon" src={Searchicon} alt="" />
+                        <Search data={allSitePage} />
+                      </div>
                     </div>
-                  </div>
-                  <div className="col-4 mt-2 text-right">
-                    <a href="tel:719.264.6666" className="header-phone">
-                      (719) 264.6666
-                    </a>
+                    <div className="col-4 mt-2 text-right">
+                      <a href="tel:719.264.6666" className="header-phone">
+                        (719) 264.6666
+                      </a>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="header-nav-wrapper">
-                <ul class="nav justify-content-between">
-                  <li>
-                    <Link to="/">Home</Link>
-                  </li>
-                  <li className="tooltip-wrap-menu">
-                    <Link className="tooltip-menu-nav">
-                      Surgery <i className="fa fa-caret-down" />
-                    </Link>
-                    <TooltipSurgery />
-                  </li>
-                  <li className="tooltip-wrap-menu">
-                    <Link className="tooltip-menu-nav">
-                      Doctors <i className="fa fa-caret-down" />
-                    </Link>
-                    <TooltipDoctors />
-                  </li>
-                  <li>
-                    <Link to="/">Telemedicine</Link>
-                  </li>
-                  <li className="tooltip-wrap-menu">
-                    <Link className="tooltip-menu-nav">
-                      Contact <i className="fa fa-caret-down" />
-                    </Link>
-                    <TooltipContact />
-                  </li>
-                </ul>
+                <div className="header-nav-wrapper">
+                  <ul class="nav justify-content-between">
+                    <li>
+                      <Link to="/">Home</Link>
+                    </li>
+                    <li className="tooltip-wrap-menu">
+                      <Link className="tooltip-menu-nav">
+                        Surgery <i className="fa fa-caret-down" />
+                      </Link>
+                      <TooltipSurgery />
+                    </li>
+                    <li className="tooltip-wrap-menu">
+                      <Link className="tooltip-menu-nav">
+                        Doctors <i className="fa fa-caret-down" />
+                      </Link>
+                      <TooltipDoctors />
+                    </li>
+                    <li>
+                      <Link to="/">Telemedicine</Link>
+                    </li>
+                    <li className="tooltip-wrap-menu">
+                      <Link className="tooltip-menu-nav">
+                        Contact <i className="fa fa-caret-down" />
+                      </Link>
+                      <TooltipContact />
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>

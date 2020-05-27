@@ -16,10 +16,7 @@ export default () => (
       </Nav.Item>
       <Nav.Item>
         <Dropdown>
-          <Dropdown.Toggle
-            className="text-white"
-            id="dropdown-basic sidemenu-toggle"
-          >
+          <Dropdown.Toggle id="dropdown-basic sidemenu-toggle">
             SURGERY
           </Dropdown.Toggle>
 

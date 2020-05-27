@@ -869,17 +869,39 @@ a {
     font-weight: 700;
     line-height: 15px;
   }
-
-  .hero-wrap {
-    padding-bottom: 10.5em !important;
-    padding-top: 3em !important;
-  }
 }
 
 .hero-wrap {
-  padding-top: 5em;
-  padding-bottom: 2em;
+  /*padding-top: 5em;*/
+  padding-top: 230px;
+  padding-bottom: 10em;
   overflow: hidden;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .hero-wrap {
+    padding-bottom: 2em;
+    padding-top: 20em !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-wrap {
+    padding-bottom: 1em;
+  }
+}
+
+/*inner page hero*/
+.innerpage-hero-wrap {
+  padding-top: 230px;
+  padding-bottom: 1.5em;
+  overflow: hidden;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .innerpage-hero-wrap {
+    padding-bottom: 2em;
+    padding-top: 20em !important;
+  }
 }
 
 .dropdown .btn-primary:not(:disabled):not(.disabled):active,
