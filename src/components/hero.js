@@ -1,9 +1,7 @@
 import React from "react"
-import HeroSvg from "../images/heroSvg.svg"
 import Doghead from "../images/doghead.png"
-import video from "../images/dr-bauer-vid.png"
-import welcome from "../images/welcome.png"
-import welcomeMobile from "../images/welcome-mobile.png"
+import welcome from "../images/welcome.svg"
+import welcomeMobile from "../images/welcome-mobile.svg"
 import VideoModal from "../components/video-modal"
 
 const Hero = ({ location }) => (
@@ -30,7 +28,7 @@ const Hero = ({ location }) => (
           <img
             src={Doghead}
             alt="Logo"
-            className="w-100 dog-head-img"
+            className="dog-head-img"
             style={{ marginTop: "-100px" }}
           />
           <img
@@ -44,10 +42,9 @@ const Hero = ({ location }) => (
             alt="Welcome"
             className="welcome-mobile"
             style={{ marginTop: "-100px" }}
-          />{" "}
+          />
         </div>
         <div className="col-md-4 w-100 p-relative">
-          {" "}
           <div>
             <VideoModal />
           </div>

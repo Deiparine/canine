@@ -3,12 +3,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Hero from "../components/hero"
-
 import Doghead from "../images/doghead.png"
-
-import TPLO from "../images/tplo.png"
-import welcomeMobile from "../images/welcome-mobile.png"
 
 const AboutPage = ({ location }) => (
   <Layout>
@@ -17,18 +12,15 @@ const AboutPage = ({ location }) => (
     <div className="container about-headline">
       <div className="row">
         <div className="col-md-8 p-0">
-          <img
-            src={Doghead}
-            alt="Logo"
-            className="w-100 dog-head-img"
-            style={{ marginTop: "-100px" }}
-          />
-          <img
-            src={TPLO}
-            alt="Welcome"
-            className="tplo"
-            style={{ marginTop: "-100px" }}
-          />{" "}
+          <div className="hero-page-title-wrapper">
+            <img
+              src={Doghead}
+              alt="Logo"
+              className="w-100 dog-head-img"
+              style={{ marginTop: "-100px" }}
+            />
+            <h1 className="inner-page-title">TPLO</h1>
+          </div>
         </div>
         <div className="col-md-4 w-100 p-relative"> </div>
       </div>

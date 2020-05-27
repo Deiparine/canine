@@ -1,11 +1,15 @@
 import React from "react"
-import ReviewStar from "../../images/reviewstar.png"
-import Facebook from "../../images/facebook.png"
-import Google from "../../images/google.png"
-import Yelp from "../../images/yelp.png"
-import Angies from "../../images/angies.png"
+import ReviewStar from "../../images/stars-group.svg"
+import Facebook from "../../images/facebook.svg"
+import Google from "../../images/google.svg"
+import Yelp from "../../images/yelp.svg"
+import Angies from "../../images/angies-list.svg"
 import BBB from "../../images/BBB.svg"
 import Message from "../../images/message.png"
+
+// review stars
+import FiveStars from "../../images/review-stars/5-stars.svg"
+import FourSomethingStars from "../../images/review-stars/4-something-stars.svg"
 
 const Footer = () => {
   return (
@@ -43,20 +47,81 @@ const Footer = () => {
                 REVIEWS
               </h3>
             </div>
-
-            <ul className="list-unstyled m-0 reviews-list">
+            <div className="footer-reviews">
+              <div className="row no-gutters align-items-center review-row">
+                <div className="col review-logo-wrapper">
+                  <img src={Facebook} alt="Facebook" height="15px" />
+                </div>
+                <div className="col text-center">
+                  <span className="star-value">4.9</span>
+                </div>
+                <div className="col">
+                  <img
+                    src={FourSomethingStars}
+                    className="review-stars"
+                    alt="★★★★★"
+                  />
+                </div>
+                <div className="col text-right">
+                  <span className="review-count">198 reviews</span>
+                </div>
+              </div>
+              <div className="row no-gutters align-items-center review-row">
+                <div className="col review-logo-wrapper">
+                  <img src={Google} alt="Google" height="19px" />
+                </div>
+                <div className="col text-center">
+                  <span className="star-value">4.8</span>
+                </div>
+                <div className="col">
+                  <img
+                    src={FourSomethingStars}
+                    className="review-stars"
+                    alt="★★★★★"
+                  />
+                </div>
+                <div className="col text-right">
+                  <span className="review-count">198 reviews</span>
+                </div>
+              </div>
+              <div className="row no-gutters align-items-center review-row">
+                <div className="col review-logo-wrapper">
+                  {" "}
+                  <img src={Yelp} alt="Yelp" height="24px" />
+                </div>
+                <div className="col text-center">
+                  <span className="star-value pl-1">5</span>
+                </div>
+                <div className="col">
+                  <img src={FiveStars} className="review-stars" alt="★★★★★" />
+                </div>
+                <div className="col text-right">
+                  <span className="review-count">23 reviews</span>
+                </div>
+              </div>
+              <div className="row no-gutters align-items-center review-row">
+                <div className="col review-logo-wrapper">
+                  <img src={Angies} alt="Angie's List" height="15px" />
+                </div>
+                <div className="col">
+                  <span className="letter-rating">A</span>
+                </div>
+                <div className="col text-right">
+                  <span className="review-count">63 reviews</span>
+                </div>
+              </div>
+              <div className="row no-gutters align-items-center review-row">
+                <div className="col review-logo-wrapper">
+                  <img src={BBB} alt="Angie's List" height="17px" />
+                </div>
+                <div className="col">
+                  <span className="letter-rating">A+</span>
+                </div>
+                <div className="col"></div>
+              </div>
+            </div>
+            {/*<ul className="list-unstyled m-0 reviews-list">
               <li className="w-100">
-                {/* <div className="row">
-                  <div className="col-3 vertical-align">
-                    <img className="w-100" src={Facebook} alt="Facebook" />
-                  </div>
-                  <div className="col-3 vertical-align">
-                    <p className="star-value">4.9</p>
-                  </div>
-                  <div className="col-3"></div>
-                  <div className="col-3"></div>
-                </div> */}
-
                 <img src={Facebook} alt="Facebook" />
                 <small style={{ position: "relative" }}>
                   <span className="star-value mr-2">4.9</span>
@@ -101,15 +166,15 @@ const Footer = () => {
                 <img src={BBB} alt="BBB" />
                 <small className="ml-4 bbb-rating">A+</small>
               </li>
-            </ul>
+            </ul>*/}
           </div>
           <div className="col-lg-4 consultation-f text-white ">
-            <div className="d-flex">
+            <div className="d-flex align-items-center">
               <div className="consult-img-cont float-left">
                 <img src={Message} alt="Angies" />
               </div>
 
-              <h3 className="pl-3"> CONSULTATION</h3>
+              <h3 className="pl-3 mb-0"> CONSULTATION</h3>
             </div>
             <p className="mt-3 text-white">
               Call our office today and speak with one of our Pet Care
@@ -150,10 +215,10 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="sub-footer px-4">
-        © {new Date().getFullYear()} by Colorado Canine Orthopedics
-        <span className="float-left">
-          Designed and Powered by 
+      <div className="sub-footer">
+        <div className="container">
+          © {new Date().getFullYear()} by Colorado Canine Orthopedics Designed
+          and Powered by 
           <a
             class="webriq-link"
             target="_blank"
@@ -162,7 +227,7 @@ const Footer = () => {
           >
             IT Specialists, Inc.
           </a>
-        </span>
+        </div>
       </div>
     </footer>
   )

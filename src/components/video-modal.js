@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import { Modal, Button } from "react-bootstrap"
 import video from "../images/dr-bauer-vid.png"
 

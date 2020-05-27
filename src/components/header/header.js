@@ -4,15 +4,13 @@ import SideBarMenu from "../sidebar/sidebar"
 import Sticky from "react-sticky-el"
 import styl from "./header.module.css"
 import Logo from "../../images/logo.png"
-import ReviewStar from "../../images/reviewstar.png"
+import ReviewStar from "../../images/stars-group.svg"
 import Searchicon from "../../images/searchcon.png"
 import Tooltip from "../../components/tooltip"
 import TooltipSurgery from "../tooltip-surgery"
 import TooltipDoctors from "../tooltip-doctors"
 import TooltipContact from "../tooltip-contact"
 import Search from "../search"
-
-import { Dropdown } from "react-bootstrap"
 
 const allSitePage = {
   edges: [
@@ -45,7 +43,7 @@ const Header = () => (
     <Sticky
       className={styl.stickyWrapper}
       stickyClassName={styl.isSticky}
-      stickyStyle={{ transform: "unset", zIndex: "2" }}
+      stickyStyle={{ transform: "unset", zIndex: "99" }}
     >
       <div className={`header ${styl.header}`}>
         <div className="container-fluid p-0">
