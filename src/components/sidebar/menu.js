@@ -129,7 +129,7 @@ export default () => (
         </Card>
       </Accordion>
     </Nav>
-    <div className="header-search pt-5">
+    <div className="header-search mt-5">
       <img className="search-icon" src={Searchicon} alt="" />
       <Search data={allSitePage} />
     </div>
