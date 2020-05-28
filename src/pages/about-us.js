@@ -9,7 +9,7 @@ const AboutPage = ({ location }) => (
   <Layout>
     <SEO title="Home" />
     <div className="innerpage-hero-wrap">
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
           <div className="col-md-8 p-0">
             <img

@@ -21,7 +21,7 @@ class knowledgeSearch extends React.Component {
 
   render() {
     const style = {
-      position: 'absolute'
+      position: "absolute",
     }
     const { posts } = this.state
     const post = posts.edges.filter(({ node }) => {
@@ -30,21 +30,25 @@ class knowledgeSearch extends React.Component {
 
     return (
       <>
-         <input
-            className="form-control"
-            placeholder="search here"
-            value={this.state.value}
-            onChange={this.handleChange}
-          />
-          <div className={`result ${this.state.show ? "d-block" : "d-none"}`} style={style}>
-            <ul className="list-unstyled text-left mb-0">
-              {post.map((data, index) => {
-                return (
-                  <li><Link to={data.node.path}>{data.node.title}</Link></li>
-                )
-              })}
-            </ul>
-          </div>
+        <input
+          className="form-control"
+          value={this.state.value}
+          onChange={this.handleChange}
+        />
+        <div
+          className={`result ${this.state.show ? "d-block" : "d-none"}`}
+          style={style}
+        >
+          <ul className="list-unstyled text-left mb-0">
+            {post.map((data, index) => {
+              return (
+                <li>
+                  <Link to={data.node.path}>{data.node.title}</Link>
+                </li>
+              )
+            })}
+          </ul>
+        </div>
       </>
     )
   }

@@ -880,7 +880,7 @@ a {
 
 .hero-wrap {
   /*padding-top: 5em;*/
-  padding-top: 230px;
+  padding-top: 250px;
   padding-bottom: 10em;
   overflow: hidden;
 }
@@ -888,7 +888,7 @@ a {
 @media (min-width: 768px) and (max-width: 1023px) {
   .hero-wrap {
     padding-bottom: 2em;
-    padding-top: 20em !important;
+    padding-top: 22em !important;
   }
 }
 
@@ -900,14 +900,14 @@ a {
 
 /*inner page hero*/
 .innerpage-hero-wrap {
-  padding-top: 230px;
+  padding-top: 250px;
   padding-bottom: 1.5em;
   overflow: hidden;
 }
 @media (min-width: 768px) and (max-width: 1023px) {
   .innerpage-hero-wrap {
     padding-bottom: 2em;
-    padding-top: 20em !important;
+    padding-top: 22em !important;
   }
 }
 

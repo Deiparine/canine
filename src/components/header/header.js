@@ -46,21 +46,26 @@ const Header = () => (
       stickyStyle={{ transform: "unset", zIndex: "99" }}
     >
       <div className="header">
-        <div className="container-fluid">
-          <div className="mobile-header">
+        <div className="mobile-header">
+          <div className="container-fluid">
             <SideBarMenu />
-            <div className="mobile-logo">
+            <div className="mobile-logo px-md-3">
               <Link to="/">
-                <img src={Logo} className="img-fluid" />
+                <img src={Logo} className="w-100" />
               </Link>
             </div>
+          </div>
+          <div className="container">
             <div className="d-block mt-2 text-right">
               <a href="tel:719.264.6666" className="header-phone">
                 (719) 264.6666
               </a>
             </div>
           </div>
-          <div className="desktop-header">
+        </div>
+
+        <div className="desktop-header">
+          <div className="container-fluid">
             <div className="row justify-content-between">
               <div className="col-6">
                 <Link to="/">
@@ -69,8 +74,8 @@ const Header = () => (
               </div>
               <div className="col-6" style={{ position: "relative" }}>
                 <div className="d-block pt-3">
-                  <div className="row justify-content-between">
-                    <div className="col-4">
+                  <div className="d-flex justify-content-between">
+                    <div className="">
                       <div className="header-reviews tooltip-wrap">
                         <div className="d-flex">
                           <img
@@ -85,13 +90,13 @@ const Header = () => (
                         <Tooltip />
                       </div>
                     </div>
-                    <div className="col-4">
+                    <div className="">
                       <div className="header-search">
                         <img className="search-icon" src={Searchicon} alt="" />
                         <Search data={allSitePage} />
                       </div>
                     </div>
-                    <div className="col-4 mt-2 text-right">
+                    <div className=" mt-2 text-right">
                       <a href="tel:719.264.6666" className="header-phone">
                         (719) 264.6666
                       </a>
