@@ -4,6 +4,34 @@ import { Nav } from "react-bootstrap"
 import "./menu.css"
 import { Dropdown } from "react-bootstrap"
 import Logo from "../../images/logo.png"
+import Search from "../search"
+import Searchicon from "../../images/searchcon.png"
+
+const allSitePage = {
+  edges: [
+    {
+      node: {
+        id: "SitePage /404/",
+        title: "404",
+        path: "/404",
+      },
+    },
+    {
+      node: {
+        id: "SitePage /about-us/",
+        title: "About Us",
+        path: "/about-us",
+      },
+    },
+    {
+      node: {
+        id: "SitePage /contact/",
+        title: "Contact Us",
+        path: "/contact",
+      },
+    },
+  ],
+}
 
 export default () => (
   <div className="navigation">
@@ -79,5 +107,9 @@ export default () => (
         </Dropdown>
       </Nav.Item>
     </Nav>
+    <div className="header-search pt-5">
+      <img className="search-icon" src={Searchicon} alt="" />
+      <Search data={allSitePage} />
+    </div>
   </div>
 )

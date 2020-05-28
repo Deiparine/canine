@@ -71,24 +71,24 @@ const ReviewsTable = () => {
         </div>
       </div>
       <div className="row no-gutters justify-content-between review-row">
-        <div className="col-3 col-md-2 col-lg-4">
+        <div className="col-4">
           <img src={Angies} alt="Angie's List" height="15px" />
         </div>
-        <div className="col-5 text-left col-md-3 pl-4">
+        <div className="col-4 text-center">
           <span className="letter-rating">A</span>
         </div>
-        <div className="col-4 col-md-5 text-right">
+        <div className="col-4 text-right">
           <span className="review-count">63 reviews</span>
         </div>
       </div>
       <div className="row no-gutters justify-content-between review-row">
-        <div className="col-3 col-md-2 col-lg-4">
+        <div className="col-4">
           <img src={BBB} alt="BBB" height="17px" />
         </div>
-        <div className="col-5 text-left col-md-3 pl-4">
+        <div className="col-4 text-center">
           <span className="letter-rating">A+</span>
         </div>
-        <div className="col-4 col-md-5 text-right"></div>
+        <div className="col-4 text-right"></div>
       </div>
     </div>
   )

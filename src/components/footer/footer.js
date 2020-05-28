@@ -54,7 +54,7 @@ const Footer = () => {
           <div className="col-md-4 col-lg-4 col-xl-4 consultation-f text-white ">
             <div className="d-flex align-items-center">
               <div className="consult-img-cont float-left">
-                <img src={Message} alt="Angies" />
+                <img src={Message} alt="" />
               </div>
 
               <h3 className="pl-3 mb-0"> CONSULTATION</h3>
