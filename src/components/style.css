@@ -931,6 +931,12 @@ a {
   }
 }
 
+@media (max-width: 1024px) {
+  .header .header-phone {
+    font-size: 14px;
+  }
+}
+
 /*inner page hero*/
 .innerpage-hero-wrap {
   padding-top: 250px;
@@ -1414,5 +1420,11 @@ img.review-stars {
   .consultation-f {
     padding-left: 30px !important;
     padding-right: 30px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .header .header-phone {
+    font-size: 17px;
   }
 }
