@@ -51,7 +51,11 @@ const Header = () => (
             <SideBarMenu />
             <div className="mobile-logo px-md-3">
               <Link to="/">
-                <img src={Logo} className="w-100" />
+                <img
+                  src={Logo}
+                  className="w-100"
+                  alt="Colorado Canine Orthopedics"
+                />
               </Link>
             </div>
           </div>

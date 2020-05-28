@@ -1,11 +1,9 @@
 import React from "react"
-import ReviewStar from "../images/stars-group.svg"
 import Facebook from "../images/facebook.svg"
 import Google from "../images/google.svg"
 import Yelp from "../images/yelp.svg"
 import Angies from "../images/angies-list.svg"
 import BBB from "../images/BBB.svg"
-import Message from "../images/message.png"
 
 // review stars
 import FiveStars from "../images/review-stars/5-stars.svg"

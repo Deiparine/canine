@@ -1,0 +1,68 @@
+.navigation {
+  padding: 15px;
+
+  .nav-item,
+  .card {
+    border-bottom: 1px solid #d8d8d8 !important;
+  }
+
+  .nav-item a,
+  .card-header {
+    color: #212529;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-transform: uppercase;
+  }
+
+  .card,
+  .card-header,
+  .card-body {
+    padding: 0;
+    border-radius: 0;
+    background: 0;
+    border: 0;
+  }
+
+  .nav-item,
+  .card-header {
+    line-height: 1;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .card-header {
+    position: relative;
+    &:before {
+      content: "\f107";
+      position: absolute;
+      font-family: FontAwesome;
+      right: 15px;
+    }
+  }
+
+  .card {
+    margin-bottom: 0 !important;
+  }
+
+  .card-body {
+    background: #2588bf;
+    padding: 15px;
+
+    .nav-item {
+      border-bottom: 0 !important;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      &:first-child {
+        padding-top: 0;
+      }
+      &:last-child {
+        padding-bottom: 0;
+      }
+      a {
+        color: #ffffff;
+        text-transform: none;
+      }
+    }
+  }
+}
