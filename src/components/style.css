@@ -110,6 +110,13 @@ small,
   outline: none !important;
 }
 
+/*HEADER*/
+
+.header .header-logo-img {
+  max-width: 100%;
+  width: 100%;
+}
+
 /*FOOTER*/
 
 .consultation-f {
@@ -122,8 +129,35 @@ small,
   line-height: 19px;
 }
 
+.contact-f,
+.reviews-f,
+.consultation-f,
+.sub-footer {
+  z-index: 1;
+  position: relative;
+}
+
+footer.main-footer {
+  background: #d8d8d8;
+  position: relative;
+}
+
+.main-footer:after {
+  content: "";
+  width: 450px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  background: #2588bf;
+  z-index: 0;
+  top: 0;
+}
+
 /* Desktop only */
 @media (min-width: 1200px) {
+  .container {
+    max-width: 1200px; /* Based sa ila width sa XD */
+  }
   .consultation-f p {
     font-size: 17px;
     line-height: 23px;

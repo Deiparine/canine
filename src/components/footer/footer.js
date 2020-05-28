@@ -6,8 +6,8 @@ import ReviewsTable from "../../components/reviews-table"
 
 const Footer = () => {
   return (
-    <footer>
-      <div className="container-fluid main-footer">
+    <footer className="main-footer">
+      <div className="container">
         <div className="row flex-column-reverse flex-md-row">
           <div className="col-md-4 col-lg-4 col-xl-5 contact-f">
             <div className="footer-mobile-padding">
@@ -104,7 +104,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="sub-footer">
-        <div className="container-fluid">
+        <div className="container">
           © {new Date().getFullYear()} by Colorado Canine Orthopedics Designed
           and Powered by 
           <a

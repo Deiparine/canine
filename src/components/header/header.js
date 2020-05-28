@@ -69,7 +69,7 @@ const Header = () => (
         </div>
 
         <div className="desktop-header">
-          <div className="container-fluid">
+          <div className="container">
             <div className="row justify-content-between">
               <div className="col-6">
                 <Link to="/">
