@@ -7,10 +7,10 @@ import ReviewsTable from "../../components/reviews-table"
 const Footer = () => {
   return (
     <footer>
-      <div className="container-fluid">
-        <div className="row flex-column-reverse flex-lg-row">
-          <div className="col-lg-4 col-xl-5 contact-f">
-            <div className="footer-tablet-padding">
+      <div className="container-fluid main-footer">
+        <div className="row flex-column-reverse flex-md-row">
+          <div className="col-md-4 col-lg-4 col-xl-5 contact-f">
+            <div className="footer-mobile-padding">
               <h3>CONTACT US</h3>
               <p>
                 Colorado Canine Orthopedics
@@ -33,8 +33,8 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-xl-3 reviews-f">
-            <div className="footer-tablet-padding">
+          <div className="col-md-4 col-lg-4 col-xl-3 reviews-f">
+            <div className="footer-mobile-padding">
               <div className="review-f-heading">
                 <h3>
                   <img
@@ -49,56 +49,9 @@ const Footer = () => {
               <div className="reviews-table">
                 <ReviewsTable />
               </div>
-              {/*<ul className="list-unstyled m-0 reviews-list">
-              <li className="w-100">
-                <img src={Facebook} alt="Facebook" />
-                <small style={{ position: "relative" }}>
-                  <span className="star-value mr-2">4.9</span>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                </small>
-                <span className="ml-2 review-count">198 reviews</span>
-              </li>
-              <li>
-                <img src={Google} alt="Google" />
-                <small style={{ position: "relative" }}>
-                  <span className="star-value mr-2">4.9</span>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                </small>
-                <span className="ml-2 review-count">270 reviews</span>
-              </li>
-              <li>
-                <img src={Yelp} alt="yelp" />
-                <small style={{ position: "relative" }}>
-                  <span className="star-value mr-2">4.9</span>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                  <i className="fa fa-star"></i>
-                </small>
-                <span className="ml-2 review-count">23 reviews</span>
-              </li>
-              <li>
-                <img src={Angies} alt="Angies" />
-                <span className="ml-4">A</span>
-                <span className="ml-4 angies-review">63 reviews</span>
-              </li>
-              <li>
-                <img src={BBB} alt="BBB" />
-                <small className="ml-4 bbb-rating">A+</small>
-              </li>
-            </ul>*/}
             </div>
           </div>
-          <div className="col-lg-4 col-xl-4 consultation-f text-white ">
+          <div className="col-md-4 col-lg-4 col-xl-4 consultation-f text-white ">
             <div className="d-flex align-items-center">
               <div className="consult-img-cont float-left">
                 <img src={Message} alt="Angies" />
@@ -112,7 +65,7 @@ const Footer = () => {
             </p>
 
             <div className="row text-center footer-btn-row">
-              <div className="col-xl-5 p-0">
+              <div className="col-5 col-md-12 col-xl-5 p-0">
                 <div className="spacer h-100">
                   <button
                     className="btn-footer w-100 h-100"
@@ -122,7 +75,7 @@ const Footer = () => {
                   </button>
                 </div>
               </div>
-              <div className="col-xl-7 p-0">
+              <div className="col-7 col-md-12 col-xl-7 p-0">
                 <div className="spacer h-100">
                   <button className="btn-footer w-100 h-100">
                     SCHEDULE ONLINE

@@ -115,7 +115,6 @@ small,
 .consultation-f {
   position: relative;
   background: #2588bf;
-  padding: 40px 60px !important;
 }
 
 .consultation-f p {
@@ -141,7 +140,7 @@ small,
 
   .consultation-f {
     background: #2588bf;
-    padding: 30px !important;
+    /*padding: 30px !important;*/
   }
 
   .consultation-f h3 {
@@ -237,7 +236,7 @@ small,
 }
 
 .reviews-f {
-  padding: 40px 30px !important;
+  /*padding: 40px 30px !important;*/
   background: #d8d8d8;
 }
 
@@ -252,7 +251,7 @@ small,
 
 .contact-f {
   background: #d8d8d8;
-  padding: 40px 20px !important;
+  /*padding: 40px 30px 40px 15px !important;*/
   color: #626162 !important;
   padding-bottom: 15px !important;
 }
@@ -856,7 +855,7 @@ a {
   .consultation-f {
     position: relative;
     background: #0077b3;
-    padding: 20px 30px !important;
+    /*padding: 20px 30px !important;*/
   }
 
   .review-f {
@@ -1355,9 +1354,17 @@ img.review-stars {
 }
 
 /*padding adjustment for footer content*/
-@media (min-width: 768px) and (max-width: 991px) {
-  .footer-tablet-padding {
-    padding-left: 40px;
-    padding-right: 40px;
+
+.contact-f,
+.reviews-f,
+.consultation-f {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 992px) {
+  .consultation-f {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
   }
 }
