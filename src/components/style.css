@@ -1353,3 +1353,11 @@ img.review-stars {
     display: block;
   }
 }
+
+/*padding adjustment for footer content*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer-tablet-padding {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}

@@ -10,43 +10,46 @@ const Footer = () => {
       <div className="container-fluid">
         <div className="row flex-column-reverse flex-lg-row">
           <div className="col-lg-4 col-xl-5 contact-f">
-            <h3>CONTACT US</h3>
-            <p>
-              Colorado Canine Orthopedics
-              <br />
-              5528 North Nevada
-              <br />
-              Colorado Springs, CO 80918
-            </p>
-            <p>
-              Tel: <a href="tel:719-264-6666">719-264-6666</a> <br /> Email:{" "}
-              <a href="mailto:hello@canineortho.com">hello@canineortho.com</a>
-            </p>
-            <div className="connect mt-4">
-              {" "}
-              <h3 className="mr-3 mt-2">
-                CONNECT WITH US!
-                <i class="fa fa-facebook ml-2 mr-2 social-icon"></i>
-                <i class="fa fa-instagram mr-2 social-icon"></i>
-              </h3>
+            <div className="footer-tablet-padding">
+              <h3>CONTACT US</h3>
+              <p>
+                Colorado Canine Orthopedics
+                <br />
+                5528 North Nevada
+                <br />
+                Colorado Springs, CO 80918
+              </p>
+              <p>
+                Tel: <a href="tel:719-264-6666">719-264-6666</a> <br /> Email:{" "}
+                <a href="mailto:hello@canineortho.com">hello@canineortho.com</a>
+              </p>
+              <div className="connect mt-4">
+                {" "}
+                <h3 className="mr-3 mt-2">
+                  CONNECT WITH US!
+                  <i class="fa fa-facebook ml-2 mr-2 social-icon"></i>
+                  <i class="fa fa-instagram mr-2 social-icon"></i>
+                </h3>
+              </div>
             </div>
           </div>
           <div className="col-lg-4 col-xl-3 reviews-f">
-            <div className="review-f-heading">
-              <h3>
-                <img
-                  className="img-fluid mb-0 mr-2"
-                  src={ReviewStar}
-                  alt="revstar"
-                  style={{ width: "50px" }}
-                />
-                REVIEWS
-              </h3>
-            </div>
-            <div className="reviews-table">
-              <ReviewsTable />
-            </div>
-            {/*<ul className="list-unstyled m-0 reviews-list">
+            <div className="footer-tablet-padding">
+              <div className="review-f-heading">
+                <h3>
+                  <img
+                    className="img-fluid mb-0 mr-2"
+                    src={ReviewStar}
+                    alt="revstar"
+                    style={{ width: "50px" }}
+                  />
+                  REVIEWS
+                </h3>
+              </div>
+              <div className="reviews-table">
+                <ReviewsTable />
+              </div>
+              {/*<ul className="list-unstyled m-0 reviews-list">
               <li className="w-100">
                 <img src={Facebook} alt="Facebook" />
                 <small style={{ position: "relative" }}>
@@ -93,6 +96,7 @@ const Footer = () => {
                 <small className="ml-4 bbb-rating">A+</small>
               </li>
             </ul>*/}
+            </div>
           </div>
           <div className="col-lg-4 col-xl-4 consultation-f text-white ">
             <div className="d-flex align-items-center">
