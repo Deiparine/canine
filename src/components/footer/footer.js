@@ -13,20 +13,23 @@ import FourSomethingStars from "../../images/review-stars/4-something-stars.svg"
 
 const Footer = () => {
   return (
-    <footer className="">
-      <div className="container-fluid main-footer">
+    <footer>
+      <div className="container-fluid">
         <div className="row flex-column-reverse flex-lg-row">
           <div className="col-lg-5 contact-f">
             <h3>CONTACT US</h3>
             <p>
-              Colorado Canine Orthopedics <br /> 5528 North Nevada Colorado
-              Springs, CO 80918
+              Colorado Canine Orthopedics
+              <br />
+              5528 North Nevada
+              <br />
+              Colorado Springs, CO 80918
             </p>
             <p>
               Tel: <a href="tel:719-264-6666">719-264-6666</a> <br /> Email:{" "}
               <a href="mailto:hello@canineortho.com">hello@canineortho.com</a>
             </p>
-            <div className="connect mt-5">
+            <div className="connect mt-4">
               {" "}
               <h3 className="mr-3 mt-2">
                 CONNECT WITH US!
@@ -48,6 +51,23 @@ const Footer = () => {
               </h3>
             </div>
             <div className="footer-reviews">
+              <div className="row">
+                <div className="col-md-4">
+                  <img src={Facebook} alt="Facebook" height="15px" />
+                </div>
+                <div className="col-md-4">
+                  <div className="d-inline-block text-left d-md-block text-md-center">
+                    <span className="star-value">4.9</span>
+                  </div>
+                  <div className="d-inline-block text-left d-md-block text-md-center">
+                    <img
+                      src={FourSomethingStars}
+                      className="review-stars"
+                      alt="★★★★★"
+                    />
+                  </div>
+                </div>
+              </div>
               <div className="row no-gutters align-items-center review-row">
                 <div className="col review-logo-wrapper">
                   <img src={Facebook} alt="Facebook" height="15px" />
@@ -182,16 +202,21 @@ const Footer = () => {
             </p>
 
             <div className="row text-center footer-btn-row">
-              <div className="col-6 p-0">
-                <div className="spacer">
-                  <button className="btn-footer w-100" href="tel:719-264-6666">
+              <div className="col-5 p-0">
+                <div className="spacer h-100">
+                  <button
+                    className="btn-footer w-100 h-100"
+                    href="tel:719-264-6666"
+                  >
                     719-264-6666
                   </button>
                 </div>
               </div>
-              <div className="col-6 p-0">
-                <div className="spacer">
-                  <button className="btn-footer w-100">SCHEDULE ONLINE</button>
+              <div className="col-7 p-0">
+                <div className="spacer h-100">
+                  <button className="btn-footer w-100 h-100">
+                    SCHEDULE ONLINE
+                  </button>
                 </div>
               </div>
               <div className="col-12 p-0">
@@ -216,7 +241,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="sub-footer">
-        <div className="container">
+        <div className="container-fluid">
           © {new Date().getFullYear()} by Colorado Canine Orthopedics Designed
           and Powered by 
           <a

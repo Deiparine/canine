@@ -26,7 +26,7 @@ class VideoModal extends React.Component {
     return (
       <div>
         <section className="start-schedule-area">
-          <div className="container">
+          <div>
             <div className="row">
               <div className="col-md-10 mx-auto">
                 <div className="video-modal-btn">

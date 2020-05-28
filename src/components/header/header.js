@@ -46,7 +46,7 @@ const Header = () => (
       stickyStyle={{ transform: "unset", zIndex: "99" }}
     >
       <div className="header">
-        <div className="container">
+        <div className="container-fluid">
           <div className="mobile-header">
             <SideBarMenu />
             <div className="mobile-logo">
