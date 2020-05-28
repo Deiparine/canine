@@ -1,22 +1,15 @@
 import React from "react"
-import ReviewStar from "../../images/stars-group.svg"
-import Facebook from "../../images/facebook.svg"
-import Google from "../../images/google.svg"
-import Yelp from "../../images/yelp.svg"
-import Angies from "../../images/angies-list.svg"
-import BBB from "../../images/BBB.svg"
 import Message from "../../images/message.png"
+import ReviewStar from "../../images/stars-group.svg"
 
-// review stars
-import FiveStars from "../../images/review-stars/5-stars.svg"
-import FourSomethingStars from "../../images/review-stars/4-something-stars.svg"
+import ReviewsTable from "../../components/reviews-table"
 
 const Footer = () => {
   return (
     <footer>
       <div className="container-fluid">
         <div className="row flex-column-reverse flex-lg-row">
-          <div className="col-lg-5 contact-f">
+          <div className="col-lg-4 col-xl-5 contact-f">
             <h3>CONTACT US</h3>
             <p>
               Colorado Canine Orthopedics
@@ -38,7 +31,7 @@ const Footer = () => {
               </h3>
             </div>
           </div>
-          <div className="col-lg-3 reviews-f">
+          <div className="col-lg-4 col-xl-3 reviews-f">
             <div className="review-f-heading">
               <h3>
                 <img
@@ -50,95 +43,8 @@ const Footer = () => {
                 REVIEWS
               </h3>
             </div>
-            <div className="footer-reviews">
-              <div className="row">
-                <div className="col-md-4">
-                  <img src={Facebook} alt="Facebook" height="15px" />
-                </div>
-                <div className="col-md-4">
-                  <div className="d-inline-block text-left d-md-block text-md-center">
-                    <span className="star-value">4.9</span>
-                  </div>
-                  <div className="d-inline-block text-left d-md-block text-md-center">
-                    <img
-                      src={FourSomethingStars}
-                      className="review-stars"
-                      alt="★★★★★"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="row no-gutters align-items-center review-row">
-                <div className="col review-logo-wrapper">
-                  <img src={Facebook} alt="Facebook" height="15px" />
-                </div>
-                <div className="col text-center">
-                  <span className="star-value">4.9</span>
-                </div>
-                <div className="col">
-                  <img
-                    src={FourSomethingStars}
-                    className="review-stars"
-                    alt="★★★★★"
-                  />
-                </div>
-                <div className="col text-right">
-                  <span className="review-count">198 reviews</span>
-                </div>
-              </div>
-              <div className="row no-gutters align-items-center review-row">
-                <div className="col review-logo-wrapper">
-                  <img src={Google} alt="Google" height="19px" />
-                </div>
-                <div className="col text-center">
-                  <span className="star-value">4.8</span>
-                </div>
-                <div className="col">
-                  <img
-                    src={FourSomethingStars}
-                    className="review-stars"
-                    alt="★★★★★"
-                  />
-                </div>
-                <div className="col text-right">
-                  <span className="review-count">198 reviews</span>
-                </div>
-              </div>
-              <div className="row no-gutters align-items-center review-row">
-                <div className="col review-logo-wrapper">
-                  {" "}
-                  <img src={Yelp} alt="Yelp" height="24px" />
-                </div>
-                <div className="col text-center">
-                  <span className="star-value pl-1">5</span>
-                </div>
-                <div className="col">
-                  <img src={FiveStars} className="review-stars" alt="★★★★★" />
-                </div>
-                <div className="col text-right">
-                  <span className="review-count">23 reviews</span>
-                </div>
-              </div>
-              <div className="row no-gutters align-items-center review-row">
-                <div className="col review-logo-wrapper">
-                  <img src={Angies} alt="Angie's List" height="15px" />
-                </div>
-                <div className="col">
-                  <span className="letter-rating">A</span>
-                </div>
-                <div className="col text-right">
-                  <span className="review-count">63 reviews</span>
-                </div>
-              </div>
-              <div className="row no-gutters align-items-center review-row">
-                <div className="col review-logo-wrapper">
-                  <img src={BBB} alt="Angie's List" height="17px" />
-                </div>
-                <div className="col">
-                  <span className="letter-rating">A+</span>
-                </div>
-                <div className="col"></div>
-              </div>
+            <div className="reviews-table">
+              <ReviewsTable />
             </div>
             {/*<ul className="list-unstyled m-0 reviews-list">
               <li className="w-100">
@@ -188,7 +94,7 @@ const Footer = () => {
               </li>
             </ul>*/}
           </div>
-          <div className="col-lg-4 consultation-f text-white ">
+          <div className="col-lg-4 col-xl-4 consultation-f text-white ">
             <div className="d-flex align-items-center">
               <div className="consult-img-cont float-left">
                 <img src={Message} alt="Angies" />
@@ -202,7 +108,7 @@ const Footer = () => {
             </p>
 
             <div className="row text-center footer-btn-row">
-              <div className="col-5 p-0">
+              <div className="col-xl-5 p-0">
                 <div className="spacer h-100">
                   <button
                     className="btn-footer w-100 h-100"
@@ -212,7 +118,7 @@ const Footer = () => {
                   </button>
                 </div>
               </div>
-              <div className="col-7 p-0">
+              <div className="col-xl-7 p-0">
                 <div className="spacer h-100">
                   <button className="btn-footer w-100 h-100">
                     SCHEDULE ONLINE

@@ -5,7 +5,7 @@ import Sticky from "react-sticky-el"
 import Logo from "../../images/logo.png"
 import ReviewStars from "../../images/stars-group.svg"
 import Searchicon from "../../images/searchcon.png"
-import Tooltip from "../../components/tooltip"
+import TooltipReviews from "../../components/tooltip-reviews"
 import TooltipSurgery from "../tooltip-surgery"
 import TooltipDoctors from "../tooltip-doctors"
 import TooltipContact from "../tooltip-contact"
@@ -87,7 +87,7 @@ const Header = () => (
                             Reviews
                           </span>
                         </div>
-                        <Tooltip />
+                        <TooltipReviews />
                       </div>
                     </div>
                     <div className="">

@@ -1271,29 +1271,25 @@ a.tooltip-menu-nav:hover .fa-caret-down {
   padding: 0 !important;
 }
 
-.footer-reviews {
+.reviews-table {
   opacity: 0.67;
 }
 
-.footer-reviews .review-row {
+.review-row {
   border-bottom: 3px solid #ccc;
   padding-bottom: 7px;
-  padding-top: 7px;
+  margin-top: 15px;
   font-weight: 600;
   font-size: 13px;
   color: #626162;
 }
 
-.review-logo-wrapper {
-  width: 5em;
-}
-
-img.review-site-logo {
-  height: 19px;
-}
-
 img.review-stars {
   width: 5em;
+}
+
+.review-count {
+  text-transform: lowercase;
 }
 
 /*for angie's list and bbb letter ratings*/
@@ -1343,3 +1339,17 @@ img.review-stars {
   }
 }
 /*end of inner page hero with blue title text*/
+
+/*reviews*/
+@media (max-width: 768px) {
+  .review-stars {
+    margin-top: -2px;
+  }
+}
+@media (min-width: 768px) {
+  .star-value {
+    margin-top: -10px;
+    margin-bottom: -7px;
+    display: block;
+  }
+}
