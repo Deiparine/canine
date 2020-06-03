@@ -8,7 +8,7 @@ const TooltipSurgery = () => {
       <div className="tooltip-nav">
         <ul>
           <li>
-            <Link to="/">ACL TEARS</Link>
+            <Link to="/acl-tears">ACL TEARS</Link>
             <Link to="/">TPLO</Link>
             <Link to="/">HIP DYSPLASIA</Link>
             <Link to="/">TOTAL HIP REPLACEMENT</Link>

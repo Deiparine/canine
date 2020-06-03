@@ -1,10 +1,10 @@
 import React from "react"
-import Doghead from "../images/doghead.png"
-import welcome from "../images/welcome.svg"
-import welcomeMobile from "../images/welcome-mobile.svg"
-import VideoModal from "../components/video-modal"
+import Doghead from "../../images/doghead.png"
+import welcomeMobile from "../../images/welcome-mobile.svg"
+import VideoModal from "../video-modal"
+import welcome from "../../images/welcome.svg"
 
-const Hero = ({ location }) => (
+const Hero = ({ location, aclTears }) => (
   <div className="hero-wrap">
     {/* {location.pathname === "/" ? (
       <img
@@ -36,7 +36,13 @@ const Hero = ({ location }) => (
             alt="Welcome"
             className="welcome-img"
             style={{ marginTop: "-100px" }}
-          />{" "}
+          />
+          {/* <img
+            src={aclTears}
+            alt="Welcome"
+            className="welcome-img"
+            style={{ marginTop: "-100px" }}
+          /> */}
           <img
             src={welcomeMobile}
             alt="Welcome"

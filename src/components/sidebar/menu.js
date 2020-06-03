@@ -51,7 +51,7 @@ export default () => (
           <Accordion.Collapse eventKey="surgery">
             <Card.Body>
               <Nav.Item>
-                <Link to="/">ACL Tears</Link>
+                <Link to="/acl-tears">ACL Tears</Link>
               </Nav.Item>
               <Nav.Item>
                 <Link to="/">TPLO</Link>
