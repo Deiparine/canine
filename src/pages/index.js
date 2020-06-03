@@ -8,6 +8,7 @@ import Hero from "../components/hero/hero"
 
 // import MySwiper from "../components/swiper/swiper"
 import AboutImg from "../../static/assets/girl-with-her-dog.png"
+import welcome from "../images/welcome.svg"
 
 // Reactstrap
 import { Container, Row, Col } from "reactstrap"
@@ -22,7 +23,7 @@ import { Container, Row, Col } from "reactstrap"
 const IndexPage = ({ location }) => (
   <Layout>
     <SEO title="Home" />
-    <Hero location={location} />
+    <Hero location={location} heroTextImage={welcome} />
     {/* <div className="about-wrapper py-5"> */}
     <Container>
       <Row className="about-section">
