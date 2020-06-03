@@ -36,7 +36,7 @@ const Acl = ({ location }) => (
     <SEO title="ACL Tears" />
     <Hero location={location} aclTears={aclTears} />
     {/* <div className="about-wrapper py-5"> */}
-    <Container className="acl-container">
+    <Container className="acl-container my-5">
       <Row className="mb-3 pb-5">
         <Col md={8}>
           <h3 className="mb-5">
@@ -153,7 +153,9 @@ const Acl = ({ location }) => (
           <div className="d-flex">
             <div className="d-flex flex-column justify-content-around ">
               <img src={arrowDownCurve} alt="Curved down arrow" />
-              <p>Almost all dogs with ACL problems sit to the side</p>
+              <p style={{ fontFamily: "Caveat", fontSize: 29 }}>
+                Almost all dogs with ACL problems sit to the side
+              </p>
             </div>
             <img src={brownDogSitting} alt="Sitting brown dog" />
           </div>
