@@ -109,16 +109,26 @@ const Acl = ({ location }) => (
           </div>
         </Col>
         <Col md={4} className="d-flex flex-column justify-content-between">
-          <div>
+          <div className="mb-5">
             <img src={aclVideo1} alt="Acl vid 1" style={{ width: "100%" }} />
           </div>
           <div>
             <img src={aclVideo2} alt="Acl vid 2" style={{ width: "100%" }} />
-            <p className="mb-0">Figure 4</p>
+            <p
+              className="text-right mt-3"
+              style={{ fontFamily: "Caveat", fontSize: 29 }}
+            >
+              Figure 4
+            </p>
           </div>
           <div>
             <img src={aclVideo2} alt="Acl vid 2" style={{ width: "100%" }} />
-            <p className="mb-0">Figure 5</p>
+            <p
+              className="text-right mt-3"
+              style={{ fontFamily: "Caveat", fontSize: 29 }}
+            >
+              Figure 5
+            </p>
           </div>
         </Col>
       </Row>
@@ -176,11 +186,9 @@ const Acl = ({ location }) => (
           </div>
           <div>
             <img src={aclVideo2} alt="Acl vid 2" style={{ width: "100%" }} />
-            <p className="text-right">Figure 4</p>
           </div>
           <div>
             <img src={aclVideo2} alt="Acl vid 2" style={{ width: "100%" }} />
-            <p className="text-right">Figure 5</p>
           </div>
           <div>
             <img
