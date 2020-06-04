@@ -11,9 +11,14 @@ import aclTears from "../images/acl-tears/acl-tears.svg"
 import BrownDog from "../images/acl-tears/brown-hairy-dog.png"
 import Telemed from "../images/acl-tears/telemed.jpg"
 import tibialSloped from "../images/acl-tears/tibial-sloped.jpg"
-import slidingRad from "../images/acl-tears/sliding-rad.jpg"
-import aclVideo1 from "../images/acl-tears/acl-vid-01.jpg"
-import aclVideo2 from "../images/acl-tears/acl-vid-02.jpg"
+import slidingRad from "../images/acl-tears/sliding-rad.gif"
+import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
+import aclVideo2 from "../images/acl-tears/acl-figure-3.jpg"
+import aclVideo3 from "../images/acl-tears/acl-figure-4.jpg"
+import aclVideo4 from "../images/acl-tears/acl-clinical-signs.jpg"
+import aclVideo5 from "../images/acl-tears/acl-sit-test.jpg"
+import aclVideo6 from "../images/acl-tears/acl-arthroscopy.jpg"
+import aclVideo7 from "../images/acl-tears/acl-tears-treatment.jpg"
 import arrowDownCurve from "../images/acl-tears/arrow-down-curve.svg"
 import brownDogSitting from "../images/acl-tears/brown-dog-sitting.jpg"
 import Arthroscopy from "../images/acl-tears/arthrscopy-set-up.jpg"
@@ -119,7 +124,7 @@ const Acl = ({ location }) => {
               <img
                 src={slidingRad}
                 alt="Sliding Rad"
-                style={{ width: "auto" }}
+                style={{ width: "50%" }}
               />
             </div>
           </Col>
@@ -133,16 +138,16 @@ const Acl = ({ location }) => {
                 className="text-right mt-3"
                 style={{ fontFamily: "Caveat", fontSize: 29 }}
               >
-                Figure 4
+                Figure 3
               </p>
             </div>
             <div>
-              <img src={aclVideo2} alt="Acl vid 2" style={{ width: "100%" }} />
+              <img src={aclVideo3} alt="Acl vid 2" style={{ width: "100%" }} />
               <p
                 className="text-right mt-3"
                 style={{ fontFamily: "Caveat", fontSize: 29 }}
               >
-                Figure 5
+                Figure 4
               </p>
             </div>
           </Col>
@@ -200,15 +205,15 @@ const Acl = ({ location }) => {
           </Col>
           <Col md={5} className="d-flex flex-column justify-content-between">
             <div>
-              <img src={aclVideo1} alt="Acl vid 1" style={{ width: "100%" }} />
+              <img src={aclVideo4} alt="Acl vid 1" style={{ width: "100%" }} />
             </div>
-            <div>
-              <img src={aclVideo2} alt="Acl vid 2" style={{ width: "100%" }} />
+            <div className="mt-5">
+              <img src={aclVideo5} alt="Acl vid 2" style={{ width: "100%" }} />
             </div>
-            <div>
-              <img src={aclVideo2} alt="Acl vid 2" style={{ width: "100%" }} />
+            <div className="mt-5">
+              <img src={aclVideo6} alt="Acl vid 2" style={{ width: "100%" }} />
             </div>
-            <div>
+            <div className="mt-5">
               <img
                 src={Arthroscopy}
                 alt="Arthroscopy"
@@ -281,7 +286,7 @@ const Acl = ({ location }) => {
             </div>
           </Col>
           <Col md={5} className="d-flex flex-column justify-content-between">
-            <img src={aclVideo1} alt="Acl vid 1" style={{ width: "100%" }} />
+            <img src={aclVideo7} alt="Acl vid 1" style={{ width: "100%" }} />
             <img src={dogWithLeash} alt="Acl vid 1" style={{ width: "100%" }} />
           </Col>
         </Row>
