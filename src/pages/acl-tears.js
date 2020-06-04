@@ -115,16 +115,18 @@ const Acl = ({ location }) => {
               time due to this chronic biomechanical stress. This degenerative
               process is well documented via arthroscopy (figure 4).
             </p>
-            <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-between ">
               <img
                 src={tibialSloped}
                 alt="Tibial Sloped"
-                style={{ width: "auto" }}
+                style={{ width: "45%" }}
+                className="tibial-sloped"
               />
               <img
                 src={slidingRad}
                 alt="Sliding Rad"
-                style={{ width: "50%" }}
+                style={{ width: "45%" }}
+                className="tibial-sloped"
               />
             </div>
           </Col>
@@ -171,13 +173,23 @@ const Acl = ({ location }) => {
               the problem to wax and wane for weeks or even months.
             </p>
             <div className="d-flex">
-              <div className="d-flex flex-column justify-content-around ">
-                <img src={arrowDownCurve} alt="Curved down arrow" />
+              <div className="d-flex flex-column justify-content-around">
+                <img
+                  src={arrowDownCurve}
+                  alt="Curved down arrow"
+                  style={{ width: "inherit" }}
+                />
                 <p style={{ fontFamily: "Caveat", fontSize: 29 }}>
                   Almost all dogs with ACL problems sit to the side
                 </p>
               </div>
-              <img src={brownDogSitting} alt="Sitting brown dog" />
+              <div style={{ width: "100%" }}>
+                <img
+                  src={brownDogSitting}
+                  alt="Sitting brown dog"
+                  style={{ width: "100%" }}
+                />
+              </div>
             </div>
             <p>
               Palpation is accurate in diagnosing canine ACL tears in dogs with
