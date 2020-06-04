@@ -4,7 +4,8 @@ import welcomeMobile from "../../images/welcome-mobile.svg"
 import VideoModal from "../video-modal"
 
 const Hero = ({ heroTextImage, location, styles }) => {
-  const path = ["/acl-tears"]
+  const path = ["acl-tears"]
+  console.log(location)
 
   return (
     <div className="hero-wrap">
@@ -25,7 +26,7 @@ const Hero = ({ heroTextImage, location, styles }) => {
                 style={styles || { marginTop: "-100px" }}
               />
             ) : null}
-            {path.includes(location.pathname) ? (
+            {path.includes(location.pathname.replace(/\//g, "")) ? (
               <img
                 src={heroTextImage}
                 alt="Welcome"
@@ -42,9 +43,7 @@ const Hero = ({ heroTextImage, location, styles }) => {
             )}
           </div>
           <div className="col-md-4 w-100 p-relative">
-            <div>
-              <VideoModal />
-            </div>
+            <VideoModal />
           </div>
         </div>
       </div>

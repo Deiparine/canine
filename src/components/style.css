@@ -1114,6 +1114,11 @@ a {
   .welcome-img {
     display: none;
   }
+
+  .welcome-img {
+    position: absolute;
+    left: 0;
+  }
 }
 
 .welcome-img {
@@ -1279,11 +1284,22 @@ a.tooltip-menu-nav:hover .fa-caret-down {
   color: #626162 !important;
 }
 
-.video-modal {
+/* .video-modal {
   position: absolute;
-  bottom: -21em;
   left: -7em;
-  width: 26em !important;
+  width: 100% !important;
+} */
+
+@media (min-width: 768px) {
+  section.vmodal-container {
+    position: absolute;
+    bottom: 0;
+    left: -11em;
+  }
+}
+
+.video-modal {
+  width: 100%;
 }
 
 @media (max-width: 767px) {
