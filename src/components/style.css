@@ -1298,9 +1298,9 @@ a.tooltip-menu-nav:hover .fa-caret-down {
   }
 }
 
-@media (min-width: 1920px) {
+@media (max-width: 1920px) and (min-width: 1367px) {
   .welcome-img {
-    top: 9em;
+    top: 9em !important;
   }
 }
 
