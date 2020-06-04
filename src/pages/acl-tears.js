@@ -24,7 +24,7 @@ import brownDogSitting from "../images/acl-tears/brown-dog-sitting.jpg"
 import Arthroscopy from "../images/acl-tears/arthrscopy-set-up.jpg"
 import dogWithLeash from "../images/acl-tears/dog-with-leash.jpg"
 
-// import MySwiper from "../components/swiper/swiper"
+// import MySwiper from "../components/swiper/swiper
 
 // Reactstrap
 import { Container, Row, Col } from "reactstrap"
@@ -115,7 +115,7 @@ const Acl = ({ location }) => {
               time due to this chronic biomechanical stress. This degenerative
               process is well documented via arthroscopy (figure 4).
             </p>
-            <div className="d-flex justify-content-between ">
+            <div className="d-flex justify-content-between mb-5">
               <img
                 src={tibialSloped}
                 alt="Tibial Sloped"
@@ -282,7 +282,7 @@ const Acl = ({ location }) => {
                 surgical method in restoration of normal joint biomechanics.
               </p>
             </div>
-            <div className="mt-5">
+            <div className="mt-5 mb-4">
               <p>
                 Biomechanical repairs address the underlying biomechanical cause
                 of canine ACL tears and the TPLO procedure is the most widely
