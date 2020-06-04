@@ -9,6 +9,8 @@ import Hero from "../components/hero/hero"
 // import MySwiper from "../components/swiper/swiper"
 import AboutImg from "../../static/assets/girl-with-her-dog.png"
 import welcome from "../images/welcome.svg"
+import welcomeMobile from "../images/welcome-mobile.svg"
+import video from "../images/dr-bauer-vid.png"
 
 // Reactstrap
 import { Container, Row, Col } from "reactstrap"
@@ -23,7 +25,15 @@ import { Container, Row, Col } from "reactstrap"
 const IndexPage = ({ location }) => (
   <Layout>
     <SEO title="Home" />
-    <Hero location={location} heroTextImage={welcome} />
+    <Hero videoImg={video}>
+      <img src={welcome} alt="Welcome" className="welcome-img" />
+      <img
+        src={welcomeMobile}
+        alt="Welcome"
+        className="welcome-mobile"
+        style={{ marginTop: "-100px" }}
+      />
+    </Hero>
     {/* <div className="about-wrapper py-5"> */}
     <Container>
       <Row className="about-section">

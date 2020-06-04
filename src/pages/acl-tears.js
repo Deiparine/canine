@@ -8,6 +8,7 @@ import Hero from "../components/hero/hero"
 
 // images
 import aclTears from "../images/acl-tears/acl-tears.svg"
+import aclVid from "../images/acl-tears/acl-vid.png"
 import BrownDog from "../images/acl-tears/brown-hairy-dog.png"
 import Telemed from "../images/acl-tears/telemed.jpg"
 import tibialSloped from "../images/acl-tears/tibial-sloped.jpg"
@@ -41,11 +42,19 @@ const Acl = ({ location }) => {
   return (
     <Layout>
       <SEO title="ACL Tears" />
-      <Hero
-        heroTextImage={aclTears}
-        location={location}
-        styles={{ marginTop: "-5rem", right: "-24em", width: "30em" }}
-      />
+      <Hero videoImg={aclVid}>
+        <img
+          src={aclTears}
+          alt="Welcome"
+          className="welcome-img "
+          styles={{ marginTop: "-5rem", right: "-24em", width: "30em" }}
+        />
+        <img
+          src={aclTears}
+          alt="Welcome"
+          className="welcome-mobile acl-tears"
+        />
+      </Hero>
       {/* <div className="about-wrapper py-5"> */}
       <Container className="acl-container my-5">
         <Row className="mb-3 pb-5">

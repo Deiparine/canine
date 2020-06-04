@@ -1,9 +1,8 @@
 import React from "react"
 import { Modal, Button } from "react-bootstrap"
-import video from "../images/dr-bauer-vid.png"
 
 class VideoModal extends React.Component {
-  constructor(props, context) {
+  constructor(props, context, location) {
     super(props, context)
 
     this.handleShow = this.handleShow.bind(this)
@@ -30,13 +29,15 @@ class VideoModal extends React.Component {
             <div className="row">
               <div className="col-md-10 mx-auto">
                 <div className="video-modal-btn">
-                  <img
-                    onClick={this.handleShow}
-                    src={video}
-                    alt="video"
-                    className="video-modal"
-                    style={{ marginTop: "-100px" }}
-                  />
+                  {this.props.videoImg ? (
+                    <img
+                      onClick={this.handleShow}
+                      src={this.props.videoImg}
+                      alt="video"
+                      className="video-modal"
+                      style={{ marginTop: "-100px" }}
+                    />
+                  ) : null}
                 </div>
               </div>
             </div>
@@ -60,7 +61,7 @@ class VideoModal extends React.Component {
               <div className="">
                 <img
                   onClick={this.handleShow}
-                  src={video}
+                  src={this.props.videoImg}
                   alt="video"
                   className="w-100"
                 />

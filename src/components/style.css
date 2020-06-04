@@ -1124,13 +1124,23 @@ a {
 .welcome-img {
   position: absolute;
   width: 22em;
-  right: -11em;
+  right: -15em;
+  top: -3em;
   z-index: 1;
 }
 
 @media (min-width: 768px) {
   .welcome-mobile {
     display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .welcome-mobile {
+    top: 0;
+  }
+  .acl-tears {
+    top: -6em !important;
   }
 }
 
