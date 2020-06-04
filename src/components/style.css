@@ -1293,8 +1293,14 @@ a.tooltip-menu-nav:hover .fa-caret-down {
 @media (min-width: 768px) {
   section.vmodal-container {
     position: absolute;
-    bottom: 0;
-    left: -11em;
+    bottom: 5em;
+    left: -9em;
+  }
+}
+
+@media (min-width: 1920px) {
+  .welcome-img {
+    top: 9em;
   }
 }
 
