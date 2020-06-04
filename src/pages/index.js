@@ -27,7 +27,7 @@ const IndexPage = ({ location }) => (
     {/* <div className="about-wrapper py-5"> */}
     <Container>
       <Row className="about-section">
-        <Col md={8} sm={12} className="about-first-wrapper">
+        <Col md={7} sm={12} className="about-first-wrapper">
           <div className="about-first-section">
             <h4 className="mt-0">ABOUT US</h4>
             <p>
@@ -81,7 +81,7 @@ const IndexPage = ({ location }) => (
             </p>
           </div>
         </Col>
-        <Col md={4} sm={12} className="d-flex about-second-wrapper">
+        <Col md={5} sm={12} className="d-flex about-second-wrapper">
           <div className="about-second-section d-flex flex-column justify-content-between">
             <div>
               <h4>TITLE WILL GO HERE FEES</h4>

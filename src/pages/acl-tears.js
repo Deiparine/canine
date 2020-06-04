@@ -44,7 +44,7 @@ const Acl = ({ location }) => {
       {/* <div className="about-wrapper py-5"> */}
       <Container className="acl-container my-5">
         <Row className="mb-3 pb-5">
-          <Col md={8}>
+          <Col md={7}>
             <h3 className="mb-5">
               ACL Tears represent the most common orthopedic condition seen in
               dogs.
@@ -68,7 +68,7 @@ const Acl = ({ location }) => {
               confirmed by an arthroscopic examination.
             </p>
           </Col>
-          <Col md={4}>
+          <Col md={5}>
             <img
               src={BrownDog}
               alt="Brown Hairy Dog"
@@ -77,7 +77,7 @@ const Acl = ({ location }) => {
           </Col>
         </Row>
         <Row className="my-3 py-5">
-          <Col md={8}>
+          <Col md={7}>
             <h4>Telemedicine appointments for canine ACL tears and TPLO</h4>
             <p>
               Colorado Canine Orthopedics is offering telemedicine appointments
@@ -92,12 +92,12 @@ const Acl = ({ location }) => {
               appointment.
             </p>
           </Col>
-          <Col md={4}>
+          <Col md={5}>
             <img src={Telemed} alt="Telemed" style={{ width: "100%" }} />
           </Col>
         </Row>
         <Row className="my-3 py-5">
-          <Col md={8}>
+          <Col md={7}>
             <h4>How Canine ACL Tears Occur</h4>
             <p>
               Canine ACL tears are the result of chronic biomechanical wear
@@ -123,7 +123,7 @@ const Acl = ({ location }) => {
               />
             </div>
           </Col>
-          <Col md={4} className="d-flex flex-column justify-content-between">
+          <Col md={5} className="d-flex flex-column justify-content-between">
             <div className="mb-5">
               <img src={aclVideo1} alt="Acl vid 1" style={{ width: "100%" }} />
             </div>
@@ -148,7 +148,7 @@ const Acl = ({ location }) => {
           </Col>
         </Row>
         <Row className="my-3 py-5">
-          <Col md={8}>
+          <Col md={7}>
             <h4>Clinical Signs & Diagnosis</h4>
             <p>
               The clinical signs seen in dogs with ACL tears are quite variable,
@@ -198,7 +198,7 @@ const Acl = ({ location }) => {
               accurate, non-invasive arthroscopic diagnosis.{" "}
             </p>
           </Col>
-          <Col md={4} className="d-flex flex-column justify-content-between">
+          <Col md={5} className="d-flex flex-column justify-content-between">
             <div>
               <img src={aclVideo1} alt="Acl vid 1" style={{ width: "100%" }} />
             </div>
@@ -218,7 +218,7 @@ const Acl = ({ location }) => {
           </Col>
         </Row>
         <Row className="my-3 pt-5">
-          <Col md={8}>
+          <Col md={7}>
             <h4>What are the treatment options for dogs with ACL tears?</h4>
             <div>
               <p>
@@ -280,7 +280,7 @@ const Acl = ({ location }) => {
               </button>
             </div>
           </Col>
-          <Col md={4} className="d-flex flex-column justify-content-between">
+          <Col md={5} className="d-flex flex-column justify-content-between">
             <img src={aclVideo1} alt="Acl vid 1" style={{ width: "100%" }} />
             <img src={dogWithLeash} alt="Acl vid 1" style={{ width: "100%" }} />
           </Col>
