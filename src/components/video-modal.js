@@ -24,25 +24,16 @@ class VideoModal extends React.Component {
   render() {
     return (
       <div>
-        <section className="vmodal-container">
-          <div>
-            <div className="row">
-              <div className="col-md-10 mx-auto">
-                <div className="video-modal-btn">
-                  {this.props.videoImg ? (
-                    <img
-                      onClick={this.handleShow}
-                      src={this.props.videoImg}
-                      alt="video"
-                      className="video-modal"
-                      style={{ marginTop: "-100px" }}
-                    />
-                  ) : null}
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        <div className="video-modal-btn">
+          {this.props.videoImg ? (
+            <img
+              onClick={this.handleShow}
+              src={this.props.videoImg}
+              alt="video"
+              className="video-img img-fluid"
+            />
+          ) : null}
+        </div>
         <Modal
           show={this.state.show}
           onHide={this.handleClose}

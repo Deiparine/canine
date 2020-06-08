@@ -4,7 +4,7 @@ import React from "react"
 import Layout from "../components/layout"
 // import Image from "../components/image"
 import SEO from "../components/seo"
-import Hero from "../components/hero/hero"
+import Hero from "../components/hero-adjusted/hero"
 
 // images
 import aclTears from "../images/acl-tears/acl-tears.svg"
@@ -42,19 +42,7 @@ const Acl = ({ location }) => {
   return (
     <Layout>
       <SEO title="ACL Tears" />
-      <Hero videoImg={aclVid}>
-        <img
-          src={aclTears}
-          alt="Welcome"
-          className="welcome-img "
-          styles={{ marginTop: "-5rem", right: "-24em", width: "30em" }}
-        />
-        <img
-          src={aclTears}
-          alt="Welcome"
-          className="welcome-mobile acl-tears"
-        />
-      </Hero>
+      <Hero videoImg={aclVid} pageTitle="ACL Tears" />
       {/* <div className="about-wrapper py-5"> */}
       <Container className="acl-container my-5">
         <Row className="mb-3 pb-5">

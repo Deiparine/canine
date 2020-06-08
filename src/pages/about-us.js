@@ -3,70 +3,167 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Doghead from "../images/doghead.png"
+import Hero from "../components/hero-adjusted/hero"
+import tploVid from "../images/tplo-vid.png"
+import Fig4 from "../images/tplo-fig4.jpg"
+import Fig5 from "../images/tplo-fig5.jpg"
+
+import dog from "../images/tplo-dog.jpg"
+import telemedicine from "../images/tplo-telemedicine.jpg"
 
 const AboutPage = ({ location }) => (
   <Layout>
     <SEO title="Home" />
-    <div className="innerpage-hero-wrap">
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col-md-8 p-0">
-            <img
-              src={Doghead}
-              alt="Logo"
-              className="dog-head-img"
-              style={{ marginTop: "-100px" }}
-            />
-            <h1 className="inner-page-title">TPLO</h1>
-          </div>
-        </div>
-        <div className="col-md-4 w-100 p-relative"> </div>
-      </div>
-    </div>
-
+    <Hero videoImg={tploVid} pageTitle="TPLO" />
     <div className="page-content">
       <div className="container">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-          qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
-          dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
-          quia non numquam eius modi tempora incidunt ut labore et dolore magnam
-          aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
-          exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex
-          ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in
-          ea voluptate velit esse quam nihil molestiae consequatur, vel illum
-          qui dolorem eum fugiat quo voluptas nulla pariatur?
-        </p>
-        <p>
-          But I must explain to you how all this mistaken idea of denouncing
-          pleasure and praising pain was born and I will give you a complete
-          account of the system, and expound the actual teachings of the great
-          explorer of the truth, the master-builder of human happiness. No one
-          rejects, dislikes, or avoids pleasure itself, because it is pleasure,
-          but because those who do not know how to pursue pleasure rationally
-          encounter consequences that are extremely painful.
-        </p>
-        <p className="mb-5">
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui
-          blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
-          et quas molestias excepturi sint occaecati cupiditate non provident,
-          similique sunt in culpa qui officia deserunt mollitia animi, id est
-          laborum et dolorum fuga.
-        </p>
+        <div className="mb-5 ">
+          <div className="row">
+            <div className="col-md-8">
+              <h2>
+                Tibial Plateau Leveling Osteotomy (TPLO) is the optimal
+                treatment for dogs with ACL tears.
+              </h2>
+              <div className="mb-5  ">
+                <h6>Overview</h6>
+                <p>
+                  Canine ACL tears are by far, the most common small animal
+                  orthopedic condition seen in veterinary medicine. Fortunately,
+                  it is also one of the most successfully treated conditions in
+                  veterinary medicine. In the majority of canine ACL cases, TPLO
+                  is the ideal treatment with minimal complications, lowest risk
+                  of “breakdown” requiring additional surgery and relative quick
+                  return to comfortable, full activity. Thanks to nerve blocks
+                  and epidural analgesia, almost all dogs undergoing TPLO at
+                  Colorado Canine Orthopedics can safely and comfortably return
+                  home the day of surgery. Of course, we have a 24/7 ICU if
+                  needed or requested.
+                </p>
+              </div>
+              <div className="mb-5">
+                <h6>
+                  What procedure would veterinary surgeons choose you their own
+                  pet?
+                </h6>
+                <p>
+                  In a recent published survey, by far the majority of
+                  board-certified surgeons would choose the TPLO if their own
+                  dog had an ACL tear.
+                </p>
+              </div>
+            </div>
+            <div className="col-md-4 text-center">
+              <img src={dog} alt="" className="img-fluid" />
+            </div>
+          </div>
+        </div>
+        <div className="mb-5 ">
+          <div className="row">
+            <div className="col-md-8">
+              <div className="mb-5  ">
+                <h6>Telemedicine appointments for canine ACL tears and TPLO</h6>
+                <p>
+                  Colorado Canine Orthopedics is offering telemedicine
+                  appointments to discuss ACL tears, the TPLO surgery, aftercare
+                  and prognosis. A short cell phone video is helpful during the
+                  appointment as are X-rays, if available. We’ll set-up a
+                  computer virtual meeting and walk you through each step. It’s
+                  easier than you think! One of our experienced board-certified
+                  surgeons will evaluate the information, suggest the likely
+                  diagnosis and answer any questions you might have regarding
+                  canine ACL tears and optimal treatment options. Please call us
+                  at 719-264-6666 to schedule your appointment.
+                </p>
+              </div>
+              <div className="mb-5">
+                <h6>
+                  Consultation, surgery and back home all in the same day.{" "}
+                </h6>
+                <p>
+                  Colorado Canine Orthopedics offers consultation followed by
+                  surgery the same day. Patients can undergo an examination and
+                  radiographic review, followed by minimally invasive
+                  arthroscopy and TPLO surgery (if needed) all in the same day.
+                </p>
+              </div>
+            </div>
+            <div className="col-md-4 text-center">
+              <img src={telemedicine} alt="" className="img-fluid" />
+            </div>
+          </div>
+        </div>
+        <div className="mb-5 ">
+          <div className="row">
+            <div className="col-md-8">
+              <div className="mb-5  ">
+                <h6>How the TPLO works</h6>
+                <p>
+                  Tibial plateau leveling osteotomy helps restore joint
+                  biomechanics by altering the joint’s “sliding motion” thought
+                  to be the underlying cause of canine ACL tears. The downward,
+                  backward sliding motion of the femur is eliminated following
+                  surgery resulting in joint stability (figure 1).{" "}
+                </p>
+                <p>
+                  The stability is primarily a straight-forward biomechanical
+                  effect of the level tibial plateau, however the TPLO also
+                  slightly repositions the caudal cruciate ligament, which adds
+                  to overall joint stability. Recent biomechanical studies have
+                  examined dogs with normal stifle joints, dogs with ACL tears
+                  and dogs that have undergone current surgical techniques and
+                  found the TPLO is superior in restoring normal joint
+                  biomechanics.
+                </p>
+                <p>
+                  A typical TPLO procedure takes an experienced surgeon about
+                  one hour. Anesthesia is extremely safe using today’s
+                  anesthetic agents, equipment and monitoring devices.
+                </p>
+                <p>
+                  Once the patient is safely anesthetized, nerve blocks are
+                  performed effectively numbing the leg for approximately 20
+                  hours. Similar blocks are routinely used in human orthopedics.
+                </p>
+                <p>
+                  Prior to surgery, but while under general anesthesia, specific
+                  radiographs (X-Rays) are obtained and imported into an
+                  orthopedic planning computer program to determine the tibial
+                  plateau angle and preoperative planning (figure 2).{" "}
+                </p>
+                <p>
+                  Once in the operating room, an arthroscope is inserted through
+                  a several millimeter opening to confirm the diagnosis, debride
+                  (clean-up) the torn ligament and inspect the remainder of the
+                  joint and treat meniscal pathology (figure 3).
+                </p>
+                <p>
+                  Following arthroscopy, a small surgical approach is made to
+                  the top of the tibia and the osteotomy is performed and
+                  secured using a specialized titanium bone plate (figure 4 and
+                  5).
+                </p>
+              </div>
+              <div className="row">
+                <div className="col-md-8">
+                  <div className="row">
+                    <div className="col-md-6">
+                      <figure>
+                        <img src={Fig4} alt="" className="w-100 img-fluid" />
+                        <figcaption>Figure 4</figcaption>
+                      </figure>
+                    </div>
+                    <div className="col-md-6">
+                      <figure>
+                        <img src={Fig5} alt="" className="w-100 img-fluid" />
+                        <figcaption>Figure 5</figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </Layout>

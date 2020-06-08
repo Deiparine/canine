@@ -4,7 +4,7 @@ import React from "react"
 import Layout from "../components/layout"
 // import Image from "../components/image"
 import SEO from "../components/seo"
-import Hero from "../components/hero/hero"
+// import Hero from "../components/hero/hero"
 
 // import MySwiper from "../components/swiper/swiper"
 import AboutImg from "../../static/assets/girl-with-her-dog.png"
@@ -14,6 +14,9 @@ import video from "../images/dr-bauer-vid.png"
 
 // Reactstrap
 import { Container, Row, Col } from "reactstrap"
+
+// adjusted hero
+import Hero from "../components/hero-adjusted/hero"
 
 // images
 // import aboutImg from "../images/about-img.png"
