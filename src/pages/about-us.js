@@ -5,11 +5,18 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Hero from "../components/hero-adjusted/hero"
 import tploVid from "../images/tplo-vid.png"
+
+import Fig2 from "../images/tplo-fig2.jpg"
 import Fig4 from "../images/tplo-fig4.jpg"
 import Fig5 from "../images/tplo-fig5.jpg"
 
 import dog from "../images/tplo-dog.jpg"
 import telemedicine from "../images/tplo-telemedicine.jpg"
+import surgery from "../images/tplo-surgery.jpg"
+import video1 from "../images/tplo-how-tplo-works.jpg"
+import video2 from "../images/tplo-video-animation.jpg"
+import video3 from "../images/tplo-8-weeks.jpg"
+import video4 from "../images/tplo-why-us.jpg"
 
 const AboutPage = ({ location }) => (
   <Layout>
@@ -143,24 +150,36 @@ const AboutPage = ({ location }) => (
                   5).
                 </p>
               </div>
+
               <div className="row">
-                <div className="col-md-8">
-                  <div className="row">
-                    <div className="col-md-6">
-                      <figure>
-                        <img src={Fig4} alt="" className="w-100 img-fluid" />
-                        <figcaption>Figure 4</figcaption>
-                      </figure>
-                    </div>
-                    <div className="col-md-6">
-                      <figure>
-                        <img src={Fig5} alt="" className="w-100 img-fluid" />
-                        <figcaption>Figure 5</figcaption>
-                      </figure>
-                    </div>
-                  </div>
+                <div className="col-6">
+                  <figure>
+                    <img src={Fig4} alt="" className="w-100 img-fluid" />
+                    <figcaption>Figure 4</figcaption>
+                  </figure>
+                </div>
+                <div className="col-6">
+                  <figure>
+                    <img src={Fig5} alt="" className="w-100 img-fluid" />
+                    <figcaption>Figure 5</figcaption>
+                  </figure>
                 </div>
               </div>
+            </div>
+            <div className="col-md-4">
+              <img src={video1} className="mb-4 w-100 img-fluid" alt="" />
+              <figure className="mb-4">
+                <img src={video2} alt="" className="w-100 img-fluid" />
+                <figcaption>Figure 1</figcaption>
+              </figure>
+              <figure className="mb-4">
+                <img src={Fig5} alt="" className="w-100 img-fluid" />
+                <figcaption>Figure 2</figcaption>
+              </figure>
+              <figure className="mb-4">
+                <img src={surgery} alt="" className="w-100 img-fluid" />
+                <figcaption>Figure 3</figcaption>
+              </figure>
             </div>
           </div>
         </div>
