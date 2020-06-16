@@ -54,7 +54,7 @@ export default () => (
                 <Link to="/acl-tears">ACL Tears</Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/">TPLO</Link>
+                <Link to="/tplo">TPLO</Link>
               </Nav.Item>
               <Nav.Item>
                 <Link to="/">Hip Dysplasia</Link>
