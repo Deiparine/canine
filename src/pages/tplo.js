@@ -39,8 +39,8 @@ const Acl = ({ location }) => {
   console.log(location)
   return (
     <Layout>
-      <SEO title="ACL Tears" />
-      <Hero videoImg={aclVid} pageTitle="ACL Tears" />
+      <SEO title="TPLO" />
+      <Hero videoImg={aclVid} pageTitle="TPLO" />
       {/* <div className="about-wrapper py-5"> */}
       <Container className="acl-container my-5">
         <Row className="mb-3 pb-5">
