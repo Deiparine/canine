@@ -5,6 +5,7 @@
     height: 100%;
     min-height: 200px;
     z-index: 1;
+
     .dog-bg {
       position: absolute;
       left: -35%;
@@ -15,6 +16,7 @@
       background-size: contain;
     }
   }
+
   .hero-video {
     padding-top: 12rem;
   }
@@ -27,11 +29,13 @@
     left: 0;
     width: 53%;
   }
+
   .hero-adjustment {
     padding-top: 5rem;
     padding-bottom: 2rem;
     overflow: hidden;
   }
+
   .video-img {
     cursor: pointer;
   }
@@ -41,6 +45,7 @@
     position: relative;
     top: 40px;
     left: 0;
+
     h1 {
       font-family: "Caveat", cursive;
       text-transform: uppercase;
@@ -90,6 +95,7 @@
     top: 15%;
     width: 30%;
   }
+
   .hero-adjustment {
     padding-top: 16rem;
     padding-bottom: 4rem;
@@ -101,7 +107,7 @@
     z-index: 1;
     right: 0;
     left: auto;
-    width: 40%;
+    width: 52%;
     top: 2rem;
 
     h1 {
@@ -116,15 +122,18 @@
   .hero-dog-bg {
     margin-top: -19rem;
   }
+
   .welcome-img {
     right: 20%;
     top: 2rem !important;
     width: 30%;
   }
+
   .hero-adjustment {
     padding-top: 19rem;
     padding-bottom: 8rem;
   }
+
   /*page titles for inner pages*/
   .inner-page-title {
     h1 {
