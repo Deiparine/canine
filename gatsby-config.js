@@ -18,6 +18,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sitemap`,
+    `gatsby-plugin-use-query-params`,
     // {
     //   resolve: `gatsby-plugin-feed`,
     //   options: {
