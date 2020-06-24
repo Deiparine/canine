@@ -29,10 +29,10 @@ const UseQueryParamExample = props => {
 	console.log("searching", search)
 	return (
 		<Layout>
-			<SEO title="Article" description="Article Page" />
+			<SEO title="Article" />
 			<Hero videoImg={tploVid} pageTitle="TPLO" />
 			<div className="page-content">
-				<Container>
+				<Container className="py-5">
 					<div>
 						<form>
 							<div className=" d-inline">
