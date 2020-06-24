@@ -18,6 +18,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sitemap`,
+    `gatsby-plugin-use-query-params`,
     // {
     //   resolve: `gatsby-plugin-feed`,
     //   options: {
@@ -79,18 +80,19 @@ module.exports = {
         implementation: require("sass"),
       },
     },
-    // {
-    //   resolve: "gatsby-source-sanity",
-    //   options: {
-    //     projectId: process.env.SANITY_PROJECT_ID,
-    //     dataset: process.env.SANITY_PROJECT_DATASET,
-    //     // a token with read permissions is required
-    //     // if you have a private dataset
-    //     token: process.env.SANITY_TOKEN,
-    //     watchMode: true,
-    //     overlayDrafts: true,
-    //   },
-    // },
+    {
+      resolve: "gatsby-source-sanity",
+      options: {
+        projectId: "3elb76f4",
+        dataset: "production",
+        // a token with read permissions is required
+        // if you have a private dataset
+        token:
+          "skcCSqCyTNMxFjF3OPd3plrtl2DI4nYDdTZhJSg0C1uxrCd0qlteVmnhvoisA2qunBcR1bWe8fJccNuOQPEhqcQsVjQILxxzvqFTRuINJU3xmE2A7UxBR1nhboi5EZ13IdNhpjJIgogFnNCYfa1hgaj5zNvUshvLl2bvBnrzDMZNSyE06nBA",
+        watchMode: true,
+        overlayDrafts: true,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
