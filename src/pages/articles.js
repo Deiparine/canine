@@ -15,15 +15,15 @@ const customLabels = {
 	next: <i class="fa fa-angle-right" />,
 }
 
-const UseQueryParamExample = props => {
+const UseQueryParamExample = (props) => {
 	// something like: ?x=123&foo=bar in the URL
 
 	const [search] = useQueryParam("search", StringParam)
 	const { allSanityArticle } = props.data
 	console.log("allSanityArticle", allSanityArticle)
-	const alldata = allSanityArticle.edges.map(t => t.node)
+	const alldata = allSanityArticle.edges.map((t) => t.node)
 	const filterData = search
-		? alldata.filter(t => t.title.includes(search ? search : null))
+		? alldata.filter((t) => t.title.includes(search ? search : null))
 		: alldata
 	console.log("filterData", filterData)
 	console.log("searching", search)
@@ -95,12 +95,17 @@ class Article extends React.Component {
 						</tr>
 					</thead>
 					<tbody>
-						{this.state.pageOfItems.map(article => (
+						{this.state.pageOfItems.map((article) => (
 							<tr class="cat-list-row0" key={article.id}>
 								<td>
 									<Link to={article.slug.current}>{article.title}</Link>
 								</td>
-								<td>Written by {article.authors[0].person.name} </td>
+								<td>
+									Written by{" "}
+									{article.authors.length !== 0
+										? article.authors[0].person.name
+										: "N/A"}
+								</td>
 								<td headers="categorylist_header_hits" class="list-hits">
 									<span class="badge badge-info">
 										Hits: {Math.floor(Math.random())}
