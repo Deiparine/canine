@@ -2,7 +2,8 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  font-weight: 400; /*regular*/
+  font-weight: 400;
+  /*regular*/
   font-size: 13px;
   line-height: 18px;
   color: #4a4a4a;
@@ -23,7 +24,8 @@ body {
 p,
 ul {
   font-family: "Open Sans", sans-serif;
-  font-weight: 400; /*regular*/
+  font-weight: 400;
+  /*regular*/
   font-size: 13px;
   line-height: 18px;
   color: #4a4a4a;
@@ -40,10 +42,12 @@ li {
 a {
   color: #333333;
 }
+
 a:hover {
   text-decoration: none;
   color: #0077b3;
 }
+
 .font-weight-bold,
 strong,
 .strong,
@@ -99,6 +103,7 @@ small,
 .menu-btn {
   cursor: pointer;
 }
+
 .logo {
   width: 100%;
   height: auto;
@@ -108,6 +113,7 @@ small,
 .burger-wrap {
   display: none;
 }
+
 .search-wrap input {
   border: 0;
   border-bottom: 1px solid #d8d8d8;
@@ -115,6 +121,7 @@ small,
   border-radius: 0;
   box-shadow: none !important;
 }
+
 .search-wrap input:focus {
   outline: none !important;
 }
@@ -151,6 +158,7 @@ small,
   left: 100%;
   bottom: calc(50% - 2px);
 }
+
 .about-second-section {
   padding-left: 2rem;
   margin-top: 0;
@@ -178,6 +186,7 @@ small,
 .acl-container .row {
   border-bottom: 3px solid #dedede;
 }
+
 .acl-container .row:last-child {
   border-bottom: none;
 }
@@ -237,15 +246,88 @@ footer.main-footer {
   top: 0;
 }
 
+.article #searhform {
+  border: solid 2px #0077b3;
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.article .article-submit-btn {
+  padding: 7px 20px;
+  text-transform: uppercase;
+  background: #0077b3;
+  color: #fff;
+  border: none;
+}
+
+.article .article-submit-btn:hover {
+  background: #333;
+  color: #fff;
+}
+
+.article-body {
+  padding: 80px 0;
+}
+
+.article-body a {
+  color: #0077b3;
+}
+
+.article-body .category {
+  margin-bottom: 4rem;
+}
+
+.article-body #categorylist_header_title {
+  background: #0077b3;
+}
+
+.article-body #categorylist_header_title a {
+  color: #fff;
+}
+
+.article-body #categorylist_header_author {
+  background: #0077b3;
+}
+
+.article-body #categorylist_header_author a {
+  color: #fff;
+}
+
+.article-body #categorylist_header_hits {
+  background: #0077b3;
+}
+
+.article-body #categorylist_header_hits a {
+  color: #fff;
+}
+
+.auxiliary-page ul li {
+  list-style: none;
+  font-size: 18px;
+  padding-top: 5px;
+  font-weight: 500;
+  color: #fff;
+  background: url(../images/dog-w.png) no-repeat !important;
+  padding-left: 25px;
+  background-position: 0 5px !important;
+  background-repeat-y: no-repeat;
+  padding-bottom: 15px;
+  text-align: left;
+}
+
 /* Desktop only */
 @media (min-width: 1200px) {
   .container {
-    max-width: 1200px; /* Based sa ila width sa XD */
+    max-width: 1200px;
+    /* Based sa ila width sa XD */
   }
+
   .consultation-f p {
     font-size: 17px;
     line-height: 23px;
   }
+
   .contact-f p {
     font-size: 16px;
     max-width: 400px;
@@ -265,12 +347,14 @@ footer.main-footer {
     font-size: 30px !important;
     font-weight: 700;
   }
+
   button.btn-footer {
     font-size: 17px;
     font-weight: 700;
     line-height: 23px;
     padding: 5px !important;
   }
+
   .reviews-f span {
     /*font-size: 10px !important;*/
   }
@@ -280,13 +364,16 @@ footer.main-footer {
   .reviews-f span {
     /*font-size: 10px !important;*/
   }
+
   i.fa.fa-star {
     font-size: 10px;
   }
+
   .angies-review {
     position: relative;
     left: 6.3em;
   }
+
   .bbb-rating {
     position: relative;
     left: 2.2em;
@@ -297,18 +384,22 @@ footer.main-footer {
   .reviews-f span {
     /*font-size: 10px !important;*/
   }
+
   i.fa.fa-star {
     font-size: 10px;
   }
+
   .angies-review {
     position: relative;
     left: 6.3em;
   }
+
   .bbb-rating {
     position: relative;
     left: 2.2em;
   }
 }
+
 .tooltip-wrap-menu-contact .tooltiptext,
 .tooltip-wrap-menu .tooltiptext,
 .tooltip-wrap .tooltiptext {
@@ -326,6 +417,7 @@ footer.main-footer {
   margin-bottom: 0;
   margin-right: 0 !important;
 }
+
 .reviews-list li {
   border-bottom: 2px solid #707070;
   padding: 7px 0;
@@ -345,6 +437,7 @@ footer.main-footer {
   height: 36px;
   line-height: 25px;
 }
+
 .consultation-f img {
   width: 20px;
   height: 20px;
@@ -363,6 +456,7 @@ footer.main-footer {
     background-color: #fff;
   }
 }
+
 .reviews-list img {
   width: 5em !important;
 }
@@ -373,6 +467,7 @@ footer.main-footer {
   color: #626162 !important;
   padding-bottom: 15px !important;
 }
+
 .sub-footer {
   background: #626162;
   padding-top: 15px;
@@ -380,19 +475,24 @@ footer.main-footer {
   color: #ffffff;
   font-size: 10px;
 }
+
 .sub-footer a {
   color: #ffffff;
 }
+
 .reviews-list li {
   margin: 10px 0;
 }
+
 .reviews-list li img {
   margin-bottom: 0;
   margin-right: 15px;
 }
+
 .reviews-list li span {
   margin-left: 10px;
 }
+
 .reviews-list li:last-child img {
   width: 50px;
 }
@@ -424,6 +524,7 @@ footer.main-footer {
 .review-f-heading img {
   margin-top: -8px;
 }
+
 /*Tooltip*/
 .tooltip-wrap {
   position: relative;
@@ -963,12 +1064,15 @@ a {
   li.list-inline-item.mr-5.tooltip-wrap {
     display: none;
   }
+
   li.list-inline-item.search-wrap {
     display: none;
   }
+
   li.list-inline-item {
     padding-right: 5px !important;
   }
+
   h2.bm-burger-button.float-left.ml-2 {
     transform: scale(1);
   }
@@ -1030,6 +1134,7 @@ a {
   padding-bottom: 1.5em;
   overflow: hidden;
 }
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .innerpage-hero-wrap {
     padding-bottom: 2em;
@@ -1148,6 +1253,7 @@ a {
   .welcome-mobile {
     top: 0;
   }
+
   .acl-tears {
     top: -6em !important;
   }
@@ -1164,7 +1270,7 @@ a {
 .dropdown-item {
   margin: 0 !important;
   color: #fff !important;
-  padding: 0.25rem 3rem !important ;
+  padding: 0.25rem 3rem !important;
 }
 
 .dropdown-item:hover {
@@ -1379,6 +1485,7 @@ a.tooltip-menu-nav:hover .fa-caret-down {
     position: relative;
     top: -2em;
   }
+
   .tooltip-wrap,
   .search-wrap {
     position: relative;
@@ -1462,12 +1569,14 @@ img.review-stars {
   z-index: 1;
   margin-top: -100px;
 }
+
 @media (min-width: 320px) {
   .dog-head-img {
     margin-left: -4em;
     width: 465px;
   }
 }
+
 @media (min-width: 768px) {
   .dog-head-img {
     margin-left: -25px;
@@ -1490,6 +1599,7 @@ img.review-stars {
   font-weight: 700;
   margin: 0;
 }
+
 /*end of inner page headlines*/
 
 figcaption {
@@ -1505,6 +1615,7 @@ figcaption {
     margin-top: -2px;
   }
 }
+
 @media (min-width: 768px) {
   .star-value {
     margin-top: -10px;
@@ -1520,6 +1631,7 @@ figcaption {
     padding-bottom: 100px;
   }
 }
+
 @media (min-width: 992px) {
   .auxiliary-page {
     padding-top: 200px;
@@ -1564,24 +1676,30 @@ figcaption {
     max-width: 100% !important;
     flex: 0 0 100% !important;
   }
+
   .about-second-wrapper {
     max-width: 100% !important;
     flex: 0 0 100% !important;
   }
+
   .about-first-section {
     padding-right: 0;
     margin-bottom: 0;
   }
+
   .about-first-section::after {
     display: none;
   }
+
   .about-first-section {
     padding-bottom: 1rem;
     border-bottom: 5px solid #dedede;
   }
+
   .about-second-section {
     padding-left: 0;
   }
+
   .about-second-section h4 {
     margin-top: 4rem;
   }

@@ -3,6 +3,7 @@
   padding: 0;
   justify-content: center;
 }
+
 .pagination button {
   padding: 8px 20px;
   display: block;
@@ -23,8 +24,10 @@
 .pagination button:hover {
   box-shadow: 0 14px 25px rgba(0, 0, 0, 0.22);
 }
+
 .pagination .page-number.active button {
-  background-color: #1e3d6a;
+  background-color: #0077b3;
   color: #fff !important;
-  border-color: #1e3d6a;
+  border-color: #17a2b8;
+  font-weight: 700;
 }

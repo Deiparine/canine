@@ -12,11 +12,11 @@ const ArticleTemplate = data => {
 			<SEO title="Article Template" />
 			<div className="auxiliary-page">
 				<div className="container">
-					<h1 className="text-muted">{article.title}</h1>
+					<h1 className="text-muted mb-5">{article.title}</h1>
 					<div className="mb-5">
 						<div className="row">
 							<div
-								className="col-md-4 pr-0"
+								className="col-md-4"
 								style={{
 									backgroundColor: "#303030",
 								}}
@@ -47,7 +47,7 @@ const ArticleTemplate = data => {
 									) : null}
 								</div>
 							</div>
-							<div className="col-md-8 pl-0">
+							<div className="col-md-8">
 								<div
 									style={{ float: "left", width: "65%", maxHeight: "700px" }}
 								>
