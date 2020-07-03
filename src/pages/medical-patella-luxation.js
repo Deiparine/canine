@@ -28,8 +28,8 @@ const MPL = ({ location }) => {
   console.log(location)
   return (
     <Layout>
-      <SEO title="MEDIAL PATELLA LUXATION" />
-      <Hero videoImg={aclVid} pageTitle="MEDIAL PATELLA LUXATION" />
+      <SEO title="MEDICAL PATELLA LUXATION" />
+      <Hero videoImg={aclVid} pageTitle="MEDICAL PATELLA LUXATION" />
       {/* <div className="about-wrapper py-5"> */}
       <Container className="acl-container my-5">
         <Row className="mb-3 pb-5">
