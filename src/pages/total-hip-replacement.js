@@ -24,14 +24,14 @@ import { Container, Row, Col } from "reactstrap"
 // import syringes from "../images/syringes.svg"
 // import reviewPp from "../images/review-pp-1.jpg"
 
-const Acl = ({ location }) => {
+const THR = ({ location }) => {
   console.log(location)
   return (
     <Layout>
       <SEO title="TOTAL HIP REPLACEMENT" />
       <Hero videoImg={aclVid} pageTitle="TOTAL HIP REPLACEMENT" />
       {/* <div className="about-wrapper py-5"> */}
-      <Container className="acl-container my-5">
+      <Container className="innerpage-container my-5">
         <Row className="mb-3 pb-5">
           <Col md={7}>
             <h3 className="mb-5">Canine Total Hip Replacement (THR)</h3>
@@ -271,4 +271,4 @@ const Acl = ({ location }) => {
   )
 }
 
-export default Acl
+export default THR

@@ -31,6 +31,12 @@ ul {
   color: #4a4a4a;
 }
 
+.innerpage-container ul li {
+  font-size: 17px;
+  line-height: 22px;
+  color: #626162;
+}
+
 ul {
   padding-left: 20px;
 }

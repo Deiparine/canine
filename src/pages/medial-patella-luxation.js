@@ -24,14 +24,14 @@ import { Container, Row, Col } from "reactstrap"
 // import syringes from "../images/syringes.svg"
 // import reviewPp from "../images/review-pp-1.jpg"
 
-const Elbow = ({ location }) => {
+const MPL = ({ location }) => {
   console.log(location)
   return (
     <Layout>
       <SEO title="MEDIAL PATELLA LUXATION" />
       <Hero videoImg={aclVid} pageTitle="MEDIAL PATELLA LUXATION" />
       {/* <div className="about-wrapper py-5"> */}
-      <Container className="acl-container my-5">
+      <Container className="innerpage-container my-5">
         <Row className="mb-3 pb-5">
           <Col md={7}>
             <h4>Overview</h4>
@@ -247,4 +247,4 @@ const Elbow = ({ location }) => {
   )
 }
 
-export default Elbow
+export default MPL
