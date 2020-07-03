@@ -182,7 +182,8 @@ small,
 }
 
 .about-section p,
-.acl-container p {
+.acl-container p,
+.innerpage-container p {
   font-size: 17px;
   line-height: 22px;
   color: #626162;
