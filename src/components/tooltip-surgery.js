@@ -10,9 +10,9 @@ const TooltipSurgery = () => {
           <li>
             <Link to="/acl-tears">ACL TEARS</Link>
             <Link to="/tplo">TPLO</Link>
-            <Link to="/">HIP DYSPLASIA</Link>
-            <Link to="/">TOTAL HIP REPLACEMENT</Link>
-            <Link to="/">PATELLA LUXATIONS</Link>
+            <Link to="/hip-dysplasia">HIP DYSPLASIA</Link>
+            <Link to="/total-hip-replacement">TOTAL HIP REPLACEMENT</Link>
+            <Link to="/medial-patella-luxation">PATELLA LUXATIONS</Link>
             <Link to="/elbow-dysplasia">ELBOW DYSPLASIA</Link>
             <Link to="/">SHOULDER DISORDERS</Link>
             <Link to="/">FRACTURES</Link>
