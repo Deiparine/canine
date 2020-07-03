@@ -31,7 +31,7 @@ ul {
   color: #4a4a4a;
 }
 
-.innerpage-container ul li {
+.acl-container ul li {
   font-size: 17px;
   line-height: 22px;
   color: #626162;
@@ -182,8 +182,7 @@ small,
 }
 
 .about-section p,
-.acl-container p,
-.innerpage-container p {
+.acl-container p {
   font-size: 17px;
   line-height: 22px;
   color: #626162;

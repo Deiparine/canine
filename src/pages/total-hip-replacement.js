@@ -31,7 +31,7 @@ const THR = ({ location }) => {
       <SEO title="TOTAL HIP REPLACEMENT" />
       <Hero videoImg={aclVid} pageTitle="TOTAL HIP REPLACEMENT" />
       {/* <div className="about-wrapper py-5"> */}
-      <Container className="innerpage-container my-5">
+      <Container className="acl-container my-5">
         <Row className="mb-3 pb-5">
           <Col md={7}>
             <h3 className="mb-5">Canine Total Hip Replacement (THR)</h3>

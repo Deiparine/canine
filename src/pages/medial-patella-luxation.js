@@ -31,7 +31,7 @@ const MPL = ({ location }) => {
       <SEO title="MEDIAL PATELLA LUXATION" />
       <Hero videoImg={aclVid} pageTitle="MEDIAL PATELLA LUXATION" />
       {/* <div className="about-wrapper py-5"> */}
-      <Container className="innerpage-container my-5">
+      <Container className="acl-container my-5">
         <Row className="mb-3 pb-5">
           <Col md={7}>
             <h4>Overview</h4>
