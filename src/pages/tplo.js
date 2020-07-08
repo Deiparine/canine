@@ -9,7 +9,7 @@ import Hero from "../components/hero-adjusted/hero"
 // images
 import Telemed from "../images/acl-tears/telemed.jpg"
 import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
-import aclVid from "../images/acl-tears/acl-vid.png"
+import aclVid from "../images/tplo-vid.png"
 import tplodog from "../images/tplo-dog.jpg"
 import tplopostop from "../images/tplo/TPLOpostop.png"
 import tplopreop from "../images/tplo/TPLOpreop.png"

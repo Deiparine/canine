@@ -193,6 +193,14 @@ small,
   border-bottom: 3px solid #dedede;
 }
 
+.border-none {
+  border-bottom: none !important;
+}
+
+.v-h {
+  visibility: hidden !important;
+}
+
 .acl-container .row:last-child {
   border-bottom: none;
 }

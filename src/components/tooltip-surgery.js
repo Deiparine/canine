@@ -14,10 +14,10 @@ const TooltipSurgery = () => {
             <Link to="/total-hip-replacement">TOTAL HIP REPLACEMENT</Link>
             <Link to="/medical-patella-luxation">PATELLA LUXATIONS</Link>
             <Link to="/elbow-dysplasia">ELBOW DYSPLASIA</Link>
-            <Link to="/">SHOULDER DISORDERS</Link>
+            <Link to="/canine-shoulder-disorders">SHOULDER DISORDERS</Link>
             <Link to="/">FRACTURES</Link>
-            <Link to="/">ARTHROSCOPY</Link>
-            <Link to="/">INTERVERTEBRAL DISC DESEASE</Link>
+            <Link to="/arthroscopy">ARTHROSCOPY</Link>
+            <Link to="/disc">INTERVERTEBRAL DISC DESEASE</Link>
           </li>
         </ul>
       </div>
