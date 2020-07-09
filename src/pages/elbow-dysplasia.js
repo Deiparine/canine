@@ -40,7 +40,7 @@ const Elbow = ({ location }) => {
       <Hero videoImg={aclVid} pageTitle="Elbow Dysplasia" />
       {/* <div className="about-wrapper py-5"> */}
       <Container className="acl-container my-5">
-        <Row className="mb-3 pb-5">
+        <Row className="mb-3 pb-5 border-none">
           <Col md={7}>
             <h4>Overview</h4>
             <p>
@@ -64,6 +64,19 @@ const Elbow = ({ location }) => {
               arthroscopic examination. Some cases can be treated entirely with
               arthroscopic procedures.
             </p>
+          </Col>
+          <Col md={5}>
+            <div className="mb-4">
+              <img
+                src={elbowmiscimg}
+                alt="Elbow Misc Image"
+                className="img-fluid"
+              />
+            </div>
+          </Col>
+        </Row>
+        <Row className="mb-3 pb-5 border-none">
+          <Col md={7}>
             <h4 className="border-top pt-4">
               Clinical signs of elbow dysplasia
             </h4>
@@ -78,6 +91,20 @@ const Elbow = ({ location }) => {
               cause discomfort and difficulty when lying down in sternal
               position.
             </p>
+          </Col>
+          <Col md={5}>
+            <div className="mb-4">
+              <img
+                src={elbowvideo}
+                alt="Elbow Video"
+                class=" mb-5"
+                className="img-fluid"
+              />
+            </div>
+          </Col>
+        </Row>
+        <Row className="mb-3 pb-5 border-none">
+          <Col md={7}>
             <h4 className="border-top pt-4">Diagnosis of elbow dysplasia</h4>
             <p>
               The diagnosis of canine elbow dysplasia is based on physical
@@ -89,6 +116,15 @@ const Elbow = ({ location }) => {
               Arthroscopy is used both as a diagnostic tool and to treat elbow
               dysplasia.
             </p>
+          </Col>
+          <Col md={5}>
+            <div className="mb-4">
+              <img src={elbowvideo1} alt="Elbow Video" className="img-fluid" />
+            </div>
+          </Col>
+        </Row>
+        <Row className="mb-3 pb-5 border-none">
+          <Col md={7}>
             <h4 className="border-top pt-4">
               Treatment options for elbow dysplasia
             </h4>
@@ -142,6 +178,26 @@ const Elbow = ({ location }) => {
               majority of dogs with elbow problems lead a fairly normal life
               although some degree of OA is inevitable.
             </p>
+          </Col>
+          <Col md={5}>
+            <div className="mb-4">
+              <img
+                src={elbowmiscimg}
+                alt="Elbow Misc Image"
+                className="img-fluid"
+              />
+            </div>
+            <div className="mb-4">
+              <img
+                src={elbowmiscimg}
+                alt="Elbow Misc Image"
+                className="img-fluid"
+              />
+            </div>
+          </Col>
+        </Row>
+        <Row className="mb-3 pb-5 border-none">
+          <Col md={7}>
             <h4 className="border-top pt-4">
               Fragmented medial coronoid process
             </h4>
@@ -191,6 +247,25 @@ const Elbow = ({ location }) => {
               have no or minimal lameness and the progression of arthritis is
               slow.
             </p>
+          </Col>
+          <Col md={5}>
+            <div className="mb-4">
+              <img src={elbowvideo2} alt="Elbow Video" className="img-fluid" />
+            </div>
+            <div className="mb-4">
+              <img src={elbowvideo3} alt="Elbow Video" className="img-fluid" />
+            </div>
+            <div className="mb-4">
+              <img
+                src={elbowmiscimg}
+                alt="Elbow Misc Image"
+                className="img-fluid"
+              />
+            </div>
+          </Col>
+        </Row>
+        <Row className="mb-3 pb-5 border-none">
+          <Col md={7}>
             <h4 className="border-top pt-4">Medial compartment disease</h4>
             <p>
               In the majority of dogs with chronic severe elbow dysplasia, all
@@ -206,6 +281,15 @@ const Elbow = ({ location }) => {
               available, and has been performed at CCOR, but the procedure is
               new and long-term results are not yet available.
             </p>
+          </Col>
+          <Col md={5}>
+            <div className="mb-4">
+              <img src={elbowvideo4} alt="Elbow Video" className="img-fluid" />
+            </div>
+          </Col>
+        </Row>
+        <Row className="mb-3 pb-5 border-none">
+          <Col md={7}>
             <h4 className="border-top pt-4">
               Canine osteochondritis dissecans (OCD)
             </h4>
@@ -241,6 +325,19 @@ const Elbow = ({ location }) => {
               will not result in cartilage regeneration despite claims made by
               some.
             </p>
+          </Col>
+          <Col md={5}>
+            <div className="mb-4">
+              <img
+                src={elbowmiscimg}
+                alt="Elbow Misc Image"
+                className="img-fluid"
+              />
+            </div>
+          </Col>
+        </Row>
+        <Row className="mb-3 pb-5 border-none">
+          <Col md={7}>
             <h4 className="border-top pt-4">
               Canine ununited anconeal process (UAP)
             </h4>
@@ -262,6 +359,15 @@ const Elbow = ({ location }) => {
               removal or fragment re-attachment. Treatment should be initiated
               as soon as the diagnosis is made. The prognosis is fair to good.
             </p>
+          </Col>
+          <Col md={5}>
+            <div className="mb-4">
+              <img src={elbowvideo5} alt="Elbow Video" className="img-fluid" />
+            </div>
+          </Col>
+        </Row>
+        <Row className="mb-3 pb-5 border-none">
+          <Col md={7}>
             <h4 className="border-top pt-4">
               Cost of elbow disorder treatments
             </h4>
@@ -292,64 +398,6 @@ const Elbow = ({ location }) => {
             </p>
           </Col>
           <Col md={5} className="d-flex flex-column">
-            <div className="mb-4">
-              <img
-                src={elbowmiscimg}
-                alt="Elbow Misc Image"
-                className="img-fluid"
-              />
-            </div>
-            <div className="mb-4">
-              <img
-                src={elbowvideo}
-                alt="Elbow Video"
-                class=" mb-5"
-                className="img-fluid"
-              />
-            </div>
-            <div className="mb-4">
-              <img src={elbowvideo1} alt="Elbow Video" className="img-fluid" />
-            </div>
-            <div className="mb-4">
-              <img
-                src={elbowmiscimg}
-                alt="Elbow Misc Image"
-                className="img-fluid"
-              />
-            </div>
-            <div className="mb-4">
-              <img
-                src={elbowmiscimg}
-                alt="Elbow Misc Image"
-                className="img-fluid"
-              />
-            </div>
-            <div className="mb-4">
-              <img src={elbowvideo2} alt="Elbow Video" className="img-fluid" />
-            </div>
-            <div className="mb-4">
-              <img src={elbowvideo3} alt="Elbow Video" className="img-fluid" />
-            </div>
-            <div className="mb-4">
-              <img
-                src={elbowmiscimg}
-                alt="Elbow Misc Image"
-                className="img-fluid"
-              />
-            </div>
-            <div className="mb-4">
-              <img src={elbowvideo4} alt="Elbow Video" className="img-fluid" />
-            </div>
-            <div className="mb-4">
-              <img
-                src={elbowmiscimg}
-                alt="Elbow Misc Image"
-                className="img-fluid"
-              />
-            </div>
-            <div className="mb-4">
-              <img src={elbowvideo5} alt="Elbow Video" className="img-fluid" />
-            </div>
             <div className="mb-4">
               <img
                 src={elbowmiscimg}

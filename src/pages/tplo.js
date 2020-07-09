@@ -62,6 +62,14 @@ const Acl = ({ location }) => {
               Orthopedics can safely and comfortably return home the day of
               surgery. Of course, we have a 24/7 ICU if needed or requested.
             </p>
+            <h4 className="border-top pt-4">
+              What procedure would veterinary surgeons choose you their own pet?
+            </h4>
+            <p>
+              In a recent published survey, by far the majority of
+              board-certified surgeons would choose the TPLO if their own dog
+              had an ACL tear.
+            </p>
           </Col>
           <Col md={5}>
             <img
@@ -69,17 +77,6 @@ const Acl = ({ location }) => {
               alt="Brown Hairy Dog"
               style={{ width: "100%" }}
             />
-          </Col>
-          <Col md={7} className="border-top pt-4">
-            <h4>
-              What procedure would veterinary surgeons choose you their own pet
-              ?
-            </h4>
-            <p>
-              In a recent published survey, by far the majority of
-              board-certified surgeons would choose the TPLO if their own dog
-              had an ACL tear.
-            </p>
           </Col>
         </Row>
         <Row className="my-3 py-5">
@@ -97,18 +94,22 @@ const Acl = ({ location }) => {
               options. Please call us at 719-264-6666 to schedule your
               appointment.
             </p>
-          </Col>
-          <Col md={5}>
-            <img src={Telemed} alt="Telemed" style={{ width: "100%" }} />
-          </Col>
-          <Col md={7} className="border-top pt-4">
-            <h4>Consultation, surgery and back home all in the same day.</h4>
+            <h4 className="border-top pt-4">
+              Consultation, surgery and back home all in the same day.
+            </h4>
             <p>
               Colorado Canine Orthopedics offers consultation followed by
               surgery the same day. Patients can undergo an examination and
               radiographic review, followed by minimally invasive arthroscopy
               and TPLO surgery (if needed) all in the same day.
             </p>
+          </Col>
+          <Col md={5}>
+            <img
+              src="/assets/img/hip-image-xray.jpg"
+              alt="Telemed"
+              style={{ width: "100%" }}
+            />
           </Col>
         </Row>
         <Row className="my-3 py-5">
@@ -119,7 +120,7 @@ const Acl = ({ location }) => {
               by altering the joint’s “sliding motion” thought to be the
               underlying cause of canine ACL tears. The downward, backward
               sliding motion of the femur is eliminated following surgery
-              resulting in joint stability (figure 1).
+              resulting in joint stability (Figure 1).
             </p>
             <p>
               The stability is primarily a straight-forward biomechanical effect
@@ -133,12 +134,10 @@ const Acl = ({ location }) => {
             <p>
               A typical TPLO procedure takes an experienced surgeon about one
               hour. Anesthesia is extremely safe using today’s anesthetic
-              agents, equipment and monitoring devices.
-            </p>
-            <p>
-              Once the patient is safely anesthetized, nerve blocks are
-              performed effectively numbing the leg for approximately 20 hours.
-              Similar blocks are routinely used in human orthopedics.
+              agents, equipment and monitoring devices. Once the patient is
+              safely anesthetized, nerve blocks are performed effectively
+              numbing the leg for approximately 20 hours. Similar blocks are
+              routinely used in human orthopedics.
             </p>
             <p>
               Prior to surgery, but while under general anesthesia, specific
@@ -155,47 +154,38 @@ const Acl = ({ location }) => {
             <p>
               Following arthroscopy, a small surgical approach is made to the
               top of the tibia and the osteotomy is performed and secured using
-              a specialized titanium bone plate (figure 4 and 5).
+              a specialized titanium bone plate (figure 4).
             </p>
             <div className="d-flex justify-content-between mb-5">
               <img
-                src={tplopreop}
+                src="/assets/img/tplo-figure-4.jpg"
                 alt="TPLO Pre Op"
-                style={{ width: "45%" }}
-                className="tibial-sloped"
-              />
-              <img
-                src={tplopostop}
-                alt="TPLO Po Stop"
-                style={{ width: "45%" }}
+                style={{ width: "100%" }}
                 className="tibial-sloped"
               />
             </div>
           </Col>
           <Col md={5} className="d-flex flex-column justify-content-between">
             <div className="mb-5">
-              <img src={aclVideo1} alt="Acl vid 1" style={{ width: "100%" }} />
-            </div>
-            <div>
               <img
-                src={VideoFPO}
-                alt="Video FPO"
-                class=" mb-5"
+                src="/assets/img/tplo-video.jpg"
+                alt="Acl vid 1"
                 style={{ width: "100%" }}
               />
             </div>
-            <div>
+            <div className="mb-5">
               <img
-                src={TPLOplanning}
-                alt="TPLO Planning"
+                src="/assets/img/tplo-video-1.jpg"
+                alt="Acl vid 1"
                 style={{ width: "100%" }}
               />
-              <p
-                className="text-right mt-3"
-                style={{ fontFamily: "Caveat", fontSize: 29 }}
-              >
-                Figure
-              </p>
+            </div>
+            <div className="mb-5">
+              <img
+                src="/assets/img/tplo-video-2.jpg"
+                alt="Acl vid 1"
+                style={{ width: "100%" }}
+              />
             </div>
             <div>
               <img
@@ -207,7 +197,7 @@ const Acl = ({ location }) => {
                 className="text-right mt-3"
                 style={{ fontFamily: "Caveat", fontSize: 29 }}
               >
-                Figure
+                Figure 3
               </p>
             </div>
           </Col>
@@ -499,7 +489,7 @@ const Acl = ({ location }) => {
                 className="text-left mt-3"
                 style={{ fontFamily: "Caveat", fontSize: 29 }}
               >
-                Figure
+                Figure 1
               </p>
             </div>
             <p>
@@ -607,14 +597,14 @@ const Acl = ({ location }) => {
                 for the pet.
               </p>
             </p>
-            <p>
+            {/* <p>
               <b>10. TPLO prevents or reverses osteoarthritis (OA).</b>
               <p>
                 Unfortunately, Not true. Almost all dogs with ACL tears develop
                 OA. In fact, almost all dogs have OA at the time of diagnosis.
                 Most surgeons agree the TPLO is the best option to minimize OA.
               </p>
-            </p>
+            </p>*/}
           </Col>
         </Row>
       </Container>

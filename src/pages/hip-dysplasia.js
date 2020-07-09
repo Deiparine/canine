@@ -32,7 +32,7 @@ const HD = ({ location }) => {
       <Hero videoImg={aclVid} pageTitle="Hip Dysplasia" />
       {/* <div className="about-wrapper py-5"> */}
       <Container className="acl-container my-5">
-        <Row className="mb-3 pb-5">
+        <Row className="mb-3 pb-5 border-none">
           <Col md={7}>
             <h3>Canine Hip Dysplasia</h3>
             <h4>Overview</h4>
@@ -60,6 +60,19 @@ const HD = ({ location }) => {
               Borzoi, Doberman Pinscher, Great Dane, Greyhound and Irish
               Wolfhound.
             </p>
+          </Col>
+          <Col md={5}>
+            <div className="mb-4">
+              <img
+                src="/assets/img/misc-img-big.jpg"
+                alt="Misc Image"
+                className="img-fluid"
+              />
+            </div>
+          </Col>
+        </Row>
+        <Row className="mb-3 pb-5 border-none">
+          <Col md={7}>
             <h4 className="border-top pt-4">
               Telemedicine appointments for canine hip dysplasia and total hip
               replacement
@@ -76,6 +89,19 @@ const HD = ({ location }) => {
               optimal treatment options. Please call us at 719-264-6666 to
               schedule your appointment
             </p>
+          </Col>
+          <Col md={5}>
+            <div className="mb-4">
+              <img
+                src="/assets/img/hip-image-xray.jpg"
+                alt="Hip Image"
+                className="img-fluid"
+              />
+            </div>
+          </Col>
+        </Row>
+        <Row className="mb-3 pb-5 border-none">
+          <Col md={7}>
             <h4 className="border-top pt-4">Cause of Canine Hip Dysplasia</h4>
             <p>
               The primary cause of hip dysplasia is genetic and results in a
@@ -97,6 +123,19 @@ const HD = ({ location }) => {
               continue to worsen over years. The hip metamorphosis video depicts
               this chronic gradual deterioration.
             </p>
+          </Col>
+          <Col md={5}>
+            <div className="mb-4">
+              <img
+                src="/assets/img/metamorphosis-video.jpg"
+                alt="metamorphosis Video"
+                className="img-fluid"
+              />
+            </div>
+          </Col>
+        </Row>
+        <Row className="mb-3 pb-5 border-none">
+          <Col md={7}>
             <h4 className="border-top pt-4">Clinical Signs of Hip Dysplasia</h4>
             <p>
               Usually, clinical signs of canine hip dysplasia develop by one
@@ -140,11 +179,34 @@ const HD = ({ location }) => {
               alt="Misc Image"
               className="img-fluid"
             />
+          </Col>
+          <Col md={5}>
+            <div className="mb-4">
+              <img
+                src="/assets/img/hip-xray.jpg"
+                alt="Hip Xray 1"
+                className="img-fluid mb-2"
+              />
+              <h4>Figure 1</h4>
+            </div>
+            <div className="mb-4">
+              <img
+                src="/assets/img/hip-xray-1.jpg"
+                alt="Hip Xray 2"
+                className="img-fluid mb-2"
+              />
+              <h4>Figure 2</h4>
+            </div>
+          </Col>
+        </Row>
+        <Row className="mb-3 pb-5 border-none">
+          <Col md={7}>
             <h4 className="border-top pt-4">
               Treatment Options for Hip Dysplasia
             </h4>
             <p>
               <strong>Conservative, Non-surgical Treatment Options:</strong>
+              <br />
               Treatment options for dogs with hip dysplasia depend on age, size
               of the patient and severity of the clinical signs. Many dogs with
               mild hip dysplasia can live with the problem fairly well with
@@ -174,6 +236,7 @@ const HD = ({ location }) => {
             </p>
             <p>
               <strong>Surgical Treatment Options:</strong>
+              <br />
               Dogs with moderate to severe clinical signs and anatomical
               mal-formation are candidates for surgery. In general, 4 surgical
               options to treat canine hip dysplasia are currently recommended
@@ -181,25 +244,26 @@ const HD = ({ location }) => {
               signs clinical signs.
             </p>
             <p>
-              <strong>Juvenile Pubic Symphysiodesis (JPS)</strong> is a newer,
-              less invasive procedure involving fusion of the growth plate
-              within the pelvis and is indicated in dogs less than 5 months of
-              age (figure 1). Juvenile Pubic Symphysiodesis alters the pelvic
-              development with the ultimate result of the ball and socket
-              fitting more “tightly,” therefore, decreasing the potential amount
-              of future hip arthritis. Also, compared to other more traditional
-              surgeries for hip dysplasia, JPS is less invasive, less costly,
-              and is an easier recovery. Juvenile Pubic Symphysiodesis should
-              not be thought of as a definitive cure for hip dysplasia, but can
-              significantly improve hip joint conformation and lessen the
-              long-term affects of hip arthritis.
+              <strong>Juvenile Pubic Symphysiodesis (JPS)</strong>
+              <br /> is a newer, less invasive procedure involving fusion of the
+              growth plate within the pelvis and is indicated in dogs less than
+              5 months of age (figure 1). Juvenile Pubic Symphysiodesis alters
+              the pelvic development with the ultimate result of the ball and
+              socket fitting more “tightly,” therefore, decreasing the potential
+              amount of future hip arthritis. Also, compared to other more
+              traditional surgeries for hip dysplasia, JPS is less invasive,
+              less costly, and is an easier recovery. Juvenile Pubic
+              Symphysiodesis should not be thought of as a definitive cure for
+              hip dysplasia, but can significantly improve hip joint
+              conformation and lessen the long-term affects of hip arthritis.
             </p>
             <p>
-              <strong>Double Pelvic Osteotomy (DPO)</strong> is appropriate for
-              young dogs under 8-9 nine months of age. Double pelvic osteotomy
-              involves making two osteotomies (bone cuts) in the pelvic bones,
-              reorienting the acetabulum over the femoral head and securing the
-              osteotomy with a bone plate (figure 2).
+              <strong>Double Pelvic Osteotomy (DPO)</strong>
+              <br /> is appropriate for young dogs under 8-9 nine months of age.
+              Double pelvic osteotomy involves making two osteotomies (bone
+              cuts) in the pelvic bones, reorienting the acetabulum over the
+              femoral head and securing the osteotomy with a bone plate (figure
+              2).
             </p>
             <p>
               Numerous factors are considered when deciding which patients will
@@ -211,63 +275,26 @@ const HD = ({ location }) => {
               or angulations.
             </p>
             <p>
-              <strong>Femoral Head Ostectomy (FHO)</strong> is best suited for
-              cats and small dogs (figure 3). Femoral Head Ostectomy involves
-              removal of the femoral head (ball) from the joint. Scar tissue
-              forms between the remaining bone and socket (acetabulum) forming a
-              “false joint”. The primary advantage of the FHO is lower cost,
-              since no implants are needed.
+              <strong>Femoral Head Ostectomy (FHO)</strong>
+              <br /> is best suited for cats and small dogs (figure 3). Femoral
+              Head Ostectomy involves removal of the femoral head (ball) from
+              the joint. Scar tissue forms between the remaining bone and socket
+              (acetabulum) forming a “false joint”. The primary advantage of the
+              FHO is lower cost, since no implants are needed.
             </p>
             <p>
-              <strong>Total Hip Replacement (THR)</strong> is the ideal
-              treatment for medium to large breed dogs with moderate to severe
-              hip dysplasia. Ideally, these patients should be approximately one
-              year of age or older. No upper-end age restrictions exists, but
-              geriatric patients may have a more difficult recovery and higher
-              complication rate.
+              <strong>Total Hip Replacement (THR)</strong>
+              <br /> is the ideal treatment for medium to large breed dogs with
+              moderate to severe hip dysplasia. Ideally, these patients should
+              be approximately one year of age or older. No upper-end age
+              restrictions exists, but geriatric patients may have a more
+              difficult recovery and higher complication rate.
             </p>
             <button type="button" class="btn">
               LEARN MORE ABOUT THR
             </button>
           </Col>
-          <Col md={5} className="d-flex flex-column">
-            <div className="mb-4">
-              <img
-                src="/assets/img/misc-img-big.jpg"
-                alt="Misc Image"
-                className="img-fluid"
-              />
-            </div>
-            <div className="mb-4">
-              <img
-                src="/assets/img/tplo-telemedicine.jpg"
-                alt="Hip Image"
-                className="img-fluid"
-              />
-            </div>
-            <div className="mb-4">
-              <img
-                src="/assets/img/metamorphosis-video.jpg"
-                alt="metamorphosis Video"
-                className="img-fluid"
-              />
-            </div>
-            <div className="mb-4">
-              <img
-                src="/assets/img/hip-xray.jpg"
-                alt="Hip Xray 1"
-                className="img-fluid mb-2"
-              />
-              <h4>Figure 1</h4>
-            </div>
-            <div className="mb-4">
-              <img
-                src="/assets/img/hip-xray-1.jpg"
-                alt="Hip Xray 2"
-                className="img-fluid mb-2"
-              />
-              <h4>Figure 2</h4>
-            </div>
+          <Col md={5}>
             <div className="mb-4">
               <img
                 src="/assets/img/misc-img-big.jpg"

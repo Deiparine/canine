@@ -28,11 +28,11 @@ const MPL = ({ location }) => {
   console.log(location)
   return (
     <Layout>
-      <SEO title="MEDICAL PATELLA LUXATION" />
-      <Hero videoImg={aclVid} pageTitle="MEDICAL PATELLA LUXATION" />
+      <SEO title="MEDIAL PATELLA LUXATION" />
+      <Hero videoImg={aclVid} pageTitle="MEDIAL PATELLA LUXATION" />
       {/* <div className="about-wrapper py-5"> */}
       <Container className="acl-container my-5">
-        <Row className="mb-3 pb-5">
+        <Row className="mb-3 pb-5 border-none">
           <Col md={7}>
             <h4>Overview</h4>
             <p>
@@ -78,6 +78,19 @@ const MPL = ({ location }) => {
                 experience severe lameness and require surgical repair.
               </li>
             </ul>
+          </Col>
+          <Col md={5}>
+            <div className="mb-4">
+              <img
+                src="/assets/img/medial-img.jpg"
+                alt="Medial Image"
+                className="img-fluid"
+              />
+            </div>
+          </Col>
+        </Row>
+        <Row className="mb-3 pb-5 border-none">
+          <Col md={7}>
             <h4 className="border-top pt-4">
               Why canine patella luxations occur{" "}
             </h4>
@@ -109,6 +122,19 @@ const MPL = ({ location }) => {
               severe osteoarthritis secondary to the patella problem is the
               culprit.
             </p>
+          </Col>
+          <Col md={5}>
+            <div className="mb-4">
+              <img
+                src="/assets/img/medial-dog-img.jpg"
+                alt="Medial Dog"
+                className="img-fluid"
+              />
+            </div>
+          </Col>
+        </Row>
+        <Row className="mb-3 pb-5 border-none">
+          <Col md={7}>
             <h4 className="border-top pt-4">
               Diagnosis of canine patella luxations
             </h4>
@@ -122,6 +148,19 @@ const MPL = ({ location }) => {
               evaluate the cartilage wear and rule out other stifle joint
               disorders such as ACL tears.
             </p>
+          </Col>
+          <Col md={5}>
+            <div className="mb-4">
+              <img
+                src="/assets/img/medial-video.jpg"
+                alt="Medial Video"
+                className="img-fluid"
+              />
+            </div>
+          </Col>
+        </Row>
+        <Row className="mb-3 pb-5 border-none">
+          <Col md={7}>
             <h4 className="border-top pt-4">
               Treatment options for canine patella luxations
             </h4>
@@ -144,6 +183,26 @@ const MPL = ({ location }) => {
               takes less than one hour and virtually all patients can leave the
               hospital the day of surgery.
             </p>
+          </Col>
+          <Col md={5}>
+            <div className="mb-4">
+              <img
+                src="/assets/img/medial-video-1.jpg"
+                alt="Medial Video 1"
+                className="img-fluid"
+              />
+            </div>
+            <div className="mb-4">
+              <img
+                src="/assets/img/medial-video-2.jpg"
+                alt="Medial Video 2"
+                className="img-fluid"
+              />
+            </div>
+          </Col>
+        </Row>
+        <Row className="mb-3 pb-5 border-none">
+          <Col md={7}>
             <h4 className="border-top pt-4">
               Prognosis, healing and recovery for canine patella luxations
             </h4>
@@ -158,6 +217,19 @@ const MPL = ({ location }) => {
               furniture or stairs. Following healing the patient can return to a
               normal, fully active lifestyle.
             </p>
+          </Col>
+          <Col md={5}>
+            <div className="mb-4">
+              <img
+                src="/assets/img/medial-dog2-img.jpg"
+                alt="Medial Dog"
+                className="img-fluid"
+              />
+            </div>
+          </Col>
+        </Row>
+        <Row className="mb-3 pb-5 border-none">
+          <Col md={7}>
             <h4 className="border-top pt-4">
               Cost of patella surgery at Colorado Canine Orthopedics
             </h4>
@@ -190,48 +262,6 @@ const MPL = ({ location }) => {
             </p>
           </Col>
           <Col md={5} className="d-flex flex-column">
-            <div className="mb-4">
-              <img
-                src="/assets/img/medial-img.jpg"
-                alt="Medial Image"
-                className="img-fluid"
-              />
-            </div>
-            <div className="mb-4">
-              <img
-                src="/assets/img/medial-dog-img.jpg"
-                alt="Medial Dog"
-                className="img-fluid"
-              />
-            </div>
-            <div className="mb-4">
-              <img
-                src="/assets/img/medial-video.jpg"
-                alt="Medial Video"
-                className="img-fluid"
-              />
-            </div>
-            <div className="mb-4">
-              <img
-                src="/assets/img/medial-video-1.jpg"
-                alt="Medial Video 1"
-                className="img-fluid"
-              />
-            </div>
-            <div className="mb-4">
-              <img
-                src="/assets/img/medial-video-2.jpg"
-                alt="Medial Video 2"
-                className="img-fluid"
-              />
-            </div>
-            <div className="mb-4">
-              <img
-                src="/assets/img/medial-dog2-img.jpg"
-                alt="Medial Dog"
-                className="img-fluid"
-              />
-            </div>
             <div className="mb-4">
               <img
                 src="/assets/img/medial-dog3-img.jpg"
