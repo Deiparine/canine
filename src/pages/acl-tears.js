@@ -9,7 +9,7 @@ import Hero from "../components/hero-adjusted/hero"
 // images
 import aclTears from "../images/acl-tears/acl-tears.svg"
 import aclVid from "../images/acl-tears/acl-vid.png"
-import BrownDog from "../images/acl-tears/brown-hairy-dog.png"
+import BrownDog from "../images/acl-tears/brown-hairy-dog.jpg"
 import Telemed from "../images/acl-tears/telemed.jpg"
 import tibialSloped from "../images/acl-tears/tibial-sloped.jpg"
 import slidingRad from "../images/acl-tears/sliding-rad.gif"
@@ -23,7 +23,7 @@ import aclVideo7 from "../images/acl-tears/acl-tears-treatment.jpg"
 import arrowDownCurve from "../images/acl-tears/arrow-down-curve.svg"
 import brownDogSitting from "../images/acl-tears/brown-dog-sitting.jpg"
 import Arthroscopy from "../images/acl-tears/arthrscopy-set-up.jpg"
-import dogWithLeash from "../images/acl-tears/dog-with-leash.jpg"
+import dogWithLeash from "../images/acl-tears/dog-with-leash.png"
 
 // import MySwiper from "../components/swiper/swiper
 
@@ -38,19 +38,19 @@ import { Container, Row, Col } from "reactstrap"
 // import reviewPp from "../images/review-pp-1.jpg"
 
 const Acl = ({ location }) => {
-  console.log(location)
-  return (
-    <Layout>
+    console.log(location)
+    return (
+        <Layout>
       <SEO title="ACL Tears" />
       <Hero videoImg={aclVid} pageTitle="ACL Tears" />
       {/* <div className="about-wrapper py-5"> */}
       <Container className="acl-container my-5">
-        <Row className="mb-3 pb-5">
+        <Row className="mb-4 pb-5">
           <Col md={7}>
-            <h3 className="mb-5">
+            <h2 className="mb-5 text-blue">
               ACL Tears represent the most common orthopedic condition seen in
               dogs.
-            </h3>
+            </h2>
             <h4>Overview</h4>
             <p>
               Cranial cruciate ligament tears, also known as anterior cruciate
@@ -70,7 +70,7 @@ const Acl = ({ location }) => {
               confirmed by an arthroscopic examination.
             </p>
           </Col>
-          <Col md={5}>
+          <Col md={5} className="p-0">
             <img
               src={BrownDog}
               alt="Brown Hairy Dog"
@@ -78,7 +78,7 @@ const Acl = ({ location }) => {
             />
           </Col>
         </Row>
-        <Row className="my-3 py-5">
+        <Row className="my-4 py-5">
           <Col md={7}>
             <h4>Telemedicine appointments for canine ACL tears and TPLO</h4>
             <p>
@@ -94,11 +94,11 @@ const Acl = ({ location }) => {
               appointment.
             </p>
           </Col>
-          <Col md={5}>
+          <Col md={5} className="px-4">
             <img src={Telemed} alt="Telemed" style={{ width: "100%" }} />
           </Col>
         </Row>
-        <Row className="my-3 py-5">
+        <Row className="my-4 py-5">
           <Col md={7}>
             <h4>How Canine ACL Tears Occur</h4>
             <p>
@@ -127,7 +127,7 @@ const Acl = ({ location }) => {
               />
             </div>
           </Col>
-          <Col md={5} className="d-flex flex-column justify-content-between">
+          <Col md={5} className="px-4" className="d-flex flex-column justify-content-between">
             <div className="mb-5">
               <img src={aclVideo1} alt="Acl vid 1" style={{ width: "100%" }} />
             </div>
@@ -151,7 +151,7 @@ const Acl = ({ location }) => {
             </div>
           </Col>
         </Row>
-        <Row className="my-3 py-5">
+        <Row className="my-4 py-5">
           <Col md={7}>
             <h4>Clinical Signs & Diagnosis</h4>
             <p>
@@ -170,16 +170,6 @@ const Acl = ({ location }) => {
               the problem to wax and wane for weeks or even months.
             </p>
             <div className="d-flex">
-              <div className="d-flex flex-column justify-content-around">
-                <img
-                  src={arrowDownCurve}
-                  alt="Curved down arrow"
-                  style={{ width: "inherit" }}
-                />
-                <p style={{ fontFamily: "Caveat", fontSize: 29 }}>
-                  Almost all dogs with ACL problems sit to the side
-                </p>
-              </div>
               <div style={{ width: "100%" }}>
                 <img
                   src={brownDogSitting}
@@ -212,7 +202,7 @@ const Acl = ({ location }) => {
               accurate, non-invasive arthroscopic diagnosis.{" "}
             </p>
           </Col>
-          <Col md={5} className="d-flex flex-column justify-content-between">
+          <Col md={5} className="px-4">
             <div>
               <img src={aclVideo4} alt="Acl vid 1" style={{ width: "100%" }} />
             </div>
@@ -246,7 +236,7 @@ const Acl = ({ location }) => {
                 LEARN MORE ABOUT TPLO
               </button>
             </div>
-            <div className="mt-5">
+            <div className="mt-4">
               <p>
                 <b>Non-surgical treatments</b> are usually unsuccessful in
                 canine ACL tears due to chronic biomechanical stress related to
@@ -265,7 +255,7 @@ const Acl = ({ location }) => {
                 evidence.
               </p>
             </div>
-            <div className="mt-5">
+            <div className="mt-4">
               <p>
                 <b>Surgical options</b> are broken down into replacement
                 techniques and biomechanical repairs. Fishing line and like
@@ -279,7 +269,7 @@ const Acl = ({ location }) => {
                 surgical method in restoration of normal joint biomechanics.
               </p>
             </div>
-            <div className="mt-5 mb-4">
+            <div className="mt-4 mb-4">
               <p>
                 Biomechanical repairs address the underlying biomechanical cause
                 of canine ACL tears and the TPLO procedure is the most widely
@@ -294,15 +284,15 @@ const Acl = ({ location }) => {
               </button>
             </div>
           </Col>
-          <Col md={5} className="d-flex flex-column justify-content-between">
-            <img src={aclVideo7} alt="Acl vid 1" style={{ width: "100%" }} />
-            <img src={dogWithLeash} alt="Acl vid 1" style={{ width: "100%" }} />
+          <Col md={5} className="px-4">
+            <img src={aclVideo7} alt="Acl vid 1" className="mb-4" style={{ width: "100%" }} />
+            <img src={dogWithLeash} alt="Acl vid 1" className="dog-acl" style={{ width: "100%" }} />
           </Col>
         </Row>
       </Container>
       {/* </div> */}
     </Layout>
-  )
+    )
 }
 
 export default Acl
