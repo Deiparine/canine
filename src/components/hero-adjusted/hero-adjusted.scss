@@ -108,8 +108,9 @@
         right: 0;
         left: auto;
         width: 52%;
-        top: 2rem;
+        top: 0;
         text-align: right;
+        word-spacing: 100vw;
 
         h1 {
             font-size: 4rem;
@@ -136,11 +137,6 @@
     }
 
     /*page titles for inner pages*/
-    .inner-page-title {
-        h1 {
-            font-size: 5rem;
-        }
-    }
 }
 
 /****** DESKTOP ******/

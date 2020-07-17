@@ -7,10 +7,10 @@ import welcome from "../../images/welcome.svg"
 import "./hero-adjusted.scss"
 
 const Hero = ({ children, videoImg, pageTitle }) => {
-    console.log(pageTitle)
+	console.log(pageTitle)
 
-    return (
-        <div className="hero-adjustment">
+	return (
+		<div className="hero-adjustment">
 			<div class="container">
 				<div class="hero-content-wrapper">
 					<div class="row no-gutters">
@@ -44,7 +44,7 @@ const Hero = ({ children, videoImg, pageTitle }) => {
 				</div>
 			</div>
 		</div>
-    )
+	)
 }
 
 export default Hero

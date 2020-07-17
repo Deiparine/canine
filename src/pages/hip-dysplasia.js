@@ -29,12 +29,14 @@ const HD = ({ location }) => {
   return (
     <Layout>
       <SEO title="Hip Dysplasia" />
-      <Hero videoImg={aclVid} pageTitle="Hip Dysplasia" />
+      <div class="hip">
+        <Hero videoImg={aclVid} pageTitle="Hip Dysplasia" />
+      </div>
       {/* <div className="about-wrapper py-5"> */}
       <Container className="acl-container my-5">
         <Row className="mb-3 pb-5 border-none">
           <Col md={7}>
-            <h3>Canine Hip Dysplasia</h3>
+            <h2 className="mb-5 text-blue">Canine Hip Dysplasia</h2>
             <h4>Overview</h4>
             <p>
               Despite efforts by breeders and the Orthopedic Foundation of
@@ -61,7 +63,7 @@ const HD = ({ location }) => {
               Wolfhound.
             </p>
           </Col>
-          <Col md={5}>
+          <Col md="5">
             <div className="mb-4">
               <img
                 src="/assets/img/misc-img-big.jpg"
@@ -129,7 +131,7 @@ const HD = ({ location }) => {
               <img
                 src="/assets/img/metamorphosis-video.jpg"
                 alt="metamorphosis Video"
-                className="img-fluid"
+                className="img-fluid mt-4"
               />
             </div>
           </Col>
@@ -187,7 +189,12 @@ const HD = ({ location }) => {
                 alt="Hip Xray 1"
                 className="img-fluid mb-2"
               />
-              <h4>Figure 1</h4>
+              <p
+                className="text-right mt-3"
+                style={{ fontFamily: "Caveat", fontSize: 29 }}
+              >
+                Figure 1
+              </p>
             </div>
             <div className="mb-4">
               <img
@@ -195,7 +202,12 @@ const HD = ({ location }) => {
                 alt="Hip Xray 2"
                 className="img-fluid mb-2"
               />
-              <h4>Figure 2</h4>
+              <p
+                className="text-right mt-3"
+                style={{ fontFamily: "Caveat", fontSize: 29 }}
+              >
+                Figure 2
+              </p>
             </div>
           </Col>
         </Row>
@@ -297,7 +309,7 @@ const HD = ({ location }) => {
           <Col md={5}>
             <div className="mb-4">
               <img
-                src="/assets/img/misc-img-big.jpg"
+                src="/assets/img/misc-img-small.jpg"
                 alt="Misc Image"
                 className="img-fluid"
               />
@@ -308,7 +320,12 @@ const HD = ({ location }) => {
                 alt="Hip Xray"
                 className="img-fluid mb-2"
               />
-              <h4>Figure 1</h4>
+              <p
+                className="text-right mt-3"
+                style={{ fontFamily: "Caveat", fontSize: 29 }}
+              >
+                Figure 1
+              </p>
             </div>
             <div className="mb-4">
               <img
@@ -316,7 +333,12 @@ const HD = ({ location }) => {
                 alt="Hip Xray"
                 className="img-fluid mb-2"
               />
-              <h4>Figure 2</h4>
+              <p
+                className="text-right mt-3"
+                style={{ fontFamily: "Caveat", fontSize: 29 }}
+              >
+                Figure 2
+              </p>
             </div>
             <div className="mb-4">
               <img
@@ -324,7 +346,15 @@ const HD = ({ location }) => {
                 alt="Hip Xray"
                 className="img-fluid mb-2"
               />
-              <h4>Figure 3</h4>
+              <p
+                className="text-right mt-3"
+                style={{ fontFamily: "Caveat", fontSize: 29 }}
+              >
+                Figure 3
+              </p>
+              <button type="button" class="btn">
+                BACK TOP TOP
+              </button>
             </div>
           </Col>
         </Row>
