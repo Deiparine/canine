@@ -29,7 +29,7 @@ const THR = ({ location }) => {
   return (
     <Layout>
       <SEO title="TOTAL HIP REPLACEMENT" />
-      <Hero videoImg={aclVid} pageTitle="TOTAL HIP REPLACEMENT" />
+      <Hero videoImg={aclVid} pageTitle="TOTAL HIP REPLACEMENT" style={{ fontSize: `4.1rem`}} />
       {/* <div className="about-wrapper py-5"> */}
       <Container className="acl-container my-5">
         <Row className="mb-3 pb-5">
@@ -46,7 +46,7 @@ const THR = ({ location }) => {
           </Col>
           <Col md={5}>
             <img
-              src="/assets/img/misc-img.jpg"
+              src="/assets/img/misc-img-v3.png"
               alt="Misc Image"
               className="img-fluid mb-4"
             />
@@ -118,7 +118,7 @@ const THR = ({ location }) => {
             <img
               src="/assets/img/tplo-telemedicine.jpg"
               alt="Misc Image"
-              className="img-fluid mb-4"
+              className="img-fluid mb-4 pull-right"
             />
             <img
               src="/assets/img/misc-img-big.jpg"
@@ -254,12 +254,12 @@ const THR = ({ location }) => {
           </Col>
           <Col md={5}>
             <img
-              src="/assets/img/misc-img.jpg"
+              src="/assets/img/misc-img-v2.png"
               alt="Misc Image"
               className="img-fluid mb-4"
             />
             <img
-              src="/assets/img/misc-img-big.jpg"
+              src="/assets/img/misc-img-big-v2.png"
               alt="Misc Image"
               className="img-fluid mb-4"
             />
