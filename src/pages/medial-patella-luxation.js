@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 // import Image from "../components/image"
 import SEO from "../components/seo"
 import Hero from "../components/hero-adjusted/hero"
+import BackToTop from "../components/back-to-top"
 
 // images
 import Telemed from "../images/acl-tears/telemed.jpg"
@@ -272,6 +273,7 @@ const MPL = ({ location }) => {
           </Col>
         </Row>
       </Container>
+      <BackToTop />
       {/* </div> */}
     </Layout>
   )

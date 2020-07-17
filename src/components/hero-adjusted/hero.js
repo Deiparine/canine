@@ -28,7 +28,7 @@ const Hero = ({ children, videoImg, pageTitle }) => {
 						</div>
 					</div>
 					{pageTitle !== undefined ? (
-						<div className="inner-page-title total-hip-hero">
+						<div className="inner-page-title total-hip-hero medial-patella-hero">
 							<h1>{pageTitle}</h1>
 						</div>
 					) : (

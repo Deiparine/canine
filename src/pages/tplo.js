@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 // import Image from "../components/image"
 import SEO from "../components/seo"
 import Hero from "../components/hero-adjusted/hero"
+import BackToTop from "../components/back-to-top"
 
 // images
 import Telemed from "../images/acl-tears/telemed.jpg"
@@ -612,14 +613,7 @@ const Acl = ({ location }) => {
 				</Row>
 			</Container>
 			</div>
-			<Container>
-				<Row>
-					<Col md={8}></Col>
-					<Col md={4} className="mt-3 mb-4 no-gutters px-0">
-						<h3><span className="btt-btn"><Link to="/tplo">Back to Top</Link></span></h3>
-					</Col>
-				</Row>
-			</Container>
+			<BackToTop />
 			{/* </div> */}
 		</Layout>
 	)
