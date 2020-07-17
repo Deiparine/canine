@@ -13,33 +13,32 @@ import Search from "../search"
 import "./header.scss"
 
 const allSitePage = {
-  edges: [
-    {
-      node: {
-        id: "SitePage /404/",
-        title: "404",
-        path: "/404",
-      },
-    },
-    {
-      node: {
-        id: "SitePage /about-us/",
-        title: "About Us",
-        path: "/about-us",
-      },
-    },
-    {
-      node: {
-        id: "SitePage /contact/",
-        title: "Contact Us",
-        path: "/contact",
-      },
-    },
-  ],
+    edges: [{
+            node: {
+                id: "SitePage /404/",
+                title: "404",
+                path: "/404",
+            },
+        },
+        {
+            node: {
+                id: "SitePage /about-us/",
+                title: "About Us",
+                path: "/about-us",
+            },
+        },
+        {
+            node: {
+                id: "SitePage /contact/",
+                title: "Contact Us",
+                path: "/contact",
+            },
+        },
+    ],
 }
 
 const Header = () => (
-  <header>
+    <header>
     <Sticky
       className="sticky-wrapper"
       stickyClassName="is-sticky"
@@ -72,7 +71,7 @@ const Header = () => (
           <div className="container">
             <div className="row justify-content-between">
               <div className="col-6">
-                <Link to="/">
+                <Link to="/" className="logo-btn">
                   <img src={Logo} className="header-logo-img" alt="Logo" />
                 </Link>
               </div>
