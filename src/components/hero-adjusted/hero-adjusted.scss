@@ -107,14 +107,16 @@
         z-index: 1;
         right: 0;
         left: auto;
-        width: 52%;
-        top: 0;
-        text-align: right;
-        word-spacing: 100vw;
+        width: 60%;
+        top: 2rem;
 
         h1 {
             font-size: 4rem;
         }
+    }
+
+    .total-hip-hero h1 {
+        font-size: 4.1rem !important;
     }
 }
 

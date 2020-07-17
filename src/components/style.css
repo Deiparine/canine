@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -205,9 +209,9 @@ small,
 }
 
 .acl-container h4 {
-  font-weight: 800;
+  font-weight: bold;
   font-size: 17px;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 
 .acl-container button {
@@ -258,6 +262,26 @@ small,
 .sub-footer {
   z-index: 1;
   position: relative;
+}
+
+.btt-btn {
+  background-color: #8cb5d4;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.btt-btn a {
+  color: #fff;
+}
+
+.btt-btn:hover {
+  background-color: #fff;
+  border: 2px solid #8cb5d4;
+}
+
+.btt-btn a:hover {
+  text-decoration: none;
+  color: #8cb5d4;
 }
 
 footer.main-footer {
@@ -1754,8 +1778,4 @@ figcaption {
   .about-second-section h4 {
     margin-top: 4rem;
   }
-}
-
-/* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
 }
