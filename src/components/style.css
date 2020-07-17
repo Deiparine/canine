@@ -208,15 +208,9 @@ small,
 }
 
 .acl-container h4 {
-<<<<<<< HEAD
   font-weight: bold;
   font-size: 17px;
   margin-bottom: 0;
-=======
-    font-weight: 800;
-    font-size: 17px;
-    margin-bottom: 1rem;
->>>>>>> afa4f0d5f8d7d8fe25a62ee116f53f85ba729e70
 }
 
 .acl-container button {

@@ -73,49 +73,6 @@
 /****** TABLET ******/
 
 @media (min-width: 768px) {
-<<<<<<< HEAD
-  .hero-dog-bg {
-    max-height: 100%;
-    margin-top: -16rem;
-  }
-
-  .hero-video {
-    position: relative;
-    padding-top: 0;
-    margin-top: 10rem;
-  }
-
-  .hero-content-wrapper {
-    position: relative;
-  }
-
-  .welcome-img {
-    position: absolute;
-    z-index: 1;
-    right: 20%;
-    top: 15%;
-    width: 30%;
-  }
-
-  .hero-adjustment {
-    padding-top: 16rem;
-    padding-bottom: 4rem;
-  }
-
-  /*page titles for inner pages*/
-  .inner-page-title {
-    position: absolute;
-    z-index: 1;
-    right: 0;
-    left: auto;
-    width: 60%;
-    top: 2rem;
-
-    h1 {
-      font-size: 4rem;
-    }
-  }
-=======
     .hero-dog-bg {
         max-height: 100%;
         margin-top: -16rem;
@@ -158,7 +115,6 @@
             font-size: 4rem;
         }
     }
->>>>>>> afa4f0d5f8d7d8fe25a62ee116f53f85ba729e70
 }
 
 /****** SMALL DESKTOP ******/
