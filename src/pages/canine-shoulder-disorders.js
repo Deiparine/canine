@@ -4,6 +4,7 @@ import React from "react"
 import Layout from "../components/layout"
 // import Image from "../components/image"
 import SEO from "../components/seo"
+import BackToTop from "../components/back-to-top"
 
 // images
 import Telemed from "../images/acl-tears/telemed.jpg"
@@ -30,24 +31,24 @@ const CanineShoulder = ({ location }) => {
   return (
     <Layout>
       <SEO title="CANINE SHOULDER DISORDERS" />
-      <div class="hero-adjustment">
-        <div class="container">
-          <div class="hero-content-wrapper">
-            <div class="row no-gutters">
-              <div class="col-12 col-md-7">
-                <div class="hero-dog-bg">
-                  <div class="dog-bg"></div>
+      <div className="hero-adjustment">
+        <div className="container">
+          <div className="hero-content-wrapper">
+            <div className="row no-gutters">
+              <div className="col-12 col-md-7">
+                <div className="hero-dog-bg">
+                  <div className="dog-bg"></div>
                 </div>
               </div>
-              <div class="col-12 col-md-5">
-                <div class="hero-video">
+              <div className="col-md-5">
+                <div className="hero-video">
                   <div>
                     <div>
-                      <div class="video-modal-btn">
+                      <div className="video-modal-btn">
                         <img
                           src="/static/acl-vid-601f62f6769da8d3789e8dfd20802e2e.png"
                           alt="video"
-                          class="video-img img-fluid v-h"
+                          className="video-img img-fluid v-h"
                         />
                       </div>
                     </div>
@@ -55,7 +56,7 @@ const CanineShoulder = ({ location }) => {
                 </div>
               </div>
             </div>
-            <div class="inner-page-title">
+            <div className="inner-page-title text-right canine-shoulder-hero">
               <h1>CANINE SHOULDER DISORDERS</h1>
             </div>
           </div>
@@ -250,6 +251,7 @@ const CanineShoulder = ({ location }) => {
           </Col>
         </Row>
       </Container>
+      <BackToTop />
       {/* </div> */}
     </Layout>
   )
