@@ -11,16 +11,16 @@ const Hero = ({ children, videoImg, pageTitle }) => {
 
 	return (
 		<div className="hero-adjustment">
-			<div class="container">
-				<div class="hero-content-wrapper">
-					<div class="row no-gutters">
-						<div class="col-12 col-md-7">
-							<div class="hero-dog-bg">
-								<div class="dog-bg"></div>
+			<div className="container">
+				<div className="hero-content-wrapper">
+					<div className="row no-gutters elbow-dysplasia-video-row">
+						<div className="col-12 col-md-7">
+							<div className="hero-dog-bg">
+								<div className="dog-bg"></div>
 							</div>
 						</div>
-						<div class="col-12 col-md-5">
-							<div class="hero-video">
+						<div className="col-12 col-md-5">
+							<div className="hero-video elbow-dysplasia-video">
 								<div>
 									<VideoModal videoImg={videoImg} />
 								</div>
@@ -28,15 +28,15 @@ const Hero = ({ children, videoImg, pageTitle }) => {
 						</div>
 					</div>
 					{pageTitle !== undefined ? (
-						<div className="inner-page-title total-hip-hero medial-patella-hero">
+						<div className="inner-page-title total-hip-hero medial-patella-hero elbow-dysplasia-hero">
 							<h1>{pageTitle}</h1>
 						</div>
 					) : (
 						<div>
-							<div class="welcome-img d-none d-md-block">
+							<div className="welcome-img d-none d-md-block">
 								<img src={welcome} />
 							</div>
-							<div class="welcome-mobile-img d-block d-md-none">
+							<div className="welcome-mobile-img d-block d-md-none">
 								<img src={welcomeMobile} />
 							</div>
 						</div>

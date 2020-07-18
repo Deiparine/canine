@@ -16,6 +16,7 @@ import tplodog from "../images/tplo-dog.jpg"
 
 // Reactstrap
 import { Container, Row, Col } from "reactstrap"
+import BackToTop from "../components/back-to-top"
 
 // images
 // import aboutImg from "../images/about-img.png"
@@ -359,6 +360,7 @@ const HD = ({ location }) => {
           </Col>
         </Row>
       </Container>
+      <BackToTop />
       {/* </div> */}
     </Layout>
   )
