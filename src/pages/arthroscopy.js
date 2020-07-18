@@ -4,6 +4,7 @@ import React from "react"
 import Layout from "../components/layout"
 // import Image from "../components/image"
 import SEO from "../components/seo"
+import BackToTop from "../components/back-to-top"
 
 // images
 import Telemed from "../images/acl-tears/telemed.jpg"
@@ -55,7 +56,7 @@ const Arthroscopy = ({ location }) => {
                 </div>
               </div>
             </div>
-            <div class="inner-page-title">
+            <div class="inner-page-title text-right arthroscopy-hero">
               <h1>ARTHROSCOPY</h1>
             </div>
           </div>
@@ -215,21 +216,24 @@ const Arthroscopy = ({ location }) => {
               alt="Arthroscopy Image"
               className="img-fluid"
             />
-            <h4 className="border-top pt-4">
-              Arthroscopy for the canine elbow joint
-            </h4>
-            <p>
-              Arthroscopy plays a key role in the diagnosis and treatment of
-              canine elbow disorders. Elbow dysplasia, OCD, medial compartment
-              syndrome, ununited anconeal process and fragmented medial coronoid
-              process are examples of disorder diagnosed and treated
-              arthroscopically. Visualization of intraarticular elbow anatomy is
-              virtually impossible by an invasive open joint surgical approach.
-              Arthroscopy allows noninvasive, complete and accurate evaluation
-              of all critical canine elbow joint anatomy. Bone fragment removal
-              and cartilage debridement is easily accomplished using an
-              arthroscope and specialized arthroscopic instruments.
-            </p>
+            <div className="mt-4" style={{ borderTop: `1px solid #dedede` }}>
+              <h4 className="border-top pt-4">
+                Arthroscopy for the canine elbow joint
+              </h4>
+              <p>
+                Arthroscopy plays a key role in the diagnosis and treatment of
+                canine elbow disorders. Elbow dysplasia, OCD, medial compartment
+                syndrome, ununited anconeal process and fragmented medial
+                coronoid process are examples of disorder diagnosed and treated
+                arthroscopically. Visualization of intraarticular elbow anatomy
+                is virtually impossible by an invasive open joint surgical
+                approach. Arthroscopy allows noninvasive, complete and accurate
+                evaluation of all critical canine elbow joint anatomy. Bone
+                fragment removal and cartilage debridement is easily
+                accomplished using an arthroscope and specialized arthroscopic
+                instruments.
+              </p>
+            </div>
             <button type="button" class="btn mb-4">
               LEARN MORE ABOUT CANINE ELBOW DYSPLASIA
             </button>
@@ -278,6 +282,7 @@ const Arthroscopy = ({ location }) => {
           </Col>
         </Row>
       </Container>
+      <BackToTop />
       {/* </div> */}
     </Layout>
   )
