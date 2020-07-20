@@ -10,10 +10,10 @@ import BackToTop from "../components/back-to-top"
 // images
 import Telemed from "../images/acl-tears/telemed.jpg"
 import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
-import aclVid from "../images/elbow/elbow-video-header.png"
+import aclVid from "../images/elbow/elbow-hero-video.jpg"
 import tplodog from "../images/tplo-dog.jpg"
 import elbowmiscimg from "../images/elbow/elbow-misc-img.png"
-import elbowvideoheader from "../images/elbow/elbow-video-header.png"
+import elbowvideoheader from "../images/elbow/elbow-hero-video.jpg"
 import elbowvideo from "../images/elbow/elbow-video.png"
 import elbowvideo1 from "../images/elbow/elbow-video-1.png"
 import elbowvideo2 from "../images/elbow/elbow-video-2.png"
@@ -69,7 +69,7 @@ const Elbow = ({ location }) => {
           <Col md={5}>
             <div className="mb-4">
               <img
-                src={elbowmiscimg}
+                src="/assets/img/elbow-img.jpg"
                 alt="Elbow Misc Image"
                 className="img-fluid"
               />
@@ -96,9 +96,8 @@ const Elbow = ({ location }) => {
           <Col md={5}>
             <div className="mb-4">
               <img
-                src={elbowvideo}
-                alt="Elbow Video"
-                class=" mb-5"
+                src="/assets/img/elbow-video.jpg"
+                alt="Elbow Misc Image"
                 className="img-fluid"
               />
             </div>
@@ -120,7 +119,11 @@ const Elbow = ({ location }) => {
           </Col>
           <Col md={5}>
             <div className="mb-4">
-              <img src={elbowvideo1} alt="Elbow Video" className="img-fluid" />
+              <img
+                src="/assets/img/elbow-video-2.jpg"
+                alt="Elbow Misc Image"
+                className="img-fluid"
+              />
             </div>
           </Col>
         </Row>
@@ -183,14 +186,14 @@ const Elbow = ({ location }) => {
           <Col md={5}>
             <div className="mb-4">
               <img
-                src={elbowmiscimg}
+                src="/assets/img/elbow-img-2.jpg"
                 alt="Elbow Misc Image"
                 className="img-fluid"
               />
             </div>
             <div className="mb-4">
               <img
-                src={elbowmiscimg}
+                src="/assets/img/elbow-img-3.jpg"
                 alt="Elbow Misc Image"
                 className="img-fluid"
               />
@@ -251,14 +254,22 @@ const Elbow = ({ location }) => {
           </Col>
           <Col md={5}>
             <div className="mb-4">
-              <img src={elbowvideo2} alt="Elbow Video" className="img-fluid" />
-            </div>
-            <div className="mb-4">
-              <img src={elbowvideo3} alt="Elbow Video" className="img-fluid" />
+              <img
+                src="/assets/img/elbow-video-3.jpg"
+                alt="Elbow Misc Image"
+                className="img-fluid"
+              />
             </div>
             <div className="mb-4">
               <img
-                src={elbowmiscimg}
+                src="/assets/img/elbow-video-4.jpg"
+                alt="Elbow Misc Image"
+                className="img-fluid"
+              />
+            </div>
+            <div className="mb-4">
+              <img
+                src="/assets/img/elbow-img-4.jpg"
                 alt="Elbow Misc Image"
                 className="img-fluid"
               />
@@ -285,7 +296,11 @@ const Elbow = ({ location }) => {
           </Col>
           <Col md={5}>
             <div className="mb-4">
-              <img src={elbowvideo4} alt="Elbow Video" className="img-fluid" />
+              <img
+                src="/assets/img/elbow-video-5.jpg"
+                alt="Elbow Misc Image"
+                className="img-fluid"
+              />
             </div>
           </Col>
         </Row>
@@ -330,7 +345,7 @@ const Elbow = ({ location }) => {
           <Col md={5}>
             <div className="mb-4">
               <img
-                src={elbowmiscimg}
+                src="/assets/img/elbow-img-5.jpg"
                 alt="Elbow Misc Image"
                 className="img-fluid"
               />
@@ -363,7 +378,11 @@ const Elbow = ({ location }) => {
           </Col>
           <Col md={5}>
             <div className="mb-4">
-              <img src={elbowvideo5} alt="Elbow Video" className="img-fluid" />
+              <img
+                src="/assets/img/elbow-video-6.jpg"
+                alt="Elbow Misc Image"
+                className="img-fluid"
+              />
             </div>
           </Col>
         </Row>
@@ -401,7 +420,7 @@ const Elbow = ({ location }) => {
           <Col md={5} className="d-flex flex-column">
             <div className="mb-4">
               <img
-                src={elbowmiscimg}
+                src="/assets/img/elbow-img-6.jpg"
                 alt="Elbow Misc Image"
                 className="img-fluid"
               />

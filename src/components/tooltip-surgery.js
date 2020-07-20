@@ -15,7 +15,7 @@ const TooltipSurgery = () => {
             <Link to="/medial-patella-luxation">PATELLA LUXATIONS</Link>
             <Link to="/elbow-dysplasia">ELBOW DYSPLASIA</Link>
             <Link to="/canine-shoulder-disorders">SHOULDER DISORDERS</Link>
-            <Link to="/">FRACTURES</Link>
+            <Link to="/fractures-dislocations">FRACTURES</Link>
             <Link to="/arthroscopy">ARTHROSCOPY</Link>
             <Link to="/disc">INTERVERTEBRAL DISC DESEASE</Link>
           </li>
