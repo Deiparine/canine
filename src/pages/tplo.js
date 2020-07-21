@@ -13,7 +13,7 @@ import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
 import aclVid from "../images/tplo-vid.png"
 import tplodog from "../images/tplo-dog-v4.png"
 import tplopostop from "../images/tplo/TPLOpostop.png"
-import hipImage from '../images/hip-image-xray-v2.png'
+import hipImage from "../images/hip-image-xray-v2.png"
 import tplopreop from "../images/tplo/TPLOpreop.png"
 import arthrscopysetup from "../images/tplo/arthrscopysetup.png"
 import VideoFPO from "../images/tplo/VideoFPO.png"
@@ -42,7 +42,7 @@ const Acl = ({ location }) => {
 	return (
 		<Layout>
 			<SEO title="TPLO" />
-			<Hero videoImg={aclVid} pageTitle="TPLO"/>
+			<Hero videoImg={aclVid} pageTitle="TPLO" />
 			{/* <div className="about-wrapper py-5"> */}
 			<Container className="acl-container my-5">
 				<Row className="mb-3 pb-5 align-items-center">
@@ -107,11 +107,7 @@ const Acl = ({ location }) => {
 						</p>
 					</Col>
 					<Col md={5}>
-						<img
-							src={hipImage}
-							alt="Telemed"
-							style={{ width: "100%" }}
-						/>
+						<img src={hipImage} alt="Telemed" style={{ width: "100%" }} />
 					</Col>
 				</Row>
 				<Row className="my-3 py-5">
@@ -298,310 +294,331 @@ const Acl = ({ location }) => {
 					</Col>
 				</Row>
 			</Container>
-			<div style={{ backgroundImage: `url(${costoftplo})`, backgroundRepeat: `no-repeat`, backgroundPosition: `right`}}>
-			<Container className="acl-container" style={{ borderTop: `3px solid #dedede`}}>
-				<Row className="py-5">
-					<Col md={8} className="my-5 py-5">
-						<h4>Cost of TPLO surgery at Colorado Canine Orthopedics:</h4>
-						<p>
-							The average cost of a TPLO at Colorado Canine Orthopedics is
-							$3,480 - $3,980 depending on the size of the dog.
-						</p>
-						<p>
-							All surgery fees include pre-surgical x-rays, anesthesia and
-							monitoring, nerve block or epidural, implants, post-operative
-							x-rays and routine go home medications. Consultation,
-							pre-operative bloodwork and four and eight and week post-operative
-							x-rays are not included.
-						</p>
-						<p>
-							At Colorado Canine Orthopedics we are committed to providing only
-							state of the art, non-compromised pet healthcare. We realize some
-							pet owners may find this level of care relatively costly. However,
-							despite the inherently expensive nature of our work, we are
-							dedicated to providing the highest level of care at the most
-							affordable price possible. We believe if you compare our fees to
-							other specialty practices you will find this true.
-						</p>
-					</Col>
-				</Row>
-			</Container>
+			<div
+				style={{
+					backgroundImage: `url(${costoftplo})`,
+					backgroundRepeat: `no-repeat`,
+					backgroundPosition: `right`,
+				}}
+				className="costoftplo-container"
+			>
+				<Container
+					className="acl-container"
+					style={{ borderTop: `3px solid #dedede` }}
+				>
+					<Row className="py-5">
+						<Col md={7} className="my-5 py-5">
+							<h4>Cost of TPLO surgery at Colorado Canine Orthopedics:</h4>
+							<p>
+								The average cost of a TPLO at Colorado Canine Orthopedics is
+								$3,480 - $3,980 depending on the size of the dog.
+							</p>
+							<p>
+								All surgery fees include pre-surgical x-rays, anesthesia and
+								monitoring, nerve block or epidural, implants, post-operative
+								x-rays and routine go home medications. Consultation,
+								pre-operative bloodwork and four and eight and week
+								post-operative x-rays are not included.
+							</p>
+							<p>
+								At Colorado Canine Orthopedics we are committed to providing
+								only state of the art, non-compromised pet healthcare. We
+								realize some pet owners may find this level of care relatively
+								costly. However, despite the inherently expensive nature of our
+								work, we are dedicated to providing the highest level of care at
+								the most affordable price possible. We believe if you compare
+								our fees to other specialty practices you will find this true.
+							</p>
+						</Col>
+						<Col md={5} className="costoftplo">
+							<div>
+								<img src={costoftplo} alt="Why Us" style={{ width: "100%" }} />
+							</div>
+						</Col>
+					</Row>
+				</Container>
 			</div>
-			<div style={{ background: `#f3f3f3`}}>
-			<Container className="acl-container pt-5 mb-3">
-				<Row className="py-5">
-					<Col md={12}>
-						<h4>TPLO FAQs</h4>
-						<p>
-							We know you have a variety of questions about TPLO surgery for
-							your dog. We’ve answered many commonly asked questions here, but
-							you can be certain your dog’s surgeon will answer any of your
-							questions prior to and after surgery.
-						</p>
-					</Col>
-					<Col md={6}>
-						<p>
-							<b>Q: Does my pet have to spend the night in the hospital?</b>
-							<p className="pt-2">
-								A: No. Virtually all dogs undergoing TPLO at Colorado Canine
-								Orthopedics can be discharged the day of surgery. Of course, we
-								have a fully staffed 24/7 ICU if your pet does spend the night.
+			<div style={{ background: `#f3f3f3` }}>
+				<Container className="acl-container pt-5 mb-3">
+					<Row className="py-5">
+						<Col md={12}>
+							<h4>TPLO FAQs</h4>
+							<p>
+								We know you have a variety of questions about TPLO surgery for
+								your dog. We’ve answered many commonly asked questions here, but
+								you can be certain your dog’s surgeon will answer any of your
+								questions prior to and after surgery.
 							</p>
-						</p>
-						<p>
-							<b>
-								Q: Will this technique have a negative effect on the opposite
-								leg?
-							</b>
-							<p className="pt-2">
-								A: No, quite the opposite. The TPLO provides the best possible
-								outcome with no negative affect on the opposite leg.
+						</Col>
+						<Col md={6}>
+							<p>
+								<b>Q: Does my pet have to spend the night in the hospital?</b>
+								<p className="pt-2">
+									A: No. Virtually all dogs undergoing TPLO at Colorado Canine
+									Orthopedics can be discharged the day of surgery. Of course,
+									we have a fully staffed 24/7 ICU if your pet does spend the
+									night.
+								</p>
 							</p>
-						</p>
-						<p>
-							<b>Q: Will the opposite knee have the same problem?</b>
-							<p className="pt-2">
-								A: Forty percent of all dogs with ACL tears on one side will
-								have the problem on the opposite side. The most effective ways
-								to decrease this percentage are early surgical repair leading to
-								symmetrical weight distribution and weight loss in over-weight
-								dogs.
+							<p>
+								<b>
+									Q: Will this technique have a negative effect on the opposite
+									leg?
+								</b>
+								<p className="pt-2">
+									A: No, quite the opposite. The TPLO provides the best possible
+									outcome with no negative affect on the opposite leg.
+								</p>
 							</p>
-						</p>
-						<p>
-							<b>Q: Is TPLO only for large dogs?</b>
-							<p className="pt-2">
-								A: No. Many small and toy breed dogs have the greatest degree of
-								tibial plateau slope. Small breed dogs typically have excellent
-								outcomes following TPLO surgery.
+							<p>
+								<b>Q: Will the opposite knee have the same problem?</b>
+								<p className="pt-2">
+									A: Forty percent of all dogs with ACL tears on one side will
+									have the problem on the opposite side. The most effective ways
+									to decrease this percentage are early surgical repair leading
+									to symmetrical weight distribution and weight loss in
+									over-weight dogs.
+								</p>
 							</p>
-						</p>
-						<p>
-							<b>
-								Q: What technique would Colorado Canine Orthopedics’ surgeons
-								perform on their own dogs?
-							</b>
-							<p className="pt-2">A: Unquestionably the TPLO</p>
-						</p>
-						<p>
-							<b>
-								Q: Is the postoperative period more difficult following TPLO
-								than following older techniques?
-							</b>
-							<p className="pt-2">
-								A: In our opinion, it is not. In numerous situations, where an
-								older technique had been performed on one side and a TPLO
-								performed on the other side, clients have reported that the TPLO
-								resulted in less discomfort.
+							<p>
+								<b>Q: Is TPLO only for large dogs?</b>
+								<p className="pt-2">
+									A: No. Many small and toy breed dogs have the greatest degree
+									of tibial plateau slope. Small breed dogs typically have
+									excellent outcomes following TPLO surgery.
+								</p>
 							</p>
-						</p>
-					</Col>
-					<Col md={6} className="d-flex flex-column justify-content-between">
-						<p>
-							<b>
-								Q: Can a TPLO be performed on an animal when an older technique
-								has failed?
-							</b>
-							<p className="pt-2">
-								A: Yes. In many cases, we have successfully performed TPLOs in
-								patients with failed TTAs, tightrope repairs or older
-								replacement techniques.
+							<p>
+								<b>
+									Q: What technique would Colorado Canine Orthopedics’ surgeons
+									perform on their own dogs?
+								</b>
+								<p className="pt-2">A: Unquestionably the TPLO</p>
 							</p>
-						</p>
-						<p>
-							<b>Q: Will my dog experience pain in the postoperative period?</b>
-							<p className="pt-2">
-								A: Minimal. All dogs undergoing TPLO at Colorado Canine
-								Orthopedics receive pre-operative nerve blocks, similar to human
-								orthopedics. Most clients feel their pet’s discomfort level is
-								quite tolerable.
+							<p>
+								<b>
+									Q: Is the postoperative period more difficult following TPLO
+									than following older techniques?
+								</b>
+								<p className="pt-2">
+									A: In our opinion, it is not. In numerous situations, where an
+									older technique had been performed on one side and a TPLO
+									performed on the other side, clients have reported that the
+									TPLO resulted in less discomfort.
+								</p>
 							</p>
-						</p>
-						<p>
-							<b>Q: How long does it take for healing?</b>
-							<p className="pt-2">
-								A: The osteotomy takes 2-3 months to heal. During this time your
-								pet can have a reasonable amount of leash activity.
+						</Col>
+						<Col md={6} className="d-flex flex-column justify-content-between">
+							<p>
+								<b>
+									Q: Can a TPLO be performed on an animal when an older
+									technique has failed?
+								</b>
+								<p className="pt-2">
+									A: Yes. In many cases, we have successfully performed TPLOs in
+									patients with failed TTAs, tightrope repairs or older
+									replacement techniques.
+								</p>
 							</p>
-						</p>
-						<p>
-							<b>
-								Q: How many TPLOs have the doctors at Colorado Canine
-								Orthopedics performed?
-							</b>
-							<p className="pt-2">
-								A: Our doctors have performed tens of thousands of TPLOs over
-								the past 20 years.
+							<p>
+								<b>
+									Q: Will my dog experience pain in the postoperative period?
+								</b>
+								<p className="pt-2">
+									A: Minimal. All dogs undergoing TPLO at Colorado Canine
+									Orthopedics receive pre-operative nerve blocks, similar to
+									human orthopedics. Most clients feel their pet’s discomfort
+									level is quite tolerable.
+								</p>
 							</p>
-						</p>
-						<p>
-							<b>Q: How will I know how to care for my pet after surgery?</b>
-							<p className="pt-2">
-								A: At Colorado Canine Orthopedics we prepare a detailed set of
-								written discharge instructions for each patient. We carefully
-								review this information with you prior to discharge.
+							<p>
+								<b>Q: How long does it take for healing?</b>
+								<p className="pt-2">
+									A: The osteotomy takes 2-3 months to heal. During this time
+									your pet can have a reasonable amount of leash activity.
+								</p>
 							</p>
-						</p>
-						<p>
-							<b>
-								Q: What should I expect when I get home the night of surgery?
-							</b>
-							<p className="pt-2">
-								A: Your pet will most likely be able to walk (but not well) when
-								you get home. Most patients find their comfort zone once home
-								and sleep the evening and night away. Your pet’s surgeon will
-								call the night of surgery to check on your pet and answer any
-								questions. You will also be given the doctors’ cell phone number
-								in case you have urgent questions or concerns in the evenings on
-								weekends.
+							<p>
+								<b>
+									Q: How many TPLOs have the doctors at Colorado Canine
+									Orthopedics performed?
+								</b>
+								<p className="pt-2">
+									A: Our doctors have performed tens of thousands of TPLOs over
+									the past 20 years.
+								</p>
 							</p>
-						</p>
-					</Col>
-				</Row>
-			</Container>
+							<p>
+								<b>Q: How will I know how to care for my pet after surgery?</b>
+								<p className="pt-2">
+									A: At Colorado Canine Orthopedics we prepare a detailed set of
+									written discharge instructions for each patient. We carefully
+									review this information with you prior to discharge.
+								</p>
+							</p>
+							<p>
+								<b>
+									Q: What should I expect when I get home the night of surgery?
+								</b>
+								<p className="pt-2">
+									A: Your pet will most likely be able to walk (but not well)
+									when you get home. Most patients find their comfort zone once
+									home and sleep the evening and night away. Your pet’s surgeon
+									will call the night of surgery to check on your pet and answer
+									any questions. You will also be given the doctors’ cell phone
+									number in case you have urgent questions or concerns in the
+									evenings on weekends.
+								</p>
+							</p>
+						</Col>
+					</Row>
+				</Container>
 			</div>
-			<div style={{ background: `#eef7fb`}}>
-			<Container className="acl-container pt-5 mb-3">
-				<Row className="py-5">
-					<Col md={12}>
-						<h4>The Ten Most Common TPLO Misconceptions</h4>
-					</Col>
-					<Col md={6}>
-						<p>
-							<b>
-								1. Dogs, like humans, may not require surgery following an ACL
-								tear.
-							</b>
+			<div style={{ background: `#eef7fb` }}>
+				<Container className="acl-container pt-5 mb-3">
+					<Row className="py-5">
+						<Col md={12}>
+							<h4>The Ten Most Common TPLO Misconceptions</h4>
+						</Col>
+						<Col md={6}>
 							<p>
-								Not true. Unfortunately, the anatomy and biomechanics of the
-								canine stifle (knee) differs from humans. The sloping canine
-								tibial plateau in results in joint sub-luxation (dislocation)
-								during weight bearing. This radiographic animation demonstrates
-								the detrimental instability during weight bearing following a
-								canine ACL tear (Figure 1). Because of this, untreated canine
-								ACL tears result in progressive clinical signs, meniscal
-								tearing, severe osteoarthritis (OA) and debilitating lameness.
+								<b>
+									1. Dogs, like humans, may not require surgery following an ACL
+									tear.
+								</b>
+								<p>
+									Not true. Unfortunately, the anatomy and biomechanics of the
+									canine stifle (knee) differs from humans. The sloping canine
+									tibial plateau in results in joint sub-luxation (dislocation)
+									during weight bearing. This radiographic animation
+									demonstrates the detrimental instability during weight bearing
+									following a canine ACL tear (Figure 1). Because of this,
+									untreated canine ACL tears result in progressive clinical
+									signs, meniscal tearing, severe osteoarthritis (OA) and
+									debilitating lameness.
+								</p>
 							</p>
-						</p>
-						<div className="text-center">
-							<img
-								src={prestonanimated}
-								alt="Preston Animated"
-								style={{ width: "50%", margin: "auto" }}
-							/>
-							<p
-								className="text-left mt-3"
-								style={{ fontFamily: "Caveat", fontSize: 29 }}
-							>
-								Figure 1
-							</p>
-						</div>
-						<p>
-							<b>
-								2.The same surgical techniques used in humans are effective in
-								dogs.
-							</b>
+							<div className="text-center">
+								<img
+									src={prestonanimated}
+									alt="Preston Animated"
+									style={{ width: "50%", margin: "auto" }}
+								/>
+								<p
+									className="text-left mt-3"
+									style={{ fontFamily: "Caveat", fontSize: 29 }}
+								>
+									Figure 1
+								</p>
+							</div>
 							<p>
-								Not true. Replacement techniques using biological grafts are the
-								standard for humans with ACL tears. Similar grafts and
-								techniques have been unsuccessful in dogs due to persistent
-								biomechanical stress. This stress is associated with the sloping
-								tibial plateau present in dogs but not humans.
+								<b>
+									2.The same surgical techniques used in humans are effective in
+									dogs.
+								</b>
+								<p>
+									Not true. Replacement techniques using biological grafts are
+									the standard for humans with ACL tears. Similar grafts and
+									techniques have been unsuccessful in dogs due to persistent
+									biomechanical stress. This stress is associated with the
+									sloping tibial plateau present in dogs but not humans.
+								</p>
 							</p>
-						</p>
-						<p>
-							<b>
-								3. Recovery from a TPLO is more difficult than old style
-								replacement techniques.
-							</b>
 							<p>
-								Not true. In many instances we have seen dogs with a “fishing
-								line” repair or tight rope have a more prolonged recovery than
-								dogs who have undergone a TPLO.
+								<b>
+									3. Recovery from a TPLO is more difficult than old style
+									replacement techniques.
+								</b>
+								<p>
+									Not true. In many instances we have seen dogs with a “fishing
+									line” repair or tight rope have a more prolonged recovery than
+									dogs who have undergone a TPLO.
+								</p>
 							</p>
-						</p>
-						<p>
-							<b>
-								4. Postoperative pain is greater following TPLO than old style
-								replacement techniques.
-							</b>
 							<p>
-								Not true. Almost all TPLO patients are very comfortable
-								following surgery. In fact, the surgeons at Colorado Canine
-								Orthopedics find TPLO patients to be more comfortable following
-								surgery than following many other procedures. This comfort is,
-								in large part, due to the stability afforded by today’s bone
-								plate technology. The bone/plate/screw combination provides
-								better stability than any other repair on any other type of
-								tissue. Stability equals comfort.
+								<b>
+									4. Postoperative pain is greater following TPLO than old style
+									replacement techniques.
+								</b>
+								<p>
+									Not true. Almost all TPLO patients are very comfortable
+									following surgery. In fact, the surgeons at Colorado Canine
+									Orthopedics find TPLO patients to be more comfortable
+									following surgery than following many other procedures. This
+									comfort is, in large part, due to the stability afforded by
+									today’s bone plate technology. The bone/plate/screw
+									combination provides better stability than any other repair on
+									any other type of tissue. Stability equals comfort.
+								</p>
 							</p>
-						</p>
-					</Col>
-					<Col md={6} className="d-flex flex-column justify-content-between">
-						<p>
-							<b>
-								5. Recovery time is greater following TPLO than “Old Style”
-								repairs.
-							</b>
+						</Col>
+						<Col md={6} className="d-flex flex-column justify-content-between">
 							<p>
-								Partially true. It is true that bone healing takes longer than
-								soft tissues. Old style repairs are as strong as they will ever
-								be as soon as the surgeon ties the knot. However old-style
-								repairs are not as strong as the TPLO at any point after
-								surgery. Bone healing is a double-edged sword; it takes longer
-								to heal but heals stronger than any other connective tissue in
-								the body! Complete bone healing takes about three months but
-								varies from animal to animal and is somewhat dependent on age.
+								<b>
+									5. Recovery time is greater following TPLO than “Old Style”
+									repairs.
+								</b>
+								<p>
+									Partially true. It is true that bone healing takes longer than
+									soft tissues. Old style repairs are as strong as they will
+									ever be as soon as the surgeon ties the knot. However
+									old-style repairs are not as strong as the TPLO at any point
+									after surgery. Bone healing is a double-edged sword; it takes
+									longer to heal but heals stronger than any other connective
+									tissue in the body! Complete bone healing takes about three
+									months but varies from animal to animal and is somewhat
+									dependent on age.
+								</p>
 							</p>
-						</p>
-						<p>
-							<b>
-								6. Stricter confinement is needed following the TPLO compared to
-								other procedures.
-							</b>
 							<p>
-								Not true. The TPLO is the strongest ACL technique performed.
-								Following any surgery, dogs require some degree of restriction.
-								TPLO patients should be restricted to the house with leash walks
-								only. Stairs are usually permitted with supervision.
+								<b>
+									6. Stricter confinement is needed following the TPLO compared
+									to other procedures.
+								</b>
+								<p>
+									Not true. The TPLO is the strongest ACL technique performed.
+									Following any surgery, dogs require some degree of
+									restriction. TPLO patients should be restricted to the house
+									with leash walks only. Stairs are usually permitted with
+									supervision.
+								</p>
 							</p>
-						</p>
-						<p>
-							<b>7. TPLO increases the risk of the opposite side tearing.</b>
 							<p>
-								Not true. In fact, quite the opposite is the case. Because
-								canine ACL tears are caused by biomechanical wear and tear, 40%
-								of animals that tear one side will someday tear the other. The
-								best way to minimize this risk is to equalize weight bearing by
-								performing a TPLO on the affected side. Weight loss is also
-								important in overweight animals. Nearly all dogs left untreated
-								will tear the other side because of shifting weight to the
-								intact side.
+								<b>7. TPLO increases the risk of the opposite side tearing.</b>
+								<p>
+									Not true. In fact, quite the opposite is the case. Because
+									canine ACL tears are caused by biomechanical wear and tear,
+									40% of animals that tear one side will someday tear the other.
+									The best way to minimize this risk is to equalize weight
+									bearing by performing a TPLO on the affected side. Weight loss
+									is also important in overweight animals. Nearly all dogs left
+									untreated will tear the other side because of shifting weight
+									to the intact side.
+								</p>
 							</p>
-						</p>
-						<p>
-							<b>8. TPLO is only for show or performance dogs.</b>
 							<p>
-								Not true. Most surgeons agree the TPLO is the best procedure
-								whether your pet’s an agility star, tennis ball player or lap
-								warmer.
+								<b>8. TPLO is only for show or performance dogs.</b>
+								<p>
+									Not true. Most surgeons agree the TPLO is the best procedure
+									whether your pet’s an agility star, tennis ball player or lap
+									warmer.
+								</p>
 							</p>
-						</p>
-						<p>
-							<b>9. TPLO is expensive.</b>
 							<p>
-								Partially true. Old style repairs can be performed less
-								expensively. The old techniques often involve the use of simple
-								hand instrumentation and a piece of fishing line or suture
-								material. The TPLO involves the use of sophisticated plating
-								equipment, surgical drills and specialized saws. At Colorado
-								Canine Orthopedics we frequently see patients with unsuccessful
-								old-style repairs. It goes without saying these situations
-								result in added expense for the client and additional surgery
-								for the pet.
+								<b>9. TPLO is expensive.</b>
+								<p>
+									Partially true. Old style repairs can be performed less
+									expensively. The old techniques often involve the use of
+									simple hand instrumentation and a piece of fishing line or
+									suture material. The TPLO involves the use of sophisticated
+									plating equipment, surgical drills and specialized saws. At
+									Colorado Canine Orthopedics we frequently see patients with
+									unsuccessful old-style repairs. It goes without saying these
+									situations result in added expense for the client and
+									additional surgery for the pet.
+								</p>
 							</p>
-						</p>
-						{/* <p>
+							{/* <p>
 							<b>10. TPLO prevents or reverses osteoarthritis (OA).</b>
 							<p>
 								Unfortunately, Not true. Almost all dogs with ACL tears develop
@@ -609,9 +626,9 @@ const Acl = ({ location }) => {
 								Most surgeons agree the TPLO is the best option to minimize OA.
 							</p>
 						</p>*/}
-					</Col>
-				</Row>
-			</Container>
+						</Col>
+					</Row>
+				</Container>
 			</div>
 			<BackToTop />
 			{/* </div> */}

@@ -1193,6 +1193,14 @@ a {
   .hip .inner-page-title {
     width: 30%;
   }
+
+  .costoftplo-container {
+    background-image: none !important;
+  }
+
+  .costoftplo {
+    display: block !important;
+  }
 }
 
 /*inner page hero*/
@@ -1200,6 +1208,10 @@ a {
   padding-top: 250px;
   padding-bottom: 1.5em;
   overflow: hidden;
+}
+
+.costoftplo {
+  display: none;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
