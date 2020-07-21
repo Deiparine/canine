@@ -57,28 +57,28 @@ export default () => (
                 <Link to="/tplo">TPLO</Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/">Hip Dysplasia</Link>
+                <Link to="/hip-dysplasia">Hip Dysplasia</Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/">Total Hip Replacement</Link>
+                <Link to="/total-hip-replacement">Total Hip Replacement</Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/">Patella Luxations</Link>
+                <Link to="/medial-patella-luxation">Patella Luxations</Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/">Elbow Dysplasia</Link>
+                <Link to="/elbow-dysplasia">Elbow Dysplasia</Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/">Shoulder Disorders</Link>
+                <Link to="/canine-shoulder-disorders">Shoulder Disorders</Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/">Fractures</Link>
+                <Link to="/fractures-dislocations">Fractures</Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/">Arthrocospy</Link>
+                <Link to="/arthroscopy">Arthrocospy</Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/">Intervertebral Disc Disease</Link>
+                <Link to="/disc">Intervertebral Disc Disease</Link>
               </Nav.Item>
             </Card.Body>
           </Accordion.Collapse>
