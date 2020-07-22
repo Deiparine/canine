@@ -629,8 +629,8 @@ const Acl = ({ location }) => {
 						</Col>
 					</Row>
 				</Container>
+				<BackToTop />
 			</div>
-			<BackToTop />
 			{/* </div> */}
 		</Layout>
 	)

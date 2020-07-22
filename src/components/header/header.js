@@ -13,32 +13,33 @@ import Search from "../search"
 import "./header.scss"
 
 const allSitePage = {
-    edges: [{
-            node: {
-                id: "SitePage /404/",
-                title: "404",
-                path: "/404",
-            },
-        },
-        {
-            node: {
-                id: "SitePage /about-us/",
-                title: "About Us",
-                path: "/about-us",
-            },
-        },
-        {
-            node: {
-                id: "SitePage /contact/",
-                title: "Contact Us",
-                path: "/contact",
-            },
-        },
-    ],
+  edges: [
+    {
+      node: {
+        id: "SitePage /404/",
+        title: "404",
+        path: "/404",
+      },
+    },
+    {
+      node: {
+        id: "SitePage /about-us/",
+        title: "About Us",
+        path: "/about-us",
+      },
+    },
+    {
+      node: {
+        id: "SitePage /contact/",
+        title: "Contact Us",
+        path: "/contact",
+      },
+    },
+  ],
 }
 
 const Header = () => (
-    <header>
+  <header>
     <Sticky
       className="sticky-wrapper"
       stickyClassName="is-sticky"
@@ -47,15 +48,21 @@ const Header = () => (
       <div className="header">
         <div className="mobile-header">
           <div className="container-fluid">
-            <SideBarMenu />
-            <div className="mobile-logo px-md-3">
-              <Link to="/">
-                <img
-                  src={Logo}
-                  className="w-100"
-                  alt="Colorado Canine Orthopedics"
-                />
-              </Link>
+            <div className="row justify-content-between">
+              <div className="col-3">
+                <SideBarMenu />
+              </div>
+              <div className="col-9">
+                <div className="mobile-logo px-md-3">
+                  <Link to="/">
+                    <img
+                      src={Logo}
+                      className="w-100"
+                      alt="Colorado Canine Orthopedics"
+                    />
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
           <div className="container">

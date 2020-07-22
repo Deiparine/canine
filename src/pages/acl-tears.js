@@ -38,9 +38,9 @@ import { Container, Row, Col } from "reactstrap"
 // import reviewPp from "../images/review-pp-1.jpg"
 
 const Acl = ({ location }) => {
-    console.log(location)
-    return (
-        <Layout>
+  console.log(location)
+  return (
+    <Layout>
       <SEO title="ACL Tears" />
       <Hero videoImg={aclVid} pageTitle="ACL Tears" />
       {/* <div className="about-wrapper py-5"> */}
@@ -113,21 +113,31 @@ const Acl = ({ location }) => {
               process is well documented via arthroscopy (figure 4).
             </p>
             <div className="d-flex justify-content-between mb-5">
-              <img
-                src={tibialSloped}
-                alt="Tibial Sloped"
-                style={{ width: "45%" }}
-                className="tibial-sloped"
-              />
-              <img
-                src={slidingRad}
-                alt="Sliding Rad"
-                style={{ width: "45%" }}
-                className="tibial-sloped"
-              />
+              <Row>
+                <Col md={6}>
+                  <img
+                    src={tibialSloped}
+                    alt="Tibial Sloped"
+                    style={{ width: "100%" }}
+                    className="tibial-sloped mb-4"
+                  />
+                </Col>
+                <Col md={6}>
+                  <img
+                    src={slidingRad}
+                    alt="Sliding Rad"
+                    style={{ width: "100%" }}
+                    className="tibial-sloped"
+                  />
+                </Col>
+              </Row>
             </div>
           </Col>
-          <Col md={5} className="px-4" className="d-flex flex-column justify-content-between">
+          <Col
+            md={5}
+            className="px-4"
+            className="d-flex flex-column justify-content-between"
+          >
             <div className="mb-5">
               <img src={aclVideo1} alt="Acl vid 1" style={{ width: "100%" }} />
             </div>
@@ -285,14 +295,24 @@ const Acl = ({ location }) => {
             </div>
           </Col>
           <Col md={5} className="px-4">
-            <img src={aclVideo7} alt="Acl vid 1" className="mb-4" style={{ width: "100%" }} />
-            <img src={dogWithLeash} alt="Acl vid 1" className="dog-acl" style={{ width: "100%" }} />
+            <img
+              src={aclVideo7}
+              alt="Acl vid 1"
+              className="mb-4"
+              style={{ width: "100%" }}
+            />
+            <img
+              src={dogWithLeash}
+              alt="Acl vid 1"
+              className="dog-acl"
+              style={{ width: "100%" }}
+            />
           </Col>
         </Row>
       </Container>
       {/* </div> */}
     </Layout>
-    )
+  )
 }
 
 export default Acl

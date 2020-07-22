@@ -264,23 +264,25 @@ small,
   position: relative;
 }
 
-.btt-btn {
+.btt-btn a {
   background-color: #8cb5d4;
-  padding: 15px;
-  font-weight: 600;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 13px;
+  text-transform: uppercase;
 }
 
 .btt-btn a {
   color: #fff;
 }
 
-.btt-btn:hover {
-  background-color: #fff;
-  border: 2px solid #8cb5d4;
-}
-
 .btt-btn a:hover {
   text-decoration: none;
+  background-color: #e6e6e6;
   color: #8cb5d4;
 }
 
@@ -1316,6 +1318,10 @@ a {
   .hip .inner-page-title {
     width: 100% !important;
   }
+
+  .hero-adjustment .inner-page-title {
+    text-align: center !important;
+  }
 }
 
 .welcome-img {
@@ -1343,6 +1349,12 @@ a {
 
   .hip .inner-page-title {
     width: 40%;
+  }
+}
+
+@media (max-width: 767px) {
+  .no-video {
+    display: none;
   }
 }
 

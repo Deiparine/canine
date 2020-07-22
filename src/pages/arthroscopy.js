@@ -44,7 +44,7 @@ const Arthroscopy = ({ location }) => {
                 <div class="hero-video">
                   <div>
                     <div>
-                      <div class="video-modal-btn">
+                      <div class="video-modal-btn no-video">
                         <img
                           src="/static/acl-vid-601f62f6769da8d3789e8dfd20802e2e.png"
                           alt="video"

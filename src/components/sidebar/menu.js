@@ -91,23 +91,24 @@ export default () => (
           <Accordion.Collapse eventKey="doctors">
             <Card.Body>
               <Nav.Item>
-                <Link to="/">Mike Bauer</Link>
+                <Link to="/">Dr. Michael Bauer DVM DACVS</Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/">Todd Riecks</Link>
+                <Link to="/">Dr. Michael Detora DVM DACVS</Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/">Scot Swainson</Link>
+                <Link to="/">Dr. Todd Riecks DVM DACVS</Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/">Nate Miller</Link>
+                <Link to="/">Dr. Scot Swainson DVM DACVS</Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/">Dr. Detora</Link>
+                <Link to="/">Dr. Nate Miller DVM DACVS</Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/">Sam Franklin</Link>
+                <Link to="/">Dr. Sam Franklin DVM PhD DACVS DACVSMR</Link>
               </Nav.Item>
+              <li></li>
             </Card.Body>
           </Accordion.Collapse>
         </Card>
