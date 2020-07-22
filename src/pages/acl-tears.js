@@ -1,5 +1,5 @@
 import React from "react"
-// import { Link } from "gatsby"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 // import Image from "../components/image"
@@ -242,9 +242,9 @@ const Acl = ({ location }) => {
                 tears. Colorado Canine Orthopedics has performed tens of
                 thousands of TPLO surgeries over the past 20 years.
               </p>
-              <button type="button" class="btn">
+              <Link to="/tplo" class="btn">
                 LEARN MORE ABOUT TPLO
-              </button>
+              </Link>
             </div>
             <div className="mt-4">
               <p>
@@ -289,9 +289,9 @@ const Acl = ({ location }) => {
                 techniques and found the TPLO is the best procedure in restoring
                 normal joint biomechanics.
               </p>
-              <button type="button" class="btn">
+              <Link to="/tplo" class="btn">
                 LEARN MORE ABOUT TPLO
-              </button>
+              </Link>
             </div>
           </Col>
           <Col md={5} className="px-4">

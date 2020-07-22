@@ -1,5 +1,5 @@
 import React from "react"
-// import { Link } from "gatsby"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 // import Image from "../components/image"
@@ -303,9 +303,9 @@ const HD = ({ location }) => {
               restrictions exists, but geriatric patients may have a more
               difficult recovery and higher complication rate.
             </p>
-            <button type="button" class="btn">
+            <Link to="/total-hip-replacement" class="btn mb-5">
               LEARN MORE ABOUT THR
-            </button>
+            </Link>
           </Col>
           <Col md={5}>
             <div className="mb-4">
@@ -353,14 +353,11 @@ const HD = ({ location }) => {
               >
                 Figure 3
               </p>
-              <button type="button" class="btn">
-                BACK TOP TOP
-              </button>
             </div>
           </Col>
         </Row>
+        <BackToTop />
       </Container>
-      <BackToTop />
       {/* </div> */}
     </Layout>
   )

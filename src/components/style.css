@@ -214,7 +214,8 @@ small,
   margin-bottom: 0;
 }
 
-.acl-container button {
+.acl-container button,
+.acl-container a {
   background-color: #8cb5d4;
   color: #fff;
   border-radius: 0;
@@ -224,7 +225,8 @@ small,
   padding: 5px 10px !important;
 }
 
-.acl-container button:hover {
+.acl-container button:hover,
+.acl-container a:hover {
   background-color: #fff;
   color: #8cb5d4;
   border-radius: 0;

@@ -1,5 +1,5 @@
 import React from "react"
-// import { Link } from "gatsby"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 // import Image from "../components/image"
@@ -119,9 +119,9 @@ const Arthroscopy = ({ location }) => {
               osteoarthritis. More importantly, suspect ACL pathology can be
               clearly ruled in or out, non-invasively.
             </p>
-            <button type="button" class="btn mb-4">
+            <Link to="/acl-tears" class="btn mb-4">
               LEARN MORE ABOUT CANINE ACL TEARS
-            </button>
+            </Link>
             <p>
               Meniscal tears are common in canine orthopedics. The meniscus is a
               fibrocartilaginous structure that acts as a shock absorber and
@@ -234,13 +234,13 @@ const Arthroscopy = ({ location }) => {
                 instruments.
               </p>
             </div>
-            <button type="button" class="btn mb-4">
+            <Link to="/elbow-dysplasia" class="btn mb-4">
               LEARN MORE ABOUT CANINE ELBOW DYSPLASIA
-            </button>
+            </Link>
             <img
               src="/assets/img/arthroscopy-img-3.jpg"
               alt="Arthroscopy Image"
-              className="img-fluid"
+              className="img-fluid mb-4"
             />
           </Col>
           <Col md={5} className="d-flex flex-column">
