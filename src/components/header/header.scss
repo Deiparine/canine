@@ -48,6 +48,8 @@
 
         .nav {
             li {
+                margin-bottom: 0;
+
                 a {
                     color: inherit;
                     font-size: 13px;
@@ -57,11 +59,11 @@
                     text-transform: uppercase;
                     text-decoration: none !important;
                     /* for current page - uncomment when all
-				links are correct */
+                links are correct */
                     /*&[aria-current="page"] {
-					color: #1588bf;
-					font-weight: 700;
-				}*/
+                    color: #1588bf;
+                    font-weight: 700;
+                }*/
                 }
             }
         }
@@ -162,8 +164,8 @@
     }
 
     /*.mobile-logo {
-		img {
-			max-width: 70% !important;
-		}
-	}*/
+        img {
+            max-width: 70% !important;
+        }
+    }*/
 }

@@ -42,7 +42,9 @@ const Acl = ({ location }) => {
 	return (
 		<Layout>
 			<SEO title="TPLO" />
-			<Hero videoImg={aclVid} pageTitle="TPLO" />
+			<div className="tplo-hero">
+				<Hero videoImg={aclVid} pageTitle="TPLO" />
+			</div>
 			{/* <div className="about-wrapper py-5"> */}
 			<Container className="acl-container my-5">
 				<Row className="mb-3 pb-5 align-items-center">
@@ -299,6 +301,7 @@ const Acl = ({ location }) => {
 					backgroundImage: `url(${costoftplo})`,
 					backgroundRepeat: `no-repeat`,
 					backgroundPosition: `right`,
+					"background-size": "42%",
 				}}
 				className="costoftplo-container"
 			>
@@ -307,7 +310,7 @@ const Acl = ({ location }) => {
 					style={{ borderTop: `3px solid #dedede` }}
 				>
 					<Row className="py-5">
-						<Col md={7} className="my-5 py-5">
+						<Col md={7}>
 							<h4>Cost of TPLO surgery at Colorado Canine Orthopedics:</h4>
 							<p>
 								The average cost of a TPLO at Colorado Canine Orthopedics is
@@ -340,7 +343,7 @@ const Acl = ({ location }) => {
 			</div>
 			<div style={{ background: `#f3f3f3` }}>
 				<Container className="acl-container pt-5 mb-3">
-					<Row className="py-5">
+					<Row>
 						<Col md={12}>
 							<h4>TPLO FAQs</h4>
 							<p>

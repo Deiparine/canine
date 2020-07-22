@@ -64,7 +64,7 @@ const CanineShoulder = ({ location }) => {
       </div>
       {/* <div className="about-wrapper py-5"> */}
       <Container className="acl-container my-5">
-        <Row className="mb-3 pb-5 border-none">
+        <Row className="mb-3 border-none">
           <Col md={7}>
             <h4>Overview</h4>
             <p>
@@ -77,7 +77,7 @@ const CanineShoulder = ({ location }) => {
           </Col>
           <Col md={5}></Col>
         </Row>
-        <Row className="mb-3 pb-5 border-none">
+        <Row className="mb-3 border-none">
           <Col md={7}>
             <h4 className="border-top pt-4">Osteochondritis dissecans (OCD)</h4>
             <p>
@@ -139,7 +139,7 @@ const CanineShoulder = ({ location }) => {
             </div>
           </Col>
         </Row>
-        <Row className="mb-3 pb-5 border-none">
+        <Row className="mb-3 border-none">
           <Col md={7}>
             <h4 className="border-top pt-4">Supraspinatus Tendinopathy</h4>
             <p>
@@ -167,7 +167,7 @@ const CanineShoulder = ({ location }) => {
             </div>
           </Col>
         </Row>
-        <Row className="mb-3 pb-5 border-none">
+        <Row className="mb-3 border-none">
           <Col md={7}>
             <h4 className="border-top pt-4">Medial Shoulder Instability</h4>
             <p>
@@ -193,7 +193,7 @@ const CanineShoulder = ({ location }) => {
             </div>
           </Col>
         </Row>
-        <Row className="mb-3 pb-5 border-none">
+        <Row className="mb-3 border-none">
           <Col md={7}>
             <h4 className="border-top pt-4">
               Bicipital Tendonitis (Tenosynovitis) and Biceps Tendon Tearing
@@ -221,7 +221,7 @@ const CanineShoulder = ({ location }) => {
             </div>
           </Col>
         </Row>
-        <Row className="mb-3 pb-5 border-none">
+        <Row className="mb-3 border-none">
           <Col md={7}>
             <h4 className="border-top pt-4">Costs for shoulder arthroscopy</h4>
             <p>

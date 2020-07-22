@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 // import Image from "../components/image"
 import SEO from "../components/seo"
 import Hero from "../components/hero-adjusted/hero"
+import BackToTop from "../components/back-to-top"
 
 // images
 import Telemed from "../images/acl-tears/telemed.jpg"
@@ -29,7 +30,13 @@ const THR = ({ location }) => {
   return (
     <Layout>
       <SEO title="TOTAL HIP REPLACEMENT" />
-      <Hero videoImg={aclVid} pageTitle="TOTAL HIP REPLACEMENT" style={{ fontSize: `4.1rem`}} />
+      <div className="thr-hero">
+        <Hero
+          videoImg={aclVid}
+          pageTitle="TOTAL HIP REPLACEMENT"
+          style={{ fontSize: `4.1rem` }}
+        />
+      </div>
       {/* <div className="about-wrapper py-5"> */}
       <Container className="acl-container my-5">
         <Row className="mb-3 pb-5">
@@ -116,7 +123,7 @@ const THR = ({ location }) => {
           </Col>
           <Col md={5}>
             <img
-              src="/assets/img/tplo-telemedicine.jpg"
+              src="/assets/img/thr-telemedic.jpg"
               alt="Misc Image"
               className="img-fluid mb-4 pull-right"
             />
@@ -266,6 +273,7 @@ const THR = ({ location }) => {
           </Col>
         </Row>
       </Container>
+      <BackToTop />
       {/* </div> */}
     </Layout>
   )

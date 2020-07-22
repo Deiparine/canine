@@ -239,11 +239,21 @@ small,
   bottom: 5%;
 }
 
+.acl .inner-page-title {
+  right: 45px;
+  top: 40px;
+}
+
 /*Hip*/
 
 .hip .inner-page-title {
   width: 25%;
   text-align: left;
+}
+
+/*THR*/
+.thr-hero .inner-page-title {
+  left: 55%;
 }
 
 /*FOOTER*/
@@ -271,7 +281,7 @@ small,
   font-weight: 700;
   color: #fff;
   border: none;
-  padding: 10px;
+  padding: 10px !important;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   font-size: 13px;
@@ -1196,6 +1206,7 @@ a {
 
   .hip .inner-page-title {
     width: 30%;
+    right: 5%;
   }
 
   .costoftplo-container {
@@ -1204,6 +1215,10 @@ a {
 
   .costoftplo {
     display: block !important;
+  }
+
+  .thr-hero .inner-page-title {
+    left: 49%;
   }
 }
 
@@ -1352,11 +1367,19 @@ a {
   .hip .inner-page-title {
     width: 40%;
   }
+
+  .thr-hero .inner-page-title {
+    left: 37%;
+  }
 }
 
 @media (max-width: 767px) {
   .no-video {
     display: none;
+  }
+
+  .thr-hero .inner-page-title {
+    left: 0;
   }
 }
 
@@ -1528,6 +1551,15 @@ a.tooltip-menu-nav:hover .fa-caret-down {
   .welcome-img {
     top: 9em !important;
   }
+
+  .costoftplo-container {
+    background-size: 35% !important;
+  }
+
+  .hip .inner-page-title {
+    width: 30%;
+    right: 5%;
+  }
 }
 
 .video-modal {
@@ -1592,6 +1624,11 @@ a.tooltip-menu-nav:hover .fa-caret-down {
     position: relative;
     float: left !important;
   }
+
+  .hip .inner-page-title {
+    width: 30%;
+    right: 5%;
+  }
 }
 
 .tplo {
@@ -1600,6 +1637,11 @@ a.tooltip-menu-nav:hover .fa-caret-down {
   z-index: 1;
   top: 0.6em;
   left: 3em;
+}
+
+.tplo-hero .inner-page-title {
+  left: 15%;
+  top: 40px;
 }
 
 @media (min-width: 768px) {

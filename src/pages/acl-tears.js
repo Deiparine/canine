@@ -42,7 +42,9 @@ const Acl = ({ location }) => {
   return (
     <Layout>
       <SEO title="ACL Tears" />
-      <Hero videoImg={aclVid} pageTitle="ACL Tears" />
+      <div className="acl">
+        <Hero videoImg={aclVid} pageTitle="ACL Tears" />
+      </div>
       {/* <div className="about-wrapper py-5"> */}
       <Container className="acl-container my-5">
         <Row className="mb-4 pb-5">
@@ -94,7 +96,7 @@ const Acl = ({ location }) => {
               appointment.
             </p>
           </Col>
-          <Col md={5} className="px-4">
+          <Col md={5}>
             <img src={Telemed} alt="Telemed" style={{ width: "100%" }} />
           </Col>
         </Row>
@@ -153,7 +155,7 @@ const Acl = ({ location }) => {
             <div>
               <img src={aclVideo3} alt="Acl vid 2" style={{ width: "100%" }} />
               <p
-                className="text-right mt-3"
+                className="text-right mt-3 mb-0"
                 style={{ fontFamily: "Caveat", fontSize: 29 }}
               >
                 Figure 4
@@ -161,7 +163,7 @@ const Acl = ({ location }) => {
             </div>
           </Col>
         </Row>
-        <Row className="my-4 py-5">
+        <Row className="my-4 py-4">
           <Col md={7}>
             <h4>Clinical Signs & Diagnosis</h4>
             <p>
@@ -233,7 +235,9 @@ const Acl = ({ location }) => {
         </Row>
         <Row className="my-3 pt-5">
           <Col md={7}>
-            <h4>What are the treatment options for dogs with ACL tears?</h4>
+            <h4 className="mb-4">
+              What are the treatment options for dogs with ACL tears?
+            </h4>
             <div>
               <p>
                 <b>Tibial Plateau Leveling Osteotomy (TPLO)</b> is by far, the

@@ -64,7 +64,7 @@ const Disc = ({ location }) => {
       </div>
       {/* <div className="about-wrapper py-5"> */}
       <Container className="acl-container my-5">
-        <Row className="mb-3 pb-5 border-none">
+        <Row className="mb-3 border-none">
           <Col md={7}>
             <h3 className="mb-4">
               Canine Intervertebral Disc (or Disk) Disease
