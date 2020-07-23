@@ -120,7 +120,7 @@ class Article extends React.Component {
 				<JwPagination
 					items={this.state.filterEvent}
 					onChangePage={this.onChangePage}
-					pageSize={5}
+					pageSize={20}
 					labels={customLabels}
 				/>
 			</div>
