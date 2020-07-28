@@ -91,7 +91,7 @@ export default () => (
           <Accordion.Collapse eventKey="doctors">
             <Card.Body>
               <Nav.Item>
-                <Link to="/">Dr. Michael Bauer DVM DACVS</Link>
+                <Link to="/bauer-dvm">Dr. Michael Bauer DVM DACVS</Link>
               </Nav.Item>
               <Nav.Item>
                 <Link to="/">Dr. Michael Detora DVM DACVS</Link>

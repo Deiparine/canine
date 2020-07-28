@@ -8,12 +8,13 @@ const TooltipDoctors = () => {
       <div className="tooltip-nav">
         <ul>
           <li>
-            <Link to="/">Dr. Michael Bauer DVM DACVS</Link>
+            <Link to="/bauer-dvm">Dr. Michael Bauer DVM DACVS</Link>
             <Link to="/">​​Dr. Michael Detora DVM DACVS</Link>
             <Link to="/">​​Dr. Todd Riecks DVM DACVS</Link>
             <Link to="/">​​Dr. Scot Swainson DVM DACVS</Link>
             <Link to="/">Dr. Nate Miller DVM DACVS</Link>
             <Link to="/">​​Dr. Sam Franklin DVM PhD DACVS DACVSMR</Link>
+            <Link to="/">​​Dr. Andra DeTora DVM CCRT cVMA</Link>
           </li>
         </ul>
       </div>

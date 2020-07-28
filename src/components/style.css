@@ -256,6 +256,46 @@ small,
   left: 55%;
 }
 
+/*Docter*/
+
+.doctor-body {
+  background: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  padding: 20px;
+}
+
+.doctor-video {
+  padding: 20px;
+  background: #2588bf;
+}
+
+.doctor-name {
+  font-weight: 100;
+  font-size: 52px;
+}
+
+.doc-name {
+  font-weight: bold;
+}
+
+.doctor-position {
+  font-size: 24px !important;
+  margin-bottom: 2rem !important;
+  font-weight: 200 !important;
+}
+
+.doctor-body .print-doc {
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.doctor-body .mail-doc {
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
 /*FOOTER*/
 
 .consultation-f {
