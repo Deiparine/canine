@@ -94,7 +94,9 @@ export default () => (
                 <Link to="/bauer-dvm">Dr. Michael Bauer DVM DACVS</Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/">Dr. Michael Detora DVM DACVS</Link>
+                <Link to="/dr-michael-detora">
+                  Dr. Michael Detora DVM DACVS
+                </Link>
               </Nav.Item>
               <Nav.Item>
                 <Link to="/">Dr. Todd Riecks DVM DACVS</Link>
