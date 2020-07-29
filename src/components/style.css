@@ -284,13 +284,15 @@ small,
   font-weight: 200 !important;
 }
 
-.doctor-body .print-doc {
+.doctor-body .print-doc,
+.acl-container .print-doc {
   background: none !important;
   border: none !important;
   padding: 0 !important;
 }
 
-.doctor-body .mail-doc {
+.doctor-body .mail-doc,
+.acl-container .mail-doc {
   background: none !important;
   border: none !important;
   padding: 0 !important;
@@ -1267,6 +1269,19 @@ a {
   padding-top: 250px;
   padding-bottom: 1.5em;
   overflow: hidden;
+}
+
+.acl-container .tel-cta {
+  background: none !important;
+  color: #333 !important;
+  font-weight: 400 !important;
+  padding: 0 !important;
+}
+
+.acl-container .tel-cta:hover {
+  text-decoration: none;
+  border: none;
+  color: #1588bf !important;
 }
 
 .costoftplo {
