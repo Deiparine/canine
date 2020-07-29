@@ -10,11 +10,13 @@ const TooltipDoctors = () => {
           <li>
             <Link to="/bauer-dvm">Dr. Michael Bauer DVM DACVS</Link>
             <Link to="/dr-michael-detora">​​Dr. Michael Detora DVM DACVS</Link>
-            <Link to="/">​​Dr. Todd Riecks DVM DACVS</Link>
-            <Link to="/">​​Dr. Scot Swainson DVM DACVS</Link>
-            <Link to="/">Dr. Nate Miller DVM DACVS</Link>
-            <Link to="/">​​Dr. Sam Franklin DVM PhD DACVS DACVSMR</Link>
-            <Link to="/">​​Dr. Andra DeTora DVM CCRT cVMA</Link>
+            <Link to="/dr-todd-riecks">​​Dr. Todd Riecks DVM DACVS</Link>
+            <Link to="/dr-scot-swainson">​​Dr. Scot Swainson DVM DACVS</Link>
+            <Link to="/dr-nate-miller">Dr. Nate Miller DVM DACVS</Link>
+            <Link to="/dr-sam-franklin">
+              ​​Dr. Sam Franklin DVM PhD DACVS DACVSMR
+            </Link>
+            <Link to="/dr-andra-detora">​​Dr. Andra DeTora DVM CCRT cVMA</Link>
           </li>
         </ul>
       </div>

@@ -99,16 +99,18 @@ export default () => (
                 </Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/">Dr. Todd Riecks DVM DACVS</Link>
+                <Link to="/dr-todd-riecks">Dr. Todd Riecks DVM DACVS</Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/">Dr. Scot Swainson DVM DACVS</Link>
+                <Link to="/dr-scot-swainson">Dr. Scot Swainson DVM DACVS</Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/">Dr. Nate Miller DVM DACVS</Link>
+                <Link to="/dr-nate-miller">Dr. Nate Miller DVM DACVS</Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/">Dr. Sam Franklin DVM PhD DACVS DACVSMR</Link>
+                <Link to="/dr-sam-franklin">
+                  Dr. Sam Franklin DVM PhD DACVS DACVSMR
+                </Link>
               </Nav.Item>
               <li></li>
             </Card.Body>
