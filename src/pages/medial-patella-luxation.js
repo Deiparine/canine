@@ -8,10 +8,10 @@ import Hero from "../components/hero-adjusted/hero"
 import BackToTop from "../components/back-to-top"
 
 // images
-import Telemed from "../images/acl-tears/telemed.jpg"
-import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
+// import Telemed from "../images/acl-tears/telemed.jpg"
+// import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
 import aclVid from "../images/medial-hero-video.jpg"
-import tplodog from "../images/tplo-dog.jpg"
+// import tplodog from "../images/tplo-dog.jpg"
 
 // import MySwiper from "../components/swiper/swiper
 
@@ -84,7 +84,7 @@ const MPL = ({ location }) => {
             <div className="mb-4">
               <img
                 src="/assets/img/medial-img.jpg"
-                alt="Medial Image"
+                alt="Medial"
                 className="img-fluid"
               />
             </div>

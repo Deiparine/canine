@@ -1,18 +1,18 @@
 import React from "react"
 // import { Link } from "gatsby"
 
-import Layout from "../components/layout"
+import Layout from "../../components/layout"
 // import Image from "../components/image"
-import SEO from "../components/seo"
-import BackToTop from "../components/back-to-top"
+import SEO from "../../components/seo"
+import BackToTop from "../../components/back-to-top"
 
 // images
-import Telemed from "../images/acl-tears/telemed.jpg"
-import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
-import aclVid from "../images/hip-video.jpg"
-import tplodog from "../images/tplo-dog.jpg"
-import Doghead from "../images/doghead.png"
-import welcomeMobile from "../images/welcome-mobile.svg"
+// import Telemed from "../images/acl-tears/telemed.jpg"
+// import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
+// import aclVid from "../images/hip-video.jpg"
+// import tplodog from "../images/tplo-dog.jpg"
+// import Doghead from "../images/doghead.png"
+// import welcomeMobile from "../images/welcome-mobile.svg"
 
 // import MySwiper from "../components/swiper/swiper
 
@@ -26,11 +26,11 @@ import { Container, Row, Col } from "reactstrap"
 // import syringes from "../images/syringes.svg"
 // import reviewPp from "../images/review-pp-1.jpg"
 
-const Michael = ({ location }) => {
+const NateMiller = ({ location }) => {
   console.log(location)
   return (
     <Layout>
-      <SEO title="Doctor Michael Bauer, DVM" />
+      <SEO title="Doctor Nate Miller, DVM" />
       <div class="hero-adjustment">
         <div class="container">
           <div class="hero-content-wrapper">
@@ -68,22 +68,22 @@ const Michael = ({ location }) => {
           <Row className="border-none">
             <Col md={4}>
               <img
-                src="/assets/img/bauer_2015.jpg"
+                src="/assets/img/dr-nate-miller.jpg"
                 alt="Doctor"
-                class="img-fluid mb-4"
+                className="img-fluid mb-4"
               />
               <button className="print-doc mr-3" onclick="window.print()">
                 <img
                   src="/assets/img/print.png"
                   alt="Print"
-                  class="mb-4 img-fluid"
+                  className="mb-4 img-fluid"
                 />
               </button>
-              <a className="mail-doc">
+              <a href="/" className="mail-doc">
                 <img
                   src="/assets/img/mail.png"
                   alt="Mail"
-                  class="mb-4 img-fluid"
+                  className="mb-4 img-fluid"
                 />
               </a>
             </Col>
@@ -91,54 +91,57 @@ const Michael = ({ location }) => {
               <img
                 src="/assets/img/doc-quote.png"
                 alt="Quote"
-                class="video-img img-fluid mb-3"
+                className="video-img img-fluid mb-3"
               />
               <h2 className="doctor-name">
-                Doctor <span className="doc-name">Michael Bauer, DVM</span>
+                Doctor <span className="doc-name">Nate Miller, DVM</span>
               </h2>
               <h4 className="doctor-position">
                 Diplomate, American College of Veterinary Surgeons
               </h4>
               <p>
-                Dr. Michael Bauer is a native Kentuckian but has called Colorado
-                home for the past 25 years. He received his Veterinary degree
-                from Auburn University in 1982 and completed a surgical
-                residency program at the University of Tennessee in 1986. He
-                taught veterinary surgery for 10 years at the University of
-                Saskatchewan, Purdue University and Colorado State University.
+                Dr. Miller grew up in Evergreen, Colorado. He received his
+                undergraduate degree from Harvard University and returned to
+                Colorado, graduating from Colorado State University Veterinary
+                School. He was intern of the year at North Carolina State
+                University and completed his surgical residency at the
+                University of Georgia in 2002. He became board certified by the
+                American College of Veterinary Surgeons in 2004.
               </p>
               <p>
-                In 1996 Dr. Bauer moved to Colorado Springs and started a small
-                animal surgical practice that gradually evolved into Colorado
-                Canine Orthopedics and Rehab. Dr. Bauer is passionate about
-                helping animals and helping people that love their animals the
-                way he loves his. He takes prides in treating people the way he
-                would like to be treated if his pets were in need.
+                Dr. Miller has practiced in Denver, CO and Santa Cruz, CA. He
+                returned to Colorado in 2012 and joined the team at Colorado
+                Canine Orthopedics and couldn’t be happier.
               </p>
               <p>
-                His family includes his wonderful wife Kimberly, and his other
-                four legged family members: Sweat Pea, Noodle, Daisy and Piggy.
-                Aside from spending time with his family, Dr. Bauer enjoys
-                cycling, skiing, yoga, fly-fishing and playing guitar.
+                Dr. Miller has extensive experience in arthroscopy and has been
+                an instructor in courses nationally. Other professional
+                interests include joint replacement and correction of limb
+                deformities
+              </p>
+              <p>
+                Dr. Miller’s family consists of his wife Christine, his two
+                daughters Jessie and Charlotte, and Fred the corgi. He enjoys
+                cycling, fishing, and spending time with his family.
               </p>
             </Col>
           </Row>
         </div>
-        <div className="doctor-video">
-          <Row className="border-none">
-            <Col md={12}>
-              <iframe
-                width="100%"
-                height="600"
-                className="m-auto"
-                src="https://www.youtube.com/embed/M6E4cMWGGGc"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </Col>
-          </Row>
-        </div>
+        {/*<div className="doctor-video">
+               <Row className="border-none">
+                  <Col md={12}>
+                     <iframe
+                        width="100%"
+                        height="600"
+                        className="m-auto"
+                        src="https://www.youtube.com/embed/0esVtfY2Utk"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                     ></iframe>
+                  </Col>
+               </Row>
+            </div>*/}
       </Container>
       <BackToTop />
       {/* </div> */}
@@ -146,4 +149,4 @@ const Michael = ({ location }) => {
   )
 }
 
-export default Michael
+export default NateMiller

@@ -84,15 +84,15 @@ class Article extends React.Component {
 					<thead>
 						<tr>
 							<th id="categorylist_header_title">
-								<a href="#">Title</a>
+								<a href="/">Title</a>
 							</th>
 							<th id="categorylist_header_author">
-								<a href="#">
+								<a href="/">
 									Author<span class="icon-arrow-up-3"></span>
 								</a>{" "}
 							</th>
 							<th id="categorylist_header_hits">
-								<a href="#">Hits</a>{" "}
+								<a href="/">Hits</a>{" "}
 							</th>
 						</tr>
 					</thead>

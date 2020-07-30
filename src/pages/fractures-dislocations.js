@@ -7,12 +7,12 @@ import SEO from "../components/seo"
 import BackToTop from "../components/back-to-top"
 
 // images
-import Telemed from "../images/acl-tears/telemed.jpg"
-import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
-import aclVid from "../images/hip-video.jpg"
-import tplodog from "../images/tplo-dog.jpg"
-import Doghead from "../images/doghead.png"
-import welcomeMobile from "../images/welcome-mobile.svg"
+// import Telemed from "../images/acl-tears/telemed.jpg"
+// import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
+// import aclVid from "../images/hip-video.jpg"
+// import tplodog from "../images/tplo-dog.jpg"
+// import Doghead from "../images/doghead.png"
+// import welcomeMobile from "../images/welcome-mobile.svg"
 
 // import MySwiper from "../components/swiper/swiper
 
@@ -98,7 +98,7 @@ const Fractures = ({ location }) => {
             <div className="mb-4">
               <img
                 src="/assets/img/fracture-img.jpg"
-                alt="Arthroscopy Image"
+                alt="Arthroscopy"
                 className="img-fluid"
               />
             </div>
@@ -179,7 +179,7 @@ const Fractures = ({ location }) => {
             <div className="mb-4">
               <img
                 src="/assets/img/fracture-img-3.jpg"
-                alt="Arthroscopy Image"
+                alt="Arthroscopy"
                 className="img-fluid"
               />
             </div>
@@ -202,7 +202,7 @@ const Fractures = ({ location }) => {
             </p>
             <img
               src="/assets/img/fracture-img-4.jpg"
-              alt="Arthroscopy Image"
+              alt="Arthroscopy"
               className="img-fluid"
             />
           </Col>
@@ -244,7 +244,7 @@ const Fractures = ({ location }) => {
             </p>
             <img
               src="/assets/img/fracture-img-8.jpg"
-              alt="Arthroscopy Image"
+              alt="Arthroscopy"
               className="img-fluid"
             />
           </Col>
@@ -272,7 +272,7 @@ const Fractures = ({ location }) => {
             </p>
             <img
               src="/assets/img/fracture-img-10.jpg"
-              alt="Arthroscopy Image"
+              alt="Arthroscopy"
               className="img-fluid mb-4"
             />
             <p>
@@ -286,7 +286,7 @@ const Fractures = ({ location }) => {
             </p>
             <img
               src="/assets/img/fracture-img-12.jpg"
-              alt="Arthroscopy Image"
+              alt="Arthroscopy"
               className="img-fluid"
             />
           </Col>

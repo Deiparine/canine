@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 import Hero from "../components/hero-adjusted/hero"
 
 // images
-import aclTears from "../images/acl-tears/acl-tears.svg"
+// import aclTears from "../images/acl-tears/acl-tears.svg"
 import aclVid from "../images/acl-tears/acl-vid.png"
 import BrownDog from "../images/acl-tears/brown-hairy-dog.jpg"
 import Telemed from "../images/acl-tears/telemed.jpg"
@@ -20,7 +20,7 @@ import aclVideo4 from "../images/acl-tears/acl-clinical-signs.jpg"
 import aclVideo5 from "../images/acl-tears/acl-sit-test.jpg"
 import aclVideo6 from "../images/acl-tears/acl-arthroscopy.jpg"
 import aclVideo7 from "../images/acl-tears/acl-tears-treatment.jpg"
-import arrowDownCurve from "../images/acl-tears/arrow-down-curve.svg"
+// import arrowDownCurve from "../images/acl-tears/arrow-down-curve.svg"
 import brownDogSitting from "../images/acl-tears/brown-dog-sitting.jpg"
 import Arthroscopy from "../images/acl-tears/arthrscopy-set-up.jpg"
 import dogWithLeash from "../images/acl-tears/dog-with-leash.png"
@@ -137,8 +137,7 @@ const Acl = ({ location }) => {
           </Col>
           <Col
             md={5}
-            className="px-4"
-            className="d-flex flex-column justify-content-between"
+            className="px-4 d-flex flex-column justify-content-between"
           >
             <div className="mb-5">
               <img src={aclVideo1} alt="Acl vid 1" style={{ width: "100%" }} />

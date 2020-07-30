@@ -1,18 +1,18 @@
 import React from "react"
 // import { Link } from "gatsby"
 
-import Layout from "../components/layout"
+import Layout from "../../components/layout"
 // import Image from "../components/image"
-import SEO from "../components/seo"
-import BackToTop from "../components/back-to-top"
+import SEO from "../../components/seo"
+import BackToTop from "../../components/back-to-top"
 
 // images
-import Telemed from "../images/acl-tears/telemed.jpg"
-import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
-import aclVid from "../images/hip-video.jpg"
-import tplodog from "../images/tplo-dog.jpg"
-import Doghead from "../images/doghead.png"
-import welcomeMobile from "../images/welcome-mobile.svg"
+// import Telemed from "../images/acl-tears/telemed.jpg"
+// import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
+// import aclVid from "../images/hip-video.jpg"
+// import tplodog from "../images/tplo-dog.jpg"
+// import Doghead from "../images/doghead.png"
+// import welcomeMobile from "../images/welcome-mobile.svg"
 
 // import MySwiper from "../components/swiper/swiper
 
@@ -26,11 +26,11 @@ import { Container, Row, Col } from "reactstrap"
 // import syringes from "../images/syringes.svg"
 // import reviewPp from "../images/review-pp-1.jpg"
 
-const ToddRiecks = ({ location }) => {
+const ScotSwainson = ({ location }) => {
 	console.log(location)
 	return (
 		<Layout>
-			<SEO title="Doctor Todd Riecks, DVM" />
+			<SEO title="Doctor Scot Swainson, DVM" />
 			<div class="hero-adjustment">
 				<div class="container">
 					<div class="hero-content-wrapper">
@@ -68,7 +68,7 @@ const ToddRiecks = ({ location }) => {
 					<Row className="border-none">
 						<Col md={4}>
 							<img
-								src="/assets/img/dr-todd-riecks.jpg"
+								src="/assets/img/dr-scot-swainson.jpg"
 								alt="Doctor"
 								className="img-fluid mb-4"
 							/>
@@ -79,7 +79,7 @@ const ToddRiecks = ({ location }) => {
 									className="mb-4 img-fluid"
 								/>
 							</button>
-							<a className="mail-doc">
+							<a href="/" className="mail-doc">
 								<img
 									src="/assets/img/mail.png"
 									alt="Mail"
@@ -94,35 +94,31 @@ const ToddRiecks = ({ location }) => {
 								className="video-img img-fluid mb-3"
 							/>
 							<h2 className="doctor-name">
-								Doctor <span className="doc-name">Todd Riecks, DVM</span>
+								Doctor <span className="doc-name">Scot Swainson, DVM</span>
 							</h2>
 							<h4 className="doctor-position">
 								Diplomate, American College of Veterinary Surgeons
 							</h4>
 							<p>
-								Dr. Riecks who was born and raised in Ohio, received his DVM
-								from The Ohio State University. He went on to complete his
-								internship and residency at Med Vet Associates, Ltd. in
-								Columbus, Ohio, a nationally recognized advanced muti-specialty,
-								emergency, and cancer center.
+								Dr. Swainson was born and raised in Cheyenne, Wyoming and
+								completed pre-veterinary studies at the Univeristy of Wyoming.
+								After receiving his DVM degree from Colorado State University in
+								1994, Dr. Swainson completed a one-year general internship in
+								Los Angeles, California followed by a one-year surgical
+								internship in Winter Park, Florida. Dr. Swainson then completed
+								a 3-year residency in small animal surgery at Iowa State
+								University. Following his residency Dr. Swainson was a clinical
+								instructor at the University of Wisconsin.
 							</p>
 							<p>
-								His passion for canine orthopedic and neurosurgery allows him
-								the privilege to "...care for and interact with so many
-								wonderful pets and their people. It is awesome to witness
-								surgical success and see these dogs and cats return to their
-								fun, active CO lifestyles! Positive owner accounts and
-								compliments continue to humble my practice." He’s thrilled to be
-								living in Colorful Colorado where he enjoys snowboarding, Alpine
-								Touring, camping, backpacking, and photography. Todd is a
-								registered yoga teacher and enjoys a committed daily yoga
-								practice of his own. He is a dedicated participant in the Tiny
-								House Movement and strives for a minimal earth impact.
+								Dr. Swainson became board certified as a Diplomate of the
+								American College of Veterinary Surgeons in 2000.
 							</p>
 							<p>
-								He is delighted with his daughters, Jesse and Jaime. He shares
-								his tiny space with his partner Heather and a Border Terrier,
-								'Manitou.'
+								Dr. Swainson then entered private practice and has worked in
+								Boston, MA, Loveland CO, and Albuquerque, NM. He joined Colorado
+								Canine Orthopedics in the summer of 2008 and has settled himself
+								and family here in Colorado Springs, CO.
 							</p>
 						</Col>
 					</Row>
@@ -134,10 +130,11 @@ const ToddRiecks = ({ location }) => {
 								width="100%"
 								height="600"
 								className="m-auto"
-								src="https://www.youtube.com/embed/JAs8EZuWVaI"
+								src="https://www.youtube.com/embed/0esVtfY2Utk"
 								frameborder="0"
 								allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 								allowfullscreen
+								title="youtube"
 							></iframe>
 						</Col>
 					</Row>
@@ -149,4 +146,4 @@ const ToddRiecks = ({ location }) => {
 	)
 }
 
-export default ToddRiecks
+export default ScotSwainson

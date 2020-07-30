@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 import Hero from "../components/hero-adjusted/hero"
 import tploVid from "../images/tplo-vid.png"
 
-import Fig2 from "../images/tplo-fig2.jpg"
+// import Fig2 from "../images/tplo-fig2.jpg"
 import Fig4 from "../images/tplo-fig4.jpg"
 import Fig5 from "../images/tplo-fig5.jpg"
 
@@ -15,8 +15,8 @@ import telemedicine from "../images/tplo-telemedicine.jpg"
 import surgery from "../images/tplo-surgery.jpg"
 import video1 from "../images/tplo-how-tplo-works.jpg"
 import video2 from "../images/tplo-video-animation.jpg"
-import video3 from "../images/tplo-8-weeks.jpg"
-import video4 from "../images/tplo-why-us.jpg"
+// import video3 from "../images/tplo-8-weeks.jpg"
+// import video4 from "../images/tplo-why-us.jpg"
 
 const AboutPage = ({ location }) => (
   <Layout>

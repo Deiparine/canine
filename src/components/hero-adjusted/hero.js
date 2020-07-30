@@ -1,5 +1,5 @@
 import React from "react"
-import Doghead from "../../images/doghead.png"
+// import Doghead from "../../images/doghead.png"
 import VideoModal from "../video-modal"
 import welcomeMobile from "../../images/welcome-mobile.svg"
 import welcome from "../../images/welcome.svg"
@@ -34,10 +34,10 @@ const Hero = ({ children, videoImg, pageTitle }) => {
 					) : (
 						<div>
 							<div className="welcome-img d-none d-md-block">
-								<img src={welcome} />
+								<img src={welcome} alt="welcome" />
 							</div>
 							<div className="welcome-mobile-img d-block d-md-none">
-								<img src={welcomeMobile} />
+								<img src={welcomeMobile} alt="welcome" />
 							</div>
 						</div>
 					)}

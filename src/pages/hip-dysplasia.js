@@ -7,10 +7,10 @@ import SEO from "../components/seo"
 import Hero from "../components/hero-adjusted/hero"
 
 // images
-import Telemed from "../images/acl-tears/telemed.jpg"
-import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
+// import Telemed from "../images/acl-tears/telemed.jpg"
+// import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
 import aclVid from "../images/hip-video.jpg"
-import tplodog from "../images/tplo-dog.jpg"
+// import tplodog from "../images/tplo-dog.jpg"
 
 // import MySwiper from "../components/swiper/swiper
 
@@ -68,7 +68,7 @@ const HD = ({ location }) => {
             <div className="mb-4">
               <img
                 src="/assets/img/misc-img-big.jpg"
-                alt="Misc Image"
+                alt="Misc"
                 className="img-fluid"
               />
             </div>
@@ -97,7 +97,7 @@ const HD = ({ location }) => {
             <div className="mb-4">
               <img
                 src="/assets/img/hip-image-xray.jpg"
-                alt="Hip Image"
+                alt="Hip"
                 className="img-fluid"
               />
             </div>
@@ -179,7 +179,7 @@ const HD = ({ location }) => {
             </p>
             <img
               src="/assets/img/misc-img.jpg"
-              alt="Misc Image"
+              alt="Misc"
               className="img-fluid"
             />
           </Col>
@@ -311,7 +311,7 @@ const HD = ({ location }) => {
             <div className="mb-4">
               <img
                 src="/assets/img/misc-img-small.jpg"
-                alt="Misc Image"
+                alt="Misc"
                 className="img-fluid"
               />
             </div>

@@ -8,18 +8,18 @@ import Hero from "../components/hero-adjusted/hero"
 import BackToTop from "../components/back-to-top"
 
 // images
-import Telemed from "../images/acl-tears/telemed.jpg"
-import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
+// import Telemed from "../images/acl-tears/telemed.jpg"
+// import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
 import aclVid from "../images/elbow/elbow-hero-video.jpg"
-import tplodog from "../images/tplo-dog.jpg"
-import elbowmiscimg from "../images/elbow/elbow-misc-img.png"
-import elbowvideoheader from "../images/elbow/elbow-hero-video.jpg"
-import elbowvideo from "../images/elbow/elbow-video.png"
-import elbowvideo1 from "../images/elbow/elbow-video-1.png"
-import elbowvideo2 from "../images/elbow/elbow-video-2.png"
-import elbowvideo3 from "../images/elbow/elbow-video-3.png"
-import elbowvideo4 from "../images/elbow/elbow-video-4.png"
-import elbowvideo5 from "../images/elbow/elbow-video-5.png"
+// import tplodog from "../images/tplo-dog.jpg"
+// import elbowmiscimg from "../images/elbow/elbow-misc-img.png"
+// import elbowvideoheader from "../images/elbow/elbow-hero-video.jpg"
+// import elbowvideo from "../images/elbow/elbow-video.png"
+// import elbowvideo1 from "../images/elbow/elbow-video-1.png"
+// import elbowvideo2 from "../images/elbow/elbow-video-2.png"
+// import elbowvideo3 from "../images/elbow/elbow-video-3.png"
+// import elbowvideo4 from "../images/elbow/elbow-video-4.png"
+// import elbowvideo5 from "../images/elbow/elbow-video-5.png"
 
 // import MySwiper from "../components/swiper/swiper
 
@@ -70,7 +70,7 @@ const Elbow = ({ location }) => {
             <div className="mb-4">
               <img
                 src="/assets/img/elbow-img.jpg"
-                alt="Elbow Misc Image"
+                alt="Elbow Misc"
                 className="img-fluid"
               />
             </div>
@@ -97,7 +97,7 @@ const Elbow = ({ location }) => {
             <div className="mb-4">
               <img
                 src="/assets/img/elbow-video.jpg"
-                alt="Elbow Misc Image"
+                alt="Elbow Misc"
                 className="img-fluid"
               />
             </div>
@@ -121,7 +121,7 @@ const Elbow = ({ location }) => {
             <div className="mb-4">
               <img
                 src="/assets/img/elbow-video-2.jpg"
-                alt="Elbow Misc Image"
+                alt="Elbow Misc"
                 className="img-fluid"
               />
             </div>
@@ -187,14 +187,14 @@ const Elbow = ({ location }) => {
             <div className="mb-4">
               <img
                 src="/assets/img/elbow-img-2.jpg"
-                alt="Elbow Misc Image"
+                alt="Elbow Misc"
                 className="img-fluid"
               />
             </div>
             <div className="mb-4">
               <img
                 src="/assets/img/elbow-img-3.jpg"
-                alt="Elbow Misc Image"
+                alt="Elbow Misc"
                 className="img-fluid"
               />
             </div>
@@ -256,21 +256,21 @@ const Elbow = ({ location }) => {
             <div className="mb-4">
               <img
                 src="/assets/img/elbow-video-3.jpg"
-                alt="Elbow Misc Image"
+                alt="Elbow Misc"
                 className="img-fluid"
               />
             </div>
             <div className="mb-4">
               <img
                 src="/assets/img/elbow-video-4.jpg"
-                alt="Elbow Misc Image"
+                alt="Elbow Misc"
                 className="img-fluid"
               />
             </div>
             <div className="mb-4">
               <img
                 src="/assets/img/elbow-img-4.jpg"
-                alt="Elbow Misc Image"
+                alt="Elbow Misc"
                 className="img-fluid"
               />
             </div>
@@ -298,7 +298,7 @@ const Elbow = ({ location }) => {
             <div className="mb-4">
               <img
                 src="/assets/img/elbow-video-5.jpg"
-                alt="Elbow Misc Image"
+                alt="Elbow Misc"
                 className="img-fluid"
               />
             </div>
@@ -346,7 +346,7 @@ const Elbow = ({ location }) => {
             <div className="mb-4">
               <img
                 src="/assets/img/elbow-img-5.jpg"
-                alt="Elbow Misc Image"
+                alt="Elbow Misc"
                 className="img-fluid"
               />
             </div>
@@ -380,7 +380,7 @@ const Elbow = ({ location }) => {
             <div className="mb-4">
               <img
                 src="/assets/img/elbow-video-6.jpg"
-                alt="Elbow Misc Image"
+                alt="Elbow Misc"
                 className="img-fluid"
               />
             </div>
@@ -421,7 +421,7 @@ const Elbow = ({ location }) => {
             <div className="mb-4">
               <img
                 src="/assets/img/elbow-img-6.jpg"
-                alt="Elbow Misc Image"
+                alt="Elbow Misc"
                 className="img-fluid"
               />
             </div>

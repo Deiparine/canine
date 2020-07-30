@@ -8,10 +8,10 @@ import Hero from "../components/hero-adjusted/hero"
 import BackToTop from "../components/back-to-top"
 
 // images
-import Telemed from "../images/acl-tears/telemed.jpg"
-import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
+// import Telemed from "../images/acl-tears/telemed.jpg"
+// import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
 import aclVid from "../images/thr-hero.jpg"
-import tplodog from "../images/tplo-dog.jpg"
+// import tplodog from "../images/tplo-dog.jpg"
 
 // import MySwiper from "../components/swiper/swiper
 
@@ -54,7 +54,7 @@ const THR = ({ location }) => {
           <Col md={5}>
             <img
               src="/assets/img/misc-img-v3.png"
-              alt="Misc Image"
+              alt="Misc"
               className="img-fluid mb-4"
             />
           </Col>
@@ -96,7 +96,7 @@ const THR = ({ location }) => {
             </p>
             <img
               src="/assets/img/total-hip.jpg"
-              alt="Misc Image"
+              alt="Misc"
               className="img-fluid mb-4"
             />
             <p>
@@ -109,7 +109,7 @@ const THR = ({ location }) => {
             </p>
             <img
               src="/assets/img/total-hip-1.jpg"
-              alt="Misc Image"
+              alt="Misc"
               className="img-fluid mb-4"
             />
             <p>
@@ -124,17 +124,17 @@ const THR = ({ location }) => {
           <Col md={5}>
             <img
               src="/assets/img/thr-telemedic.jpg"
-              alt="Misc Image"
+              alt="Misc"
               className="img-fluid mb-4 pull-right"
             />
             <img
               src="/assets/img/misc-img-big.jpg"
-              alt="Misc Image"
+              alt="Misc"
               className="img-fluid mb-4"
             />
             <img
               src="/assets/img/total-hip-2.jpg"
-              alt="Misc Image"
+              alt="Misc"
               className="img-fluid mb-4"
             />
           </Col>
@@ -190,12 +190,12 @@ const THR = ({ location }) => {
           <Col md={5}>
             <img
               src="/assets/img/total-hip-video.jpg"
-              alt="Misc Image"
+              alt="Misc"
               className="img-fluid mb-4"
             />
             <img
               src="/assets/img/total-hip-video-1.jpg"
-              alt="Misc Image"
+              alt="Misc"
               className="img-fluid mb-4"
             />
           </Col>
@@ -262,12 +262,12 @@ const THR = ({ location }) => {
           <Col md={5}>
             <img
               src="/assets/img/misc-img-v2.png"
-              alt="Misc Image"
+              alt="Misc"
               className="img-fluid mb-4"
             />
             <img
               src="/assets/img/misc-img-big-v2.png"
-              alt="Misc Image"
+              alt="Misc"
               className="img-fluid mb-4"
             />
           </Col>
