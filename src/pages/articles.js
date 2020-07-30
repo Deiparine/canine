@@ -1,7 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Hero from "../components/hero-adjusted/hero"
 import tploVid from "../images/tplo-vid.png"
 import { Container } from "reactstrap"
 import { graphql, Link } from "gatsby"
@@ -30,7 +29,37 @@ const UseQueryParamExample = props => {
 	return (
 		<Layout>
 			<SEO title="Article" />
-			<Hero videoImg={tploVid} pageTitle="TPLO" />
+			<div class="hero-adjustment">
+				<div class="container">
+					<div class="hero-content-wrapper">
+						<div class="row no-gutters">
+							<div class="col-12 col-md-7">
+								<div class="hero-dog-bg">
+									<div class="dog-bg"></div>
+								</div>
+							</div>
+							<div class="col-12 col-md-5">
+								<div class="hero-video">
+									<div>
+										<div>
+											<div class="video-modal-btn no-video">
+												<img
+													src="/static/acl-vid-601f62f6769da8d3789e8dfd20802e2e.png"
+													alt="video"
+													class="video-img img-fluid v-h"
+												/>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="inner-page-title text-right arthroscopy-hero">
+							<h1>Articles</h1>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div className="page-content article">
 				<Container className="py-5">
 					<div>
