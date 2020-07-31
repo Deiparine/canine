@@ -35,6 +35,7 @@ const THR = ({ location }) => {
           videoImg={aclVid}
           pageTitle="TOTAL HIP REPLACEMENT"
           style={{ fontSize: `4.1rem` }}
+          location={location}
         />
       </div>
       {/* <div className="about-wrapper py-5"> */}

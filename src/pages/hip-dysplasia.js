@@ -7,10 +7,10 @@ import SEO from "../components/seo"
 import Hero from "../components/hero-adjusted/hero"
 
 // images
-import Telemed from "../images/acl-tears/telemed.jpg"
-import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
+// import Telemed from "../images/acl-tears/telemed.jpg"
+// import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
 import aclVid from "../images/hip-video.jpg"
-import tplodog from "../images/tplo-dog.jpg"
+// import tplodog from "../images/tplo-dog.jpg"
 
 // import MySwiper from "../components/swiper/swiper
 
@@ -26,12 +26,12 @@ import BackToTop from "../components/back-to-top"
 // import reviewPp from "../images/review-pp-1.jpg"
 
 const HD = ({ location }) => {
-  console.log(location)
+  // console.log(location)
   return (
     <Layout>
       <SEO title="Hip Dysplasia" />
       <div class="hip">
-        <Hero videoImg={aclVid} pageTitle="Hip Dysplasia" />
+        <Hero videoImg={aclVid} pageTitle="Hip Dysplasia" location={location} />
       </div>
       {/* <div className="about-wrapper py-5"> */}
       <Container className="acl-container my-5">

@@ -28,7 +28,7 @@ import Hero from "../components/hero-adjusted/hero"
 const IndexPage = ({ location }) => (
   <Layout>
     <SEO title="Home" />
-    <Hero videoImg={video}>
+    <Hero videoImg={video} location={location}>
       <img src={welcome} alt="Welcome" className="welcome-img" />
       <img
         src={welcomeMobile}
