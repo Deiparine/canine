@@ -94,6 +94,7 @@ class VideoModal extends React.Component {
                     style={{ width: "100%", height: "500px" }}
                     frameborder="0"
                     allowfullscreen
+                    title="Hero videos"
                   ></iframe>
                 ) : (
                   <img

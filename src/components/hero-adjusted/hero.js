@@ -1,5 +1,5 @@
 import React from "react"
-import Doghead from "../../images/doghead.png"
+// import Doghead from "../../images/doghead.png"
 import VideoModal from "../video-modal"
 import welcomeMobile from "../../images/welcome-mobile.svg"
 import welcome from "../../images/welcome.svg"

@@ -125,13 +125,13 @@ const Header = () => (
                       <TooltipSurgery />
                     </li>
                     <li className="tooltip-wrap-menu">
-                      <Link className="tooltip-menu-nav">
+                      <Link to="/doctors" className="tooltip-menu-nav">
                         Doctors <i className="fa fa-caret-down" />
                       </Link>
                       <TooltipDoctors />
                     </li>
                     <li>
-                      <Link to="/">Telemedicine</Link>
+                      <Link to="/telemedicine">Telemedicine</Link>
                     </li>
                     <li className="tooltip-wrap-menu">
                       <Link className="tooltip-menu-nav">

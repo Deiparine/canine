@@ -1,18 +1,18 @@
 import React from "react"
 // import { Link } from "gatsby"
 
-import Layout from "../components/layout"
+import Layout from "../../components/layout"
 // import Image from "../components/image"
-import SEO from "../components/seo"
-import BackToTop from "../components/back-to-top"
+import SEO from "../../components/seo"
+import BackToTop from "../../components/back-to-top"
 
 // images
-import Telemed from "../images/acl-tears/telemed.jpg"
-import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
-import aclVid from "../images/hip-video.jpg"
-import tplodog from "../images/tplo-dog.jpg"
-import Doghead from "../images/doghead.png"
-import welcomeMobile from "../images/welcome-mobile.svg"
+// import Telemed from "../images/acl-tears/telemed.jpg"
+// import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
+// import aclVid from "../images/hip-video.jpg"
+// import tplodog from "../images/tplo-dog.jpg"
+// import Doghead from "../images/doghead.png"
+// import welcomeMobile from "../images/welcome-mobile.svg"
 
 // import MySwiper from "../components/swiper/swiper
 
@@ -26,11 +26,11 @@ import { Container, Row, Col } from "reactstrap"
 // import syringes from "../images/syringes.svg"
 // import reviewPp from "../images/review-pp-1.jpg"
 
-const MichaelDetora = ({ location }) => {
+const Michael = ({ location }) => {
   console.log(location)
   return (
     <Layout>
-      <SEO title="Michael DeTora, DVM" />
+      <SEO title="Doctor Michael Bauer, DVM" />
       <div class="hero-adjustment">
         <div class="container">
           <div class="hero-content-wrapper">
@@ -46,7 +46,7 @@ const MichaelDetora = ({ location }) => {
                     <div>
                       <div class="video-modal-btn no-video">
                         <img
-                          src="/static/acl-vid-601f62f6769da8d3789e8dfd20802e2e.png"
+                          src="/assets/img/tplo-video.jpg"
                           alt="video"
                           class="video-img img-fluid v-h"
                         />
@@ -68,7 +68,7 @@ const MichaelDetora = ({ location }) => {
           <Row className="border-none">
             <Col md={4}>
               <img
-                src="/assets/img/detora_250.jpg"
+                src="/assets/img/bauer_2015.jpg"
                 alt="Doctor"
                 class="img-fluid mb-4"
               />
@@ -79,7 +79,7 @@ const MichaelDetora = ({ location }) => {
                   class="mb-4 img-fluid"
                 />
               </button>
-              <a className="mail-doc">
+              <a href="/" className="mail-doc">
                 <img
                   src="/assets/img/mail.png"
                   alt="Mail"
@@ -94,31 +94,32 @@ const MichaelDetora = ({ location }) => {
                 class="video-img img-fluid mb-3"
               />
               <h2 className="doctor-name">
-                Doctor <span className="doc-name">Michael DeTora, DVM</span>
+                Doctor <span className="doc-name">Michael Bauer, DVM</span>
               </h2>
               <h4 className="doctor-position">
                 Diplomate, American College of Veterinary Surgeons
               </h4>
               <p>
-                Dr. Michael DeTora is a native of Auburn, Massachusetts and the
-                son of a veterinarian. He attended Virginia Tech and played
-                soccer for the Hokies. His DVM was completed at Tufts Cummings
-                School of Veterinary Medicine. Following graduation, a 1-year
-                small animal rotating internship was completed at North Carolina
-                State University. Dr. DeTora then returned to Tufts to complete
-                a 3-year residency in small animal surgery. He became board
-                certified by the American College of Veterinary Surgeons in
-                2012.
+                Dr. Michael Bauer is a native Kentuckian but has called Colorado
+                home for the past 25 years. He received his Veterinary degree
+                from Auburn University in 1982 and completed a surgical
+                residency program at the University of Tennessee in 1986. He
+                taught veterinary surgery for 10 years at the University of
+                Saskatchewan, Purdue University and Colorado State University.
               </p>
               <p>
-                Michael has a passion for minimally invasive surgeries, cranial
-                cruciate ligament injury, regenerative medicine, and total joint
-                arthroplasty. He has spent time practicing in Florida, Maryland,
-                and Massachusetts. In his spare time, he enjoys soccer,
-                basketball, fishing, golf, winter sports, running with his wife
-                and her athletic dog, Jehger, and spending time with daughter,
-                Ava. Dr. DeTora is also an avid Boston Celtics fan. He is
-                excited to experience all Colorado has to offer with his family.
+                In 1996 Dr. Bauer moved to Colorado Springs and started a small
+                animal surgical practice that gradually evolved into Colorado
+                Canine Orthopedics and Rehab. Dr. Bauer is passionate about
+                helping animals and helping people that love their animals the
+                way he loves his. He takes prides in treating people the way he
+                would like to be treated if his pets were in need.
+              </p>
+              <p>
+                His family includes his wonderful wife Kimberly, and his other
+                four legged family members: Sweat Pea, Noodle, Daisy and Piggy.
+                Aside from spending time with his family, Dr. Bauer enjoys
+                cycling, skiing, yoga, fly-fishing and playing guitar.
               </p>
             </Col>
           </Row>
@@ -126,7 +127,7 @@ const MichaelDetora = ({ location }) => {
         <div className="doctor-video">
           <Row className="border-none">
             <Col md={12}>
-              {/*              <iframe
+              <iframe
                 width="100%"
                 height="600"
                 className="m-auto"
@@ -134,7 +135,8 @@ const MichaelDetora = ({ location }) => {
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
-              ></iframe>*/}
+                title="youtube"
+              ></iframe>
             </Col>
           </Row>
         </div>
@@ -145,4 +147,4 @@ const MichaelDetora = ({ location }) => {
   )
 }
 
-export default MichaelDetora
+export default Michael

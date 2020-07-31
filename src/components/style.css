@@ -261,12 +261,6 @@ small,
 
 /*Docter*/
 
-.doctor-body {
-  background: #fff;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  padding: 20px;
-}
-
 .doctor-video {
   padding: 20px;
   background: #2588bf;
@@ -299,6 +293,26 @@ small,
   background: none !important;
   border: none !important;
   padding: 0 !important;
+}
+
+.doctor-list {
+  padding: 50px 0;
+}
+
+.doctor-list .doctor-image img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 3rem;
+}
+
+.doctor-rank {
+  font-weight: 200 !important;
+}
+
+.doctor-p {
+  font-size: 16px !important;
+  font-weight: 200;
 }
 
 /*FOOTER*/
@@ -1439,6 +1453,14 @@ a {
   .thr-hero .inner-page-title {
     left: 0;
   }
+
+  .auxiliary-page {
+    padding-top: 150px !important;
+  }
+
+  .auxiliary-page .col-md-4 {
+    margin-bottom: 3rem;
+  }
 }
 
 .dropdown:hover .dropdown-menu {
@@ -1461,7 +1483,7 @@ a {
 
 .tooltip-menu {
   background-color: transparent !important;
-  width: 18em !important;
+  width: 24em !important;
   position: relative;
   left: -6em;
   padding-top: 10px !important;

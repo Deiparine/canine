@@ -1,6 +1,5 @@
 import React from "react"
 // import { Link } from "gatsby"
-import Gallery from "react-grid-gallery"
 
 import Layout from "../components/layout"
 // import Image from "../components/image"
@@ -8,12 +7,12 @@ import SEO from "../components/seo"
 import BackToTop from "../components/back-to-top"
 
 // images
-// import Telemed from "../images/acl-tears/telemed.jpg"
-// import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
-// import aclVid from "../images/hip-video.jpg"
-// import tplodog from "../images/tplo-dog.jpg"
-// import Doghead from "../images/doghead.png"
-// import welcomeMobile from "../images/welcome-mobile.svg"
+import Telemed from "../images/acl-tears/telemed.jpg"
+import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
+import aclVid from "../images/hip-video.jpg"
+import tplodog from "../images/tplo-dog.jpg"
+import Doghead from "../images/doghead.png"
+import welcomeMobile from "../images/welcome-mobile.svg"
 
 // import MySwiper from "../components/swiper/swiper
 
@@ -27,39 +26,11 @@ import { Container, Row, Col } from "reactstrap"
 // import syringes from "../images/syringes.svg"
 // import reviewPp from "../images/review-pp-1.jpg"
 
-const HospitalGallery = ({ location }) => {
-  const IMAGES = [
-    {
-      src: "/assets/img/Colorado-Canine-Orthopedics-&-Rehab.jpg",
-      thumbnail: "/assets/img/Colorado-Canine-Orthopedics-&-Rehab.jpg",
-      thumbnailWidth: 320,
-      thumbnailHeight: 174,
-      isSelected: true,
-      caption: "After Rain (Jeshu John - designerspics.com)",
-    },
-    {
-      src: "/assets/img/Colorado-Canine-Orthopedics-&-Rehab.jpg",
-      thumbnail: "/assets/img/Colorado-Canine-Orthopedics-&-Rehab.jpg",
-      thumbnailWidth: 320,
-      thumbnailHeight: 212,
-      tags: [
-        { value: "Ocean", title: "Ocean" },
-        { value: "People", title: "People" },
-      ],
-      caption: "Boats (Jeshu John - designerspics.com)",
-    },
-
-    {
-      src: "/assets/img/Colorado-Canine-Orthopedics-&-Rehab.jpg",
-      thumbnail: "/assets/img/Colorado-Canine-Orthopedics-&-Rehab.jpg",
-      thumbnailWidth: 320,
-      thumbnailHeight: 212,
-    },
-  ]
+const Reviews = ({ location }) => {
   console.log(location)
   return (
     <Layout>
-      <SEO title="Hospital Gallery" />
+      <SEO title="Reviews" />
       <div class="hero-adjustment">
         <div class="container">
           <div class="hero-content-wrapper">
@@ -86,7 +57,7 @@ const HospitalGallery = ({ location }) => {
               </div>
             </div>
             <div class="inner-page-title text-right arthroscopy-hero">
-              <h1>Hospital Gallery</h1>
+              <h1>Reviews</h1>
             </div>
           </div>
         </div>
@@ -95,7 +66,15 @@ const HospitalGallery = ({ location }) => {
       <Container className="acl-container my-5">
         <Row className="border-none">
           <Col md={12}>
-            <Gallery images={IMAGES} />
+            <iframe
+              src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D1143630226017606%26id%3D100011119183505&width=500"
+              width="100%"
+              height="180"
+              scrolling="no"
+              frameborder="0"
+              allowTransparency="true"
+              allow="encrypted-media"
+            ></iframe>
           </Col>
         </Row>
       </Container>
@@ -105,4 +84,4 @@ const HospitalGallery = ({ location }) => {
   )
 }
 
-export default HospitalGallery
+export default Reviews

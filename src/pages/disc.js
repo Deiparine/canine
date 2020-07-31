@@ -7,12 +7,12 @@ import SEO from "../components/seo"
 import BackToTop from "../components/back-to-top"
 
 // images
-import Telemed from "../images/acl-tears/telemed.jpg"
-import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
-import aclVid from "../images/hip-video.jpg"
-import tplodog from "../images/tplo-dog.jpg"
-import Doghead from "../images/doghead.png"
-import welcomeMobile from "../images/welcome-mobile.svg"
+// import Telemed from "../images/acl-tears/telemed.jpg"
+// import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
+// import aclVid from "../images/hip-video.jpg"
+// import tplodog from "../images/tplo-dog.jpg"
+// import Doghead from "../images/doghead.png"
+// import welcomeMobile from "../images/welcome-mobile.svg"
 
 // import MySwiper from "../components/swiper/swiper
 
@@ -46,7 +46,7 @@ const Disc = ({ location }) => {
                     <div>
                       <div class="video-modal-btn no-video">
                         <img
-                          src="/static/acl-vid-601f62f6769da8d3789e8dfd20802e2e.png"
+                          src="/assets/img/tplo-video.jpg"
                           alt="video"
                           class="video-img img-fluid v-h"
                         />
@@ -83,7 +83,7 @@ const Disc = ({ location }) => {
             <div className="mb-4">
               <img
                 src="/assets/img/disc-img.jpg"
-                alt="Disc Image"
+                alt="Disc"
                 className="img-fluid"
               />
             </div>
@@ -207,14 +207,14 @@ const Disc = ({ location }) => {
             <div className="mb-4">
               <img
                 src="/assets/img/disc-img-3.jpg"
-                alt="Disc Image"
+                alt="Disc"
                 className="img-fluid"
               />
             </div>
             <div className="mb-4">
               <img
                 src="/assets/img/disc-img-4.jpg"
-                alt="Disc Image"
+                alt="Disc"
                 className="img-fluid"
               />
             </div>

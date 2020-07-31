@@ -117,7 +117,7 @@ export default () => (
           </Accordion.Collapse>
         </Card>
         <Nav.Item>
-          <Link to="/">Telemedicine</Link>
+          <Link to="/doctors/dr-sam-franklin">Telemedicine</Link>
         </Nav.Item>
         <Card>
           <Accordion.Toggle as={Card.Header} eventKey="contact">

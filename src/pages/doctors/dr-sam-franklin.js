@@ -1,18 +1,18 @@
 import React from "react"
 // import { Link } from "gatsby"
 
-import Layout from "../components/layout"
+import Layout from "../../components/layout"
 // import Image from "../components/image"
-import SEO from "../components/seo"
-import BackToTop from "../components/back-to-top"
+import SEO from "../../components/seo"
+import BackToTop from "../../components/back-to-top"
 
 // images
-import Telemed from "../images/acl-tears/telemed.jpg"
-import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
-import aclVid from "../images/hip-video.jpg"
-import tplodog from "../images/tplo-dog.jpg"
-import Doghead from "../images/doghead.png"
-import welcomeMobile from "../images/welcome-mobile.svg"
+// import Telemed from "../images/acl-tears/telemed.jpg"
+// import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
+// import aclVid from "../images/hip-video.jpg"
+// import tplodog from "../images/tplo-dog.jpg"
+// import Doghead from "../images/doghead.png"
+// import welcomeMobile from "../images/welcome-mobile.svg"
 
 // import MySwiper from "../components/swiper/swiper
 
@@ -46,7 +46,7 @@ const SamFranklin = ({ location }) => {
                     <div>
                       <div class="video-modal-btn no-video">
                         <img
-                          src="/static/acl-vid-601f62f6769da8d3789e8dfd20802e2e.png"
+                          src="/assets/img/tplo-video.jpg"
                           alt="video"
                           class="video-img img-fluid v-h"
                         />
@@ -79,7 +79,7 @@ const SamFranklin = ({ location }) => {
                   className="mb-4 img-fluid"
                 />
               </button>
-              <a className="mail-doc">
+              <a href="/" className="mail-doc">
                 <img
                   src="/assets/img/mail.png"
                   alt="Mail"

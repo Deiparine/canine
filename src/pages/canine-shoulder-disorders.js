@@ -7,12 +7,12 @@ import SEO from "../components/seo"
 import BackToTop from "../components/back-to-top"
 
 // images
-import Telemed from "../images/acl-tears/telemed.jpg"
-import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
-import aclVid from "../images/hip-video.jpg"
-import tplodog from "../images/tplo-dog.jpg"
-import Doghead from "../images/doghead.png"
-import welcomeMobile from "../images/welcome-mobile.svg"
+// import Telemed from "../images/acl-tears/telemed.jpg"
+// import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
+// import aclVid from "../images/hip-video.jpg"
+// import tplodog from "../images/tplo-dog.jpg"
+// import Doghead from "../images/doghead.png"
+// import welcomeMobile from "../images/welcome-mobile.svg"
 
 // import MySwiper from "../components/swiper/swiper
 
@@ -46,7 +46,7 @@ const CanineShoulder = ({ location }) => {
                     <div>
                       <div className="video-modal-btn no-video">
                         <img
-                          src="/static/acl-vid-601f62f6769da8d3789e8dfd20802e2e.png"
+                          src="/assets/img/tplo-video.jpg"
                           alt="video"
                           className="video-img img-fluid v-h"
                         />
@@ -133,7 +133,7 @@ const CanineShoulder = ({ location }) => {
             <div className="mb-4">
               <img
                 src="/assets/img/canine-shoulder-img.jpg"
-                alt="Canine Shoulder Image"
+                alt="Canine Shoulder"
                 className="img-fluid"
               />
             </div>
@@ -161,7 +161,7 @@ const CanineShoulder = ({ location }) => {
             <div className="mb-4">
               <img
                 src="/assets/img/canine-shoulder-img-1.jpg"
-                alt="Canine Shoulder Image"
+                alt="Canine Shoulder"
                 className="img-fluid"
               />
             </div>
@@ -215,7 +215,7 @@ const CanineShoulder = ({ location }) => {
             <div className="mb-4">
               <img
                 src="/assets/img/canine-shoulder-img-2.jpg"
-                alt="Canine Shoulder Image"
+                alt="Canine Shoulder"
                 className="img-fluid"
               />
             </div>
@@ -244,7 +244,7 @@ const CanineShoulder = ({ location }) => {
             <div className="mb-4">
               <img
                 src="/assets/img/canine-shoulder-img-3.jpg"
-                alt="Canine Shoulder Image"
+                alt="Canine Shoulder"
                 className="img-fluid"
               />
             </div>

@@ -68,7 +68,7 @@ const HD = ({ location }) => {
             <div className="mb-4">
               <img
                 src="/assets/img/misc-img-big.jpg"
-                alt="Misc Image"
+                alt="Misc"
                 className="img-fluid"
               />
             </div>
@@ -97,7 +97,7 @@ const HD = ({ location }) => {
             <div className="mb-4">
               <img
                 src="/assets/img/hip-image-xray.jpg"
-                alt="Hip Image"
+                alt="Hip"
                 className="img-fluid"
               />
             </div>
@@ -179,7 +179,7 @@ const HD = ({ location }) => {
             </p>
             <img
               src="/assets/img/misc-img.jpg"
-              alt="Misc Image"
+              alt="Misc"
               className="img-fluid"
             />
           </Col>
@@ -311,7 +311,7 @@ const HD = ({ location }) => {
             <div className="mb-4">
               <img
                 src="/assets/img/misc-img-small.jpg"
-                alt="Misc Image"
+                alt="Misc"
                 className="img-fluid"
               />
             </div>

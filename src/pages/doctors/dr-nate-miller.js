@@ -1,18 +1,18 @@
 import React from "react"
 // import { Link } from "gatsby"
 
-import Layout from "../components/layout"
+import Layout from "../../components/layout"
 // import Image from "../components/image"
-import SEO from "../components/seo"
-import BackToTop from "../components/back-to-top"
+import SEO from "../../components/seo"
+import BackToTop from "../../components/back-to-top"
 
 // images
-import Telemed from "../images/acl-tears/telemed.jpg"
-import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
-import aclVid from "../images/hip-video.jpg"
-import tplodog from "../images/tplo-dog.jpg"
-import Doghead from "../images/doghead.png"
-import welcomeMobile from "../images/welcome-mobile.svg"
+// import Telemed from "../images/acl-tears/telemed.jpg"
+// import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
+// import aclVid from "../images/hip-video.jpg"
+// import tplodog from "../images/tplo-dog.jpg"
+// import Doghead from "../images/doghead.png"
+// import welcomeMobile from "../images/welcome-mobile.svg"
 
 // import MySwiper from "../components/swiper/swiper
 
@@ -26,11 +26,11 @@ import { Container, Row, Col } from "reactstrap"
 // import syringes from "../images/syringes.svg"
 // import reviewPp from "../images/review-pp-1.jpg"
 
-const AndraDetora = ({ location }) => {
+const NateMiller = ({ location }) => {
   console.log(location)
   return (
     <Layout>
-      <SEO title="Doctor Andra DeTora, DVM, CCRT, cVMA" />
+      <SEO title="Doctor Nate Miller, DVM" />
       <div class="hero-adjustment">
         <div class="container">
           <div class="hero-content-wrapper">
@@ -46,7 +46,7 @@ const AndraDetora = ({ location }) => {
                     <div>
                       <div class="video-modal-btn no-video">
                         <img
-                          src="/static/acl-vid-601f62f6769da8d3789e8dfd20802e2e.png"
+                          src="/assets/img/tplo-video.jpg"
                           alt="video"
                           class="video-img img-fluid v-h"
                         />
@@ -68,7 +68,7 @@ const AndraDetora = ({ location }) => {
           <Row className="border-none">
             <Col md={4}>
               <img
-                src="/assets/img/dr-andra-detora.jpg"
+                src="/assets/img/dr-nate-miller.jpg"
                 alt="Doctor"
                 className="img-fluid mb-4"
               />
@@ -79,7 +79,7 @@ const AndraDetora = ({ location }) => {
                   className="mb-4 img-fluid"
                 />
               </button>
-              <a className="mail-doc">
+              <a href="/" className="mail-doc">
                 <img
                   src="/assets/img/mail.png"
                   alt="Mail"
@@ -94,30 +94,35 @@ const AndraDetora = ({ location }) => {
                 className="video-img img-fluid mb-3"
               />
               <h2 className="doctor-name">
-                Doctor{" "}
-                <span className="doc-name">Andra DeTora, DVM, CCRT, cVMA</span>
+                Doctor <span className="doc-name">Nate Miller, DVM</span>
               </h2>
-              {/*<h4 className="doctor-position">
+              <h4 className="doctor-position">
                 Diplomate, American College of Veterinary Surgeons
-              </h4>*/}
+              </h4>
               <p>
-                Dr. Andra DeTora grew up in central New York and received her BS
-                from St. Lawrence University in 2008. She then attended Ross
-                University and received her DVM in 2012. She spent a few years
-                in general practice in New York and Florida and then went on to
-                complete a 1-year internship in Sports Medicine and
-                Rehabilitation at Veterinary Orthopedic and Sports Medicine
-                group in Maryland. She received her Certified Canine
-                Rehabilitation Therapist certificate from the Canine
-                Rehabilitation Institute in 2014. She is currently engaged in
-                Acupuncture training.
+                Dr. Miller grew up in Evergreen, Colorado. He received his
+                undergraduate degree from Harvard University and returned to
+                Colorado, graduating from Colorado State University Veterinary
+                School. He was intern of the year at North Carolina State
+                University and completed his surgical residency at the
+                University of Georgia in 2002. He became board certified by the
+                American College of Veterinary Surgeons in 2004.
               </p>
               <p>
-                Andra has spent time working with her husband in Maryland, and
-                Massachusetts as a surgery/rehab team to provide complete care
-                for four-legged loved ones. She enjoys running, yoga, reading,
-                winter sports, cooking, and spending time with her husband, Mike
-                and daughter, Ava.
+                Dr. Miller has practiced in Denver, CO and Santa Cruz, CA. He
+                returned to Colorado in 2012 and joined the team at Colorado
+                Canine Orthopedics and couldn’t be happier.
+              </p>
+              <p>
+                Dr. Miller has extensive experience in arthroscopy and has been
+                an instructor in courses nationally. Other professional
+                interests include joint replacement and correction of limb
+                deformities
+              </p>
+              <p>
+                Dr. Miller’s family consists of his wife Christine, his two
+                daughters Jessie and Charlotte, and Fred the corgi. He enjoys
+                cycling, fishing, and spending time with his family.
               </p>
             </Col>
           </Row>
@@ -144,4 +149,4 @@ const AndraDetora = ({ location }) => {
   )
 }
 
-export default AndraDetora
+export default NateMiller

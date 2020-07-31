@@ -88,7 +88,7 @@ const MPL = ({ location }) => {
             <div className="mb-4">
               <img
                 src="/assets/img/medial-img.jpg"
-                alt="Medial Image"
+                alt="Medial"
                 className="img-fluid"
               />
             </div>

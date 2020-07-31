@@ -1,7 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Hero from "../components/hero-adjusted/hero"
 import tploVid from "../images/tplo-vid.png"
 import { Container } from "reactstrap"
 import { graphql, Link } from "gatsby"
@@ -30,7 +29,37 @@ const UseQueryParamExample = props => {
   return (
     <Layout>
       <SEO title="Article" />
-      <Hero videoImg={tploVid} location={props.location} pageTitle="TPLO" />
+      <div class="hero-adjustment">
+        <div class="container">
+          <div class="hero-content-wrapper">
+            <div class="row no-gutters">
+              <div class="col-12 col-md-7">
+                <div class="hero-dog-bg">
+                  <div class="dog-bg"></div>
+                </div>
+              </div>
+              <div class="col-12 col-md-5">
+                <div class="hero-video">
+                  <div>
+                    <div>
+                      <div class="video-modal-btn no-video">
+                        <img
+                          src="/assets/img/tplo-video.jpg"
+                          alt="video"
+                          class="video-img img-fluid v-h"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="inner-page-title text-right arthroscopy-hero">
+              <h1>Articles</h1>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="page-content article">
         <Container className="py-5">
           <div>
@@ -84,15 +113,15 @@ class Article extends React.Component {
           <thead>
             <tr>
               <th id="categorylist_header_title">
-                <a href="#">Title</a>
+                <a href="/">Title</a>
               </th>
               <th id="categorylist_header_author">
-                <a href="#">
+                <a href="/">
                   Author<span class="icon-arrow-up-3"></span>
                 </a>{" "}
               </th>
               <th id="categorylist_header_hits">
-                <a href="#">Hits</a>{" "}
+                <a href="/">Hits</a>{" "}
               </th>
             </tr>
           </thead>

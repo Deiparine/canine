@@ -1,174 +1,202 @@
 /****** SMALL MOBILE ******/
 @media (min-width: 320px) {
-    .hero-dog-bg {
-        position: relative;
-        height: 100%;
-        min-height: 200px;
-        z-index: 1;
+  .hero-dog-bg {
+    position: relative;
+    height: 100%;
+    min-height: 200px;
+    z-index: 1;
 
-        .dog-bg {
-            position: absolute;
-            left: -35%;
-            top: 0;
-            width: 140%;
-            height: 180%;
-            background: url("../../images/doghead.png") bottom right no-repeat;
-            background-size: contain;
-        }
+    .dog-bg {
+      position: absolute;
+      left: -35%;
+      top: 0;
+      width: 140%;
+      height: 180%;
+      background: url("../../images/doghead.png") bottom right no-repeat;
+      background-size: contain;
     }
+  }
 
-    .hero-video {
-        padding-top: 12rem;
+  .hero-video {
+    padding-top: 12rem;
+  }
+
+  /*welcome text*/
+  .welcome-mobile-img {
+    position: absolute;
+    z-index: 1;
+    top: 10rem;
+    left: 0;
+    width: 53%;
+  }
+
+  .hero-adjustment {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    overflow: hidden;
+  }
+
+  .video-img {
+    cursor: pointer;
+  }
+
+  /*page titles for inner pages*/
+  .inner-page-title {
+    position: relative;
+    top: 40px;
+    left: 0;
+
+    h1 {
+      font-family: "Caveat", cursive;
+      text-transform: uppercase;
+      color: #1588bf;
     }
-
-    /*welcome text*/
-    .welcome-mobile-img {
-        position: absolute;
-        z-index: 1;
-        top: 10rem;
-        left: 0;
-        width: 53%;
-    }
-
-    .hero-adjustment {
-        padding-top: 5rem;
-        padding-bottom: 2rem;
-        overflow: hidden;
-    }
-
-    .video-img {
-        cursor: pointer;
-    }
-
-    /*page titles for inner pages*/
-    .inner-page-title {
-        position: relative;
-        top: 40px;
-        left: 0;
-
-        h1 {
-            font-family: "Caveat", cursive;
-            text-transform: uppercase;
-            color: #1588bf;
-        }
-    }
+  }
 }
 
 @media (min-width: 460px) and (max-width: 575px) {
-    .welcome-mobile-img {
-        top: 13rem;
-        width: 40%;
-    }
+  .welcome-mobile-img {
+    top: 13rem;
+    width: 40%;
+  }
 }
 
 /****** LARGER MOBILE ******/
 
 @media (min-width: 576px) {
-    .welcome-mobile-img {
-        width: 30%;
-        top: 15rem;
-    }
+  .welcome-mobile-img {
+    width: 30%;
+    top: 15rem;
+  }
 }
 
 /****** TABLET ******/
 
 @media (min-width: 768px) {
-    .hero-dog-bg {
-        max-height: 100%;
-        margin-top: -16rem;
-    }
+  .hero-dog-bg {
+    max-height: 100%;
+    margin-top: -16rem;
+  }
 
-    .hero-video {
-        position: relative;
-        padding-top: 0;
-        margin-top: 13rem;
-    }
+  .hero-video {
+    position: relative;
+    padding-top: 0;
+    margin-top: 13rem;
+  }
 
-    .hero-content-wrapper {
-        position: relative;
-    }
+  .hero-content-wrapper {
+    position: relative;
+  }
 
-    .welcome-img {
-        position: absolute;
-        z-index: 1;
-        right: 20%;
-        top: 15%;
-        width: 30%;
-    }
+  .welcome-img {
+    position: absolute;
+    z-index: 1;
+    right: 20%;
+    top: 15%;
+    width: 30%;
+  }
 
-    .hero-adjustment {
-        padding-top: 12rem;
-        padding-bottom: 4rem;
-    }
+  .hero-adjustment {
+    padding-top: 12rem;
+    padding-bottom: 4rem;
+  }
 
-    /*page titles for inner pages*/
-    .inner-page-title {
-        position: absolute;
-        z-index: 1;
-        right: 0;
-        left: auto;
-        width: 60%;
-        top: 1rem;
+  /*page titles for inner pages*/
+  .inner-page-title {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    left: auto;
+    width: 60%;
+    top: 1rem;
 
-        h1 {
-            font-size: 4rem;
-        }
+    h1 {
+      font-size: 4rem;
     }
+  }
 
-    .total-hip-hero h1 {
-        font-size: 4.1rem !important;
-    }
+  .total-hip-hero h1 {
+    font-size: 4.1rem !important;
+  }
 
-    .medial-patella-hero h1 {
-        font-size: 3.8rem !important;
-    }
+  .medial-patella-hero h1 {
+    font-size: 3.8rem !important;
+  }
 
-    .elbow-dysplasia-hero h1 {
-        float: right;
-        font-size: 5rem !important;
-    }
+  .elbow-dysplasia-hero h1 {
+    float: right;
+    font-size: 5rem !important;
+  }
 
-    .canine-shoulder-hero h1 {
-        font-size: 5rem !important;
-    }
+  .canine-shoulder-hero h1 {
+    font-size: 5rem !important;
+  }
 
-    .arthroscopy-hero h1 {
-        font-size: 5rem !important;
-        margin-top: 4rem;
-    }
+  .arthroscopy-hero h1 {
+    font-size: 5rem !important;
+    margin-top: 4rem;
+  }
 
-    .disc-hero h1 {
-        font-size: 5rem !important;
-        margin-top: 4rem;
-    }
+  .disc-hero h1 {
+    font-size: 5rem !important;
+    margin-top: 4rem;
+  }
 }
 
 /****** SMALL DESKTOP ******/
 
 @media (min-width: 992px) {
-    .hero-dog-bg {
-        margin-top: -23rem;
-    }
+  .hero-dog-bg {
+    margin-top: -23rem;
+  }
 
-    .welcome-img {
-        right: 20%;
-        top: 2rem !important;
-        width: 30%;
-    }
+  .welcome-img {
+    right: 20%;
+    top: 2rem !important;
+    width: 30%;
+  }
 
-    .hero-adjustment {
-        padding-top: 19rem;
-        padding-bottom: 8rem;
-    }
+  .hero-adjustment {
+    padding-top: 19rem;
+    padding-bottom: 8rem;
+  }
 
-    /*page titles for inner pages*/
+  /*page titles for inner pages*/
 }
 
 /****** DESKTOP ******/
 
 @media (min-width: 1024px) {
-    .hero-adjustment {
-        padding-top: 9rem;
-        padding-bottom: 5rem;
-    }
+  .hero-adjustment {
+    padding-top: 9rem;
+    padding-bottom: 5rem;
+  }
+}
+
+.doctors-hero {
+  padding-top: 11rem;
+  padding-bottom: 5rem;
+}
+
+.doctors-hero .hero-content-wrapper {
+  background-image: linear-gradient(90deg, #2588bf, #17b1f9);
+  padding: 8% 0;
+}
+
+.doctors-hero .hero-content-wrapper .inner-page-subtitle {
+  width: 50%;
+  margin: 0 auto;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .doctors-hero {
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+  }
+
+  .doctors-hero .hero-content-wrapper .inner-page-subtitle {
+    width: 100%;
+    padding: 0 20px;
+  }
 }

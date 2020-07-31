@@ -7,12 +7,12 @@ import SEO from "../components/seo"
 import BackToTop from "../components/back-to-top"
 
 // images
-import Telemed from "../images/acl-tears/telemed.jpg"
-import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
-import aclVid from "../images/hip-video.jpg"
-import tplodog from "../images/tplo-dog.jpg"
-import Doghead from "../images/doghead.png"
-import welcomeMobile from "../images/welcome-mobile.svg"
+// import Telemed from "../images/acl-tears/telemed.jpg"
+// import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
+// import aclVid from "../images/hip-video.jpg"
+// import tplodog from "../images/tplo-dog.jpg"
+// import Doghead from "../images/doghead.png"
+// import welcomeMobile from "../images/welcome-mobile.svg"
 
 // import MySwiper from "../components/swiper/swiper
 
@@ -46,7 +46,7 @@ const Arthroscopy = ({ location }) => {
                     <div>
                       <div class="video-modal-btn no-video">
                         <img
-                          src="/static/acl-vid-601f62f6769da8d3789e8dfd20802e2e.png"
+                          src="/assets/img/tplo-video.jpg"
                           alt="video"
                           class="video-img img-fluid v-h"
                         />
@@ -95,7 +95,7 @@ const Arthroscopy = ({ location }) => {
             <div className="mb-4">
               <img
                 src="/assets/img/arthroscopy-img.jpg"
-                alt="Arthroscopy Image"
+                alt="Arthroscopy"
                 className="img-fluid"
               />
             </div>
@@ -191,7 +191,7 @@ const Arthroscopy = ({ location }) => {
             <div className="mb-4">
               <img
                 src="/assets/img/arthroscopy-img-1.jpg"
-                alt="Arthroscopy Image"
+                alt="Arthroscopy"
                 className="img-fluid"
               />
             </div>
@@ -213,7 +213,7 @@ const Arthroscopy = ({ location }) => {
             </p>
             <img
               src="/assets/img/arthroscopy-img-2.jpg"
-              alt="Arthroscopy Image"
+              alt="Arthroscopy"
               className="img-fluid"
             />
             <div className="mt-4" style={{ borderTop: `1px solid #dedede` }}>
@@ -239,7 +239,7 @@ const Arthroscopy = ({ location }) => {
             </Link>
             <img
               src="/assets/img/arthroscopy-img-3.jpg"
-              alt="Arthroscopy Image"
+              alt="Arthroscopy"
               className="img-fluid mb-4"
             />
           </Col>
