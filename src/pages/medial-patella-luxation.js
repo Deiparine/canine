@@ -26,11 +26,15 @@ import { Container, Row, Col } from "reactstrap"
 // import reviewPp from "../images/review-pp-1.jpg"
 
 const MPL = ({ location }) => {
-  console.log(location)
+  // console.log(location)
   return (
     <Layout>
       <SEO title="MEDIAL PATELLA LUXATION" />
-      <Hero videoImg={aclVid} pageTitle="MEDIAL PATELLA LUXATION" />
+      <Hero
+        videoImg={aclVid}
+        pageTitle="MEDIAL PATELLA LUXATION"
+        location={location}
+      />
       {/* <div className="about-wrapper py-5"> */}
       <Container className="acl-container my-5">
         <Row className="mb-3 pb-5 border-none">

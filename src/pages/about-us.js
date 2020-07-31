@@ -21,7 +21,7 @@ import video2 from "../images/tplo-video-animation.jpg"
 const AboutPage = ({ location }) => (
   <Layout>
     <SEO title="Home" />
-    <Hero videoImg={tploVid} pageTitle="TPLO" />
+    <Hero videoImg={tploVid} pageTitle="TPLO" location={location} />
     <div className="page-content">
       <div className="container">
         <div className="mb-5 ">

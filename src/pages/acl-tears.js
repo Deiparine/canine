@@ -11,7 +11,7 @@ import Hero from "../components/hero-adjusted/hero"
 import aclVid from "../images/acl-tears/acl-vid.png"
 import BrownDog from "../images/acl-tears/brown-hairy-dog.jpg"
 import Telemed from "../images/acl-tears/telemed.jpg"
-import tibialSloped from "../images/acl-tears/tibial-sloped.jpg"
+import tibialSloped from "../images/acl-tears/tibial-sloped-notext.jpg"
 import slidingRad from "../images/acl-tears/sliding-rad.gif"
 import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
 import aclVideo2 from "../images/acl-tears/acl-figure-3.jpg"
@@ -38,20 +38,21 @@ import { Container, Row, Col } from "reactstrap"
 // import reviewPp from "../images/review-pp-1.jpg"
 
 const Acl = ({ location }) => {
-  console.log(location)
+  // console.log(location.pathname)
   return (
     <Layout>
       <SEO title="ACL Tears" />
       <div className="acl">
-        <Hero videoImg={aclVid} pageTitle="ACL Tears" />
+        <Hero videoImg={aclVid} pageTitle="ACL Tears" location={location} />
       </div>
       {/* <div className="about-wrapper py-5"> */}
       <Container className="acl-container my-5">
         <Row className="mb-4 pb-5">
           <Col md={7}>
             <h2 className="mb-5 text-blue">
-              ACL Tears represent the most common orthopedic condition seen in
-              dogs.
+              {/* ACL Tears represent the most common orthopedic condition seen in
+              dogs. */}
+              Canine ACL Tears
             </h2>
             <h4>Overview</h4>
             <p>
@@ -109,10 +110,11 @@ const Acl = ({ location }) => {
               tibial plateau (figure 1). Because of the canine sloping tibial
               plateau, the femur slides down and back the sloping tibial plateau
               during weight bearing resulting in biomechanical stress and
-              ultimately degeneration and tearing of the ACL (figures 2 and 3).
-              In dogs, the ACL almost always tears or degenerates gradually over
-              time due to this chronic biomechanical stress. This degenerative
-              process is well documented via arthroscopy (figure 4).
+              ultimately degeneration and tearing of the ACL (figure 2). In
+              dogs, the ACL almost always tears or degenerates gradually over
+              time due to this chronic biomechanical stress (figure 3). This
+              degenerative process is well documented via arthroscopy (figure
+              4).
             </p>
             <div className="d-flex justify-content-between mb-5">
               <Row>
@@ -121,8 +123,14 @@ const Acl = ({ location }) => {
                     src={tibialSloped}
                     alt="Tibial Sloped"
                     style={{ width: "100%" }}
-                    className="tibial-sloped mb-4"
+                    className="tibial-sloped mb-2"
                   />
+                  <p
+                    className="text-right "
+                    style={{ fontFamily: "Caveat", fontSize: 25 }}
+                  >
+                    Figure 1
+                  </p>
                 </Col>
                 <Col md={6}>
                   <img
@@ -131,6 +139,12 @@ const Acl = ({ location }) => {
                     style={{ width: "100%" }}
                     className="tibial-sloped"
                   />
+                  <p
+                    className="text-right "
+                    style={{ fontFamily: "Caveat", fontSize: 25 }}
+                  >
+                    Figure 2
+                  </p>
                 </Col>
               </Row>
             </div>
@@ -140,7 +154,15 @@ const Acl = ({ location }) => {
             className="px-4 d-flex flex-column justify-content-between"
           >
             <div className="mb-5">
-              <img src={aclVideo1} alt="Acl vid 1" style={{ width: "100%" }} />
+              {/* <img src={aclVideo1} alt="Acl vid 1" style={{ width: "100%" }} /> */}
+              <iframe
+                title="vimeo-player"
+                src="https://player.vimeo.com/video/440720428"
+                width="100%"
+                height="450"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
             </div>
             <div>
               <img src={aclVideo2} alt="Acl vid 2" style={{ width: "100%" }} />
@@ -152,9 +174,17 @@ const Acl = ({ location }) => {
               </p>
             </div>
             <div>
-              <img src={aclVideo3} alt="Acl vid 2" style={{ width: "100%" }} />
+              {/* <img src={aclVideo3} alt="Acl vid 2" style={{ width: "100%" }} /> */}
+              <iframe
+                title="vimeo-player"
+                src="https://player.vimeo.com/video/440723568"
+                width="100%"
+                height="450"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
               <p
-                className="text-right mt-3 mb-0"
+                className="text-right mb-0"
                 style={{ fontFamily: "Caveat", fontSize: 29 }}
               >
                 Figure 4

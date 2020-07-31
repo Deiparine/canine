@@ -26,12 +26,12 @@ import BackToTop from "../components/back-to-top"
 // import reviewPp from "../images/review-pp-1.jpg"
 
 const HD = ({ location }) => {
-  console.log(location)
+  // console.log(location)
   return (
     <Layout>
       <SEO title="Hip Dysplasia" />
       <div class="hip">
-        <Hero videoImg={aclVid} pageTitle="Hip Dysplasia" />
+        <Hero videoImg={aclVid} pageTitle="Hip Dysplasia" location={location} />
       </div>
       {/* <div className="about-wrapper py-5"> */}
       <Container className="acl-container my-5">

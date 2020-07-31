@@ -38,7 +38,7 @@ const Elbow = ({ location }) => {
   return (
     <Layout>
       <SEO title="Elbow Dysplasia" />
-      <Hero videoImg={aclVid} pageTitle="Elbow Dysplasia" />
+      <Hero videoImg={aclVid} pageTitle="Elbow Dysplasia" location={location} />
       {/* <div className="about-wrapper py-5"> */}
       <Container className="acl-container my-5">
         <Row className="mb-3 pb-5 border-none">
