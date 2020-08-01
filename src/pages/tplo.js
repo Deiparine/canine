@@ -50,8 +50,7 @@ const Acl = ({ location }) => {
         <Row className="mb-3 pb-5 align-items-center">
           <Col md={7}>
             <h3 className="mb-5 text-capitalize">
-              Tibial Plateau Leveling Osteotomy (TPLO) is the optimal treatment
-              for dogs with ACL tears.
+              Tibial Plateau Leveling Osteotomy (TPLO)
             </h3>
             <h4>Overview</h4>
             <p>
@@ -167,10 +166,14 @@ const Acl = ({ location }) => {
           </Col>
           <Col md={5} className="d-flex flex-column justify-content-between">
             <div className="mb-5">
-              <img
-                src="/assets/img/tplo-video.jpg"
-                alt="Acl vid 1"
-                style={{ width: "100%" }}
+              <iframe
+                title="vimeo-player"
+                src="https://player.vimeo.com/video/440744836"
+                width="100%"
+                height="350"
+                frameborder="0"
+                allowfullscreen
+                title="How the TPLO Works"
               />
             </div>
             <div className="mb-5">
@@ -197,7 +200,7 @@ const Acl = ({ location }) => {
                 className="text-right mt-3"
                 style={{ fontFamily: "Caveat", fontSize: 29 }}
               >
-                Figure 3
+                Figure 3: Arthroscopy
               </p>
             </div>
           </Col>
@@ -246,18 +249,25 @@ const Acl = ({ location }) => {
           </Col>
           <Col md={5} className="d-flex flex-column justify-content-between">
             <div className="mb-5">
-              <img
-                src={TPLORecoveryvideo}
-                alt="TPLO Recovery video"
-                style={{ width: "100%" }}
+              <iframe
+                title="vimeo-player"
+                src="https://player.vimeo.com/video/440745518"
+                width="100%"
+                height="350"
+                frameborder="0"
+                allowfullscreen
+                title="TPLO Healing and Recovery"
               />
             </div>
             <div>
-              <img
-                src={TPLORecoveryvideo1}
-                alt="TPLO Recovery video 1"
-                class=" mb-5"
-                style={{ width: "100%" }}
+              <iframe
+                title="vimeo-player"
+                src="https://player.vimeo.com/video/440745706"
+                width="100%"
+                height="350"
+                frameborder="0"
+                allowfullscreen
+                title="Dog Leaving After TPLO"
               />
             </div>
             <div>
@@ -291,7 +301,15 @@ const Acl = ({ location }) => {
           </Col>
           <Col md={5} className="d-flex flex-column justify-content-between">
             <div>
-              <img src={whyus} alt="Why Us" style={{ width: "100%" }} />
+              <iframe
+                title="vimeo-player"
+                src="https://player.vimeo.com/video/440746212"
+                width="100%"
+                height="350"
+                frameborder="0"
+                allowfullscreen
+                title="Why Us TPLO"
+              />
             </div>
           </Col>
         </Row>

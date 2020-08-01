@@ -8,6 +8,7 @@ import SEO from "../components/seo"
 
 // import MySwiper from "../components/swiper/swiper"
 import AboutImg from "../../static/assets/girl-with-her-dog.png"
+import AboutTwoImg from "../../static/assets/3r5n6BJ4.jpeg"
 import welcome from "../images/welcome.svg"
 import welcomeMobile from "../images/welcome-mobile.svg"
 import video from "../images/dr-bauer-vid.png"
@@ -97,23 +98,16 @@ const IndexPage = ({ location }) => (
         <Col md={5} sm={12} className="d-flex about-second-wrapper">
           <div className="about-second-section d-flex flex-column justify-content-between">
             <div>
-              <h4>TITLE WILL GO HERE FEES</h4>
-              <p>
-                Veterinary care has become more and more sophisticated; no
-                specialization is this more true than orthopedic surgery. As an
-                example, in the past, veterinary surgeons opened several hundred
-                dollars of hand instruments and a few dollars of suture material
-                to repair canine ACL tears. Today we literally utilize hundreds
-                of thousands of dollars of imaging machines, power tools,
-                arthroscopic equipment, anesthesia equipment and monitoring
-                devices to perform the TPLO procedure with better than
-                previously possible.
-              </p>
-            </div>
-            <div>
               <img
                 src={AboutImg}
                 alt="girl-with-her-dog"
+                className="img-fluid mb-5"
+                style={{ width: "100%" }}
+              />
+              <img
+                src={AboutTwoImg}
+                alt="girl-with-her-dog"
+                className="img-fluid mt-5"
                 style={{ width: "100%" }}
               />
             </div>

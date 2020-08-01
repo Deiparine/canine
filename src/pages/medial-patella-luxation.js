@@ -156,10 +156,14 @@ const MPL = ({ location }) => {
           </Col>
           <Col md={5}>
             <div className="mb-4">
-              <img
-                src="/assets/img/medial-video.jpg"
-                alt="Medial Video"
-                className="img-fluid"
+              <iframe
+                title="vimeo-player"
+                src="https://player.vimeo.com/video/440737233"
+                width="100%"
+                height="350"
+                frameborder="0"
+                allowfullscreen
+                title="Arthroscopy of Medila Patella Luxation"
               />
             </div>
           </Col>
@@ -191,17 +195,14 @@ const MPL = ({ location }) => {
           </Col>
           <Col md={5}>
             <div className="mb-4">
-              <img
-                src="/assets/img/medial-video-1.jpg"
-                alt="Medial Video 1"
-                className="img-fluid"
-              />
-            </div>
-            <div className="mb-4">
-              <img
-                src="/assets/img/medial-video-2.jpg"
-                alt="Medial Video 2"
-                className="img-fluid"
+              <iframe
+                title="vimeo-player"
+                src="https://player.vimeo.com/video/440737600"
+                width="100%"
+                height="350"
+                frameborder="0"
+                allowfullscreen
+                title="trochleoplasty surgery for MPL"
               />
             </div>
           </Col>

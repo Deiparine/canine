@@ -54,7 +54,7 @@ const THR = ({ location }) => {
           </Col>
           <Col md={5}>
             <img
-              src="/assets/img/misc-img-v3.png"
+              src="/assets/img/nSZ0ozOM.jpeg"
               alt="Misc"
               className="img-fluid mb-4"
             />
@@ -129,7 +129,7 @@ const THR = ({ location }) => {
               className="img-fluid mb-4 pull-right"
             />
             <img
-              src="/assets/img/misc-img-big.jpg"
+              src="/assets/img/xTVQFjzp.jpeg"
               alt="Misc"
               className="img-fluid mb-4"
             />
@@ -194,10 +194,14 @@ const THR = ({ location }) => {
               alt="Misc"
               className="img-fluid mb-4"
             />
-            <img
-              src="/assets/img/total-hip-video-1.jpg"
-              alt="Misc"
-              className="img-fluid mb-4"
+            <iframe
+              title="vimeo-player"
+              src="https://player.vimeo.com/video/440739247"
+              width="100%"
+              height="350"
+              frameborder="0"
+              allowfullscreen
+              title="8 Weeks Post-Op THR"
             />
           </Col>
         </Row>
@@ -262,12 +266,12 @@ const THR = ({ location }) => {
           </Col>
           <Col md={5}>
             <img
-              src="/assets/img/misc-img-v2.png"
+              src="/assets/img/oNOPKrp7.jpeg"
               alt="Misc"
               className="img-fluid mb-4"
             />
             <img
-              src="/assets/img/misc-img-big-v2.png"
+              src="/assets/img/0eC-Hc1A.jpeg"
               alt="Misc"
               className="img-fluid mb-4"
             />

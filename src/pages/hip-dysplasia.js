@@ -67,7 +67,7 @@ const HD = ({ location }) => {
           <Col md="5">
             <div className="mb-4">
               <img
-                src="/assets/img/misc-img-big.jpg"
+                src="/assets/img/canine-shoulder-img.jpg"
                 alt="Misc"
                 className="img-fluid"
               />
@@ -129,10 +129,14 @@ const HD = ({ location }) => {
           </Col>
           <Col md={5}>
             <div className="mb-4">
-              <img
-                src="/assets/img/metamorphosis-video.jpg"
-                alt="metamorphosis Video"
-                className="img-fluid mt-4"
+              <iframe
+                title="vimeo-player"
+                src="https://player.vimeo.com/video/440512344"
+                width="100%"
+                height="350"
+                frameborder="0"
+                allowfullscreen
+                title="Hip Dysplasia metamorphosis in Young Dogs"
               />
             </div>
           </Col>
@@ -260,7 +264,7 @@ const HD = ({ location }) => {
               <strong>Juvenile Pubic Symphysiodesis (JPS)</strong>
               <br /> is a newer, less invasive procedure involving fusion of the
               growth plate within the pelvis and is indicated in dogs less than
-              5 months of age (figure 1). Juvenile Pubic Symphysiodesis alters
+              5 months of age (figure 3). Juvenile Pubic Symphysiodesis alters
               the pelvic development with the ultimate result of the ball and
               socket fitting more “tightly,” therefore, decreasing the potential
               amount of future hip arthritis. Also, compared to other more
@@ -276,7 +280,7 @@ const HD = ({ location }) => {
               Double pelvic osteotomy involves making two osteotomies (bone
               cuts) in the pelvic bones, reorienting the acetabulum over the
               femoral head and securing the osteotomy with a bone plate (figure
-              2).
+              3).
             </p>
             <p>
               Numerous factors are considered when deciding which patients will
@@ -289,7 +293,7 @@ const HD = ({ location }) => {
             </p>
             <p>
               <strong>Femoral Head Ostectomy (FHO)</strong>
-              <br /> is best suited for cats and small dogs (figure 3). Femoral
+              <br /> is best suited for cats and small dogs (figure 4). Femoral
               Head Ostectomy involves removal of the femoral head (ball) from
               the joint. Scar tissue forms between the remaining bone and socket
               (acetabulum) forming a “false joint”. The primary advantage of the
@@ -310,27 +314,35 @@ const HD = ({ location }) => {
           <Col md={5}>
             <div className="mb-4">
               <img
-                src="/assets/img/misc-img-small.jpg"
+                src="/assets/img/dog-lick-boy.jpeg"
                 alt="Misc"
                 className="img-fluid"
               />
             </div>
             <div className="mb-4">
               <img
-                src="/assets/img/hip-xray-img.jpg"
+                src="/assets/img/before-surgery.png"
                 alt="Hip Xray"
                 className="img-fluid mb-2"
               />
+              <img
+                src="/assets/img/after-sugery.png"
+                alt="Hip Xray"
+                className="img-fluid mb-2"
+              />
+            </div>
+            <div className="mb-4">
               <p
                 className="text-right mt-3"
                 style={{ fontFamily: "Caveat", fontSize: 29 }}
               >
-                Figure 1
+                Figure 3: CT scan showing hip joints before and after JPS
+                surgery
               </p>
             </div>
             <div className="mb-4">
               <img
-                src="/assets/img/hip-xray-img.jpg"
+                src="/assets/img/DPO.jpeg"
                 alt="Hip Xray"
                 className="img-fluid mb-2"
               />
@@ -338,12 +350,12 @@ const HD = ({ location }) => {
                 className="text-right mt-3"
                 style={{ fontFamily: "Caveat", fontSize: 29 }}
               >
-                Figure 2
+                Figure 3: Double pelvic osteotomy
               </p>
             </div>
             <div className="mb-4">
               <img
-                src="/assets/img/hip-xray-img.jpg"
+                src="/assets/img/FHO.jpeg"
                 alt="Hip Xray"
                 className="img-fluid mb-2"
               />
@@ -351,7 +363,7 @@ const HD = ({ location }) => {
                 className="text-right mt-3"
                 style={{ fontFamily: "Caveat", fontSize: 29 }}
               >
-                Figure 3
+                Figure 4: Femoral head osteotomy (FHO)
               </p>
             </div>
           </Col>

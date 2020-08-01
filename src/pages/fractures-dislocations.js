@@ -30,7 +30,7 @@ const Fractures = ({ location }) => {
   console.log(location)
   return (
     <Layout>
-      <SEO title="FRACTUERS & DISLOCATIONS" />
+      <SEO title="FRACTURES & DISLOCATIONS" />
       <div class="hero-adjustment">
         <div class="container">
           <div class="hero-content-wrapper">
@@ -230,12 +230,12 @@ const Fractures = ({ location }) => {
             </h4>
             <p>
               Interlocking, intramedullary (IM) nailing is another established
-              method used to align and stabilize canine fractures (figure 1).
+              method used to align and stabilize canine fractures (figure 5).
               Unlike old style IM pins, threaded bolts are placed through holes
               in the ends of nails to provide rotational stability. This level
               of strength and stability are not possible with IM pins alone.
               Nails are inserted into the central canal of long bones of the
-              extremities (e.g. femur, humerus, tibia).
+              extremities (e.g. femur, humerus, tibia) (figure 6).
             </p>
             <p>
               This system offers superior stability for highly comminuted (many
@@ -243,7 +243,7 @@ const Fractures = ({ location }) => {
               biological repair (preserving fracture hematoma).{" "}
             </p>
             <img
-              src="/assets/img/fracture-img-8.jpg"
+              src="/assets/img/fracture-img-9.jpg"
               alt="Arthroscopy"
               className="img-fluid"
             />
@@ -251,7 +251,7 @@ const Fractures = ({ location }) => {
           <Col md={5} className="d-flex flex-column">
             <div className="mb-4">
               <img
-                src="/assets/img/fracture-img-9.jpg"
+                src="/assets/img/fracture-img-8.jpg"
                 alt="Arthroscopy Video"
                 className="img-fluid"
               />
@@ -263,18 +263,20 @@ const Fractures = ({ location }) => {
             <h4 className="border-top pt-4">External skeletal fixation</h4>
             <p>
               External skeletal fixation has been available to veterinarians for
-              many years (figure 1). There has been a recent resurgence in the
+              many years (figure 7). There has been a recent resurgence in the
               use of these devices, as surgeons are finding that minimally
               invasive reduction of bone fragments combined with rigid fixation
               provides a more biologic method of fixation for many fractures.
               External skeletal fixation is also used in conjunction with other
               repair methods such as IM pinning.
             </p>
-            <img
-              src="/assets/img/fracture-img-10.jpg"
-              alt="Arthroscopy"
-              className="img-fluid mb-4"
-            />
+            <div className="text-center">
+              <img
+                src="/assets/img/fracture-img-10.png"
+                alt="Arthroscopy"
+                className="img-fluid mb-4"
+              />
+            </div>
             <p>
               External skeletal fixation involves pins placed percutaneously
               (through the skin), proximal and distal (above and below) to the
@@ -351,35 +353,52 @@ const Fractures = ({ location }) => {
             </p>
             <p>
               Hip or coxofemoral, luxations represent the most common canine
-              joint luxation. Some are amendable to closed, non-surgical
-              reduction, however recurrence is common. Surgical treatment is
-              indicated in dogs with abnormal hip confirmation (hip dysplasia),
-              in situations where a small bone fragments breaks off at the time
-              of luxation and if closed, non-surgical treatment has failed
-              either immediately or weeks later. In dogs with normal hip
+              joint luxation (Figure 10). Some are amendable to closed,
+              non-surgical reduction, however recurrence is common. Surgical
+              treatment is indicated in dogs with abnormal hip confirmation (hip
+              dysplasia), in situations where a small bone fragments breaks off
+              at the time of luxation and if closed, non-surgical treatment has
+              failed either immediately or weeks later. In dogs with normal hip
               confirmation, open reductions and stabilization using an
               “artificial” ligament and toggle pin technique is indicated and
               carries a very good prognosis. In large breed dogs with abnormal
               hip confirmation, total hip replacement is the ideal treatment
-              option with an excellent prognosis. In small breed dogs and cats,
-              good to excellent results can be achieved by removing the femoral
-              head (femoral head ostectomy or FHO).
+              option with an excellent prognosis (Figure 11). In small breed
+              dogs and cats, good to excellent results can be achieved by
+              removing the femoral head (femoral head ostectomy or FHO).
+              <img
+                src="/assets/img/fracture-land.jpg"
+                alt="Arthroscopy Video"
+                className="img-fluid mt-5"
+              />
             </p>
           </Col>
           <Col md={5} className="d-flex flex-column">
             <div className="mb-4">
               <img
-                src="/assets/img/fracture-img-15.jpg"
+                src="/assets/img/fracture-img-15.jpeg"
                 alt="Arthroscopy Video"
                 className="img-fluid"
               />
+              <p
+                className="text-right "
+                style={{ fontFamily: "Caveat", fontSize: 25 }}
+              >
+                Figure 10: Hip Luxation
+              </p>
             </div>
             <div>
               <img
-                src="/assets/img/fracture-img-15.jpg"
+                src="/assets/img/fracture-img-15a.jpeg"
                 alt="Arthroscopy Video"
                 className="img-fluid"
               />
+              <p
+                className="text-right "
+                style={{ fontFamily: "Caveat", fontSize: 25 }}
+              >
+                Figure 11: Hip Luxation repaired using a toggle pin technique
+              </p>
             </div>
           </Col>
         </Row>
