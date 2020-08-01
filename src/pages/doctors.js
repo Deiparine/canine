@@ -100,20 +100,22 @@ const Doctors = ({ location }) => {
                 <div className="doctor-list">
                   <div className="doctor-image">
                     <img
-                      src="/assets/img/bauer_2015.jpg"
+                      src="/assets/img/detora_250.jpg"
                       alt="Doctor"
                       class="img-fluid mb-4"
                     />{" "}
                   </div>
                   <div className="doctor-info">
-                    <h3>Dr. Michael Bauer</h3>
-                    <h4 className="doctor-rank mb-4">DVM DACVS</h4>
+                    <h3>Dr. Michael DeTora</h3>
+                    <h4 className="doctor-rank mb-4">DVM</h4>
                     <p className="doctor-p mb-4">
                       DVM and Diplomate, American College of Veterinary Surgeons
                     </p>
                     <h3>
                       <span class="btt-btn">
-                        <Link to="/doctors/bauer-dvm">View Profile</Link>
+                        <Link to="/doctors/dr-michael-detora">
+                          View Profile
+                        </Link>
                       </span>
                     </h3>
                   </div>
@@ -123,20 +125,112 @@ const Doctors = ({ location }) => {
                 <div className="doctor-list">
                   <div className="doctor-image">
                     <img
-                      src="/assets/img/bauer_2015.jpg"
+                      src="/assets/img/dr-sam-franklin.jpg"
                       alt="Doctor"
                       class="img-fluid mb-4"
                     />{" "}
                   </div>
                   <div className="doctor-info">
-                    <h3>Dr. Michael Bauer</h3>
-                    <h4 className="doctor-rank mb-4">DVM DACVS</h4>
+                    <h3>Dr. Sam Franklin</h3>
+                    <h4 className="doctor-rank mb-4">DVM</h4>
                     <p className="doctor-p mb-4">
                       DVM and Diplomate, American College of Veterinary Surgeons
                     </p>
                     <h3>
                       <span class="btt-btn">
-                        <Link to="/doctors/bauer-dvm">View Profile</Link>
+                        <Link to="/doctors/dr-sam-franklin">View Profile</Link>
+                      </span>
+                    </h3>
+                  </div>
+                </div>
+              </Col>
+              <Col md="4">
+                <div className="doctor-list">
+                  <div className="doctor-image">
+                    <img
+                      src="/assets/img/dr-nate-miller.jpg"
+                      alt="Doctor"
+                      class="img-fluid mb-4"
+                    />{" "}
+                  </div>
+                  <div className="doctor-info">
+                    <h3>Dr. Nate Miller</h3>
+                    <h4 className="doctor-rank mb-4">DVM</h4>
+                    <p className="doctor-p mb-4">
+                      DVM and Diplomate, American College of Veterinary Surgeons
+                    </p>
+                    <h3>
+                      <span class="btt-btn">
+                        <Link to="/doctors/dr-nate-miller">View Profile</Link>
+                      </span>
+                    </h3>
+                  </div>
+                </div>
+              </Col>
+              <Col md="4">
+                <div className="doctor-list">
+                  <div className="doctor-image">
+                    <img
+                      src="/assets/img/dr-todd-riecks.jpg"
+                      alt="Doctor"
+                      class="img-fluid mb-4"
+                    />{" "}
+                  </div>
+                  <div className="doctor-info">
+                    <h3>Dr. Todd Riecks</h3>
+                    <h4 className="doctor-rank mb-4">DVM</h4>
+                    <p className="doctor-p mb-4">
+                      DVM and Diplomate, American College of Veterinary Surgeons
+                    </p>
+                    <h3>
+                      <span class="btt-btn">
+                        <Link to="/doctors/dr-todd-riecks">View Profile</Link>
+                      </span>
+                    </h3>
+                  </div>
+                </div>
+              </Col>
+              <Col md="4">
+                <div className="doctor-list">
+                  <div className="doctor-image">
+                    <img
+                      src="/assets/img/dr-scot-swainson.jpg"
+                      alt="Doctor"
+                      class="img-fluid mb-4"
+                    />{" "}
+                  </div>
+                  <div className="doctor-info">
+                    <h3>Dr. Scot Swainson</h3>
+                    <h4 className="doctor-rank mb-4">DVM</h4>
+                    <p className="doctor-p mb-4">
+                      DVM and Diplomate, American College of Veterinary Surgeons
+                    </p>
+                    <h3>
+                      <span class="btt-btn">
+                        <Link to="/doctors/dr-scot-swainson">View Profile</Link>
+                      </span>
+                    </h3>
+                  </div>
+                </div>
+              </Col>
+              <Col md="4">
+                <div className="doctor-list">
+                  <div className="doctor-image">
+                    <img
+                      src="/assets/img/dr-andra-detora.jpg"
+                      alt="Doctor"
+                      class="img-fluid mb-4"
+                    />{" "}
+                  </div>
+                  <div className="doctor-info">
+                    <h3>Dr. Andra DeTora</h3>
+                    <h4 className="doctor-rank mb-4">DVM</h4>
+                    <p className="doctor-p mb-4">
+                      DVM and Certified Canine Rehabilitation Therapist.
+                    </p>
+                    <h3>
+                      <span class="btt-btn">
+                        <Link to="/doctors/dr-andra-detora">View Profile</Link>
                       </span>
                     </h3>
                   </div>
