@@ -46,7 +46,7 @@ const AppointmentDirection = ({ location }) => {
                     <div>
                       <div class="video-modal-btn no-video">
                         <img
-                          src="/static/acl-vid-601f62f6769da8d3789e8dfd20802e2e.png"
+                          src="/assets/img/tplo-video.jpg"
                           alt="video"
                           class="video-img img-fluid v-h"
                         />
@@ -115,7 +115,7 @@ const AppointmentDirection = ({ location }) => {
             <p>
               <strong>Directions from Northern Colorado Springs/ Denver</strong>
             </p>
-            <ul>
+            <ul className="appointment-list">
               <li>From southbound I-25, take the Nevada exit 148.</li>
               <li>Turn left (north) on Nevada Ave.</li>
               <li>Travel south for 0.4 mile.</li>
@@ -127,7 +127,7 @@ const AppointmentDirection = ({ location }) => {
             <p>
               <strong>Directions from Southern Colorado Springs/Pueblo</strong>
             </p>
-            <ul>
+            <ul className="appointment-list">
               <li>From northbound I-25, take exit 148.</li>
               <li>Turn right at the second stoplight on North Nevada Ave.</li>
               <li>Travel south for 0.4 mile.</li>

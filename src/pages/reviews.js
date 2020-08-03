@@ -156,6 +156,473 @@ const Reviews = ({ location }) => {
                     </CardTitle>
                   </CardBody>
                 </Card>
+                <Card>
+                  <CardBody>
+                    <CardText className="mb-2 font-italic">
+                      Totally awesome people. Have enjoyed working with everyone
+                      there. Digby is doing great and can't wait to be able to
+                      use FULL POWER again soon.
+                    </CardText>
+                    <CardTitle>
+                      <h4 className="text-blue">Edward Kellock</h4>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardBody>
+                    <CardText className="mb-2 font-italic">
+                      My dog just had knee surgery this past weekend and has
+                      been having complications with the medication provided.
+                      The staff at CO Canine Ortho make me feel like they’re
+                      genuinely concerned for my dogs well being and are
+                      incredibly understanding and patient with all of my
+                      questions and concerns. The office is very clean and
+                      spacious; the staff communicated with me throughout my
+                      dogs surgery, and they treated my dog as a priority
+                      instead of just another patient.
+                    </CardText>
+                    <CardTitle>
+                      <h4 className="text-blue">Kilee Tucker</h4>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardBody>
+                    <CardText className="mb-2 font-italic">
+                      I truly believe you have the best staff available in
+                      Colorado! The doctors are great - every tech or
+                      receptionist said hello, ask if I needed anything and
+                      check on my dog several times when the wait when over what
+                      the doctor said it would be. I feel so comfortable with
+                      the treatment plan developed for my Sadie and know that
+                      you all have her best interest at heart. Can't thank you
+                      enough!
+                    </CardText>
+                    <CardTitle>
+                      <h4 className="text-blue">Cindy Jaques</h4>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardBody>
+                    <CardText className="mb-2 font-italic">
+                      Colorado Canine Orthopedics is amazing! They always take
+                      such good care of my pup. They really care and go the
+                      extra mile. So many staff love to stop what they are doing
+                      and love on my boy anytime we come in. The atmosphere is
+                      great and so is the service!
+                      <br />
+                      Dr.Swainson is awesome and has done great with both of my
+                      dogs TPLO surgeries. Cynthia over in rehab is amazing as
+                      well!
+                    </CardText>
+                    <CardTitle>
+                      <h4 className="text-blue">Jenni Samaro</h4>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardBody>
+                    <CardText className="mb-2 font-italic">
+                      I didn't give 5 stars only because I felt the front desk
+                      staff to be rather cold. Other than that it was a
+                      fantastic experience!
+                    </CardText>
+                    <CardTitle>
+                      <h4 className="text-blue">Kate Powell</h4>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardBody>
+                    <CardText className="mb-2 font-italic">
+                      If you need any kind of ortho work done, this is the
+                      place. the gals there really love the babies. they took
+                      great care of Ruckus. the doc will call to ck up on him
+                      and that is reassuring that they really care.
+                    </CardText>
+                    <CardTitle>
+                      <h4 className="text-blue">Shorty Smith</h4>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardBody>
+                    <CardText className="mb-2 font-italic">
+                      These guys really are so incredibly gentle, informative
+                      and know what they’re doing. We’re only one day post TPLO
+                      but they gave clear, outlined instructions for aftercare.
+                      Normally, it’s just a handout with “Do this and this. This
+                      might happen. This might not happen. Call your vet if you
+                      have questions.” Not so here. I’m very happy with our
+                      decision. Highly recommend. True professionals.
+                    </CardText>
+                    <CardTitle>
+                      <h4 className="text-blue">Kylah Sutz Edgin</h4>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardBody>
+                    <CardText className="mb-2 font-italic">
+                      Wonderful staff and beautiful facility! If ever I need
+                      orthopedic work I am coming here!
+                    </CardText>
+                    <CardTitle>
+                      <h4 className="text-blue">Terry Sanford</h4>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardBody>
+                    <CardText className="mb-2 font-italic">
+                      Luna had a TPLO by Dr Miller and we couldn’t be happier
+                      with the results. She was back to her active self in no
+                      time! Staff was exceptional and eased all of my worries
+                      before surgery. I also appreciated the booklet they sent
+                      home afterwards that answered all the questions I didn’t
+                      think of while in the office! Not to mention how much I
+                      appreciated Dr Millers call just to check in on our girl
+                      after surgery. Very professional and thoughtful!
+                      <br />
+                      Thank you for taking the best care of my most prized
+                      possession!
+                    </CardText>
+                    <CardTitle>
+                      <h4 className="text-blue">Kaley Hilfman</h4>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardBody>
+                    <CardText className="mb-2 font-italic">
+                      Absolute the best. Dr Franklin is amazing. Therapy team
+                      amazing. Love them
+                    </CardText>
+                    <CardTitle>
+                      <h4 className="text-blue">Terry Makuh</h4>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardBody>
+                    <CardText className="mb-2 font-italic">
+                      I walked in today and was more than a little worried about
+                      my little man. After 30 seconds, I was completely at ease,
+                      the staff is amazing! Luckily my little dude doesn’t need
+                      surgery, but if he did, there is nowhere else I would want
+                      to go. The staff was professional and friendly and amazing
+                      with my pup.
+                    </CardText>
+                    <CardTitle>
+                      <h4 className="text-blue">Felice Kohler</h4>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardBody>
+                    <CardText className="mb-2 font-italic">
+                      My German Shepherd, Hunter, had a hip replacement on
+                      Monday by Dr. Miller. I was a basket case. They took
+                      amazing care of both of us. Hunter is home and recovering
+                      beautifully. Everyone there was professional, caring and
+                      wonderful. This is my third time there. Several years ago
+                      my Westie, Maggie, had two surgeries there. The same
+                      incredible care. Thank you.
+                    </CardText>
+                    <CardTitle>
+                      <h4 className="text-blue">Bev Teagle</h4>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardBody>
+                    <CardText className="mb-2 font-italic">
+                      This place is excellent. They are super knowledgeable,
+                      honest, reasonable and really want the best for your pet.
+                      I have worked with both Dr. Miller and Dr. Bauer and have
+                      trusted both completely, thanks for everything!
+                    </CardText>
+                    <CardTitle>
+                      <h4 className="text-blue">Melissa Parks</h4>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardBody>
+                    <CardText className="mb-2 font-italic">
+                      I can only say good things about Dr. Michael DeTora and
+                      the rest of the staff at CO Canine Orthopedics! We had 2
+                      vets tell us our dog needed knee surgery. Dr. DeTora
+                      determined his knees were fine, but there was definitely
+                      an issue with 1 of his legs. After multiple
+                      tests/treatment trials, it was determined he had a
+                      cancerous tumor in his tendons. Unfortunately, it wasn’t
+                      the end result we were hoping for but our boy was at least
+                      treated for his actual problem and he’s now living his
+                      best life cancer free! Thanks for taking care of our baby
+                      and treating him as your own! 🙏🏼
+                    </CardText>
+                    <CardTitle>
+                      <h4 className="text-blue">Brenna Bulmer</h4>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardBody>
+                    <CardText className="mb-2 font-italic">
+                      The staff and Dr Riecks care very much from the minute you
+                      walk in the door until your pet is healed. Wouldn't go
+                      anywhere else.
+                    </CardText>
+                    <CardTitle>
+                      <h4 className="text-blue">Sarah Moe</h4>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardBody>
+                    <CardText className="mb-2 font-italic">
+                      I have had two pitbulls (both seniors) have TPLO surgery
+                      here. One was with Dr. Franklin and one with Dr. DeTora.
+                      Both were amazing with the dogs and great surgeons. I felt
+                      comfortable the whole time and the dogs recovered quickly.
+                    </CardText>
+                    <CardTitle>
+                      <h4 className="text-blue">Wendy Birhanzel</h4>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardBody>
+                    <CardText className="mb-2 font-italic">
+                      Just had my dog's second THR - she had her first one when
+                      she was 2, and now she's 5. Both times saw Dr.Reicks and
+                      he's amazing!! The office staff are all VERY nice, and
+                      luckily for me, I have health insurance that pays 80% of
+                      the procedure and they asked me to pay ONLY my 20% at the
+                      time of surgery and they waited for reimbursement from my
+                      insurance company for the bulk of the payment. That was
+                      priceless to me! I gladly travel from Aurora for this
+                      first rate care! I can't say enough about how fabulous
+                      this entire office is!
+                    </CardText>
+                    <CardTitle>
+                      <h4 className="text-blue">Desire Leaf</h4>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardBody>
+                    <CardText className="mb-2 font-italic">
+                      We have a dog doing rehab with the Physical Therapists at
+                      Colorado Canine and they are SO good with her. The are
+                      patient and super kind, and they take the time to really
+                      educate on how to increase strength, WHY you are doing the
+                      exercises, and how to get the most out of the experience.
+                      I couldn't be happier with their professionalism and care
+                      for animals. We have also had a consult with a surgeon,
+                      who took extra time to explain where we are at, options
+                      for further treatment, and a plan going forward (with or
+                      without surgery) He didn't push us to do anything before
+                      it was time, which I highly appreciate. It was clear the
+                      staff works together to give the best experience to the
+                      animal and help the owner to make that animals life the
+                      best quality they can. I'm a BIG fan! My dog may be a
+                      bigger one, she actually enjoys being there and isn't
+                      stressed at all about it!
+                    </CardText>
+                    <CardTitle>
+                      <h4 className="text-blue">Jennifer Cameron</h4>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardBody>
+                    <CardText className="mb-2 font-italic">
+                      My husband brought our two working dogs in for consults
+                      and inpatient procedures yesterday and the entire
+                      experience was outstanding. From caring and efficient
+                      office staff, to competent and knowledgeable technical
+                      staff, to the excellent doctors who treated our dogs, the
+                      day was simply amazing. Their technology is top notch and
+                      their expertise in the field of sports medicine
+                      unparalleled.
+                    </CardText>
+                    <CardTitle>
+                      <h4 className="text-blue">Brittany A. Harris Bell</h4>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardBody>
+                    <CardText className="mb-2 font-italic">
+                      our experience with everyone there was awesome. I will be
+                      recommending them repeatedly.
+                    </CardText>
+                    <CardTitle>
+                      <h4 className="text-blue">
+                        Tom-Tina Shackelford Weatherman
+                      </h4>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardBody>
+                    <CardText className="mb-2 font-italic">
+                      Thank you so much to the whole team at Colorado Canine
+                      Orthopedic, especially Dr & Mrs DeTora. Lucy is 6 weeks
+                      Post Op and graduated from Physical Therapy today!
+                    </CardText>
+                    <CardTitle>
+                      <h4 className="text-blue">Anita Paas</h4>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardBody>
+                    <CardText className="mb-2 font-italic">
+                      My dog, Molly has been there three times. Dr. Franklin and
+                      his team treated Molly like a VIP every time. Our dog is
+                      anxious at the vet, usually because she goes for
+                      vaccination shots. At CCO, she is not as anxious because
+                      of the toy boxes they have throughout the office. The
+                      office is very open and welcoming. I think the open space,
+                      wide corridors, and glass walls help create a space that
+                      makes dogs feel more comfortable. The front desk staff are
+                      patient with questions and helpful in getting additional
+                      information over email when needed.
+                    </CardText>
+                    <CardTitle>
+                      <h4 className="text-blue">Craig Wymer</h4>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardBody>
+                    <CardText className="mb-2 font-italic">
+                      thank you dr miller and staff for helping gilbert with his
+                      herniated disc. dr miller and the staff were all too kind
+                      and very helpful with absolutely every aspect of my little
+                      dog's surgery and recover.
+                    </CardText>
+                    <CardTitle>
+                      <h4 className="text-blue">Thirza Dezan</h4>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardBody>
+                    <CardText className="mb-2 font-italic">
+                      I originally took Chance to my vet just to see if the
+                      problem he was having was his hips, he is a rescue,
+                      rescued after someone threw him on the highway at 3 months
+                      old. I took to er and he had a fractured hip. I thought
+                      arthritis had set in. Turns out it was his ACL. So I made
+                      an appointment with Colorado Canine Orthopedics. Turns out
+                      it was probably frayed. Set appointment to get fixed for
+                      the 6th of January, between the consult and Dec 22nd he
+                      had a mishap and I knew he tore it completely. I called
+                      and they were able to get him in on the 26th. The surgery
+                      was quick, took him in at 715 and he was able to go home
+                      at 2. All of the staff were extremely kind and passionate.
+                      Dr Franklin did an awesome job, after only 4 days of
+                      having the TPLO done Chance is already putting weight on
+                      that leg, of course with assistance . The office is clean
+                      and organized. As I sat there waiting for them to bring
+                      Chance out, several people came in and they were taken
+                      care of immediately as was I when I first went in. I have
+                      probably been to every office of that facility, internal
+                      medicine, dental, er and the orthopedic. Highly recommend
+                      to anyone for there pups.
+                    </CardText>
+                    <CardTitle>
+                      <h4 className="text-blue">Kimberleigh Harding</h4>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardBody>
+                    <CardText className="mb-2 font-italic">
+                      We couldn't be more happy! We live in Wyoming. CCO was
+                      able to see us right away. Consult and do same day
+                      surgery. Our girl Eva,is one week post op.... Thanks so
+                      much CCO!
+                    </CardText>
+                    <CardTitle>
+                      <h4 className="text-blue">Kelli Kelly</h4>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardBody>
+                    <CardText className="mb-2 font-italic">
+                      Thank you for your kind loving care, everyone was so nice.
+                      I can’t believe what amazing service we received. It was
+                      like being at home. Keep up the great work you all are
+                      doing.
+                    </CardText>
+                    <CardTitle>
+                      <h4 className="text-blue">Christopher Charles</h4>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardBody>
+                    <CardText className="mb-2 font-italic">
+                      Teddie says THANKYOU for taking such good care of him and
+                      cant wait to play ball again soon! Great staff here,
+                      highly recommended.
+                    </CardText>
+                    <CardTitle>
+                      <h4 className="text-blue">Trish Whitley</h4>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardBody>
+                    <CardText className="mb-2 font-italic">
+                      I highly recommend them. Great friendly staff and treat
+                      your pets with great care. Priced reasonably. They send
+                      you home with an easy to follow care program for your pet
+                      and information that explains the procedure done. First
+                      page had several numbers to call for an emergency after
+                      surgery.
+                    </CardText>
+                    <CardTitle>
+                      <h4 className="text-blue">Jesslyn Swirka</h4>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardBody>
+                    <CardText className="mb-2 font-italic">
+                      Wonderful staff!!! My boy had a TPLO and they communicated
+                      all day about his progress... thank you for peace of mind
+                      that day!!
+                    </CardText>
+                    <CardTitle>
+                      <h4 className="text-blue">Tania Mayes England</h4>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
+                <Card>
+                  <CardBody>
+                    <CardText className="mb-2 font-italic">
+                      I can’t find words to thank this entire group enough. Your
+                      entire team took a super scary situation, made me feel
+                      comfortable, and more importantly, confident that we were
+                      at the right place to fix our 7yr old Great Dane, Ellie,
+                      up. What a lovely group of passionate people and an
+                      amazing facility! Thank you CCO, Ellie and I will be
+                      looking forward to our next visit to check the progress of
+                      her recovery.
+                    </CardText>
+                    <CardTitle>
+                      <h4 className="text-blue">Lindsay Stephenson</h4>
+                    </CardTitle>
+                  </CardBody>
+                </Card>
               </CardColumns>
             </div>
             <div className="google-review mb-5">

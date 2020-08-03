@@ -260,6 +260,10 @@ small,
   top: 40px;
 }
 
+.appointment-list li {
+  list-style: decimal;
+}
+
 /*Hip*/
 
 .hip .inner-page-title {

@@ -116,9 +116,37 @@ export default () => (
             </Card.Body>
           </Accordion.Collapse>
         </Card>
-        <Nav.Item>
-          <Link to="/doctors/dr-sam-franklin">Telemedicine</Link>
-        </Nav.Item>
+        <Card>
+          <Accordion.Toggle as={Card.Header} eventKey="resources">
+            Resources
+          </Accordion.Toggle>
+
+          <Accordion.Collapse eventKey="resources">
+            <Card.Body>
+              <Nav.Item>
+                <Link to="/appointments-directions">
+                  Appointments & Directions
+                </Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Link to="/preparing-surgery">Preparing Surgery</Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Link to="/hospital-gallery">Hospital Gallery</Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Link to="/telemedicine">Telemedicine Consults</Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Link to="/payment-options">Payment Options</Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Link to="/reviews">Reviews</Link>
+              </Nav.Item>
+              <li></li>
+            </Card.Body>
+          </Accordion.Collapse>
+        </Card>
         <Card>
           <Accordion.Toggle as={Card.Header} eventKey="contact">
             Contact

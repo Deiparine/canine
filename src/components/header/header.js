@@ -8,6 +8,7 @@ import Searchicon from "../../images/searchcon.png"
 import TooltipReviews from "../../components/tooltip-reviews"
 import TooltipSurgery from "../tooltip-surgery"
 import TooltipDoctors from "../tooltip-doctors"
+import TooltipResources from "../tooltip-resources"
 import TooltipContact from "../tooltip-contact"
 import Search from "../search"
 import "./header.scss"
@@ -130,8 +131,11 @@ const Header = () => (
                       </Link>
                       <TooltipDoctors />
                     </li>
-                    <li>
-                      <Link to="/telemedicine">Telemedicine</Link>
+                    <li className="tooltip-wrap-menu">
+                      <Link className="tooltip-menu-nav">
+                        Resources <i className="fa fa-caret-down" />
+                      </Link>
+                      <TooltipResources />
                     </li>
                     <li className="tooltip-wrap-menu">
                       <Link className="tooltip-menu-nav">

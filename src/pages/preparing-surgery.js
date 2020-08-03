@@ -46,7 +46,7 @@ const PreparingSurgery = ({ location }) => {
                     <div>
                       <div class="video-modal-btn no-video">
                         <img
-                          src="/static/acl-vid-601f62f6769da8d3789e8dfd20802e2e.png"
+                          src="/assets/img/tplo-video.jpg"
                           alt="video"
                           class="video-img img-fluid v-h"
                         />
@@ -151,6 +151,142 @@ const PreparingSurgery = ({ location }) => {
               accordingly. Patients undergoing forelimb procedures usually spend
               one night in ICU following surgery. Parents can stay with their
               pets prior to forelimb surgery if they desire.
+            </p>
+            <p>
+              <span className="text-blue">
+                <strong>
+                  6. When will my pet’s post -surgery care be reviewed?
+                </strong>
+              </span>{" "}
+              A full set of detailed, written discharge instructions will be
+              reviewed with you prior to leaving the hospital. The review takes
+              10-20 minutes and a specific time of discharge will be determined
+              on the day of surgery. Most discharges are between 2:00 pm and
+              5:00 pm.
+            </p>
+            <p>
+              <span className="text-blue">
+                <strong>7. How do I prepare for the ride home?</strong>
+              </span>{" "}
+              Bring along some blankets for padding and warmth. The back of an
+              SUV is an ideal choice for transporting your pet. Some dogs
+              experience incontinence due to the epidural they’ve received. You
+              may want to consider a ‘pee-pad’ for longer rides home. For an
+              average sized ‘Lab’ try to have two adults available to lift your
+              pet out of your vehicle when you get home. Three adults may be
+              needed for giant breeds.
+            </p>
+            <p>
+              <span className="text-blue">
+                <strong>
+                  8. What should I expect when I get home the night of surgery?
+                </strong>
+              </span>{" "}
+              Your pet will most likely be able to walk (but not well) when you
+              get home. Most patients find their comfort zone once home and
+              sleep the evening and night away. Your doctor will call the night
+              of surgery to check on your pet and answer any questions. You will
+              also be given the doctors’ home phone number in case you have
+              urgent questions or concerns in the evenings or on weekends.
+            </p>
+            <img
+              src="/assets/img/8prepare.jpg"
+              alt="Dog"
+              className="img-fluid mb-4"
+            />
+            <p>
+              <span className="text-blue">
+                <strong>
+                  9. How long will I need to stay home with my pet?
+                </strong>
+              </span>{" "}
+              This depends on your comfort level. Some pets will prefer you to
+              be home, but most will be doing quite well by the following
+              morning and are pretty much back to normal (except for limping)
+              within 48 hours of surgery. Dogs are remarkably resilient and may
+              surprise you just how agile they are soon after surgery.
+            </p>
+            <p>
+              <span className="text-blue">
+                <strong>
+                  10. Will I need to plan for post-surgical appointments?
+                </strong>
+              </span>{" "}
+              Yes, most cases require post-surgical x-rays. You can schedule
+              x-rays with your primary veterinarian or our doctors. Some cases
+              also require suture or staple removal ten to fourteen days after
+              surgery.
+            </p>
+            <p>
+              <span className="text-blue">
+                <strong>
+                  11. Will my pet have trouble walking on slick floors at home?
+                </strong>
+              </span>{" "}
+              At first your pet might. Restricting your pet’s run of the whole
+              house and using rug runners on slick floors may help. You’ll
+              probably find the sling we send home with you will be useful
+              during the first few days.
+            </p>
+            <p>
+              <span className="text-blue">
+                <strong>
+                  12. Can my pet be left alone with other animals?
+                </strong>
+              </span>{" "}
+              It is best to separate your healing pet from other pets when
+              unsupervised. Allowing them to be together may encourage romping
+              or your other pets to disrupt the surgery site (i.e. licking).
+            </p>
+            <img
+              src="/assets/img/12prepare.jpg"
+              alt="Dog"
+              className="img-fluid mb-4"
+            />
+            <p>
+              <span className="text-blue">
+                <strong>
+                  13. How do I keep my pet quiet if he or she wants to be
+                  active?
+                </strong>
+              </span>{" "}
+              Again, thinking about confining your pet to a small room or kennel
+              is a good idea. Some people use baby gates to block off access to
+              other areas, creating a limited, but comfortable space.
+            </p>
+            <p>
+              <span className="text-blue">
+                <strong>
+                  14. Can my pet go up and down stairs following surgery?
+                </strong>
+              </span>{" "}
+              Stairs are a definite consideration. We recommend restricting your
+              pet from using stairs without help for the first day or two. After
+              that, he or she can negotiate stairs as need be, but no more than
+              that. For example, they can go up the stairs at bedtime and come
+              down in the morning, but going up and down repeatedly should be
+              avoided.
+            </p>
+            <img
+              src="/assets/img/14prepare.jpg"
+              alt="Dog"
+              className="img-fluid mb-4"
+            />
+            <p>
+              <span className="text-blue">
+                <strong>
+                  15. Will I need to keep my pet indoors during the healing
+                  phase?
+                </strong>
+              </span>{" "}
+              Pets should only be outside on a leash during the healing period,
+              which is two to three months depending on the procedure. In most
+              cases, we recommend and encourage several five-minute daily
+              leashed walks after the first week and increasing by five minutes
+              each week thereafter. It is important to keep the surgical site
+              clean, so make sure your pet doesn’t roll around in the dirt, as
+              most dogs love to do. Avoid bathing your pet for two weeks
+              following surgery.
             </p>
           </Col>
         </Row>
