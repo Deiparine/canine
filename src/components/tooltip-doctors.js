@@ -8,7 +8,7 @@ const TooltipDoctors = () => {
       <div className="tooltip-nav">
         <ul>
           <li>
-            <Link to="/doctors/bauer-dvm">Dr. Michael Bauer DVM DACVS</Link>
+            <Link to="/doctors/bauer-dvm" style={{ textTransform: "none" }}>Dr. Michael Bauer DVM DACVS</Link>
             <Link to="/doctors/dr-michael-detora">
               ​​Dr. Michael Detora DVM DACVS
             </Link>
