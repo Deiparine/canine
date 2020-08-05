@@ -91,25 +91,30 @@ export default () => (
           <Accordion.Collapse eventKey="doctors">
             <Card.Body>
               <Nav.Item>
-                <Link to="/bauer-dvm">Dr. Michael Bauer DVM DACVS</Link>
+                <Link to="/doctors/bauer-dvm">Dr. Michael Bauer DVM DACVS</Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/dr-michael-detora">
+                <Link to="/doctors/dr-michael-detora">
                   Dr. Michael Detora DVM DACVS
                 </Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/dr-todd-riecks">Dr. Todd Riecks DVM DACVS</Link>
+                <Link to="/doctors/dr-todd-riecks">Dr. Todd Riecks DVM DACVS</Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/dr-scot-swainson">Dr. Scot Swainson DVM DACVS</Link>
+                <Link to="/doctors/dr-scot-swainson">Dr. Scot Swainson DVM DACVS</Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/dr-nate-miller">Dr. Nate Miller DVM DACVS</Link>
+                <Link to="/doctors/dr-nate-miller">Dr. Nate Miller DVM DACVS</Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/dr-sam-franklin">
+                <Link to="/doctors/dr-sam-franklin">
                   Dr. Sam Franklin DVM PhD DACVS DACVSMR
+                </Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Link to="/doctors/dr-andra-detora">
+                 Dr. Andra DeTora DVM CCRT cVMA
                 </Link>
               </Nav.Item>
               <li></li>
