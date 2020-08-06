@@ -104,7 +104,7 @@ const AppointmentDirection = ({ location }) => {
             </p>
             <h3 className="mb-5">
               <span class="btt-btn">
-                <Link to="/4-request-a-colorado-canine-orthopedics-consultation">
+                <Link to="/request-a-colorado-canine-orthopedics-consultation">
                   Request an appointment online!
                 </Link>
               </span>
