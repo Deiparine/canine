@@ -2,29 +2,19 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-// import Image from "../components/image"
 import SEO from "../components/seo"
 import BackToTop from "../components/back-to-top"
 
-// images
-// import Telemed from "../images/acl-tears/telemed.jpg"
-// import aclVideo1 from "../images/acl-tears/man-carry-puppy.jpg"
-// import aclVid from "../images/hip-video.jpg"
-// import tplodog from "../images/tplo-dog.jpg"
-// import Doghead from "../images/doghead.png"
-// import welcomeMobile from "../images/welcome-mobile.svg"
-
-// import MySwiper from "../components/swiper/swiper
-
-// Reactstrap
 import { Container, Row, Col } from "reactstrap"
 
 // images
-// import aboutImg from "../images/about-img.png"
-// import pawSvg from "../images/dog.svg"
-// import curved from "../images/curved.svg"
-// import syringes from "../images/syringes.svg"
-// import reviewPp from "../images/review-pp-1.jpg"
+import DrBauer from '../../static/assets/img/doctor-bauer-min.jpg'
+import DrDetora from '../../static/assets/img/doctor-detora-min.jpg'
+import DrFranklin from '../../static/assets/img/doctor-franklin-min.jpg'
+import DrMiller from '../../static/assets/img/doctor-miller-min.jpg'
+import DrReicks from '../../static/assets/img/doctor-reicks-min.jpg'
+import DrSwainson from '../../static/assets/img/doctor-swainson-min.jpg'
+import DrAndra from '../../static/assets/img/doctor-andra-min.jpg'
 
 const Doctors = ({ location }) => {
   console.log(location)
@@ -77,8 +67,8 @@ const Doctors = ({ location }) => {
                 <div className="doctor-list">
                   <div className="doctor-image">
                     <img
-                      src="/assets/img/bauer_2015.jpg"
-                      alt="Doctor"
+                      src={DrBauer}
+                      alt="Doctor Bauer"
                       class="img-fluid mb-4"
                     />{" "}
                   </div>
@@ -100,7 +90,7 @@ const Doctors = ({ location }) => {
                 <div className="doctor-list">
                   <div className="doctor-image">
                     <img
-                      src="/assets/img/detora_250.jpg"
+                      src={DrDetora}
                       alt="Doctor"
                       class="img-fluid mb-4"
                     />{" "}
@@ -125,7 +115,7 @@ const Doctors = ({ location }) => {
                 <div className="doctor-list">
                   <div className="doctor-image">
                     <img
-                      src="/assets/img/dr-sam-franklin.jpg"
+                      src={DrFranklin}
                       alt="Doctor"
                       class="img-fluid mb-4"
                     />{" "}
@@ -148,7 +138,7 @@ const Doctors = ({ location }) => {
                 <div className="doctor-list">
                   <div className="doctor-image">
                     <img
-                      src="/assets/img/dr-nate-miller.jpg"
+                      src={DrMiller}
                       alt="Doctor"
                       class="img-fluid mb-4"
                     />{" "}
@@ -171,7 +161,7 @@ const Doctors = ({ location }) => {
                 <div className="doctor-list">
                   <div className="doctor-image">
                     <img
-                      src="/assets/img/dr-todd-riecks.jpg"
+                      src={DrReicks}
                       alt="Doctor"
                       class="img-fluid mb-4"
                     />{" "}
@@ -194,7 +184,7 @@ const Doctors = ({ location }) => {
                 <div className="doctor-list">
                   <div className="doctor-image">
                     <img
-                      src="/assets/img/dr-scot-swainson.jpg"
+                      src={DrSwainson}
                       alt="Doctor"
                       class="img-fluid mb-4"
                     />{" "}
@@ -217,7 +207,7 @@ const Doctors = ({ location }) => {
                 <div className="doctor-list">
                   <div className="doctor-image">
                     <img
-                      src="/assets/img/dr-andra-detora.jpg"
+                      src={DrAndra}
                       alt="Doctor"
                       class="img-fluid mb-4"
                     />{" "}

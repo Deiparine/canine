@@ -271,7 +271,7 @@ const THR = ({ location }) => {
               className="img-fluid mb-4"
             />
             <img
-              src="/assets/img/0eC-Hc1A.jpeg"
+              src="/assets/img/dog-standing.jpg"
               alt="Misc"
               className="img-fluid mb-4"
             />

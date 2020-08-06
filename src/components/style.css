@@ -317,9 +317,9 @@ small,
 }
 
 .doctor-list .doctor-image img {
-  border-radius: 50%;
+  border-radius: 15%;
   width: 200px;
-  height: 200px;
+  height: 280px;
   margin-bottom: 3rem;
 }
 

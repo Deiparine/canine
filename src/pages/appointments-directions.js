@@ -1,5 +1,5 @@
 import React from "react"
-// import { Link } from "gatsby"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 // import Image from "../components/image"
@@ -83,7 +83,8 @@ const AppointmentDirection = ({ location }) => {
                   Specialty Center at:
                 </strong>
               </span>
-              &nbsp; 5528 N. Nevada Ave. Colorado Springs, CO 80918
+              <br />
+              5528 N. Nevada Ave. Colorado Springs, CO 80918
             </p>
             <p>
               <span className="text-blue">
@@ -103,7 +104,9 @@ const AppointmentDirection = ({ location }) => {
             </p>
             <h3 className="mb-5">
               <span class="btt-btn">
-                <a href="/">Request an appointment online!</a>
+                <Link to="/4-request-a-colorado-canine-orthopedics-consultation">
+                  Request an appointment online!
+                </Link>
               </span>
             </h3>
             <p>

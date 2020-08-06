@@ -223,19 +223,6 @@ const MPL = ({ location }) => {
               furniture or stairs. Following healing the patient can return to a
               normal, fully active lifestyle.
             </p>
-          </Col>
-          <Col md={5}>
-            <div className="mb-4">
-              <img
-                src="/assets/img/medial-dog2-img.jpg"
-                alt="Medial Dog"
-                className="img-fluid"
-              />
-            </div>
-          </Col>
-        </Row>
-        <Row className="mb-3 pb-5 border-none">
-          <Col md={7}>
             <h4 className="border-top pt-4">
               Cost of patella surgery at Colorado Canine Orthopedics
             </h4>
@@ -267,7 +254,14 @@ const MPL = ({ location }) => {
               other specialty practices you will find this true.
             </p>
           </Col>
-          <Col md={5} className="d-flex flex-column">
+          <Col md={5}>
+            <div className="mb-4">
+              <img
+                src="/assets/img/medial-dog2-img.jpg"
+                alt="Medial Dog"
+                className="img-fluid"
+              />
+            </div>
             <div className="mb-4">
               <img
                 src="/assets/img/medial-dog3-img.jpg"
