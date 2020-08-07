@@ -138,6 +138,12 @@ const THR = ({ location }) => {
               alt="Misc"
               className="img-fluid mb-4"
             />
+            <p
+              className="text-right "
+              style={{ fontFamily: "Caveat", fontSize: 25 }}
+            >
+              Figure 4: Post-Operative Radiograph
+            </p>
           </Col>
         </Row>
         <Row className="my-3 py-5">
