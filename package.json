@@ -20,7 +20,7 @@
     "gatsby-plugin-use-query-params": "^1.0.1",
     "gatsby-source-filesystem": "^2.1.46",
     "gatsby-source-sanity": "^5.0.6",
-    "gatsby-transformer-remark": "^2.6.9",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^2.2.4",
     "lodash": "^4.17.15",
     "marked": "^0.8.0",
